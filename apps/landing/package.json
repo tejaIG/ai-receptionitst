@@ -33,7 +33,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^1.52.0",
     "parse5": "^8.0.1",
-    "posthog-js": "^1.436.0",
+    "posthog-js": "^1.436.1",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "satori": "^0.35.0",
