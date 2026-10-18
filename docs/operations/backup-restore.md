@@ -1,4 +1,4 @@
-# Back up and restore LobbyStack
+# Back up and restore Palakarimpu AI
 
 The recovery unit combines a PostgreSQL custom dump with a snapshot of the configured storage provider. The backup script copies the shared `storage_data` volume for local storage and mirrors the MinIO bucket for S3 storage. The script excludes Redis and flushes it after restore because PostgreSQL and file storage hold the durable state.
 

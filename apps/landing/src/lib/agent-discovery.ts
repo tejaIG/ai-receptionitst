@@ -15,10 +15,10 @@ export const AGENT_LINKS = [
   '</openapi.json>; rel="service-desc"; type="application/vnd.oai.openapi+json"',
   '</docs/api/>; rel="service-doc"; type="text/html"',
   '</llms.txt>; rel="describedby"; type="text/plain"',
-  '</feed.xml>; rel="alternate"; type="application/rss+xml"; title="LobbyStack RSS feed"',
-  '</schemamap.xml>; rel="describedby"; type="application/xml"; title="LobbyStack schema map"',
-  '</schema/page.json>; rel="describedby"; type="application/ld+json"; title="LobbyStack page schema graph"',
-  '</schema/post.json>; rel="describedby"; type="application/ld+json"; title="LobbyStack blog schema graph"',
+  '</feed.xml>; rel="alternate"; type="application/rss+xml"; title="Palakarimpu AI RSS feed"',
+  '</schemamap.xml>; rel="describedby"; type="application/xml"; title="Palakarimpu AI schema map"',
+  '</schema/page.json>; rel="describedby"; type="application/ld+json"; title="Palakarimpu AI page schema graph"',
+  '</schema/post.json>; rel="describedby"; type="application/ld+json"; title="Palakarimpu AI blog schema graph"',
   '</.well-known/agent-skills/index.json>; rel="describedby"; type="application/json"; title="Agent skills discovery index"',
   '</.well-known/mcp/server-card.json>; rel="describedby"; type="application/json"; title="MCP server card"',
 ]
@@ -86,68 +86,68 @@ export const apiCatalog = {
         {
           href: absoluteUrl("/openapi.json"),
           type: "application/vnd.oai.openapi+json",
-          title: "LobbyStack public agent-discovery OpenAPI description",
+          title: "Palakarimpu AI public agent-discovery OpenAPI description",
         },
       ],
       "service-doc": [
         {
           href: absoluteUrl("/docs/api/"),
           type: "text/html",
-          title: "LobbyStack public API documentation",
+          title: "Palakarimpu AI public API documentation",
         },
       ],
       describedby: [
         {
           href: absoluteUrl("/llms.txt"),
           type: "text/plain",
-          title: "LobbyStack LLM context",
+          title: "Palakarimpu AI LLM context",
         },
         {
           href: absoluteUrl("/schemamap.xml"),
           type: "application/xml",
-          title: "LobbyStack schema map",
+          title: "Palakarimpu AI schema map",
         },
         {
           href: absoluteUrl("/schema/page.json"),
           type: "application/ld+json",
-          title: "LobbyStack page schema graph",
+          title: "Palakarimpu AI page schema graph",
         },
         {
           href: absoluteUrl("/schema/post.json"),
           type: "application/ld+json",
-          title: "LobbyStack blog schema graph",
+          title: "Palakarimpu AI blog schema graph",
         },
         {
           href: absoluteUrl("/index.md"),
           type: "text/markdown",
-          title: "LobbyStack homepage markdown summary",
+          title: "Palakarimpu AI homepage markdown summary",
         },
         {
           href: absoluteUrl("/features.md"),
           type: "text/markdown",
-          title: "LobbyStack features markdown summary",
+          title: "Palakarimpu AI features markdown summary",
         },
         {
           href: absoluteUrl("/pricing.md"),
           type: "text/markdown",
-          title: "LobbyStack pricing markdown summary",
+          title: "Palakarimpu AI pricing markdown summary",
         },
         {
           href: absoluteUrl("/affiliate-program.md"),
           type: "text/markdown",
-          title: "LobbyStack affiliate program markdown summary",
+          title: "Palakarimpu AI affiliate program markdown summary",
         },
         {
           href: absoluteUrl("/missed-call-revenue-calculator/index.md"),
           type: "text/markdown",
-          title: "LobbyStack missed call revenue calculator markdown",
+          title: "Palakarimpu AI missed call revenue calculator markdown",
         },
       ],
       status: [
         {
           href: absoluteUrl("/api/status"),
           type: "application/json",
-          title: "LobbyStack public API status",
+          title: "Palakarimpu AI public API status",
         },
       ],
     },
@@ -157,7 +157,7 @@ export const apiCatalog = {
 export const openApiDocument = {
   openapi: "3.1.0",
   info: {
-    title: "LobbyStack Public Agent Discovery API",
+    title: "Palakarimpu AI Public Agent Discovery API",
     version: "0.1.0",
     description:
       "Public discovery endpoints for agents, crawlers, and integrators visiting lobbystack.com.",
@@ -247,11 +247,11 @@ export const openApiDocument = {
     },
     "/feed.xml": {
       get: {
-        summary: "Get the LobbyStack RSS feed",
+        summary: "Get the Palakarimpu AI RSS feed",
         operationId: "getRssFeed",
         responses: {
           "200": {
-            description: "RSS 2.0 feed for LobbyStack blog posts.",
+            description: "RSS 2.0 feed for Palakarimpu AI blog posts.",
             content: {
               "application/rss+xml": {
                 schema: { type: "string" },
@@ -315,7 +315,7 @@ export const openApiDocument = {
         operationId: "getHomepageMarkdown",
         responses: {
           "200": {
-            description: "Markdown summary of LobbyStack's homepage.",
+            description: "Markdown summary of Palakarimpu AI's homepage.",
             content: {
               "text/markdown": {
                 schema: { type: "string" },
@@ -331,7 +331,7 @@ export const openApiDocument = {
         operationId: "getFeaturesMarkdown",
         responses: {
           "200": {
-            description: "Markdown summary of LobbyStack's public features.",
+            description: "Markdown summary of Palakarimpu AI's public features.",
             content: {
               "text/markdown": {
                 schema: { type: "string" },
@@ -348,7 +348,7 @@ export const openApiDocument = {
         responses: {
           "200": {
             description:
-              "Markdown summary of LobbyStack's plans, included limits, plan features, and overage rates.",
+              "Markdown summary of Palakarimpu AI's plans, included limits, plan features, and overage rates.",
             content: {
               "text/markdown": {
                 schema: { type: "string" },
@@ -365,7 +365,7 @@ export const openApiDocument = {
         responses: {
           "200": {
             description:
-              "Markdown summary of the LobbyStack Affiliate Program terms, payouts, and onboarding.",
+              "Markdown summary of the Palakarimpu AI Affiliate Program terms, payouts, and onboarding.",
             content: {
               "text/markdown": {
                 schema: { type: "string" },
@@ -450,22 +450,22 @@ export const mcpServerCard = {
       {
         name: "get-site-summary",
         description:
-          "Return a concise overview of LobbyStack, useful links, and public documentation URLs.",
+          "Return a concise overview of Palakarimpu AI, useful links, and public documentation URLs.",
       },
       {
         name: "get-navigation-links",
         description:
-          "Return public LobbyStack navigation links grouped by features, pricing, documentation, or legal pages.",
+          "Return public Palakarimpu AI navigation links grouped by features, pricing, documentation, or legal pages.",
       },
       {
         name: "get-pricing",
         description:
-          "Return public LobbyStack pricing plan names, starting prices, included limits, overage rates, and links.",
+          "Return public Palakarimpu AI pricing plan names, starting prices, included limits, overage rates, and links.",
       },
       {
         name: "get-features",
         description:
-          "Return key public LobbyStack features, including call answering, booking, workflows, transfers, alerts, dashboard, and reporting.",
+          "Return key public Palakarimpu AI features, including call answering, booking, workflows, transfers, alerts, dashboard, and reporting.",
       },
       {
         name: "get-agent-discovery",
@@ -481,32 +481,32 @@ export const mcpServerCard = {
     resources: [
       {
         uri: absoluteUrl("/llms.txt"),
-        name: "LobbyStack LLM context",
+        name: "Palakarimpu AI LLM context",
         mimeType: "text/plain",
       },
       {
         uri: absoluteUrl("/features.md"),
-        name: "LobbyStack features markdown summary",
+        name: "Palakarimpu AI features markdown summary",
         mimeType: "text/markdown",
       },
       {
         uri: absoluteUrl("/pricing.md"),
-        name: "LobbyStack pricing markdown summary",
+        name: "Palakarimpu AI pricing markdown summary",
         mimeType: "text/markdown",
       },
       {
         uri: absoluteUrl("/affiliate-program.md"),
-        name: "LobbyStack affiliate program markdown summary",
+        name: "Palakarimpu AI affiliate program markdown summary",
         mimeType: "text/markdown",
       },
       {
         uri: absoluteUrl("/openapi.json"),
-        name: "LobbyStack public OpenAPI description",
+        name: "Palakarimpu AI public OpenAPI description",
         mimeType: "application/vnd.oai.openapi+json",
       },
       {
         uri: absoluteUrl("/missed-call-revenue-calculator/index.md"),
-        name: "LobbyStack missed call revenue calculator markdown",
+        name: "Palakarimpu AI missed call revenue calculator markdown",
         mimeType: "text/markdown",
       },
     ],
@@ -514,9 +514,9 @@ export const mcpServerCard = {
   },
 }
 
-export const lobbystackDiscoverySkill = `# LobbyStack Discovery
+export const lobbystackDiscoverySkill = `# Palakarimpu AI Discovery
 
-Use this skill when an agent needs a concise, machine-readable orientation to LobbyStack's public website, documentation, and open-source project resources.
+Use this skill when an agent needs a concise, machine-readable orientation to Palakarimpu AI's public website, documentation, and open-source project resources.
 
 ## Resources
 
@@ -547,7 +547,7 @@ export const agentSkillsIndex = {
       name: "lobbystack-discovery",
       type: "skill-md",
       description:
-        "Find LobbyStack public docs, API discovery metadata, pricing, features, and open-source resources.",
+        "Find Palakarimpu AI public docs, API discovery metadata, pricing, features, and open-source resources.",
       url: absoluteUrl(
         "/.well-known/agent-skills/lobbystack-discovery/SKILL.md"
       ),
@@ -564,11 +564,11 @@ description: ${DEFAULT_DESCRIPTION}
 url: ${absoluteUrl("/")}
 ---
 
-# LobbyStack
+# Palakarimpu AI
 
 ${DEFAULT_DESCRIPTION}
 
-## What LobbyStack Does
+## What Palakarimpu AI Does
 
 - Answers inbound calls around the clock.
 - Uses business knowledge to answer common questions.
@@ -604,13 +604,13 @@ ${DEFAULT_DESCRIPTION}
 
 export const featuresMarkdown = `---
 title: AI Receptionist Features for Calls and Booking
-description: Public feature summary for LobbyStack's AI receptionist.
+description: Public feature summary for Palakarimpu AI's AI receptionist.
 url: ${absoluteUrl("/features/")}
 ---
 
-# LobbyStack Features
+# Palakarimpu AI Features
 
-LobbyStack is an open-source AI receptionist for call-heavy small businesses. It answers phone calls, books appointments, captures caller details, and transfers calls to a human when needed.
+Palakarimpu AI is an open-source AI receptionist for call-heavy small businesses. It answers phone calls, books appointments, captures caller details, and transfers calls to a human when needed.
 
 ## Core Capabilities
 
@@ -634,13 +634,13 @@ Free includes 30 browser voice minutes and no telephone number. Starter and Pro 
 
 export const pricingMarkdown = `---
 title: AI Receptionist Pricing for Small Businesses
-description: Public pricing summary for LobbyStack's Free, Starter, Pro, and Enterprise plans.
+description: Public pricing summary for Palakarimpu AI's Free, Starter, Pro, and Enterprise plans.
 url: ${absoluteUrl("/pricing/")}
 ---
 
-# LobbyStack Pricing
+# Palakarimpu AI Pricing
 
-LobbyStack has Free, Starter, Pro, and Enterprise options. Plans scale by usage instead of locking the basic receptionist features behind higher tiers.
+Palakarimpu AI has Free, Starter, Pro, and Enterprise options. Plans scale by usage instead of locking the basic receptionist features behind higher tiers.
 
 ## Plans
 
@@ -673,7 +673,7 @@ Starter is $30/month or $288/year and includes 150 voice minutes. Pro is $100/mo
 
 ### Do spam calls count toward usage?
 
-No. LobbyStack excludes spam calls from usage, so wrong numbers, robocalls, and spam calls do not count against included voice minutes or paid-plan overages.
+No. Palakarimpu AI excludes spam calls from usage, so wrong numbers, robocalls, and spam calls do not count against included voice minutes or paid-plan overages.
 
 ### Are calls under 10 seconds charged?
 
@@ -683,18 +683,18 @@ No. Calls under 10 seconds are excluded from usage and do not count against incl
 export const affiliateProgramMarkdown = (locale: Locale) => {
   if (locale === "es") {
     return `---
-title: Programa de afiliados de LobbyStack | 20% de comisión
-description: Resumen público del programa de afiliados de LobbyStack.
+title: Programa de afiliados de Palakarimpu AI | 20% de comisión
+description: Resumen público del programa de afiliados de Palakarimpu AI.
 url: ${absoluteUrl("/es/affiliate-program/")}
 ---
 
-# Programa de afiliados de LobbyStack
+# Programa de afiliados de Palakarimpu AI
 
-Recomiende los planes alojados de LobbyStack a clientes de pago y gane una comisión.
+Recomiende los planes alojados de Palakarimpu AI a clientes de pago y gane una comisión.
 
 ## Condiciones del programa
 
-| Condición | LobbyStack |
+| Condición | Palakarimpu AI |
 | --- | --- |
 | Comisión | 20% |
 | Duración | Primeros 12 meses tras la atribución |
@@ -702,11 +702,11 @@ Recomiende los planes alojados de LobbyStack a clientes de pago y gane una comis
 | Pago mínimo | USD $100 |
 | Método de pago | PayPal |
 
-Los negocios referidos obtienen un 5% de descuento en los planes alojados de LobbyStack cuando se registran con su enlace.
+Los negocios referidos obtienen un 5% de descuento en los planes alojados de Palakarimpu AI cuando se registran con su enlace.
 
 ## Qué genera comisión
 
-Solo gana comisión por los pagos de planes alojados de LobbyStack. El autoalojamiento sin una suscripción de pago a LobbyStack no genera comisión.
+Solo gana comisión por los pagos de planes alojados de Palakarimpu AI. El autoalojamiento sin una suscripción de pago a Palakarimpu AI no genera comisión.
 
 ## Cómo empezar
 
@@ -722,18 +722,18 @@ Agencias, consultores, creadores y operadores que recomiendan herramientas a peq
 
   if (locale === "sr") {
     return `---
-title: LobbyStack partnerski program | Provizija od 20%
-description: Javni pregled LobbyStack partnerskog programa.
+title: Palakarimpu AI partnerski program | Provizija od 20%
+description: Javni pregled Palakarimpu AI partnerskog programa.
 url: ${absoluteUrl("/sr/affiliate-program/")}
 ---
 
-# LobbyStack partnerski program
+# Palakarimpu AI partnerski program
 
-Preporučite hostovane LobbyStack pakete klijentima koji plaćaju i zaradite proviziju.
+Preporučite hostovane Palakarimpu AI pakete klijentima koji plaćaju i zaradite proviziju.
 
 ## Uslovi programa
 
-| Uslov | LobbyStack |
+| Uslov | Palakarimpu AI |
 | --- | --- |
 | Provizija | 20% |
 | Trajanje | Prvih 12 meseci nakon pripisivanja |
@@ -741,11 +741,11 @@ Preporučite hostovane LobbyStack pakete klijentima koji plaćaju i zaradite pro
 | Minimalna isplata | USD $100 |
 | Način isplate | PayPal |
 
-Preporučene firme dobijaju 5% popusta na hostovane LobbyStack pakete kada se registruju preko Vašeg linka.
+Preporučene firme dobijaju 5% popusta na hostovane Palakarimpu AI pakete kada se registruju preko Vašeg linka.
 
 ## Šta donosi proviziju
 
-Proviziju zarađujete samo na uplatama za hostovane LobbyStack pakete. Samostalno hostovanje bez plaćene LobbyStack pretplate ne donosi proviziju.
+Proviziju zarađujete samo na uplatama za hostovane Palakarimpu AI pakete. Samostalno hostovanje bez plaćene Palakarimpu AI pretplate ne donosi proviziju.
 
 ## Kako da počnete
 
@@ -761,18 +761,18 @@ Agencijama, konsultantima, kreatorima i operaterima koji preporučuju alate mali
 
   if (locale === "fr") {
     return `---
-title: Programme d'affiliation LobbyStack | 20 % de commission
-description: Résumé public du programme d'affiliation LobbyStack.
+title: Programme d'affiliation Palakarimpu AI | 20 % de commission
+description: Résumé public du programme d'affiliation Palakarimpu AI.
 url: ${absoluteUrl("/fr/affiliate-program/")}
 ---
 
-# Programme d'affiliation LobbyStack
+# Programme d'affiliation Palakarimpu AI
 
-Parrainez des clients payants vers les forfaits hébergés LobbyStack et touchez une commission.
+Parrainez des clients payants vers les forfaits hébergés Palakarimpu AI et touchez une commission.
 
 ## Conditions du programme
 
-| Terme | LobbyStack |
+| Terme | Palakarimpu AI |
 | --- | --- |
 | Commission | 20 % |
 | Durée | 12 premiers mois après attribution |
@@ -780,11 +780,11 @@ Parrainez des clients payants vers les forfaits hébergés LobbyStack et touchez
 | Paiement minimum | 100 $ US |
 | Mode de paiement | PayPal |
 
-Les entreprises parrainées obtiennent 5 % de rabais sur les forfaits hébergés LobbyStack lorsqu'elles s'inscrivent via votre lien.
+Les entreprises parrainées obtiennent 5 % de rabais sur les forfaits hébergés Palakarimpu AI lorsqu'elles s'inscrivent via votre lien.
 
 ## Ce qui paie une commission
 
-Vous touchez une commission uniquement sur les paiements de forfaits hébergés LobbyStack. L'auto-hébergement sans abonnement payant ne paie pas de commission.
+Vous touchez une commission uniquement sur les paiements de forfaits hébergés Palakarimpu AI. L'auto-hébergement sans abonnement payant ne paie pas de commission.
 
 ## Comment commencer
 
@@ -799,18 +799,18 @@ Agences, consultants, créateurs et opérateurs qui recommandent des outils aux 
   }
 
   return `---
-title: LobbyStack Affiliate Program | Earn 20% Commission
-description: Public summary of the LobbyStack Affiliate Program.
+title: Palakarimpu AI Affiliate Program | Earn 20% Commission
+description: Public summary of the Palakarimpu AI Affiliate Program.
 url: ${absoluteUrl("/affiliate-program/")}
 ---
 
-# LobbyStack Affiliate Program
+# Palakarimpu AI Affiliate Program
 
-Refer paying customers to hosted LobbyStack plans and earn commission.
+Refer paying customers to hosted Palakarimpu AI plans and earn commission.
 
 ## Program terms
 
-| Term | LobbyStack |
+| Term | Palakarimpu AI |
 | --- | --- |
 | Commission | 20% |
 | Duration | First 12 months after attribution |
@@ -818,11 +818,11 @@ Refer paying customers to hosted LobbyStack plans and earn commission.
 | Minimum payout | USD $100 |
 | Payout method | PayPal |
 
-Referred businesses get 5% off hosted LobbyStack plans when they sign up through your link.
+Referred businesses get 5% off hosted Palakarimpu AI plans when they sign up through your link.
 
 ## What pays commission
 
-You earn commission on hosted LobbyStack plan payments only. Self-hosting without a paid LobbyStack subscription does not pay commission.
+You earn commission on hosted Palakarimpu AI plan payments only. Self-hosting without a paid Palakarimpu AI subscription does not pay commission.
 
 ## How to get started
 
@@ -837,7 +837,7 @@ Agencies, consultants, creators, and operators who recommend tools to small busi
 }
 
 export const calculatorMarkdown = `---
-title: Missed Call Revenue Calculator for Contractors - LobbyStack
+title: Missed Call Revenue Calculator for Contractors - Palakarimpu AI
 description: Estimate weekly, monthly, and annual revenue at risk from missed contractor calls. Calculate how much you could recover with a 24/7 receptionist.
 url: ${absoluteUrl("/missed-call-revenue-calculator/")}
 ---
@@ -901,9 +901,9 @@ The same formula works across home services, but the risk looks different by tra
 
 ## What to do next
 
-Stop letting new leads go to voicemail, because they rarely leave one. LobbyStack provides an AI receptionist that works 24/7 to plug your revenue leak:
+Stop letting new leads go to voicemail, because they rarely leave one. Palakarimpu AI provides an AI receptionist that works 24/7 to plug your revenue leak:
 
-If the calculator shows meaningful revenue at risk, the next step is to answer more calls without pulling technicians off the work they are already doing. LobbyStack combines AI phone answering, after-hours answering, and AI appointment scheduling so new leads can be captured when your team is busy.
+If the calculator shows meaningful revenue at risk, the next step is to answer more calls without pulling technicians off the work they are already doing. Palakarimpu AI combines AI phone answering, after-hours answering, and AI appointment scheduling so new leads can be captured when your team is busy.
 
 - Answers every call instantly
 - Captures follow-up details automatically
@@ -936,7 +936,7 @@ Start with a conservative estimate and rerun the calculator with a second scenar
 No. Count them in your missed call total only if you lower the opportunity rate to account for them. The calculator is meant to estimate lost job revenue, so spam, vendors, wrong numbers, and non-buying calls should not be treated as real opportunities.
 
 ### Will an AI receptionist replace my office manager?
-No. LobbyStack is designed to handle the repetitive frontline work: answering basic questions, collecting intake details, and booking appointments. Your office manager can focus on complex dispatching, ordering parts, and customer service.
+No. Palakarimpu AI is designed to handle the repetitive frontline work: answering basic questions, collecting intake details, and booking appointments. Your office manager can focus on complex dispatching, ordering parts, and customer service.
 
 ### Is this the same as an answering service ROI calculator?
 It is closely related. This calculator shows the revenue that may be at risk from missed calls. To think about ROI, compare that estimate with the monthly cost of an answering service or AI receptionist that can answer, qualify, and book more of those calls.

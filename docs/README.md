@@ -1,6 +1,6 @@
 # Find engineering documentation
 
-This directory documents LobbyStack’s current architecture, operations, providers, and release checks. Customer-facing guides are in [`mintlify/`](../mintlify/README.md). The paths below group the engineering docs by topic:
+This directory documents Palakarimpu AI’s current architecture, operations, providers, and release checks. Customer-facing guides are in [`mintlify/`](../mintlify/README.md). The paths below group the engineering docs by topic:
 
 - `architecture/`: Runtime boundaries and data flow
 - `adr/`: Architecture decision records

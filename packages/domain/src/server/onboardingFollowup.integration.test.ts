@@ -16,7 +16,7 @@ if (testUrl) {
 const client = testUrl ? createDatabaseClient("lobbystack_migrator", { DATABASE_URL: testUrl }) : undefined;
 afterAll(async () => { await client?.pool.end(); });
 
-const sender = { from: "Raphael from LobbyStack <raphael@lobbystack.test>", name: "Raphael" };
+const sender = { from: "Raphael from Palakarimpu AI <raphael@lobbystack.test>", name: "Raphael" };
 
 async function rollbackTest(run: (tx: DatabaseTransaction) => Promise<void>) {
   const rollback = new Error("rollback test fixture");
@@ -84,7 +84,7 @@ describe.skipIf(!testUrl)("onboarding follow-up email against dedicated PostgreS
         template: "onboarding_followup",
         to: email,
         from: sender.from,
-        subject: "Qu'avez-vous pensé de LobbyStack ?",
+        subject: "Qu'avez-vous pensé de Palakarimpu AI ?",
         variables: { locale: "fr", firstName: "Sam", senderName: "Raphael" },
       });
     });

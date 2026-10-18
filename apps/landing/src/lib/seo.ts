@@ -2,13 +2,13 @@ import { DEFAULT_LOCALE, localeTag, type Locale } from "@/i18n/config"
 
 export const SITE_URL = "https://lobbystack.com"
 
-export const SITE_NAME = "LobbyStack"
+export const SITE_NAME = "Palakarimpu AI"
 
 export const DEFAULT_TITLE =
-  "AI Receptionist Software for Small Businesses | LobbyStack"
+  "AI Receptionist Software for Small Businesses | Palakarimpu AI"
 
 export const DEFAULT_DESCRIPTION =
-  "LobbyStack answers your business calls 24/7, books appointments into your calendar, and transfers urgent calls to your team. Open source, with a free plan."
+  "Palakarimpu AI answers your business calls 24/7, books appointments into your calendar, and transfers urgent calls to your team. Open source, with a free plan."
 
 export const DEFAULT_OG_IMAGE = "/og/index.jpg"
 
@@ -23,8 +23,8 @@ export const SEARCH_PATH = "/search/"
 const BRAND_ALIASES = [
   "lobbystack",
   "Lobby Stack",
-  "LobbyStack AI receptionist",
-  "LobbyStack open-source AI receptionist",
+  "Palakarimpu AI AI receptionist",
+  "Palakarimpu AI open-source AI receptionist",
 ]
 
 const BRAND_SAME_AS = [
@@ -142,7 +142,7 @@ export const organizationJsonLd = (): JsonLd => ({
     height: 286,
   },
   description:
-    "LobbyStack is an open-source AI receptionist platform for small businesses that answers calls, books appointments, captures caller details, and routes urgent requests.",
+    "Palakarimpu AI is an open-source AI receptionist platform for small businesses that answers calls, books appointments, captures caller details, and routes urgent requests.",
   sameAs: BRAND_SAME_AS,
   knowsAbout: [
     "AI receptionist software",
@@ -267,7 +267,7 @@ export const softwareApplicationJsonLd = (
   inLanguage: localeLanguage(options.locale),
   isAccessibleForFree: true,
   keywords:
-    "LobbyStack, lobbystack, AI receptionist, open-source AI receptionist, AI phone answering, appointment scheduler",
+    "Palakarimpu AI, lobbystack, AI receptionist, open-source AI receptionist, AI phone answering, appointment scheduler",
   brand: {
     "@id": absoluteUrl("/#organization"),
   },
@@ -401,17 +401,17 @@ const blogCopy: Record<Locale, { name: string; description: string }> = {
       "Product updates and practical guides about AI receptionists, phone answering, appointment booking, and small-business call automation.",
   },
   fr: {
-    name: "Blog et mises a jour produit LobbyStack",
+    name: "Blog et mises a jour produit Palakarimpu AI",
     description:
       "Mises a jour produit et guides pratiques sur les receptionnistes IA, la reponse telephonique et la reservation.",
   },
   es: {
-    name: "Blog y novedades de producto de LobbyStack",
+    name: "Blog y novedades de producto de Palakarimpu AI",
     description:
       "Novedades de producto y guías prácticas sobre recepcionistas con IA, atención telefónica, reserva de citas y automatización de llamadas para pequeños negocios.",
   },
   sr: {
-    name: "LobbyStack blog i novosti o proizvodu",
+    name: "Palakarimpu AI blog i novosti o proizvodu",
     description:
       "Novosti o proizvodu i praktični vodiči o AI recepcionerima, odgovaranju na pozive, zakazivanju termina i automatizaciji poziva za male firme.",
   },

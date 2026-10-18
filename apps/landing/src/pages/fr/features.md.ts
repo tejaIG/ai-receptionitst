@@ -4,13 +4,13 @@ import { absoluteUrl } from "@/lib/seo"
 
 const markdown = `---
 title: Fonctionnalités de réceptionniste IA
-description: Découvrez les fonctionnalités LobbyStack pour répondre au téléphone, qualifier les demandes, prendre des rendez‑vous, envoyer des alertes SMS, transférer les urgences et produire des résumés.
+description: Découvrez les fonctionnalités Palakarimpu AI pour répondre au téléphone, qualifier les demandes, prendre des rendez‑vous, envoyer des alertes SMS, transférer les urgences et produire des résumés.
 url: ${absoluteUrl("/fr/features/")}
 ---
 
-# Fonctionnalités LobbyStack
+# Fonctionnalités Palakarimpu AI
 
-LobbyStack répond aux appels, prend des rendez‑vous, collecte les détails importants, prend des messages et transfère les appels vers une personne quand il le faut.
+Palakarimpu AI répond aux appels, prend des rendez‑vous, collecte les détails importants, prend des messages et transfère les appels vers une personne quand il le faut.
 
 ## Capacités principales
 
@@ -29,5 +29,5 @@ export const GET: APIRoute = () =>
     canonical: absoluteUrl("/fr/features/"),
     title: "Fonctionnalités de réceptionniste IA",
     description:
-      "Découvrez les fonctionnalités LobbyStack pour répondre au téléphone, qualifier les demandes, prendre des rendez‑vous, envoyer des alertes SMS, transférer les urgences et produire des résumés.",
+      "Découvrez les fonctionnalités Palakarimpu AI pour répondre au téléphone, qualifier les demandes, prendre des rendez‑vous, envoyer des alertes SMS, transférer les urgences et produire des résumés.",
   })

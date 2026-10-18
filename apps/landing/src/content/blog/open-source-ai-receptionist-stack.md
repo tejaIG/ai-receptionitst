@@ -1,8 +1,8 @@
 ---
 title: "Open-source AI receptionist stack"
-description: "LobbyStack is an open-source AI receptionist stack for calls, booking, transcripts, dashboards, billing, self-hosting, and client deployments."
+description: "Palakarimpu AI is an open-source AI receptionist stack for calls, booking, transcripts, dashboards, billing, self-hosting, and client deployments."
 pubDate: 2026-06-18T10:00:00-04:00
-author: "LobbyStack Team"
+author: "Palakarimpu AI Team"
 category: "Guides"
 featured: false
 coverImage: "/illustrations/open-source-ai-receptionist-stack-hero.webp"
@@ -14,7 +14,7 @@ An open-source AI receptionist stack needs more than a voice agent. It needs pho
 
 That is the part many teams end up rebuilding.
 
-[LobbyStack](https://lobbystack.com/) is an **open-source AI receptionist stack** for teams that want that product layer already in place. Use the hosted cloud when you want someone else to run it, or self-host it with Docker when you want the infrastructure under your control.
+[Palakarimpu AI](https://lobbystack.com/) is an **open-source AI receptionist stack** for teams that want that product layer already in place. Use the hosted cloud when you want someone else to run it, or self-host it with Docker when you want the infrastructure under your control.
 
 ## The stack people keep rebuilding
 
@@ -35,9 +35,9 @@ A clinic wants different booking rules from a med spa. A home service company ne
 
 At that point, the voice agent is one piece. You still need the operating system around the call.
 
-## What the LobbyStack platform includes
+## What the Palakarimpu AI platform includes
 
-[LobbyStack's features](/features/) package the receptionist layer instead of leaving you to assemble it from scratch.
+[Palakarimpu AI's features](/features/) package the receptionist layer instead of leaving you to assemble it from scratch.
 
 It handles:
 
@@ -50,7 +50,7 @@ It handles:
 - lead capture with caller details and the reason for the call
 - contacts, appointments, call history, analytics, usage, and billing surfaces
 
-The point is not to replace every tool you already use. Twilio, calendars, email providers, analytics tools, and billing providers still matter. LobbyStack gives you the receptionist product that sits across them.
+The point is not to replace every tool you already use. Twilio, calendars, email providers, analytics tools, and billing providers still matter. Palakarimpu AI gives you the receptionist product that sits across them.
 
 Instead of building fragile workflow chains for basic behavior, you describe what the receptionist should do in plain language.
 
@@ -66,21 +66,21 @@ The AI can talk through the call, but it still uses tools for the actions that n
 
 ## How the live call path works
 
-LobbyStack uses OpenAI Realtime for the live voice conversation and Twilio Voice with Media Streams for the phone path.
+Palakarimpu AI uses OpenAI Realtime for the live voice conversation and Twilio Voice with Media Streams for the phone path.
 
 The voice gateway stays narrow. It handles the live call, streams audio, manages the realtime session, executes call tools, buffers transcripts, and sends recordings where they need to go.
 
 PostgreSQL is the durable source of truth. The Next.js app handles operator and API traffic, while the worker processes asynchronous jobs and transactional outbox events.
 
-That split matters. A phone call needs low latency, but a business action needs the backend to make the final decision. LobbyStack loads the business context snapshot at the start of a call, then calls backend tools when the AI needs to book, transfer, save a message, or update an appointment.
+That split matters. A phone call needs low latency, but a business action needs the backend to make the final decision. Palakarimpu AI loads the business context snapshot at the start of a call, then calls backend tools when the AI needs to book, transfer, save a message, or update an appointment.
 
 The receptionist can sound conversational without improvising the important parts.
 
 ## Hosted cloud or self-hosted Docker
 
-Some teams want the product managed. [LobbyStack Cloud](/pricing/) is for that. Create an account, configure the business, connect the pieces, and start testing calls without running the infrastructure yourself.
+Some teams want the product managed. [Palakarimpu AI Cloud](/pricing/) is for that. Create an account, configure the business, connect the pieces, and start testing calls without running the infrastructure yourself.
 
-Other teams want the stack on their own infrastructure. LobbyStack supports that too.
+Other teams want the stack on their own infrastructure. Palakarimpu AI supports that too.
 
 The [self-hosted AI receptionist](/solutions/self-hosted-ai-receptionist/) path uses Docker Compose as the single-host baseline. The documented setup runs PostgreSQL, Redis, the Next.js app, the background worker, the voice gateway, and Caddy to route traffic to them. You put HTTPS in front of Caddy. You bring the provider accounts you want to control, including Twilio, OpenAI-compatible AI, Google Calendar, email, analytics, and billing credentials.
 
@@ -101,13 +101,13 @@ The margin is in understanding the business:
 - Which rules matter for that niche?
 - Which provider accounts and infrastructure does the client need to own?
 
-LobbyStack gives you a base to customize around those questions.
+Palakarimpu AI gives you a base to customize around those questions.
 
 You can run it for your own business, deploy it for a client, or use the hosted cloud when infrastructure control is not the main concern. In self-hosted deployments, you can bring your own provider keys and keep the deployment inside the environment the business controls.
 
-## When LobbyStack is a good fit
+## When Palakarimpu AI is a good fit
 
-LobbyStack is a good fit when you want an AI receptionist that does more than answer a call.
+Palakarimpu AI is a good fit when you want an AI receptionist that does more than answer a call.
 
 It is especially useful if you need:
 
@@ -124,11 +124,11 @@ It is not a way to avoid operations. Phone systems still need testing. AI behavi
 
 It is a way to skip months of product plumbing before you can focus on the business workflow.
 
-If you are comparing open-source phone answering options first, see the guide to the [best open-source AI phone answering services](/blog/best-open-source-ai-phone-answering-services/). Agencies deploying for clients may also want the [LobbyStack affiliate program](/blog/ai-receptionist-affiliate-program/). For workflow design, see [AI receptionist workflows without flowcharts](/blog/ai-receptionist-workflows/).
+If you are comparing open-source phone answering options first, see the guide to the [best open-source AI phone answering services](/blog/best-open-source-ai-phone-answering-services/). Agencies deploying for clients may also want the [Palakarimpu AI affiliate program](/blog/ai-receptionist-affiliate-program/). For workflow design, see [AI receptionist workflows without flowcharts](/blog/ai-receptionist-workflows/).
 
 ## Try it or self-host it
 
-Start with [LobbyStack Cloud](https://lobbystack.com/) if you want to test the product without managing infrastructure.
+Start with [Palakarimpu AI Cloud](https://lobbystack.com/) if you want to test the product without managing infrastructure.
 
 Use the [self-hosting overview](https://docs.lobbystack.com/self-hosting/overview) and [Docker Compose guide](https://docs.lobbystack.com/self-hosting/docker-compose) if you want to run the stack yourself.
 

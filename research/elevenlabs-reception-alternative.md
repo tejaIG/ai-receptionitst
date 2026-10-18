@@ -25,15 +25,15 @@ Every plan includes Google Calendar, Zapier, webhooks and MCP. Reception answers
 
 ## Fair comparison
 
-Reception's strengths are voice quality, language coverage, the staff-first mode and integrations on every plan. LobbyStack includes twice the phone minutes at the same $24 annual entry price, charges less than half the overage rate, keeps a free plan with no expiry, and publishes its code under MIT for self-hosting and resale.
+Reception's strengths are voice quality, language coverage, the staff-first mode and integrations on every plan. Palakarimpu AI includes twice the phone minutes at the same $24 annual entry price, charges less than half the overage rate, keeps a free plan with no expiry, and publishes its code under MIT for self-hosting and resale.
 
 ## Claims to avoid
 
 - Do not say Reception lacks SMS or texting. Its public pages do not mention it either way.
 - Do not use "from $22 per month". Third-party pages show it, but the official pricing docs list $24 per month billed annually.
-- Do not give LobbyStack a language count. LobbyStack answers in the caller's language and switches automatically, but it publishes no count.
-- LobbyStack has no per-plan limit on concurrent calls in code, so "not capped by plan" is accurate. Do not promise unlimited calls.
-- Do not say short or spam calls are free on LobbyStack. The code bills every call's full duration.
+- Do not give Palakarimpu AI a language count. Palakarimpu AI answers in the caller's language and switches automatically, but it publishes no count.
+- Palakarimpu AI has no per-plan limit on concurrent calls in code, so "not capped by plan" is accurate. Do not promise unlimited calls.
+- Do not say short or spam calls are free on Palakarimpu AI. The code bills every call's full duration.
 
 ## Search research
 

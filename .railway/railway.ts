@@ -1,4 +1,4 @@
-// LobbyStack platform infrastructure (staging and production). Secrets remain in Railway via preserve().
+// Palakarimpu AI platform infrastructure (staging and production). Secrets remain in Railway via preserve().
 import { bucket, database, defineRailway, github, image, preserve, project, service, volume } from "railway/iac";
 
 export default defineRailway((ctx) => {

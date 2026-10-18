@@ -14,7 +14,7 @@ Audience: Small businesses that depend on phone calls for bookings, quotes, appo
   - Useful as a live receptionist comparison point, not a direct AI receptionist comparison.
 - Smith.ai AI receptionist pricing page: https://smith.ai/pricing/ai-receptionist
   - Useful for market framing around AI receptionist cost comparisons and included features.
-- LobbyStack missed call revenue calculator:
+- Palakarimpu AI missed call revenue calculator:
   - Route: /missed-call-revenue-calculator/
   - Formula: missed calls per week x 4.3 x opportunity rate x booking rate x average job/order value.
 

@@ -5,16 +5,16 @@ const support = `<a href="mailto:support@lobbystack.com">support@lobbystack.com<
 export const privacySr: LegalDocument = {
   updated: "Poslednje ažuriranje: 8. oktobar 2026.",
   h1: "Politika privatnosti",
-  intro: `Ova Politika privatnosti objašnjava kako Lobbystack Inc. („LobbyStack“, „mi“, „naš“ ili „nas“) prikuplja, koristi, deli i štiti podatke o ličnosti kada posećujete naše sajtove, koristite hostovanu uslugu LobbyStack, pozovete firmu koja koristi LobbyStack ili se s njom dopisujete putem četa, primite SMS poruku poslatu putem usluge LobbyStack ili nas kontaktirate.`,
+  intro: `Ova Politika privatnosti objašnjava kako Lobbystack Inc. („Palakarimpu AI“, „mi“, „naš“ ili „nas“) prikuplja, koristi, deli i štiti podatke o ličnosti kada posećujete naše sajtove, koristite hostovanu uslugu Palakarimpu AI, pozovete firmu koja koristi Palakarimpu AI ili se s njom dopisujete putem četa, primite SMS poruku poslatu putem usluge Palakarimpu AI ili nas kontaktirate.`,
   sections: [
     {
       id: "scope",
       nav: "Obuhvat",
       title: "1. Ko smo mi i šta obuhvata ova Politika",
       blocks: [
-        `1.1 LobbyStack je AI recepcioner za mala preduzeća. Firme ga koriste da odgovaraju na telefonske pozive i pozive iz pregledača, dopisuju se s posetiocima sajta putem četa, zakazuju termine, primaju poruke i preusmeravaju pozive svojim zaposlenima. Sedište nam je u Kanadi.`,
-        `1.2 Ova Politika obuhvata naše sajtove, uključujući lobbystack.com, hostovanu uslugu LobbyStack („Usluga“), našu podršku i naš partnerski program.`,
-        `1.3 Ova Politika ne obuhvata kopije softvera LobbyStack koje druga lica pokreću na sopstvenim serverima. Pogledajte odeljak 20.`,
+        `1.1 Palakarimpu AI je AI recepcioner za mala preduzeća. Firme ga koriste da odgovaraju na telefonske pozive i pozive iz pregledača, dopisuju se s posetiocima sajta putem četa, zakazuju termine, primaju poruke i preusmeravaju pozive svojim zaposlenima. Sedište nam je u Kanadi.`,
+        `1.2 Ova Politika obuhvata naše sajtove, uključujući lobbystack.com, hostovanu uslugu Palakarimpu AI („Usluga“), našu podršku i naš partnerski program.`,
+        `1.3 Ova Politika ne obuhvata kopije softvera Palakarimpu AI koje druga lica pokreću na sopstvenim serverima. Pogledajte odeljak 20.`,
       ],
     },
     {
@@ -23,7 +23,7 @@ export const privacySr: LegalDocument = {
       title: "2. Naša uloga",
       blocks: [
         `2.1 <strong>Kada mi odlučujemo kako se podaci koriste.</strong> U svojstvu rukovaoca ili privrednog subjekta odgovorni smo za podatke o ličnosti posetilaca naših sajtova, nosilaca naloga, Ovlašćenih korisnika naloga klijenata, kontakata za naplatu, partnera i lica koja nas kontaktiraju.`,
-        `2.2 <strong>Kada firma odlučuje kako se podaci koriste.</strong> Kada firma koristi LobbyStack za komunikaciju sa svojim pozivaocima, posetiocima sajta ili klijentima („Pozivaoci“), ta firma odlučuje zašto i kako se njihovi podaci obrađuju. Mi postupamo kao njen pružalac usluga ili obrađivač i obrađujemo podatke Pozivalaca u njeno ime, u skladu sa našim <a href="/sr/terms/">Uslovima korišćenja</a>. Primenjuje se obaveštenje o privatnosti te firme. Ako ste Pozivalac, pogledajte odeljak 18.`,
+        `2.2 <strong>Kada firma odlučuje kako se podaci koriste.</strong> Kada firma koristi Palakarimpu AI za komunikaciju sa svojim pozivaocima, posetiocima sajta ili klijentima („Pozivaoci“), ta firma odlučuje zašto i kako se njihovi podaci obrađuju. Mi postupamo kao njen pružalac usluga ili obrađivač i obrađujemo podatke Pozivalaca u njeno ime, u skladu sa našim <a href="/sr/terms/">Uslovima korišćenja</a>. Primenjuje se obaveštenje o privatnosti te firme. Ako ste Pozivalac, pogledajte odeljak 18.`,
       ],
     },
     {
@@ -97,7 +97,7 @@ export const privacySr: LegalDocument = {
             `<strong>Pravna obaveza:</strong> radi vođenja poreske i računovodstvene evidencije i odgovaranja na zakonite zahteve.`,
           ],
         },
-        `Za podatke Pozivalaca, firma koja koristi LobbyStack odgovorna je za izbor i dokumentovanje svog pravnog osnova.`,
+        `Za podatke Pozivalaca, firma koja koristi Palakarimpu AI odgovorna je za izbor i dokumentovanje svog pravnog osnova.`,
       ],
     },
     {
@@ -117,19 +117,19 @@ export const privacySr: LegalDocument = {
       nav: "Google Calendar",
       title: "7. Integracija sa uslugom Google Calendar",
       blocks: [
-        `7.1 Kada u usluzi LobbyStack povežete Google nalog, koristimo Google OAuth za upravljanje rezervacijama u kalendaru koji izaberete. Tražimo sledeće dozvole:`,
+        `7.1 Kada u usluzi Palakarimpu AI povežete Google nalog, koristimo Google OAuth za upravljanje rezervacijama u kalendaru koji izaberete. Tražimo sledeće dozvole:`,
         {
           ul: [
             `<strong>openid</strong> i <strong>email</strong>, za identifikaciju povezanog Google naloga;`,
-            `<strong>calendar.calendarlist.readonly</strong>, za prikaz liste Vaših kalendara kako biste mogli da izaberete onaj koji LobbyStack treba da koristi;`,
-            `<strong>calendar.events</strong>, za čitanje događaja u izabranom kalendaru radi pronalaženja zauzetih termina, kao i za kreiranje, ažuriranje i brisanje događaja za termine koje LobbyStack zakazuje, pomera ili otkazuje.`,
+            `<strong>calendar.calendarlist.readonly</strong>, za prikaz liste Vaših kalendara kako biste mogli da izaberete onaj koji Palakarimpu AI treba da koristi;`,
+            `<strong>calendar.events</strong>, za čitanje događaja u izabranom kalendaru radi pronalaženja zauzetih termina, kao i za kreiranje, ažuriranje i brisanje događaja za termine koje Palakarimpu AI zakazuje, pomera ili otkazuje.`,
           ],
         },
         `7.2 <strong>Podaci kojima pristupamo.</strong> Identifikator i imejl adresa Vašeg Google naloga, lista Vaših kalendara i vremena događaja u izabranom kalendaru.`,
         `7.3 <strong>Čuvanje i zaštita.</strong> Čuvamo OAuth tokene potrebne za održavanje veze. Šifrujemo ih u stanju mirovanja. Kada prekinete vezu sa uslugom Google Calendar, prestajemo sa sinhronizacijom, brišemo sačuvane tokene i brišemo zauzete termine koje smo kopirali iz Vašeg kalendara. Događaji za termine koje smo već kreirali ostaju u Vašem kalendaru Google Calendar; tamo ih možete obrisati.`,
         `7.4 <strong>Deljenje.</strong> Podatke Google korisnika delimo samo sa interfejsom Google Calendar API radi izvršavanja radnji koje ste zatražili i sa našim pružaocima usluga hostinga koji ih čuvaju za nas.`,
         `7.5 <strong>AI obrada.</strong> Naslove i opise događaja iz Vašeg kalendara Google Calendar ne šaljemo pružaocima AI usluga. AI recepcioner dobija samo izvedene informacije o rasporedu, na primer da li je neki termin slobodan i da li je zakazivanje uspelo.`,
-        `7.6 <strong>Ograničeno korišćenje.</strong> Korišćenje i prenos podataka koje LobbyStack dobija od Google API-ja usklađeni su sa dokumentom <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, uključujući njegove zahteve za ograničeno korišćenje (Limited Use). Ne prodajemo podatke Google korisnika, ne koristimo ih za oglašavanje i ne koristimo ih za treniranje ili unapređenje opštih modela veštačke inteligencije ili mašinskog učenja.`,
+        `7.6 <strong>Ograničeno korišćenje.</strong> Korišćenje i prenos podataka koje Palakarimpu AI dobija od Google API-ja usklađeni su sa dokumentom <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, uključujući njegove zahteve za ograničeno korišćenje (Limited Use). Ne prodajemo podatke Google korisnika, ne koristimo ih za oglašavanje i ne koristimo ih za treniranje ili unapređenje opštih modela veštačke inteligencije ili mašinskog učenja.`,
       ],
     },
     {
@@ -137,7 +137,7 @@ export const privacySr: LegalDocument = {
       nav: "SMS poruke",
       title: "8. SMS poruke",
       blocks: [
-        `8.1 LobbyStack šalje nemarketinške SMS poruke putem usluge Twilio: obaveštenja zaposlenima firme, jedan podsetnik oko 24 sata pre termina Pozivaocima koji su na to pristali prilikom zakazivanja i jednokratne kodove za proveru. Učestalost poruka varira. Mogu se primeniti troškovi slanja poruka i prenosa podataka. Odgovorite <strong>STOP</strong> da biste se odjavili ili <strong>HELP</strong> za pomoć, ili pišite na ${support}.`,
+        `8.1 Palakarimpu AI šalje nemarketinške SMS poruke putem usluge Twilio: obaveštenja zaposlenima firme, jedan podsetnik oko 24 sata pre termina Pozivaocima koji su na to pristali prilikom zakazivanja i jednokratne kodove za proveru. Učestalost poruka varira. Mogu se primeniti troškovi slanja poruka i prenosa podataka. Odgovorite <strong>STOP</strong> da biste se odjavili ili <strong>HELP</strong> za pomoć, ili pišite na ${support}.`,
         `8.2 Vodimo evidenciju o brojevima telefona, pristancima, odjavama, sadržaju poruka i statusu isporuke kako bismo slali poruke, poštovali odjave i ispunili zahteve operatera.`,
         `<strong>8.3 Ne prodajemo, ne iznajmljujemo i ne delimo brojeve mobilnih telefona, podatke o prijavi za prijem SMS poruka niti informacije o pristanku sa trećim licima ili povezanim licima za njihove marketinške ili promotivne svrhe.</strong>`,
       ],
@@ -163,8 +163,8 @@ export const privacySr: LegalDocument = {
             `pružaoci usluga nadzora i evidentiranja koji nam pomažu da otkrivamo greške i održavamo rad Usluge.`,
           ],
         },
-        `9.2 <strong>Firma koju kontaktirate.</strong> Kada pozovete firmu koja koristi LobbyStack ili se s njom dopisujete putem četa, Vaše podatke činimo dostupnim toj firmi na njenoj kontrolnoj tabli, u obaveštenjima i u povezanom kalendaru.`,
-        `9.3 <strong>Pravni i bezbednosni razlozi.</strong> Podatke možemo otkriti radi postupanja u skladu sa zakonom, sudskim nalogom ili zakonitim zahtevom nadležnih organa, radi sprovođenja naših Uslova ili radi zaštite prava, imovine ili bezbednosti kompanije LobbyStack, naših klijenata ili drugih lica.`,
+        `9.2 <strong>Firma koju kontaktirate.</strong> Kada pozovete firmu koja koristi Palakarimpu AI ili se s njom dopisujete putem četa, Vaše podatke činimo dostupnim toj firmi na njenoj kontrolnoj tabli, u obaveštenjima i u povezanom kalendaru.`,
+        `9.3 <strong>Pravni i bezbednosni razlozi.</strong> Podatke možemo otkriti radi postupanja u skladu sa zakonom, sudskim nalogom ili zakonitim zahtevom nadležnih organa, radi sprovođenja naših Uslova ili radi zaštite prava, imovine ili bezbednosti kompanije Palakarimpu AI, naših klijenata ili drugih lica.`,
         `9.4 <strong>Poslovni prenosi.</strong> Podatke možemo deliti sa kupcem, investitorom ili pravnim sledbenikom u slučaju spajanja, preuzimanja, finansiranja, reorganizacije ili prodaje imovine, uz obavezu čuvanja poverljivosti. Obavestićemo Vas ako Vaši podaci postanu predmet drugačije politike privatnosti.`,
         `9.5 <strong>Uz Vaš pristanak.</strong> Podatke možemo deliti i u druge svrhe kada nas to zatražite ili se sa tim saglasite.`,
         `9.6 <strong>Bez prodaje.</strong> Ne prodajemo podatke o ličnosti i ne delimo ih radi bihevioralnog oglašavanja zasnovanog na aktivnostima u različitim kontekstima (cross-context behavioral advertising).`,
@@ -177,7 +177,7 @@ export const privacySr: LegalDocument = {
       blocks: [
         `10.1 Koristimo neophodne kolačiće i skladište pregledača za rad našeg sajta, pamćenje Vašeg izbora u vezi sa kolačićima i zaštitu od zloupotreba. PostHog analitičke kolačiće i snimke sesija koristimo tek nakon što ih prihvatite u našem baneru za kolačiće. Pre nego što napravite izbor, brojimo preglede stranica bez čuvanja bilo čega na Vašem uređaju. Ako odbijete opcione kolačiće, zaustavljamo analitiku na našem sajtu.`,
         `10.2 Svoj izbor možete promeniti u bilo kom trenutku putem linka <strong>Podešavanja kolačića</strong> u podnožju stranice. Naša <a href="/sr/cookie-policy/">Politika kolačića</a> navodi kolačiće koje koristimo.`,
-        `10.3 Kontrolna tabla LobbyStack koristi PostHog da bi razumela kako prijavljeni korisnici koriste proizvod, i to samo dok je analitika proizvoda uključena u Vašim podešavanjima. Kontrolna tabla ne prikuplja analitiku na stranicama označenim kao osetljive.`,
+        `10.3 Kontrolna tabla Palakarimpu AI koristi PostHog da bi razumela kako prijavljeni korisnici koriste proizvod, i to samo dok je analitika proizvoda uključena u Vašim podešavanjima. Kontrolna tabla ne prikuplja analitiku na stranicama označenim kao osetljive.`,
       ],
     },
     {
@@ -278,7 +278,7 @@ export const privacySr: LegalDocument = {
       nav: "Pozivaoci",
       title: "18. Ako ste pozvali firmu ili se s njom dopisivali putem četa",
       blocks: [
-        `18.1 Ako ste pozvali firmu koja koristi LobbyStack, dopisivali se s njom putem četa ili od nje primili SMS poruku, ta firma kontroliše Vaše podatke. Zahteve za pristup, ispravku, brisanje i druge zahteve u vezi sa privatnošću najpre uputite toj firmi.`,
+        `18.1 Ako ste pozvali firmu koja koristi Palakarimpu AI, dopisivali se s njom putem četa ili od nje primili SMS poruku, ta firma kontroliše Vaše podatke. Zahteve za pristup, ispravku, brisanje i druge zahteve u vezi sa privatnošću najpre uputite toj firmi.`,
         `18.2 Ako se umesto toga obratite nama, prosledićemo Vaš zahtev firmi ili ćemo Vam reći kako da je kontaktirate, i pomoći ćemo firmi da odgovori. Ne možemo postupiti po Vašem zahtevu bez uputstava firme, osim kada to zakon od nas zahteva.`,
         `18.3 Da biste prestali da primate SMS podsetnike ili kodove za proveru, odgovorite <strong>STOP</strong> na bilo koju poruku.`,
       ],
@@ -294,9 +294,9 @@ export const privacySr: LegalDocument = {
     {
       id: "self-hosted",
       nav: "Samostalno hostovanje",
-      title: "20. Samostalno hostovan LobbyStack",
+      title: "20. Samostalno hostovan Palakarimpu AI",
       blocks: [
-        `Izvorni kod softvera LobbyStack je otvoren (open source). Kada neka organizacija pokreće LobbyStack na sopstvenim serverima, ne primamo, ne pristupamo niti obrađujemo bilo kakve podatke iz te instalacije. Organizacija koja je pokreće odgovorna je za svoju praksu zaštite privatnosti. Sa svim pitanjima obratite se toj organizaciji.`,
+        `Izvorni kod softvera Palakarimpu AI je otvoren (open source). Kada neka organizacija pokreće Palakarimpu AI na sopstvenim serverima, ne primamo, ne pristupamo niti obrađujemo bilo kakve podatke iz te instalacije. Organizacija koja je pokreće odgovorna je za svoju praksu zaštite privatnosti. Sa svim pitanjima obratite se toj organizaciji.`,
       ],
     },
     {

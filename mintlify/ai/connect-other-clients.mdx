@@ -1,11 +1,11 @@
 ---
 title: "Connect other MCP clients"
-description: "Add the LobbyStack MCP server to Cursor, VS Code or any client that speaks Streamable HTTP, and test it with the MCP Inspector."
+description: "Add the Palakarimpu AI MCP server to Cursor, VS Code or any client that speaks Streamable HTTP, and test it with the MCP Inspector."
 sidebarTitle: "Other clients"
 contentType: "How-to"
 ---
 
-Any MCP client that supports Streamable HTTP can connect. Clients that support MCP OAuth sign in with LobbyStack on their own; others need an API key in a header.
+Any MCP client that supports Streamable HTTP can connect. Clients that support MCP OAuth sign in with Palakarimpu AI on their own; others need an API key in a header.
 
 | Setting | Value |
 | --- | --- |
@@ -17,7 +17,7 @@ The server is stateless. It supports the 2026-07-28 protocol revision and falls 
 
 ## Cursor
 
-Add LobbyStack to `~/.cursor/mcp.json`, or to `.cursor/mcp.json` in a project:
+Add Palakarimpu AI to `~/.cursor/mcp.json`, or to `.cursor/mcp.json` in a project:
 
 ```json mcp.json
 {
@@ -34,12 +34,12 @@ Add LobbyStack to `~/.cursor/mcp.json`, or to `.cursor/mcp.json` in a project:
 
 ## VS Code
 
-Add LobbyStack to `.vscode/mcp.json`. VS Code asks for the key the first time it starts the server and stores it for you:
+Add Palakarimpu AI to `.vscode/mcp.json`. VS Code asks for the key the first time it starts the server and stores it for you:
 
 ```json .vscode/mcp.json
 {
   "inputs": [
-    { "type": "promptString", "id": "lobbystack-key", "description": "LobbyStack API key", "password": true }
+    { "type": "promptString", "id": "lobbystack-key", "description": "Palakarimpu AI API key", "password": true }
   ],
   "servers": {
     "lobbystack": {

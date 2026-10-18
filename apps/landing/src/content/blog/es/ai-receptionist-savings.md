@@ -2,7 +2,7 @@
 title: "¿Cuánto puede ahorrarle una recepcionista con IA?"
 description: "Calcule cuánto puede ahorrar con una recepcionista con IA gracias a menores costos de atención y menos llamadas perdidas. Use la calculadora de llamadas perdidas."
 pubDate: 2026-06-03T12:00:00-04:00
-author: "Equipo de LobbyStack"
+author: "Equipo de Palakarimpu AI"
 category: "Guías"
 featured: true
 coverImage: "/illustrations/ai-receptionist-savings-hero.webp"
@@ -61,7 +61,7 @@ Esa cifra ya suele ser bastante incómoda por sí sola.
 
 ## Use la calculadora de llamadas perdidas
 
-LobbyStack tiene una [calculadora de ingresos por llamadas perdidas](/es/missed-call-revenue-calculator/) precisamente por eso. Usa una fórmula:
+Palakarimpu AI tiene una [calculadora de ingresos por llamadas perdidas](/es/missed-call-revenue-calculator/) precisamente por eso. Usa una fórmula:
 
 ```text
 ingresos mensuales en riesgo =
@@ -105,7 +105,7 @@ Por eso importa tanto el valor medio de un cliente. Un pedido de $45, un trabajo
 
 Cuando conozca los ingresos en riesgo, compárelos con el costo mensual de la cobertura.
 
-Con los [precios de LobbyStack](/es/pricing/), puede empezar gratis con 30 minutos de voz al mes. Starter cuesta $30/mes, o $24/mes con facturación anual, e incluye 150 minutos de voz. Pro cuesta $100/mes, o $80/mes con facturación anual, e incluye 500 minutos de voz.
+Con los [precios de Palakarimpu AI](/es/pricing/), puede empezar gratis con 30 minutos de voz al mes. Starter cuesta $30/mes, o $24/mes con facturación anual, e incluye 150 minutos de voz. Pro cuesta $100/mes, o $80/mes con facturación anual, e incluye 500 minutos de voz.
 
 En el ejemplo anterior, un negocio que recupera aunque sea un cliente de $300 a partir de llamadas perdidas probablemente ya pagó el mes. Con dos recuperados, las cuentas empiezan a ser evidentes.
 

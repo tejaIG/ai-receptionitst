@@ -2,7 +2,7 @@
 title: "How to choose an AI receptionist"
 description: "Learn how to choose an AI receptionist with a practical buyer checklist for features, pricing, call quality, integrations, compliance, and testing."
 pubDate: 2026-06-03T13:00:00-04:00
-author: "LobbyStack Team"
+author: "Palakarimpu AI Team"
 category: "Guides"
 featured: false
 coverImage: "/illustrations/how-to-choose-an-ai-receptionist-hero.webp"
@@ -383,4 +383,4 @@ The short version:
 - Test the messy calls, more than the scripted demo.
 - Compare total cost against successfully handled calls and recovered opportunities.
 
-If missed calls are part of the problem, start with the [missed call revenue calculator](/missed-call-revenue-calculator/) or read [how much an AI receptionist can save](/blog/ai-receptionist-savings/). If open source is on your shortlist, compare the [best open-source AI phone answering services](/blog/best-open-source-ai-phone-answering-services/) before you run vendor demos. If you are weighing DIY automation chains, see [AI receptionist workflows without flowcharts](/blog/ai-receptionist-workflows/). If you want to see what a practical AI receptionist setup looks like, compare the [LobbyStack pricing](/pricing/) and start with a narrow pilot before putting it on every call.
+If missed calls are part of the problem, start with the [missed call revenue calculator](/missed-call-revenue-calculator/) or read [how much an AI receptionist can save](/blog/ai-receptionist-savings/). If open source is on your shortlist, compare the [best open-source AI phone answering services](/blog/best-open-source-ai-phone-answering-services/) before you run vendor demos. If you are weighing DIY automation chains, see [AI receptionist workflows without flowcharts](/blog/ai-receptionist-workflows/). If you want to see what a practical AI receptionist setup looks like, compare the [Palakarimpu AI pricing](/pricing/) and start with a narrow pilot before putting it on every call.

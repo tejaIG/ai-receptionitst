@@ -1,6 +1,6 @@
 ---
 title: "Configure las variables de entorno"
-description: "Las principales variables de entorno del servicio de administración, el worker, las llamadas de voz, el almacenamiento y los proveedores de LobbyStack."
+description: "Las principales variables de entorno del servicio de administración, el worker, las llamadas de voz, el almacenamiento y los proveedores de Palakarimpu AI."
 sidebarTitle: "Variables de entorno"
 contentType: "Reference"
 ---
@@ -70,7 +70,7 @@ Las entregas de webhooks rechazan las direcciones privadas, de loopback, de enla
 
 | Variable | Función |
 | --- | --- |
-| `OTEL_EXPORTER_OTLP_ENDPOINT` | URL base de OTLP. LobbyStack agrega `/v1/traces`, `/v1/metrics` y `/v1/logs`. Déjela vacía para desactivar la exportación. |
+| `OTEL_EXPORTER_OTLP_ENDPOINT` | URL base de OTLP. Palakarimpu AI agrega `/v1/traces`, `/v1/metrics` y `/v1/logs`. Déjela vacía para desactivar la exportación. |
 | `OTEL_EXPORTER_OTLP_HEADERS` | Encabezados `key=value` opcionales, separados por comas, que se envían con cada solicitud OTLP. Para PostHog, use `Authorization=Bearer your_posthog_project_token_here`. |
 
 Un endpoint OTLP vacío no desactiva los registros stdout de los contenedores, los endpoints de estado de la aplicación, las analíticas de producto directas ni el reporte de errores directo.
@@ -89,7 +89,7 @@ Un endpoint OTLP vacío no desactiva los registros stdout de los contenedores, l
 | `AI_DELEGATION_REASONING_EFFORT` | Solo OpenAI: esfuerzo de razonamiento para las respuestas durante las llamadas. El valor predeterminado es `low`, que responde en cerca de la mitad del tiempo que `high`. El chat del sitio sigue usando `AI_CHAT_REASONING_EFFORT`. |
 | `AI_DELEGATION_SERVICE_TIER` | Solo OpenAI: el nivel de procesamiento de las respuestas durante las llamadas: `auto`, `default`, `flex` o `priority`. El valor predeterminado es `priority`, que responde más rápido y cuesta el doble del precio estándar por token. |
 | `AI_CHAT_INPUT_COST_PER_MILLION_TOKENS`, `AI_CHAT_CACHED_INPUT_COST_PER_MILLION_TOKENS`, `AI_CHAT_OUTPUT_COST_PER_MILLION_TOKENS` | Los precios del modelo `AI_CHAT_*` en dólares estadounidenses por millón de tokens, para que el chat, los resúmenes de llamadas y las respuestas durante las llamadas registren su costo. La entrada en caché usa el precio de entrada si la dejas vacía. |
-| `AI_CHAT_PRICING_VERSION`, `AI_CHAT_PRICING_SOURCE`, `AI_CHAT_PRICING_EFFECTIVE_DATE` | Una etiqueta, una URL de origen y la fecha de esos precios. LobbyStack registra un costo solo si las tres están definidas. |
+| `AI_CHAT_PRICING_VERSION`, `AI_CHAT_PRICING_SOURCE`, `AI_CHAT_PRICING_EFFECTIVE_DATE` | Una etiqueta, una URL de origen y la fecha de esos precios. Palakarimpu AI registra un costo solo si las tres están definidas. |
 | `AI_EMBEDDING_API_KEY`, `AI_EMBEDDING_BASE_URL`, `AI_EMBEDDING_MODEL`, `AI_EMBEDDING_PROVIDER_NAME`, `AI_EMBEDDING_REVISION` | Embeddings de 1536 dimensiones compatibles con OpenAI. |
 | `WIDGET_SESSION_SECRET` | Firma las sesiones de origen cruzado del widget del sitio web. |
 | `FIRECRAWL_*` | Importación de conocimiento desde el sitio web. |

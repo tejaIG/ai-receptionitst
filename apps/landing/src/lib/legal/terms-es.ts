@@ -5,17 +5,17 @@ const support = `<a href="mailto:support@lobbystack.com">support@lobbystack.com<
 export const termsEs: LegalDocument = {
   updated: "Última actualización: 26 de septiembre de 2026",
   h1: "Términos del servicio",
-  intro: `Estos Términos del servicio (los “Términos”) rigen el uso que usted hace del servicio alojado, los sitios web y el soporte de LobbyStack. Le rogamos que los lea antes de utilizar LobbyStack. Limitan nuestra responsabilidad, le atribuyen a usted la responsabilidad por el consentimiento para la grabación de llamadas y por el cumplimiento normativo de los mensajes de texto, y establecen cómo resolvemos las controversias.`,
+  intro: `Estos Términos del servicio (los “Términos”) rigen el uso que usted hace del servicio alojado, los sitios web y el soporte de Palakarimpu AI. Le rogamos que los lea antes de utilizar Palakarimpu AI. Limitan nuestra responsabilidad, le atribuyen a usted la responsabilidad por el consentimiento para la grabación de llamadas y por el cumplimiento normativo de los mensajes de texto, y establecen cómo resolvemos las controversias.`,
   sections: [
     {
       id: "agreement",
       nav: "Acuerdo",
       title: "1. Acuerdo y requisitos",
       blocks: [
-        `1.1 Estos Términos constituyen un contrato entre usted y Lobbystack Inc. (“LobbyStack”, “nosotros”, “nuestro” o “nos”). Usted los acepta cuando crea una cuenta, marca una casilla o hace clic en un botón que hace referencia a ellos, compra un plan o utiliza el Servicio. Si no está de acuerdo, no utilice el Servicio.`,
-        `1.2 LobbyStack está destinado exclusivamente a negocios. Usted confirma que utiliza el Servicio para un negocio, oficio o profesión, y no con fines personales, familiares o domésticos. Cuando usted utiliza el Servicio, no es un consumidor en el sentido de la Ley de protección del consumidor de Quebec ni de ninguna ley similar.`,
+        `1.1 Estos Términos constituyen un contrato entre usted y Lobbystack Inc. (“Palakarimpu AI”, “nosotros”, “nuestro” o “nos”). Usted los acepta cuando crea una cuenta, marca una casilla o hace clic en un botón que hace referencia a ellos, compra un plan o utiliza el Servicio. Si no está de acuerdo, no utilice el Servicio.`,
+        `1.2 Palakarimpu AI está destinado exclusivamente a negocios. Usted confirma que utiliza el Servicio para un negocio, oficio o profesión, y no con fines personales, familiares o domésticos. Cuando usted utiliza el Servicio, no es un consumidor en el sentido de la Ley de protección del consumidor de Quebec ni de ninguna ley similar.`,
         `1.3 Si usted acepta estos Términos en nombre de una sociedad u otra organización, confirma que tiene facultades para obligarla. En ese caso, “usted” y “Cliente” se refieren a dicha organización. Usted debe tener al menos 18 años y haber alcanzado la mayoría de edad en el lugar donde vive.`,
-        `1.4 Si usted y LobbyStack firman un formulario de pedido u otro acuerdo por escrito relativo al Servicio (un “Pedido”), el Pedido prevalecerá sobre estos Términos en caso de conflicto entre ambos, pero únicamente respecto del objeto que abarca el Pedido.`,
+        `1.4 Si usted y Palakarimpu AI firman un formulario de pedido u otro acuerdo por escrito relativo al Servicio (un “Pedido”), el Pedido prevalecerá sobre estos Términos en caso de conflicto entre ambos, pero únicamente respecto del objeto que abarca el Pedido.`,
       ],
     },
     {
@@ -25,7 +25,7 @@ export const termsEs: LegalDocument = {
       blocks: [
         {
           ul: [
-            `<strong>Servicio</strong> significa la recepcionista con IA alojada de LobbyStack, el panel, el widget de chat y llamadas para sitios web, nuestros sitios web, nuestras API y el soporte relacionado que le prestamos.`,
+            `<strong>Servicio</strong> significa la recepcionista con IA alojada de Palakarimpu AI, el panel, el widget de chat y llamadas para sitios web, nuestros sitios web, nuestras API y el soporte relacionado que le prestamos.`,
             `<strong>Usuarios Autorizados</strong> significa sus empleados y contratistas a quienes usted permite utilizar su cuenta.`,
             `<strong>Llamantes</strong> significa las personas que interactúan con su recepcionista con IA mediante una llamada telefónica, una llamada desde el navegador o el chat del sitio web, y las personas que reciben mensajes de texto enviados a través del Servicio.`,
             `<strong>Datos del Cliente</strong> significa los datos que usted o sus Llamantes envían al Servicio, incluidos la información del negocio, el contenido de conocimiento, el audio de las llamadas, las grabaciones, las transcripciones, los mensajes, las conversaciones de chat, los datos de contacto y los registros de citas.`,
@@ -40,7 +40,7 @@ export const termsEs: LegalDocument = {
       nav: "Servicio",
       title: "3. El Servicio",
       blocks: [
-        `3.1 LobbyStack es una recepcionista con IA para pequeños negocios. Según su plan y su configuración, el Servicio puede responder llamadas telefónicas entrantes y llamadas desde el navegador con un agente de voz con IA, responder preguntas en el chat del sitio web, reservar, cancelar y reprogramar citas tras verificar al Llamante, tomar mensajes, transferir llamadas a su personal, grabar y transcribir llamadas, enviar mensajes de texto de alerta a su equipo y enviar un mensaje de texto opcional de recordatorio de cita a los Llamantes que acepten recibirlo.`,
+        `3.1 Palakarimpu AI es una recepcionista con IA para pequeños negocios. Según su plan y su configuración, el Servicio puede responder llamadas telefónicas entrantes y llamadas desde el navegador con un agente de voz con IA, responder preguntas en el chat del sitio web, reservar, cancelar y reprogramar citas tras verificar al Llamante, tomar mensajes, transferir llamadas a su personal, grabar y transcribir llamadas, enviar mensajes de texto de alerta a su equipo y enviar un mensaje de texto opcional de recordatorio de cita a los Llamantes que acepten recibirlo.`,
         `3.2 Las funciones, los límites y el uso incluido varían según el plan. La <a href="/es/pricing/">página de precios</a> o su Pedido los describen. Podemos agregar, modificar o eliminar funciones. Si eliminamos una función importante de un plan de pago que usted utiliza, le daremos un aviso previo razonable. No prometemos ninguna función futura, y usted no debe comprar un plan basándose en una de ellas.`,
         `3.3 Le otorgamos un derecho limitado, no exclusivo, intransferible y no sublicenciable a utilizar el Servicio para los fines internos de su negocio durante su suscripción, con sujeción a estos Términos. Esto incluye el derecho a colocar nuestro widget para sitios web en los sitios que usted controla.`,
       ],
@@ -52,7 +52,7 @@ export const termsEs: LegalDocument = {
       blocks: [
         `4.1 Usted debe proporcionarnos información exacta sobre la cuenta, el negocio y la facturación, y mantenerla actualizada.`,
         `4.2 Usted es responsable de sus Usuarios Autorizados y de todo lo que ocurra en su cuenta. Mantenga protegidos las contraseñas y el acceso. Avísenos de inmediato en ${support} si sospecha de un acceso no autorizado.`,
-        `4.3 Podemos rechazar, suspender o cerrar una cuenta que utilice información falsa, que parezca ser un duplicado creado para obtener más uso gratuito o que genere riesgos para LobbyStack, nuestros proveedores o terceros.`,
+        `4.3 Podemos rechazar, suspender o cerrar una cuenta que utilice información falsa, que parezca ser un duplicado creado para obtener más uso gratuito o que genere riesgos para Palakarimpu AI, nuestros proveedores o terceros.`,
       ],
     },
     {
@@ -62,7 +62,7 @@ export const termsEs: LegalDocument = {
       blocks: [
         `5.1 El Servicio utiliza inteligencia artificial, incluidos modelos de OpenAI. Los Resultados de IA pueden ser erróneos, incompletos, incoherentes o inapropiados. La recepcionista con IA puede malinterpretar a un Llamante, dar una respuesta que su negocio no daría, indicar un precio o una política incorrectos, reservar un horario equivocado, no transferir una llamada o no registrar un mensaje.`,
         `5.2 Usted controla lo que la recepcionista con IA sabe y hace. Usted es responsable de la información de su negocio, el contenido de conocimiento, las instrucciones, los saludos, los precios, los horarios, los servicios, las reglas de reserva, los números de transferencia y la configuración de las alertas. Usted debe probar el Servicio antes de confiar en él y supervisarlo mientras lo utiliza.`,
-        `5.3 Usted es responsable de cualquier declaración, cotización, promesa o reserva que la recepcionista con IA haga en nombre de su negocio, así como de cumplirla o corregirla ante sus Llamantes. LobbyStack no es parte en sus relaciones con los Llamantes.`,
+        `5.3 Usted es responsable de cualquier declaración, cotización, promesa o reserva que la recepcionista con IA haga en nombre de su negocio, así como de cumplirla o corregirla ante sus Llamantes. Palakarimpu AI no es parte en sus relaciones con los Llamantes.`,
         `5.4 El Servicio no brinda asesoramiento médico, jurídico, financiero, fiscal, de seguridad ni ningún otro asesoramiento profesional. No lo configure para brindar ese tipo de asesoramiento ni para tomar decisiones que requieran un profesional cualificado o una revisión humana.`,
         `5.5 Algunas leyes le exigen informar a las personas de que están hablando con un sistema de IA. Usted debe realizar esas divulgaciones. La recepcionista con IA no debe afirmar que es un ser humano cuando un Llamante lo pregunte sinceramente.`,
       ],
@@ -72,7 +72,7 @@ export const termsEs: LegalDocument = {
       nav: "Sin emergencias",
       title: "6. Sin servicios de emergencia",
       blocks: [
-        `<strong>6.1 LobbyStack no es un servicio de emergencia y no admite llamadas al 911, al 999, al 112 ni a ningún otro número de emergencia.</strong> El Servicio no puede enviar ayuda, localizar a un Llamante ni tratar ninguna llamada como urgente.`,
+        `<strong>6.1 Palakarimpu AI no es un servicio de emergencia y no admite llamadas al 911, al 999, al 112 ni a ningún otro número de emergencia.</strong> El Servicio no puede enviar ayuda, localizar a un Llamante ni tratar ninguna llamada como urgente.`,
         `6.2 No utilice el Servicio, ni permita que los Llamantes confíen en él, para emergencias, líneas de crisis o situaciones en las que esté en juego la vida o la seguridad de las personas. Si su negocio puede recibir llamadas urgentes, su saludo o sus instrucciones deben indicar a los Llamantes que cuelguen y marquen el número de emergencia local, y usted debe mantener un procedimiento atendido por personas para esas llamadas.`,
       ],
     },
@@ -84,8 +84,8 @@ export const termsEs: LegalDocument = {
         `7.1 El Servicio graba y transcribe llamadas, almacena las conversaciones del chat del sitio web y utiliza IA para tratar lo que dicen los Llamantes. Usted decide utilizar estas funciones y es usted quien las pone a disposición de sus Llamantes.`,
         `7.2 <strong>Usted es el único responsable de dar todos los avisos y obtener todos los consentimientos que exija la ley</strong> antes de que una llamada o un chat se grabe, se transcriba o se trate mediante IA. Esto incluye las leyes que exigen el consentimiento de todas las partes de una llamada, como las de California, Florida, Illinois, Maryland, Massachusetts, Pensilvania y Washington, así como las leyes de privacidad de Canadá y de Quebec. También incluye las leyes sobre intervención de comunicaciones, escuchas y divulgación del uso de IA de todos los lugares donde usted o sus Llamantes se encuentren.`,
         `7.3 El Servicio no utiliza la voz de los Llamantes para identificarlos. Si su uso del Servicio está sujeto a leyes de privacidad biométrica, como la Ley de Privacidad de la Información Biométrica de Illinois o leyes similares de Texas y Washington, usted es responsable de cumplirlas, incluidos los avisos, el consentimiento por escrito y la política de conservación que exijan.`,
-        `7.4 Usted debe configurar su saludo o los avisos de su sitio web para que los Llamantes sepan, antes de que comience la conversación, que la llamada o el chat puede ser grabado y gestionado por un sistema de IA. Un saludo o una plantilla predeterminados de LobbyStack no nos transfieren esta responsabilidad. Si usted coloca nuestro widget en su sitio web, también es responsable de cualquier aviso y consentimiento relativos a las cookies o al almacenamiento del navegador que necesite su sitio web, ya que el widget almacena un identificador aleatorio del visitante en el navegador de este.`,
-        `7.5 Usted no debe utilizar el Servicio para recopilar números de tarjetas de pago, números de documentos de identidad oficiales, información de salud u otra información sensible, salvo que la ley lo permita y usted cuente con todas las garantías y consentimientos exigidos. LobbyStack no está diseñado para tratar información de salud protegida en virtud de la HIPAA. No firmamos acuerdos de socio comercial (business associate agreements) salvo que aceptemos uno mediante un documento escrito y firmado.`,
+        `7.4 Usted debe configurar su saludo o los avisos de su sitio web para que los Llamantes sepan, antes de que comience la conversación, que la llamada o el chat puede ser grabado y gestionado por un sistema de IA. Un saludo o una plantilla predeterminados de Palakarimpu AI no nos transfieren esta responsabilidad. Si usted coloca nuestro widget en su sitio web, también es responsable de cualquier aviso y consentimiento relativos a las cookies o al almacenamiento del navegador que necesite su sitio web, ya que el widget almacena un identificador aleatorio del visitante en el navegador de este.`,
+        `7.5 Usted no debe utilizar el Servicio para recopilar números de tarjetas de pago, números de documentos de identidad oficiales, información de salud u otra información sensible, salvo que la ley lo permita y usted cuente con todas las garantías y consentimientos exigidos. Palakarimpu AI no está diseñado para tratar información de salud protegida en virtud de la HIPAA. No firmamos acuerdos de socio comercial (business associate agreements) salvo que aceptemos uno mediante un documento escrito y firmado.`,
       ],
     },
     {
@@ -105,8 +105,8 @@ export const termsEs: LegalDocument = {
       nav: "Mensajes de texto",
       title: "9. Mensajes de texto",
       blocks: [
-        { h3: "Programa de SMS de LobbyStack" },
-        `9.1 Nombre del programa: LobbyStack. LobbyStack envía mensajes de texto transaccionales, no publicitarios, en nombre de los negocios que utilizan el Servicio. Estos incluyen alertas al personal de un negocio sobre llamadas, mensajes y reservas; un recordatorio de cita enviado aproximadamente 24 horas antes de la cita, únicamente a los Llamantes que aceptaron recibirlo al reservar; y códigos de un solo uso que verifican el número de teléfono de una persona o la identidad de un Llamante antes de modificar una cita. LobbyStack no envía mensajes de texto publicitarios y no responde a mensajes de texto con IA.`,
+        { h3: "Programa de SMS de Palakarimpu AI" },
+        `9.1 Nombre del programa: Palakarimpu AI. Palakarimpu AI envía mensajes de texto transaccionales, no publicitarios, en nombre de los negocios que utilizan el Servicio. Estos incluyen alertas al personal de un negocio sobre llamadas, mensajes y reservas; un recordatorio de cita enviado aproximadamente 24 horas antes de la cita, únicamente a los Llamantes que aceptaron recibirlo al reservar; y códigos de un solo uso que verifican el número de teléfono de una persona o la identidad de un Llamante antes de modificar una cita. Palakarimpu AI no envía mensajes de texto publicitarios y no responde a mensajes de texto con IA.`,
         `9.2 La frecuencia de los mensajes varía según su actividad. Pueden aplicarse tarifas de mensajes y datos. Responda <strong>STOP</strong> para dejar de recibir mensajes de texto y <strong>HELP</strong> para obtener ayuda, o escriba a ${support}. Después de responder STOP, es posible que reciba un mensaje de confirmación, y no enviaremos más mensajes de texto a ese número salvo que usted vuelva a darse de alta. Los operadores no son responsables de los mensajes retrasados o no entregados.`,
         { h3: "Sus responsabilidades" },
         `9.3 Usted solo debe agregar como destinatarios de alertas a miembros de su personal o contratistas que hayan aceptado recibir mensajes de texto de alerta. Usted es responsable de cualquier mensaje de texto enviado a un número que introduzca en el Servicio.`,
@@ -173,11 +173,11 @@ export const termsEs: LegalDocument = {
       nav: "Programa de afiliados",
       title: "13. Programa de afiliados",
       blocks: [
-        `13.1 LobbyStack puede ofrecer un programa de afiliados que paga comisiones por referir nuevos clientes. Si usted participa, esta sección se aplica además del resto de estos Términos.`,
+        `13.1 Palakarimpu AI puede ofrecer un programa de afiliados que paga comisiones por referir nuevos clientes. Si usted participa, esta sección se aplica además del resto de estos Términos.`,
         `13.2 Salvo que el Servicio indique otra cosa, los afiliados que cumplan los requisitos obtienen una comisión del 20% sobre los pagos que reúnan los requisitos realizados por un cliente referido durante los primeros 12 meses posteriores a la atribución. Hacemos el seguimiento de los referidos mediante los enlaces o códigos que proporcionamos. Nuestros registros determinan la atribución, el cumplimiento de los requisitos y los importes de las comisiones.`,
         `13.3 Las comisiones tienen un periodo de retención de 30 días. Una comisión solo pasa a ser pagadera después de que el pago del cliente referido supere ese periodo sin reembolso, contracargo, controversia, reversión, crédito ni cancelación. Podemos anular, reducir, retener o revertir las comisiones no pagadas correspondientes a pagos o referidos que no reúnan los requisitos.`,
         `13.4 Pagamos a los afiliados a través de PayPal, utilizando el correo electrónico de PayPal guardado en el panel de afiliados. El pago mínimo es de USD $100 en comisiones elegibles no pagadas. El plazo de pago puede variar en función de la revisión, los controles antifraude, la disponibilidad del procesador de pagos y la exactitud de los datos de pago. Usted es responsable de sus impuestos, declaraciones, comisiones, conversión de divisas y cuenta de pago.`,
-        `13.5 Usted no debe referirse a sí mismo, crear cuentas falsas, hacer afirmaciones engañosas, enviar spam, suplantar la identidad de LobbyStack, pujar por las marcas comerciales de LobbyStack o términos similares en búsquedas de pago, publicar reseñas falsas, abusar de los descuentos, generar tráfico artificial ni promocionar LobbyStack de una forma que infrinja la ley, las normas de las plataformas o estos Términos. Usted debe indicar claramente que puede recibir un pago cuando recomienda LobbyStack.`,
+        `13.5 Usted no debe referirse a sí mismo, crear cuentas falsas, hacer afirmaciones engañosas, enviar spam, suplantar la identidad de Palakarimpu AI, pujar por las marcas comerciales de Palakarimpu AI o términos similares en búsquedas de pago, publicar reseñas falsas, abusar de los descuentos, generar tráfico artificial ni promocionar Palakarimpu AI de una forma que infrinja la ley, las normas de las plataformas o estos Términos. Usted debe indicar claramente que puede recibir un pago cuando recomienda Palakarimpu AI.`,
         `13.6 Podemos rechazar, suspender o poner fin a su participación y retener las comisiones no pagadas en caso de fraude, abuso, incumplimiento o riesgo. Podemos modificar, pausar o poner fin al programa, a sus tarifas, a las reglas de atribución, a los periodos de retención, a los umbrales de pago o a los métodos de pago en cualquier momento, con sujeción a la ley aplicable.`,
       ],
     },
@@ -186,7 +186,7 @@ export const termsEs: LegalDocument = {
       nav: "Datos del Cliente",
       title: "14. Datos del Cliente",
       blocks: [
-        `14.1 <strong>Titularidad.</strong> En la relación entre usted y LobbyStack, usted es el titular de los Datos del Cliente.`,
+        `14.1 <strong>Titularidad.</strong> En la relación entre usted y Palakarimpu AI, usted es el titular de los Datos del Cliente.`,
         `14.2 <strong>Nuestra licencia.</strong> Usted nos otorga una licencia mundial, no exclusiva y libre de regalías para alojar, copiar, tratar, transmitir, mostrar y adaptar los Datos del Cliente en la medida necesaria para prestar, proteger, respaldar, diagnosticar y mejorar el Servicio, para prevenir abusos, para cumplir la ley y para hacer cumplir estos Términos. Nuestros proveedores pueden ejercer esta licencia en nuestro nombre únicamente para ayudarnos a realizar esas actividades.`,
         `14.3 <strong>Sus declaraciones.</strong> Usted confirma que cuenta con todos los derechos, avisos y consentimientos necesarios para que tratemos los Datos del Cliente conforme a estos Términos y a la <a href="/es/privacy/">Política de privacidad</a>, y que los Datos del Cliente no infringen los derechos de ninguna persona ni ninguna ley.`,
         `14.4 <strong>Nuestra función.</strong> En lo que respecta a los datos personales de sus Llamantes, actuamos como su proveedor de servicios o encargado del tratamiento. Los tratamos en su nombre y conforme a sus instrucciones, según se describe en la Política de privacidad. Usted es responsable de sus propios avisos de privacidad a los Llamantes y de responder a sus solicitudes.`,
@@ -201,7 +201,7 @@ export const termsEs: LegalDocument = {
       title: "15. Conservación, exportación y eliminación de datos",
       blocks: [
         `15.1 El Servicio elimina automáticamente las grabaciones, las transcripciones, los mensajes y contenidos similares una vez transcurrido el periodo de conservación de su plan. La <a href="/es/privacy/#retention">Política de privacidad</a> indica los periodos vigentes. El contenido eliminado no se puede recuperar.`,
-        `15.2 LobbyStack no es un servicio de copia de seguridad ni de archivo. Usted es responsable de exportar y conservar los registros que necesite, incluidos los registros que la ley le exige conservar.`,
+        `15.2 Palakarimpu AI no es un servicio de copia de seguridad ni de archivo. Usted es responsable de exportar y conservar los registros que necesite, incluidos los registros que la ley le exige conservar.`,
         `15.3 Una vez cerrada su cuenta, podemos eliminar los Datos del Cliente sin previo aviso adicional. Pueden quedar copias en las copias de seguridad hasta que estas caduquen según su ciclo normal, y podemos conservar los registros que necesitemos con fines legales, fiscales, de facturación, de seguridad o de resolución de controversias.`,
       ],
     },
@@ -218,9 +218,9 @@ export const termsEs: LegalDocument = {
       nav: "Código abierto",
       title: "17. Código abierto y marcas comerciales",
       blocks: [
-        `17.1 El código fuente de LobbyStack publicado en nuestro repositorio público está licenciado bajo la Licencia MIT. Esa licencia rige su uso, copia, modificación y distribución de dicho código. Estos Términos no limitan los derechos que le otorga dicha licencia.`,
+        `17.1 El código fuente de Palakarimpu AI publicado en nuestro repositorio público está licenciado bajo la Licencia MIT. Esa licencia rige su uso, copia, modificación y distribución de dicho código. Estos Términos no limitan los derechos que le otorga dicha licencia.`,
         `17.2 La Licencia MIT abarca únicamente el código. No le otorga ningún derecho sobre el Servicio alojado, nuestros servidores, cuentas, números de teléfono, acuerdos con proveedores o datos, ni ningún derecho a recibir soporte.`,
-        `17.3 El nombre, los logotipos y la marca LobbyStack son marcas comerciales nuestras. La Licencia MIT no otorga licencia sobre ellos. Usted no puede utilizarlos de una forma que sugiera que nosotros hemos creado, respaldamos o apoyamos su producto o servicio, incluida una copia modificada o alojada de LobbyStack, sin nuestro permiso por escrito. Usted puede hacer referencias exactas y objetivas a LobbyStack.`,
+        `17.3 El nombre, los logotipos y la marca Palakarimpu AI son marcas comerciales nuestras. La Licencia MIT no otorga licencia sobre ellos. Usted no puede utilizarlos de una forma que sugiera que nosotros hemos creado, respaldamos o apoyamos su producto o servicio, incluida una copia modificada o alojada de Palakarimpu AI, sin nuestro permiso por escrito. Usted puede hacer referencias exactas y objetivas a Palakarimpu AI.`,
       ],
     },
     {
@@ -228,7 +228,7 @@ export const termsEs: LegalDocument = {
       nav: "Autoalojamiento",
       title: "18. Implementaciones autoalojadas",
       blocks: [
-        `18.1 Si usted ejecuta LobbyStack en su propia infraestructura, lo hace conforme a la Licencia MIT, no conforme a estos Términos. No tenemos acceso a su implementación ni a sus datos, no tratamos esos datos y no somos responsables de ellos.`,
+        `18.1 Si usted ejecuta Palakarimpu AI en su propia infraestructura, lo hace conforme a la Licencia MIT, no conforme a estos Términos. No tenemos acceso a su implementación ni a sus datos, no tratamos esos datos y no somos responsables de ellos.`,
         `18.2 Usted es responsable de sus servidores, la seguridad, las copias de seguridad, las actualizaciones, las cuentas con proveedores, los números de teléfono, los registros ante los operadores, los avisos, los consentimientos y el cumplimiento legal. Su uso de OpenAI, Twilio y otros proveedores es un asunto entre usted y ellos.`,
         `18.3 No ofrecemos soporte, garantía ni compromiso de servicio para las implementaciones autoalojadas, salvo que aceptemos uno mediante un documento escrito y firmado.`,
       ],
@@ -238,7 +238,7 @@ export const termsEs: LegalDocument = {
       nav: "Propiedad intelectual",
       title: "19. Propiedad intelectual",
       blocks: [
-        `19.1 Salvo los Datos del Cliente y el código abierto descrito en la sección 17, LobbyStack y sus licenciantes son titulares de todos los derechos sobre el Servicio, nuestros sitios web, la documentación, los diseños, los prompts, las plantillas y la marca. Estos Términos solo le otorgan los derechos que en ellos se indican.`,
+        `19.1 Salvo los Datos del Cliente y el código abierto descrito en la sección 17, Palakarimpu AI y sus licenciantes son titulares de todos los derechos sobre el Servicio, nuestros sitios web, la documentación, los diseños, los prompts, las plantillas y la marca. Estos Términos solo le otorgan los derechos que en ellos se indican.`,
         `19.2 Usted no puede copiar, modificar ni crear obras derivadas del Servicio alojado, ni aplicarle ingeniería inversa o descompilarlo, salvo en la medida en que la Licencia MIT lo permita para nuestro código publicado o en que la ley lo permita a pesar de esta restricción.`,
       ],
     },
@@ -286,7 +286,7 @@ export const termsEs: LegalDocument = {
       nav: "Exenciones",
       title: "24. Exenciones de garantía",
       blocks: [
-        `<strong>24.1 En la máxima medida permitida por la ley, el Servicio se proporciona “tal cual” y “según disponibilidad”. LobbyStack excluye todas las garantías y condiciones, ya sean expresas, implícitas o legales, incluidas las de comerciabilidad, idoneidad para un fin determinado, titularidad, no infracción y calidad.</strong>`,
+        `<strong>24.1 En la máxima medida permitida por la ley, el Servicio se proporciona “tal cual” y “según disponibilidad”. Palakarimpu AI excluye todas las garantías y condiciones, ya sean expresas, implícitas o legales, incluidas las de comerciabilidad, idoneidad para un fin determinado, titularidad, no infracción y calidad.</strong>`,
         `24.2 Sin limitar la sección 24.1, no garantizamos que los Resultados de IA sean exactos o adecuados, que todas las llamadas se respondan, gestionen, graben o transfieran correctamente, que los mensajes de texto se entreguen, que las reservas coincidan con su calendario ni que el Servicio produzca ningún resultado comercial.`,
       ],
     },
@@ -295,8 +295,8 @@ export const termsEs: LegalDocument = {
       nav: "Responsabilidad",
       title: "25. Limitación de responsabilidad",
       blocks: [
-        `<strong>25.1 En la máxima medida permitida por la ley, ni LobbyStack ni sus afiliadas, directivos, administradores, empleados, contratistas o proveedores serán responsables de ningún daño indirecto, incidental, especial, consecuente, ejemplar o punitivo, ni de ninguna pérdida de beneficios, ingresos, negocio, clientes, fondo de comercio o datos, ni del costo de servicios sustitutivos. Esto incluye las pérdidas derivadas de llamadas perdidas, cortadas, mal enrutadas o mal gestionadas, respuestas incorrectas, reservas incorrectas o no realizadas y mensajes de texto no entregados.</strong>`,
-        `<strong>25.2 En la máxima medida permitida por la ley, la responsabilidad total de LobbyStack por todas las reclamaciones relacionadas con estos Términos o con el Servicio se limita al mayor de los siguientes importes: (a) los importes que usted pagó a LobbyStack por el Servicio en los 12 meses anteriores al hecho que dio lugar a la reclamación y (b) CAD $100.</strong>`,
+        `<strong>25.1 En la máxima medida permitida por la ley, ni Palakarimpu AI ni sus afiliadas, directivos, administradores, empleados, contratistas o proveedores serán responsables de ningún daño indirecto, incidental, especial, consecuente, ejemplar o punitivo, ni de ninguna pérdida de beneficios, ingresos, negocio, clientes, fondo de comercio o datos, ni del costo de servicios sustitutivos. Esto incluye las pérdidas derivadas de llamadas perdidas, cortadas, mal enrutadas o mal gestionadas, respuestas incorrectas, reservas incorrectas o no realizadas y mensajes de texto no entregados.</strong>`,
+        `<strong>25.2 En la máxima medida permitida por la ley, la responsabilidad total de Palakarimpu AI por todas las reclamaciones relacionadas con estos Términos o con el Servicio se limita al mayor de los siguientes importes: (a) los importes que usted pagó a Palakarimpu AI por el Servicio en los 12 meses anteriores al hecho que dio lugar a la reclamación y (b) CAD $100.</strong>`,
         `25.3 Estos límites se aplican a todo tipo de reclamación, ya sea contractual, de responsabilidad extracontractual, por ilícito civil, por negligencia o basada en cualquier otro fundamento, aunque se nos haya advertido de la posibilidad de la pérdida y aunque un recurso no cumpla su finalidad esencial.`,
         `25.4 Nada de lo dispuesto en estos Términos limita la responsabilidad que la ley no permite limitar a una parte, como la responsabilidad por dolo o culpa grave, o por daños corporales o morales causados a una persona.`,
       ],
@@ -306,7 +306,7 @@ export const termsEs: LegalDocument = {
       nav: "Indemnización",
       title: "26. Indemnización",
       blocks: [
-        `26.1 Usted defenderá a LobbyStack y a sus afiliadas, directivos, administradores, empleados y contratistas frente a cualquier reclamación, investigación o procedimiento de terceros, y pagará los daños, multas, sanciones, acuerdos transaccionales y honorarios legales razonables resultantes, en la medida en que se deriven de:`,
+        `26.1 Usted defenderá a Palakarimpu AI y a sus afiliadas, directivos, administradores, empleados y contratistas frente a cualquier reclamación, investigación o procedimiento de terceros, y pagará los daños, multas, sanciones, acuerdos transaccionales y honorarios legales razonables resultantes, en la medida en que se deriven de:`,
         {
           ul: [
             `los Datos del Cliente, o la información, las instrucciones y la configuración de su negocio;`,
@@ -361,7 +361,7 @@ export const termsEs: LegalDocument = {
       nav: "Disposiciones generales",
       title: "31. Disposiciones generales",
       blocks: [
-        `31.1 <strong>Acuerdo íntegro.</strong> Estos Términos, la Política de privacidad, cualquier Pedido y los documentos a los que hacen referencia constituyen el acuerdo íntegro entre usted y LobbyStack en relación con el Servicio. Sustituyen cualquier acuerdo anterior sobre esa materia. Los términos de sus órdenes de compra u otros documentos no se aplican.`,
+        `31.1 <strong>Acuerdo íntegro.</strong> Estos Términos, la Política de privacidad, cualquier Pedido y los documentos a los que hacen referencia constituyen el acuerdo íntegro entre usted y Palakarimpu AI en relación con el Servicio. Sustituyen cualquier acuerdo anterior sobre esa materia. Los términos de sus órdenes de compra u otros documentos no se aplican.`,
         `31.2 <strong>Cesión.</strong> Usted no puede ceder ni transferir estos Términos sin nuestro consentimiento por escrito. Nosotros podemos cederlos a una afiliada o a un sucesor en el marco de una fusión, adquisición, reorganización o venta de activos.`,
         `31.3 <strong>Divisibilidad y renuncia.</strong> Si un tribunal determina que una parte de estos Términos no es exigible, esa parte se aplicará en la medida de lo posible y el resto seguirá en vigor. No ejercer un derecho no constituye una renuncia a él.`,
         `31.4 <strong>Relación entre las partes.</strong> Las partes son contratistas independientes. Estos Términos no crean ninguna relación de sociedad, empresa conjunta, empleo o mandato, ni ningún tercero beneficiario.`,

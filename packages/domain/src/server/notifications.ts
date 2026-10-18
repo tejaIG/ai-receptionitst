@@ -34,7 +34,7 @@ export async function rescheduleAppointmentReminderInTransaction(
 export type NotificationDelivery = {
   notificationId: string;
   businessId: string;
-  channel: "sms" | "email";
+  channel: "sms" | "email" | "whatsapp";
   // Notification kind and related (appointment) id are carried through so the
   // worker can attribute a provider delivery failure without re-reading the row.
   kind: string;
@@ -43,6 +43,8 @@ export type NotificationDelivery = {
   from?: string;
   subject: string;
   body: string;
+  /** WhatsApp only: the values for the approved confirmation template's {{1}}, {{2}} and {{3}}. */
+  contentVariables?: Record<string, string>;
 };
 
 export type NotificationDeliveryResolution =
@@ -93,9 +95,19 @@ export const SMS_OPT_OUT_FOOTER: Record<InterfaceLocale, string> = {
   sr: "Mogu se naplatiti poruke i prenos podataka. Odgovorite STOP za odjavu ili HELP za informacije.",
 };
 
+/**
+ * The WhatsApp confirmation sent next to the SMS one when a business turns it
+ * on. It needs its own kind: notifications are unique per business, kind and
+ * appointment, so it can't share "booking_confirmation" with the SMS row.
+ */
+export const WHATSAPP_BOOKING_CONFIRMATION = "booking_confirmation_whatsapp";
+
+/** Twilio's WhatsApp senders and recipients are E.164 numbers behind a "whatsapp:" prefix. */
+const WHATSAPP_RECIPIENT = /^\+[1-9]\d{6,14}$/;
+
 export function buildAppointmentNotification(input: {
   kind: string;
-  channel: "sms" | "email";
+  channel: "sms" | "email" | "whatsapp";
   locale: InterfaceLocale;
   businessName: string;
   serviceName: string;
@@ -104,8 +116,18 @@ export function buildAppointmentNotification(input: {
 }): { subject: string; body: string } {
   const message = appointmentMessage(input);
   // Every customer text ends with the opt-out line, whether it comes from the
-  // shared sender or a self-hosted business's own number. Emails don't.
+  // shared sender or a self-hosted business's own number. Emails and WhatsApp
+  // messages don't: STOP and HELP are carrier SMS keywords.
   return input.channel === "sms" ? { ...message, body: `${message.body} ${SMS_OPT_OUT_FOOTER[input.locale]}` } : message;
+}
+
+/**
+ * The values for the approved WhatsApp confirmation template, in the order its
+ * placeholders appear: business name, service, then the date and time.
+ */
+export function appointmentTemplateVariables(input: { locale: InterfaceLocale; businessName: string; serviceName: string; startsAt: Date; timezone: string }): Record<string, string> {
+  const date = DateTime.fromJSDate(input.startsAt).setZone(input.timezone).setLocale(intlLocale(input.locale)).toLocaleString(DateTime.DATETIME_MED);
+  return { "1": input.businessName, "2": input.serviceName, "3": date };
 }
 
 function appointmentMessage(input: { kind: string; locale: InterfaceLocale; businessName: string; serviceName: string; startsAt: Date; timezone: string }): { subject: string; body: string } {
@@ -169,14 +191,25 @@ export function appointmentNotificationSkipReason(row: {
   senderPhone: string | null;
   contactPhone: string | null;
   contactEmail: string | null;
-}): "appointment_status" | "channel" | "sms_consent" | "sms_blocked" | "sms_unreachable" | "no_email" | null {
+  /** Whether the business has turned WhatsApp confirmations on. Only a WhatsApp row reads it. */
+  whatsappEnabled?: boolean | undefined;
+}): "appointment_status" | "channel" | "sms_consent" | "sms_blocked" | "sms_unreachable" | "no_email" | "whatsapp_disabled" | "whatsapp_unreachable" | null {
   const cancelled = row.appointmentStatus === "canceled";
   if (cancelled !== (row.kind === CANCELLATION_CONFIRMATION)) return "appointment_status";
-  if (row.channel !== "sms" && row.channel !== "email") return "channel";
+  if (row.channel !== "sms" && row.channel !== "email" && row.channel !== "whatsapp") return "channel";
   if (row.channel === "sms") {
     if (row.smsConsentStatus !== "subscribed") return "sms_consent";
     if (row.operatorBlockedAt !== null) return "sms_blocked";
     if (!canTextNumber(row.senderPhone, row.contactPhone)) return "sms_unreachable";
+  }
+  if (row.channel === "whatsapp") {
+    // The operator can turn WhatsApp off after the row was queued.
+    if (!row.whatsappEnabled) return "whatsapp_disabled";
+    // The caller's agreement to confirmation texts also covers WhatsApp: the
+    // receptionist asks once, and a customer who texted STOP stays out.
+    if (row.smsConsentStatus !== "subscribed") return "sms_consent";
+    if (row.operatorBlockedAt !== null) return "sms_blocked";
+    if (!row.contactPhone || !WHATSAPP_RECIPIENT.test(row.contactPhone)) return "whatsapp_unreachable";
   }
   if (row.channel === "email" && !row.contactEmail) return "no_email";
   return null;
@@ -198,6 +231,7 @@ export async function resolveNotificationDelivery(
       timezone: appointments.timezone,
       businessName: businesses.name,
       defaultLocale: businesses.defaultLocale,
+      whatsappEnabled: businesses.whatsappConfirmationsEnabled,
       serviceName: services.name,
       contactPhone: contacts.phone,
       contactEmail: contacts.email,
@@ -223,13 +257,14 @@ export async function resolveNotificationDelivery(
     // Customer texts go out from the number that sends operator alerts.
     const senderPhone = row.channel === "sms" ? await resolveSmsSender(tx, input.businessId) : null;
     // The channel check repeats one in the skip reason so TypeScript narrows row.channel.
-    if (!row.relatedId || appointmentNotificationSkipReason({ ...row, senderPhone }) !== null || (row.channel !== "sms" && row.channel !== "email")) {
+    if (!row.relatedId || appointmentNotificationSkipReason({ ...row, senderPhone }) !== null || (row.channel !== "sms" && row.channel !== "email" && row.channel !== "whatsapp")) {
       return { kind: "skipped", notificationId: row.notificationId };
     }
+    const locale = localeFor(row.contactLocale ?? row.defaultLocale);
     const message = buildAppointmentNotification({
       kind: row.kind,
       channel: row.channel,
-      locale: localeFor(row.contactLocale ?? row.defaultLocale),
+      locale,
       businessName: row.businessName,
       serviceName: row.serviceName,
       startsAt: row.startsAt,
@@ -243,10 +278,11 @@ export async function resolveNotificationDelivery(
         channel: row.channel,
         kind: row.kind,
         relatedId: row.relatedId,
-        to: row.channel === "sms" ? row.contactPhone! : row.contactEmail!,
+        to: row.channel === "email" ? row.contactEmail! : row.contactPhone!,
         ...(row.channel === "sms" && senderPhone ? { from: senderPhone } : {}),
         subject: message.subject,
         body: message.body,
+        ...(row.channel === "whatsapp" ? { contentVariables: appointmentTemplateVariables({ locale, businessName: row.businessName, serviceName: row.serviceName, startsAt: row.startsAt, timezone: row.timezone }) } : {}),
       },
     };
   });

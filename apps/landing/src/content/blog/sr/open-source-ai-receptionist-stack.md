@@ -1,8 +1,8 @@
 ---
 title: "Open-source sistem za AI recepcionera"
-description: "LobbyStack je open-source sistem za AI recepcionera: pozivi, zakazivanje, transkripti, kontrolne table, naplata, samostalno hostovanje i postavljanje za klijente."
+description: "Palakarimpu AI je open-source sistem za AI recepcionera: pozivi, zakazivanje, transkripti, kontrolne table, naplata, samostalno hostovanje i postavljanje za klijente."
 pubDate: 2026-06-18T10:00:00-04:00
-author: "LobbyStack tim"
+author: "Palakarimpu AI tim"
 category: "Vodiči"
 featured: false
 coverImage: "/illustrations/open-source-ai-receptionist-stack-hero.webp"
@@ -14,7 +14,7 @@ Open-source sistemu za AI recepcionera treba više od glasovnog agenta. Potrebni
 
 To je deo koji mnogi timovi na kraju prave iznova.
 
-[LobbyStack](https://lobbystack.com/) je **open-source sistem za AI recepcionera** za timove koji žele da taj sloj proizvoda već postoji. Koristite hostovanu verziju u oblaku kada želite da ga neko drugi održava ili ga samostalno hostujte uz Docker kada želite infrastrukturu pod svojom kontrolom.
+[Palakarimpu AI](https://lobbystack.com/) je **open-source sistem za AI recepcionera** za timove koji žele da taj sloj proizvoda već postoji. Koristite hostovanu verziju u oblaku kada želite da ga neko drugi održava ili ga samostalno hostujte uz Docker kada želite infrastrukturu pod svojom kontrolom.
 
 ## Sistem koji ljudi stalno prave iznova
 
@@ -35,9 +35,9 @@ Klinika želi drugačija pravila zakazivanja od estetskog centra. Firmi za kućn
 
 U tom trenutku glasovni agent je samo jedan deo. I dalje Vam treba operativni sistem oko poziva.
 
-## Šta uključuje LobbyStack platforma
+## Šta uključuje Palakarimpu AI platforma
 
-[LobbyStack funkcije](/features/) daju Vam gotov sloj recepcije, umesto da ga sklapate od nule.
+[Palakarimpu AI funkcije](/features/) daju Vam gotov sloj recepcije, umesto da ga sklapate od nule.
 
 Obuhvata:
 
@@ -50,7 +50,7 @@ Obuhvata:
 - prikupljanje potencijalnih klijenata sa podacima pozivaoca i razlogom poziva
 - kontakte, termine, istoriju poziva, analitiku, potrošnju i naplatu
 
-Poenta nije da zamenite svaki alat koji već koristite. Twilio, kalendari, dobavljači e-pošte, alati za analitiku i dobavljači naplate i dalje su važni. LobbyStack Vam daje proizvod za recepciju koji stoji iznad njih.
+Poenta nije da zamenite svaki alat koji već koristite. Twilio, kalendari, dobavljači e-pošte, alati za analitiku i dobavljači naplate i dalje su važni. Palakarimpu AI Vam daje proizvod za recepciju koji stoji iznad njih.
 
 Umesto da pravite krhke lance tokova rada za osnovno ponašanje, na običnom jeziku opišete šta recepcioner treba da radi.
 
@@ -66,21 +66,21 @@ AI može da vodi razgovor, ali i dalje koristi alate za radnje kojima je potrebn
 
 ## Kako funkcioniše putanja poziva uživo
 
-LobbyStack koristi OpenAI Realtime za glasovni razgovor uživo i Twilio Voice sa Media Streams za telefonsku putanju.
+Palakarimpu AI koristi OpenAI Realtime za glasovni razgovor uživo i Twilio Voice sa Media Streams za telefonsku putanju.
 
 Glasovni gateway ima uzak zadatak. Obrađuje poziv uživo, strimuje zvuk, upravlja realtime sesijom, izvršava alate tokom poziva, prikuplja transkripte i šalje snimke tamo gde treba.
 
 PostgreSQL je trajni izvor istine. Next.js aplikacija obrađuje saobraćaj operatera i API-ja, a worker obrađuje asinhrone poslove i transakcione outbox događaje.
 
-Ta podela je važna. Telefonski poziv traži malo kašnjenje, ali o poslovnoj radnji konačnu odluku mora da donese pozadinski sistem. LobbyStack na početku poziva učitava snimak poslovnog konteksta, a zatim poziva alate u pozadinskom sistemu kada AI treba da zakaže, preusmeri, sačuva poruku ili izmeni termin.
+Ta podela je važna. Telefonski poziv traži malo kašnjenje, ali o poslovnoj radnji konačnu odluku mora da donese pozadinski sistem. Palakarimpu AI na početku poziva učitava snimak poslovnog konteksta, a zatim poziva alate u pozadinskom sistemu kada AI treba da zakaže, preusmeri, sačuva poruku ili izmeni termin.
 
 Recepcioner može da zvuči prirodno u razgovoru, a da pritom ne improvizuje važne delove.
 
 ## Hostovani oblak ili samostalno hostovan Docker
 
-Neki timovi žele upravljani proizvod. Za njih je [LobbyStack Cloud](/pricing/). Napravite nalog, podesite firmu, povežite delove i počnite da testirate pozive bez održavanja infrastrukture.
+Neki timovi žele upravljani proizvod. Za njih je [Palakarimpu AI Cloud](/pricing/). Napravite nalog, podesite firmu, povežite delove i počnite da testirate pozive bez održavanja infrastrukture.
 
-Drugi timovi žele sistem na sopstvenoj infrastrukturi. LobbyStack podržava i to.
+Drugi timovi žele sistem na sopstvenoj infrastrukturi. Palakarimpu AI podržava i to.
 
 Putanja za [samostalno hostovanog AI recepcionera](/solutions/self-hosted-ai-receptionist/) koristi Docker Compose kao osnovu na jednom serveru. Dokumentovana postavka pokreće PostgreSQL, Redis, Next.js aplikaciju, pozadinski worker, glasovni gateway i Caddy koji usmerava saobraćaj ka njima. Vi postavljate HTTPS ispred Caddyja. Donosite naloge dobavljača koje želite da kontrolišete, uključujući Twilio, AI kompatibilan sa OpenAI-jem, Google Calendar, e-poštu, analitiku i pristupne podatke za naplatu.
 
@@ -101,13 +101,13 @@ Zarada je u razumevanju posla:
 - Koja pravila su važna za tu nišu?
 - Koje naloge kod dobavljača i koju infrastrukturu klijent treba da poseduje?
 
-LobbyStack Vam daje osnovu koju prilagođavate oko tih pitanja.
+Palakarimpu AI Vam daje osnovu koju prilagođavate oko tih pitanja.
 
 Možete ga koristiti za sopstvenu firmu, postaviti ga za klijenta ili koristiti hostovanu verziju u oblaku kada kontrola nad infrastrukturom nije glavna briga. Kada hostujete sami, možete koristiti sopstvene ključeve dobavljača i držati sistem unutar okruženja koje firma kontroliše.
 
-## Kada je LobbyStack dobar izbor
+## Kada je Palakarimpu AI dobar izbor
 
-LobbyStack je dobar izbor kada želite AI recepcionera koji radi više od pukog javljanja na poziv.
+Palakarimpu AI je dobar izbor kada želite AI recepcionera koji radi više od pukog javljanja na poziv.
 
 Posebno je koristan ako Vam trebaju:
 
@@ -124,11 +124,11 @@ To nije način da izbegnete održavanje. Telefonske sisteme i dalje treba testir
 
 To je način da preskočite mesece tehničke infrastrukture proizvoda pre nego što se posvetite poslovnim tokovima.
 
-Ako prvo upoređujete open-source opcije za odgovaranje na pozive, pogledajte vodič za [najbolje open-source AI servise za odgovaranje na pozive](/sr/blog/best-open-source-ai-phone-answering-services/). Agencijama koje postavljaju sistem za klijente može biti zanimljiv i [LobbyStack partnerski program](/sr/blog/ai-receptionist-affiliate-program/). Za dizajn tokova rada, pogledajte [tokovi rada AI recepcionera bez dijagrama toka](/sr/blog/ai-receptionist-workflows/).
+Ako prvo upoređujete open-source opcije za odgovaranje na pozive, pogledajte vodič za [najbolje open-source AI servise za odgovaranje na pozive](/sr/blog/best-open-source-ai-phone-answering-services/). Agencijama koje postavljaju sistem za klijente može biti zanimljiv i [Palakarimpu AI partnerski program](/sr/blog/ai-receptionist-affiliate-program/). Za dizajn tokova rada, pogledajte [tokovi rada AI recepcionera bez dijagrama toka](/sr/blog/ai-receptionist-workflows/).
 
 ## Isprobajte ga ili ga hostujte sami
 
-Počnite sa [LobbyStack Cloud](https://lobbystack.com/) ako želite da isprobate proizvod bez upravljanja infrastrukturom.
+Počnite sa [Palakarimpu AI Cloud](https://lobbystack.com/) ako želite da isprobate proizvod bez upravljanja infrastrukturom.
 
 Koristite [pregled samostalnog hostovanja](https://docs.lobbystack.com/self-hosting/overview) i [Docker Compose vodič](https://docs.lobbystack.com/self-hosting/docker-compose) ako želite da sistem pokrećete sami.
 

@@ -7,7 +7,7 @@ canonicalSlug: "gpt-live-calls"
 category: "Product"
 ---
 
-Phone calls to your LobbyStack number, test calls from your dashboard, and the voice button in your website widget now run on GPT-Live, the voice model OpenAI built for ChatGPT Voice. Your receptionist listens while it speaks, stops when a caller cuts in, and keeps talking while it checks your calendar or takes a message. [Read how we made the switch](/blog/ai-voice-agent-gpt-live/).
+Phone calls to your Palakarimpu AI number, test calls from your dashboard, and the voice button in your website widget now run on GPT-Live, the voice model OpenAI built for ChatGPT Voice. Your receptionist listens while it speaks, stops when a caller cuts in, and keeps talking while it checks your calendar or takes a message. [Read how we made the switch](/blog/ai-voice-agent-gpt-live/).
 
 Website chat now uses the same agent as your calls. A visitor can ask for an opening, book it, or leave a message for your team, and they get the same answers a caller would.
 

@@ -1,6 +1,6 @@
 # ADR 0003: use a separate voice gateway
 
-LobbyStack isolates latency-sensitive voice transport from the dashboard and durable backend.
+Palakarimpu AI isolates latency-sensitive voice transport from the dashboard and durable backend.
 
 ## Status
 

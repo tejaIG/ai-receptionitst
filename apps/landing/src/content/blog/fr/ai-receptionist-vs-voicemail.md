@@ -4,7 +4,7 @@ seoTitle: "Réceptionniste IA ou messagerie vocale"
 description: "Comparez réceptionniste IA et messagerie vocale : expérience, prospects, réservation, coût, couverture hors horaires et cas où la messagerie suffit."
 pubDate: 2026-07-30T09:40:00-04:00
 updatedDate: 2026-07-30T09:40:00-04:00
-author: "Équipe LobbyStack"
+author: "Équipe Palakarimpu AI"
 category: "Comparaisons"
 featured: false
 coverImage: "/illustrations/ai-receptionist-vs-voicemail-hero.webp"
@@ -103,9 +103,9 @@ Certaines personnes veulent seulement transmettre une note. L'IA doit accepter, 
 
 Testez la cadence, les interruptions et l'accès direct à une personne avec de vrais clients. Évitez les suppositions fondées sur l'âge.
 
-## Comment LobbyStack traite les appels manqués
+## Comment Palakarimpu AI traite les appels manqués
 
-[LobbyStack](/fr/features/) peut répondre à tous les appels, aux appels hors horaires ou seulement aux appels manqués. Il utilise les connaissances, collecte les données, réserve, transfère et envoie des résumés.
+[Palakarimpu AI](/fr/features/) peut répondre à tous les appels, aux appels hors horaires ou seulement aux appels manqués. Il utilise les connaissances, collecte les données, réserve, transfère et envoie des résumés.
 
 Les entreprises utilisent le cloud géré ou [auto-hébergent la pile ouverte](https://github.com/lobbystack/lobbystack).
 
@@ -113,4 +113,4 @@ Les entreprises utilisent le cloud géré ou [auto-hébergent la pile ouverte](h
 
 Gardez la messagerie quand une réponse tardive crée peu de risque. Utilisez l'IA quand le client a besoin d'une réponse, d'une réservation, d'une qualification ou d'un transfert pendant l'appel.
 
-Commencez par les appels manqués et hors horaires. Suivez messages, réservations, transferts, erreurs et rappels pendant un mois. Vous pouvez [tester LobbyStack sur le forfait gratuit](/fr/pricing/) avant de changer toutes vos routes.
+Commencez par les appels manqués et hors horaires. Suivez messages, réservations, transferts, erreurs et rappels pendant un mois. Vous pouvez [tester Palakarimpu AI sur le forfait gratuit](/fr/pricing/) avant de changer toutes vos routes.

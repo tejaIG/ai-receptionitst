@@ -15,8 +15,8 @@ The product advertises qualification, scheduling, routing, FAQs, data collection
 
 ## Fair comparison
 
-Moneypenny has a strong managed-service and human-escalation offer. LobbyStack has lower-cost usage tiers, public code, and self-hosting. Buyers should decide whether managed human backup or infrastructure control carries more value for their calls.
+Moneypenny has a strong managed-service and human-escalation offer. Palakarimpu AI has lower-cost usage tiers, public code, and self-hosting. Buyers should decide whether managed human backup or infrastructure control carries more value for their calls.
 
 ## Claims to avoid
 
-Do not compare Moneypenny's per-call plans with LobbyStack's minutes without an example call mix.
+Do not compare Moneypenny's per-call plans with Palakarimpu AI's minutes without an example call mix.

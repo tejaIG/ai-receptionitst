@@ -7,7 +7,7 @@ canonicalSlug: "answering-rules"
 category: "Produit"
 ---
 
-Vous pouvez maintenant garder des consignes plus claires pour la façon dont LobbyStack répond, qualifie et transfère les appels. Le nouvel éditeur met l'accent sur les comportements concrets au téléphone, afin que les propriétaires puissent vérifier les priorités du réceptionniste sans fouiller dans les détails de configuration.
+Vous pouvez maintenant garder des consignes plus claires pour la façon dont Palakarimpu AI répond, qualifie et transfère les appels. Le nouvel éditeur met l'accent sur les comportements concrets au téléphone, afin que les propriétaires puissent vérifier les priorités du réceptionniste sans fouiller dans les détails de configuration.
 
 L'objectif est simple : rendre l'assistant plus facile à ajuster quand votre entreprise change. Vous pouvez modifier l'accueil, la gestion des demandes urgentes, l'explication des services ou les moments où une personne doit intervenir.
 

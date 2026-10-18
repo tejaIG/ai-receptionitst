@@ -45,6 +45,11 @@ function isEmergencyAddressReleaseError(error: unknown): boolean {
   return message.includes("emergency address") && (message.includes("remove") || message.includes("delete") || message.includes("release"));
 }
 
+/** Twilio addresses WhatsApp senders and recipients as "whatsapp:+E164". */
+function whatsAppAddress(value: string): string {
+  return value.startsWith("whatsapp:") ? value : `whatsapp:${value}`;
+}
+
 function finiteNumber(value: string | null | undefined): number | undefined {
   if (value === null || value === undefined || value.trim() === "") return undefined;
   const parsed = Number.parseFloat(value);
@@ -76,6 +81,23 @@ export class TwilioProvider {
   async sendSms(input: { to: string; from: string; body: string; statusCallback?: string }): Promise<{ providerMessageId: string }> {
     assertCertificationRecipient("phone", input.to);
     const message = await this.client.messages.create({ to: input.to, from: input.from, body: input.body, ...(input.statusCallback ? { statusCallback: input.statusCallback } : {}) });
+    return { providerMessageId: message.sid };
+  }
+
+  /**
+   * Sends a WhatsApp message through Twilio. A business-started message outside the
+   * 24-hour window must use an approved template, so pass contentSid and its
+   * variables; without them Twilio sends the plain body, which works in the sandbox
+   * and inside a window the customer opened.
+   */
+  async sendWhatsApp(input: { to: string; from: string; body: string; contentSid?: string; contentVariables?: Record<string, string>; statusCallback?: string }): Promise<{ providerMessageId: string }> {
+    assertCertificationRecipient("phone", input.to);
+    const message = await this.client.messages.create({
+      to: whatsAppAddress(input.to),
+      from: whatsAppAddress(input.from),
+      ...(input.contentSid ? { contentSid: input.contentSid, ...(input.contentVariables ? { contentVariables: JSON.stringify(input.contentVariables) } : {}) } : { body: input.body }),
+      ...(input.statusCallback ? { statusCallback: input.statusCallback } : {}),
+    });
     return { providerMessageId: message.sid };
   }
 

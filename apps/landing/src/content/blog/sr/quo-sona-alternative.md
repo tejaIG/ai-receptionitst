@@ -1,10 +1,10 @@
 ---
 title: "Alternativa za Quo Sona za AI javljanje na pozive"
-seoTitle: "Alternativa za Quo Sona: LobbyStack ili Sona"
-description: "Uporedite Quo Sona i LobbyStack: cene po kreditu za poziv, zahtevi za telefonski sistem, beleženje poruka, zakazivanje, izvorni kod i samostalno hostovanje."
+seoTitle: "Alternativa za Quo Sona: Palakarimpu AI ili Sona"
+description: "Uporedite Quo Sona i Palakarimpu AI: cene po kreditu za poziv, zahtevi za telefonski sistem, beleženje poruka, zakazivanje, izvorni kod i samostalno hostovanje."
 pubDate: 2026-07-30T10:20:00-04:00
 updatedDate: 2026-07-30T10:20:00-04:00
-author: "LobbyStack tim"
+author: "Palakarimpu AI tim"
 category: "Poređenja"
 featured: false
 coverImage: "/illustrations/quo-sona-alternative-hero.webp"
@@ -13,13 +13,13 @@ locale: "sr"
 canonicalSlug: "quo-sona-alternative"
 ---
 
-**Alternativa za Quo Sona** može da odgovara na pozive, zakazuje termine i preusmerava pozive bez plaćenog Quo telefonskog paketa. LobbyStack uključuje 30 besplatnih minuta razgovora i 150 minuta za $30. Sona nudi oko 10 besplatnih poziva, a zatim naplaćuje $25 za 40 kredita za pozive, povrh Quo pretplate.
+**Alternativa za Quo Sona** može da odgovara na pozive, zakazuje termine i preusmerava pozive bez plaćenog Quo telefonskog paketa. Palakarimpu AI uključuje 30 besplatnih minuta razgovora i 150 minuta za $30. Sona nudi oko 10 besplatnih poziva, a zatim naplaćuje $25 za 40 kredita za pozive, povrh Quo pretplate.
 
-Sona se fokusira na javljanje, prikupljanje potencijalnih klijenata, poruke i rezimee unutar Quo. LobbyStack dodaje stvarno zakazivanje termina, prebacivanje na čoveka, SMS obaveštenja, potpunu evidenciju poziva, javni izvorni kod i upravljanu ili samostalno hostovanu primenu.
+Sona se fokusira na javljanje, prikupljanje potencijalnih klijenata, poruke i rezimee unutar Quo. Palakarimpu AI dodaje stvarno zakazivanje termina, prebacivanje na čoveka, SMS obaveštenja, potpunu evidenciju poziva, javni izvorni kod i upravljanu ili samostalno hostovanu primenu.
 
-## Sona ili LobbyStack
+## Sona ili Palakarimpu AI
 
-| Oblast | Quo Sona | LobbyStack |
+| Oblast | Quo Sona | Palakarimpu AI |
 | --- | --- | --- |
 | Uključeno bez dodatka | Oko 10 poziva, ali je potreban plaćeni Quo | 30 minuta razgovora u pregledaču, bez kartice i broja telefona |
 | Plaćeni ulazni paket | $25 za 40 poziva | $30 za 150 minuta |
@@ -31,13 +31,13 @@ Sona se fokusira na javljanje, prikupljanje potencijalnih klijenata, poruke i re
 
 Cene i funkcije su proverene 30. jula 2026.
 
-## LobbyStack obavlja sledeći korak, a ne samo poruku
+## Palakarimpu AI obavlja sledeći korak, a ne samo poruku
 
-Pregledane Sona stranice ističu odgovaranje na pitanja i prikupljanje potencijalnih klijenata ili poruka. Ne navode direktno zakazivanje termina. LobbyStack može da proveri dostupnost, primeni pravila firme, zakaže ili izmeni termin, preusmeri hitnog pozivaoca i zabeleži ishod.
+Pregledane Sona stranice ističu odgovaranje na pitanja i prikupljanje potencijalnih klijenata ili poruka. Ne navode direktno zakazivanje termina. Palakarimpu AI može da proveri dostupnost, primeni pravila firme, zakaže ili izmeni termin, preusmeri hitnog pozivaoca i zabeleži ishod.
 
-LobbyStack radi i bez Quo pretplate. Paket Free daje firmi 30 minuta da testira te tokove rada. Starter donosi 150 minuta za $30, uz uključena SMS obaveštenja i 20 pokušaja preusmeravanja.
+Palakarimpu AI radi i bez Quo pretplate. Paket Free daje firmi 30 minuta da testira te tokove rada. Starter donosi 150 minuta za $30, uz uključena SMS obaveštenja i 20 pokušaja preusmeravanja.
 
-Sona odgovara timu koji već želi Quo i treba mu beleženje poruka u zajedničkom sandučetu. LobbyStack odgovara timu koji želi da recepcioner završi više posla i ostane prenosiv između telefonskih provajdera.
+Sona odgovara timu koji već želi Quo i treba mu beleženje poruka u zajedničkom sandučetu. Palakarimpu AI odgovara timu koji želi da recepcioner završi više posla i ostane prenosiv između telefonskih provajdera.
 
 ## Sona pripada Quo telefonskom okruženju
 
@@ -45,7 +45,7 @@ Quo objedinjuje zajedničke brojeve telefona, pozive, SMS poruke i timsku saradn
 
 Za tim koji već koristi Quo, takav položaj je koristan. Zaposleni vide AI rezultat pored poziva i poruka koje obrađuju ljudi, bez dodavanja posebne kontrolne table za recepciju.
 
-LobbyStack stoji izvan potpunog timskog telefonskog proizvoda. Fokusira se na ishod poziva: odgovara na osnovu odobrenih činjenica, prikuplja podatke, zakazuje ili menja termine, prebacuje poziv na čoveka, obaveštava osoblje i čuva transkript i rezime.
+Palakarimpu AI stoji izvan potpunog timskog telefonskog proizvoda. Fokusira se na ishod poziva: odgovara na osnovu odobrenih činjenica, prikuplja podatke, zakazuje ili menja termine, prebacuje poziv na čoveka, obaveštava osoblje i čuva transkript i rezime.
 
 ## Krediti za pozive se zaustavljaju ako ne izaberete prekoračenja
 
@@ -60,13 +60,13 @@ Objavljena prekoračenja kreću se od $1.00 do $0.45 po pozivu. Quo materijali z
 
 Takvo ponašanje kupcu daje čvrstu kontrolu potrošnje, ali može i da preusmeri pozive mimo AI na kraju napornog meseca. Testirajte rezervnu putanju i podesite obaveštenje pre nego što se paket potroši.
 
-LobbyStack meri minute i primenjuje prekoračenja prema paketu. Firma treba da uporedi ukupno trajanje poziva sa Sona brojem poziva.
+Palakarimpu AI meri minute i primenjuje prekoračenja prema paketu. Firma treba da uporedi ukupno trajanje poziva sa Sona brojem poziva.
 
 ## Zakazivanje treba proveriti uživo
 
 Pregledane zvanične Sona stranice ističu javljanje, znanje, prikupljanje potencijalnih klijenata, poruke i rezimee. Na tim stranicama ne navode direktno zakazivanje termina.
 
-LobbyStack uključuje zakazivanje u kalendaru i izmene termina kao osnovne tokove rada recepcionera. Može da koristi pravila firme za usluge, trajanje, dostupnost i prebacivanje na zaposlenog.
+Palakarimpu AI uključuje zakazivanje u kalendaru i izmene termina kao osnovne tokove rada recepcionera. Može da koristi pravila firme za usluge, trajanje, dostupnost i prebacivanje na zaposlenog.
 
 Integracija sa Quo ili novija verzija Sona mogu da donesu mogućnosti koje pregledane stranice ne navode. Pre odluke zatražite demonstraciju zakazivanja uživo. Test treba da uključi situaciju bez slobodnih termina, pomeranje termina, grešku u kalendaru i pozivaoca koji menja vrstu usluge.
 
@@ -76,7 +76,7 @@ Tim za nekretnine sa pet agenata koristi zajedničke Quo brojeve. Većina dolazn
 
 Sona može da odgovara jer beleženje poruka i integracija u tokove poziva rešavaju glavni posao unutar postojećeg telefonskog radnog prostora tima. Paket po pozivu ima smisla i kada razgovori traju duže.
 
-LobbyStack može da odgovara kada tim želi zakazivanje konsultacija, prikupljanje potencijalnih klijenata izvan Quo, nezavisnost od provajdera ili kontrolu nad podacima o pozivima kroz samostalno hostovanje. Dodaje još jedan proizvod u rad osoblja, a LobbyStack ne sinhronizuje zapise sa CRM sistemom.
+Palakarimpu AI može da odgovara kada tim želi zakazivanje konsultacija, prikupljanje potencijalnih klijenata izvan Quo, nezavisnost od provajdera ili kontrolu nad podacima o pozivima kroz samostalno hostovanje. Dodaje još jedan proizvod u rad osoblja, a Palakarimpu AI ne sinhronizuje zapise sa CRM sistemom.
 
 Postojeći telefonski sistem tima treba da ima veću težinu od male razlike u ceni AI.
 
@@ -86,25 +86,25 @@ Zatražite od Sona da usmeri pozivaoca prema kancelariji, jeziku i zaposlenom po
 
 Ako je zakazivanje termina važno, testirajte kalendar koji koristite umesto da se oslonite na opštu tvrdnju o zakazivanju. Potvrdite pravila trajanja, razmake između termina, pomeranje, otkazivanje i rezervnu putanju kada kalendar odbije zahtev.
 
-Pokrenite isti scenario sa LobbyStack. Uporedite posao oko podešavanja i evidenciju koja ostaje osoblju. Sona drži posao unutar Quo. LobbyStack radi bez Quo i može da radi na infrastrukturi koju kontrolišete.
+Pokrenite isti scenario sa Palakarimpu AI. Uporedite posao oko podešavanja i evidenciju koja ostaje osoblju. Sona drži posao unutar Quo. Palakarimpu AI radi bez Quo i može da radi na infrastrukturi koju kontrolišete.
 
 ## Izaberite Sona ako
 
 Izaberite Sona ako već koristite Quo i treba Vam javljanje, prikupljanje potencijalnih klijenata i rezimei u istom zajedničkom telefonskom radnom prostoru. Model dodatka drži administraciju na jednom mestu.
 
-## Izaberite LobbyStack ako
+## Izaberite Palakarimpu AI ako
 
-Izaberite LobbyStack za direktno zakazivanje, prebacivanje na zaposlenog, javni izvorni kod ili samostalno hostovanje. Glasovne razgovore možete da testirate u pregledaču na paketu Free, bez Quo paketa.
+Izaberite Palakarimpu AI za direktno zakazivanje, prebacivanje na zaposlenog, javni izvorni kod ili samostalno hostovanje. Glasovne razgovore možete da testirate u pregledaču na paketu Free, bez Quo paketa.
 
 ## Izvori
 
 - [Quo Sona proizvod](https://www.quo.com/sona)
 - [Quo Sona cene i ponašanje kredita](https://support.quo.com/core-concepts/ai-automations/sona/sona-pricing)
-- [LobbyStack funkcije](/sr/features/)
-- [LobbyStack cene](/sr/pricing/)
+- [Palakarimpu AI funkcije](/sr/features/)
+- [Palakarimpu AI cene](/sr/pricing/)
 
 ## Zaključak
 
-LobbyStack nudi potpunijeg i prenosivijeg recepcionera. Sona ostaje praktičan dodatak za primanje poruka za timove koji su se opredelili za Quo, ali donosi još jedan trošak i drži tok rada unutar tog telefonskog sistema.
+Palakarimpu AI nudi potpunijeg i prenosivijeg recepcionera. Sona ostaje praktičan dodatak za primanje poruka za timove koji su se opredelili za Quo, ali donosi još jedan trošak i drži tok rada unutar tog telefonskog sistema.
 
-[Počnite sa LobbyStack besplatno](/sr/pricing/) i testirajte glasovne razgovore u pregledaču pre nego što izaberete plaćeni paket.
+[Počnite sa Palakarimpu AI besplatno](/sr/pricing/) i testirajte glasovne razgovore u pregledaču pre nego što izaberete plaćeni paket.

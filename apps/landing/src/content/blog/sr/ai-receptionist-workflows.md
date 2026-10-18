@@ -2,7 +2,7 @@
 title: "Tokovi rada AI recepcionera bez dijagrama toka"
 description: "Tokovi rada AI recepcionera se kvare kada je ponašanje rasuto po promptovima, webhookovima i granama. Koristite pravila na običnom jeziku i pouzdane alate."
 pubDate: 2026-06-18T09:00:00-04:00
-author: "LobbyStack tim"
+author: "Palakarimpu AI tim"
 category: "Vodiči"
 featured: false
 coverImage: "/illustrations/ai-receptionist-workflows-hero.webp"
@@ -124,7 +124,7 @@ vremenom za povratni poziv, imenom i najboljim brojem telefona. Ako zahtev
 zvuči hitno, navedi to na početku poruke.
 ```
 
-Recepcioner može da pretvori reči pozivaoca u poruku spremnu za osoblje. LobbyStack čuva razlog, vreme za povratni poziv i hitnost uz transkript i obaveštava vlasnika.
+Recepcioner može da pretvori reči pozivaoca u poruku spremnu za osoblje. Palakarimpu AI čuva razlog, vreme za povratni poziv i hitnost uz transkript i obaveštava vlasnika.
 
 ### Predaja poziva
 
@@ -141,28 +141,28 @@ predaje i reci pozivaocu kada će se tim javiti.
 
 Firma dobija bezbedniju predaju poziva jer AI ima pravilo, glasovni sloj izvršava preusmeravanje, a pozadinski sistem beleži ishod.
 
-## LobbyStack zamenjuje lanac toka rada za recepciju
+## Palakarimpu AI zamenjuje lanac toka rada za recepciju
 
 Alati za tokove rada mogu da obavljaju poslovne automatizacije van poziva. Kao recepcioner uživo nisu dobri.
 
 Ako Vaš AI recepcioner zavisi od lanca grana da bi odlučio šta da kaže, kada da zakaže, kada da preusmeri, kako da se oporavi od neuspelog poziva alata i kako da zabeleži ishod poziva, tražite od alata za tokove rada da se ponaša kao telefonski proizvod.
 
-LobbyStack zamenjuje taj sloj. On upravlja ponašanjem tokom poziva uživo, stanjem poziva, rezultatima alata, kontekstom transkripta, razlogom predaje i konačnim ishodom.
+Palakarimpu AI zamenjuje taj sloj. On upravlja ponašanjem tokom poziva uživo, stanjem poziva, rezultatima alata, kontekstom transkripta, razlogom predaje i konačnim ishodom.
 
-I dalje možete koristiti n8n, Zapier ili Make za automatizacije van poziva. LobbyStack se ne povezuje sa njima i ne šalje odlazne webhookove, pa oni ostaju van poziva uživo. AI recepcioner treba tokom poziva da odluči koji je sledeći odgovoran korak, a zatim da zabeleži jasan ishod kome osoblje može da veruje.
+I dalje možete koristiti n8n, Zapier ili Make za automatizacije van poziva. Palakarimpu AI se ne povezuje sa njima i ne šalje odlazne webhookove, pa oni ostaju van poziva uživo. AI recepcioner treba tokom poziva da odluči koji je sledeći odgovoran korak, a zatim da zabeleži jasan ishod kome osoblje može da veruje.
 
-## Gde se LobbyStack uklapa
+## Gde se Palakarimpu AI uklapa
 
-[LobbyStack](/sr/blog/open-source-ai-receptionist-stack/) je open-source platforma za AI recepcionera. Daje Vam sloj proizvoda za recepciju: pozive, zakazivanje, transkripte, snimke, rezimee poziva, poruke, obaveštenja za vlasnika, predaju poziva, pregled na kontrolnoj tabli, potrošnju i naplatu.
+[Palakarimpu AI](/sr/blog/open-source-ai-receptionist-stack/) je open-source platforma za AI recepcionera. Daje Vam sloj proizvoda za recepciju: pozive, zakazivanje, transkripte, snimke, rezimee poziva, poruke, obaveštenja za vlasnika, predaju poziva, pregled na kontrolnoj tabli, potrošnju i naplatu.
 
 Možete koristiti hostovanu verziju u oblaku kada je brzina važna ili ga [samostalno hostovati uz Docker](/solutions/self-hosted-ai-receptionist/) kada želite sistem na svojoj infrastrukturi ili na serverima klijenta.
 
-Model ponašanja ostaje čitljiv. Na običnom jeziku opišete šta recepcioner treba da radi. LobbyStack koristi alate za radnje kojima je potrebno ovlašćenje, kao što su provera dostupnosti, zakazivanje, primanje poruke, izmena termina ili preusmeravanje poziva.
+Model ponašanja ostaje čitljiv. Na običnom jeziku opišete šta recepcioner treba da radi. Palakarimpu AI koristi alate za radnje kojima je potrebno ovlašćenje, kao što su provera dostupnosti, zakazivanje, primanje poruke, izmena termina ili preusmeravanje poziva.
 
 Timovi i dalje treba da testiraju pozive, pregledaju transkripte i doteruju poslovna pravila. Telefonski sistemi zaslužuju tu pažnju.
 
 Razlika je u tome gde živi složenost. Vreme treba da trošite na poboljšanje pravila recepcije, a ne na jurenje istog pravila kroz promptove, grane webhookova, ograničenja kalendara i šablone obaveštenja.
 
-Počnite sa [LobbyStack Cloud](https://lobbystack.com/) ako želite da isprobate proizvod. Koristite [dokumentaciju za samostalno hostovanje](https://docs.lobbystack.com/self-hosting/overview) ako želite da ga pokrećete sami. Kod je javno dostupan na [GitHubu](https://github.com/lobbystack/lobbystack).
+Počnite sa [Palakarimpu AI Cloud](https://lobbystack.com/) ako želite da isprobate proizvod. Koristite [dokumentaciju za samostalno hostovanje](https://docs.lobbystack.com/self-hosting/overview) ako želite da ga pokrećete sami. Kod je javno dostupan na [GitHubu](https://github.com/lobbystack/lobbystack).
 
 Ako birate između pravljenja, kupovine i povezivanja alata za tokove rada sa pozivima, pročitajte [da li napraviti ili kupiti AI recepcionera](/sr/blog/build-or-buy-ai-receptionist/) i [kako izabrati AI recepcionera](/sr/blog/how-to-choose-an-ai-receptionist/).

@@ -16,7 +16,7 @@ The $99 plan advertises inbound and outbound voice, two-way SMS, booking, transf
 
 ## Fair comparison
 
-Frontdesk has broader front-office channel coverage than LobbyStack. LobbyStack is a stronger fit for buyers who want a focused receptionist product with inspectable code and a supported self-hosting route.
+Frontdesk has broader front-office channel coverage than Palakarimpu AI. Palakarimpu AI is a stronger fit for buyers who want a focused receptionist product with inspectable code and a supported self-hosting route.
 
 ## Claims to avoid
 

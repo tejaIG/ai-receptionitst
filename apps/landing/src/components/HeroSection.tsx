@@ -12,32 +12,32 @@ type HeroSectionProps = {
 
 const heroCopy = {
   en: {
-    h1Start: "LobbyStack turns",
+    h1Start: "Palakarimpu AI turns",
     h1Emphasis: "missed calls",
     h1End: "into booked work.",
-    body: "LobbyStack is an AI receptionist for small businesses. It answers your phone, books appointments into your calendar, and sends urgent calls to your team. Use it for every call, or only when you're busy.",
+    body: "Palakarimpu AI is an AI receptionist for small businesses. It answers your phone, books appointments into your calendar, and sends urgent calls to your team. Use it for every call, or only when you're busy.",
     pricing: "Free plan with 30 minutes a month. Paid plans from $30.",
   },
   fr: {
-    h1Start: "LobbyStack transforme les",
+    h1Start: "Palakarimpu AI transforme les",
     h1Emphasis: "appels manqués",
     h1End: "en rendez‑vous.",
-    body: "LobbyStack est un réceptionniste IA pour les petites entreprises. Il répond au téléphone, planifie les rendez‑vous dans votre calendrier et transfère les appels urgents à votre équipe. Activez-le pour tous vos appels ou seulement quand vous êtes occupé.",
+    body: "Palakarimpu AI est un réceptionniste IA pour les petites entreprises. Il répond au téléphone, planifie les rendez‑vous dans votre calendrier et transfère les appels urgents à votre équipe. Activez-le pour tous vos appels ou seulement quand vous êtes occupé.",
     pricing:
       "Forfait gratuit avec 30 minutes par mois. Forfaits payants à partir de 30 $.",
   },
   es: {
-    h1Start: "LobbyStack convierte las",
+    h1Start: "Palakarimpu AI convierte las",
     h1Emphasis: "llamadas perdidas",
     h1End: "en citas confirmadas.",
-    body: "LobbyStack es una recepcionista con IA para pequeñas empresas. Atiende su teléfono, reserva citas en su calendario y pasa las llamadas urgentes a su equipo. Úsela para todas las llamadas o solo cuando esté ocupado.",
+    body: "Palakarimpu AI es una recepcionista con IA para pequeñas empresas. Atiende su teléfono, reserva citas en su calendario y pasa las llamadas urgentes a su equipo. Úsela para todas las llamadas o solo cuando esté ocupado.",
     pricing: "Plan gratuito con 30 minutos al mes. Planes de pago desde $30.",
   },
   sr: {
-    h1Start: "LobbyStack pretvara",
+    h1Start: "Palakarimpu AI pretvara",
     h1Emphasis: "propuštene pozive",
     h1End: "u zakazane poslove.",
-    body: "LobbyStack je AI recepcioner za mala preduzeća. Javlja se na Vaš telefon, zakazuje termine u Vaš kalendar i preusmerava hitne pozive Vašem timu. Koristite ga za sve pozive ili samo kada ste zauzeti.",
+    body: "Palakarimpu AI je AI recepcioner za mala preduzeća. Javlja se na Vaš telefon, zakazuje termine u Vaš kalendar i preusmerava hitne pozive Vašem timu. Koristite ga za sve pozive ili samo kada ste zauzeti.",
     pricing: "Besplatan paket sa 30 minuta mesečno. Plaćeni paketi od $30.",
   },
 } satisfies Record<Locale, Record<string, string>>

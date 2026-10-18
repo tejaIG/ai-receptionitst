@@ -1,11 +1,11 @@
 ---
 title: "Run your receptionist from an AI assistant"
-description: "Connect Claude, ChatGPT and other MCP clients to LobbyStack to read calls, book appointments and update what your receptionist knows."
+description: "Connect Claude, ChatGPT and other MCP clients to Palakarimpu AI to read calls, book appointments and update what your receptionist knows."
 sidebarTitle: "MCP server"
 contentType: "Reference"
 ---
 
-LobbyStack runs a Model Context Protocol (MCP) server. Connect an AI assistant to it and ask in plain language: "Who called yesterday and didn't book?", "Book Dana Whitfield for a cleaning on Tuesday morning", or "Close on Saturdays from now on."
+Palakarimpu AI runs a Model Context Protocol (MCP) server. Connect an AI assistant to it and ask in plain language: "Who called yesterday and didn't book?", "Book Dana Whitfield for a cleaning on Tuesday morning", or "Close on Saturdays from now on."
 
 The assistant works through the same rules as the [REST API](/api/overview). It sees one business, it can do only what its API key allows, and every change it makes lands in the business's audit log.
 
@@ -15,22 +15,22 @@ The assistant works through the same rules as the [REST API](/api/overview). It 
 | --- | --- |
 | Server URL | `https://app.lobbystack.com/api/mcp` |
 | Transport | Streamable HTTP |
-| Authentication | Sign in with LobbyStack (OAuth), or `Authorization: Bearer <API key>` |
+| Authentication | Sign in with Palakarimpu AI (OAuth), or `Authorization: Bearer <API key>` |
 
 Self-hosted deployments serve the same path on their own domain, for example `https://lobbystack.example.com/api/mcp`.
 
 Assistants connect one of two ways:
 
-- **Sign in with LobbyStack.** Add the server URL to the assistant. It opens a LobbyStack page where you sign in, pick the business, and choose what the assistant can do. Use this for Claude and ChatGPT connectors.
+- **Sign in with Palakarimpu AI.** Add the server URL to the assistant. It opens a Palakarimpu AI page where you sign in, pick the business, and choose what the assistant can do. Use this for Claude and ChatGPT connectors.
 - **API key.** Create a key in **Settings** > **API keys** and put it in the assistant's configuration. Use this for scripts, CI, and clients that let you set request headers. See [Authentication](/api/authentication).
 
 Follow the guide for [Claude](/ai/connect-claude), [ChatGPT](/ai/connect-chatgpt) or [another MCP client](/ai/connect-other-clients).
 
-## Sign in with LobbyStack
+## Sign in with Palakarimpu AI
 
-LobbyStack runs an OAuth 2.1 authorization server for MCP clients, as the [MCP authorization spec](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization) describes. Your assistant finds it on its own from the server URL.
+Palakarimpu AI runs an OAuth 2.1 authorization server for MCP clients, as the [MCP authorization spec](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization) describes. Your assistant finds it on its own from the server URL.
 
-When you connect, LobbyStack asks you to:
+When you connect, Palakarimpu AI asks you to:
 
 1. Sign in, if you aren't signed in already.
 2. Pick the business. You see only businesses where you're an owner or admin.
@@ -111,8 +111,8 @@ Each tool call counts against a limit of 120 requests per minute. An API key sha
 
 ## Audit log
 
-LobbyStack records each change made through the MCP server in the business's audit log with the actor `mcp` and the API key's ID, or for OAuth, the connection's ID and the person who approved it. It never logs keys or tokens. To cut off an assistant, disconnect it in **Settings** > **Connected apps**, or revoke its key in **Settings** > **API keys**.
+Palakarimpu AI records each change made through the MCP server in the business's audit log with the actor `mcp` and the API key's ID, or for OAuth, the connection's ID and the person who approved it. It never logs keys or tokens. To cut off an assistant, disconnect it in **Settings** > **Connected apps**, or revoke its key in **Settings** > **API keys**.
 
 ## Guide for AI agents
 
-The [LobbyStack skill](/ai/lobbystack-skill) explains the tools, common workflows and error handling in a form you can give to an agent as instructions.
+The [Palakarimpu AI skill](/ai/lobbystack-skill) explains the tools, common workflows and error handling in a form you can give to an agent as instructions.

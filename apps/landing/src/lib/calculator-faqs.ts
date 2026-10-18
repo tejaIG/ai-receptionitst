@@ -31,7 +31,7 @@ export const calculatorFaqs = [
   },
   {
     q: "Will an AI receptionist replace my office manager?",
-    a: "No. LobbyStack is designed to handle the repetitive frontline work: answering basic questions, collecting intake details, and booking appointments. Your office manager can focus on complex dispatching, ordering parts, and customer service.",
+    a: "No. Palakarimpu AI is designed to handle the repetitive frontline work: answering basic questions, collecting intake details, and booking appointments. Your office manager can focus on complex dispatching, ordering parts, and customer service.",
   },
   {
     q: "Is this the same as an answering service ROI calculator?",
@@ -74,7 +74,7 @@ export const calculatorFaqsFr = [
   },
   {
     q: "Un réceptionniste IA remplace-t-il mon ou ma responsable de bureau ?",
-    a: "Non. LobbyStack gère le travail répétitif de première ligne : questions courantes, détails d’accueil et prise de rendez‑vous. Votre équipe garde les cas complexes.",
+    a: "Non. Palakarimpu AI gère le travail répétitif de première ligne : questions courantes, détails d’accueil et prise de rendez‑vous. Votre équipe garde les cas complexes.",
   },
   {
     q: "Est-ce pareil qu’un calculateur de ROI pour service de réponse ?",
@@ -117,7 +117,7 @@ export const calculatorFaqsEs = [
   },
   {
     q: "¿Una recepcionista con IA reemplazará a mi jefe de oficina?",
-    a: "No. LobbyStack está pensado para el trabajo repetitivo de primera línea: responder preguntas básicas, recoger los datos de cada solicitud y reservar citas. Su jefe de oficina puede centrarse en la coordinación compleja de trabajos, los pedidos de piezas y la atención al cliente.",
+    a: "No. Palakarimpu AI está pensado para el trabajo repetitivo de primera línea: responder preguntas básicas, recoger los datos de cada solicitud y reservar citas. Su jefe de oficina puede centrarse en la coordinación compleja de trabajos, los pedidos de piezas y la atención al cliente.",
   },
   {
     q: "¿Es lo mismo que una calculadora de ROI de un servicio de contestador?",
@@ -160,7 +160,7 @@ export const calculatorFaqsSr = [
   },
   {
     q: "Da li će AI recepcioner zameniti mog office menadžera?",
-    a: "Ne. LobbyStack je napravljen za ponavljajući posao na prvoj liniji: odgovaranje na osnovna pitanja, prikupljanje podataka o upitu i zakazivanje termina. Vaš office menadžer može da se fokusira na složeno raspoređivanje ekipa, naručivanje delova i brigu o klijentima.",
+    a: "Ne. Palakarimpu AI je napravljen za ponavljajući posao na prvoj liniji: odgovaranje na osnovna pitanja, prikupljanje podataka o upitu i zakazivanje termina. Vaš office menadžer može da se fokusira na složeno raspoređivanje ekipa, naručivanje delova i brigu o klijentima.",
   },
   {
     q: "Da li je ovo isto što i kalkulator povrata ulaganja za call centar?",

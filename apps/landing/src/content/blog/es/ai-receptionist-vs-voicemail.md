@@ -4,7 +4,7 @@ seoTitle: "Recepcionista con IA o buzón de voz: guía práctica"
 description: "Compare una recepcionista con IA y el buzón de voz en experiencia del cliente, captación, reservas, costo, cobertura fuera de horario y cuándo el buzón basta."
 pubDate: 2026-07-30T09:40:00-04:00
 updatedDate: 2026-07-30T09:40:00-04:00
-author: "Equipo de LobbyStack"
+author: "Equipo de Palakarimpu AI"
 category: "Comparativas"
 featured: false
 coverImage: "/illustrations/ai-receptionist-vs-voicemail-hero.webp"
@@ -117,9 +117,9 @@ Un sistema con IA puede detectar o filtrar parte del spam, pero ningún filtro l
 
 El buzón de voz también recibe spam. El personal sigue perdiendo tiempo borrando llamadas automáticas y mensajes vacíos. Compare el ruido que llega a los empleados en cada configuración.
 
-## Cómo gestiona LobbyStack las llamadas perdidas
+## Cómo gestiona Palakarimpu AI las llamadas perdidas
 
-[LobbyStack](/es/features/) puede responder todas las llamadas entrantes, las de fuera de horario o solo las que su equipo no atiende. Puede trabajar con el conocimiento del negocio, recoger datos, reservar citas, transferir llamadas urgentes y enviar resúmenes.
+[Palakarimpu AI](/es/features/) puede responder todas las llamadas entrantes, las de fuera de horario o solo las que su equipo no atiende. Puede trabajar con el conocimiento del negocio, recoger datos, reservar citas, transferir llamadas urgentes y enviar resúmenes.
 
 Los negocios pueden usar la nube gestionada o [autoalojar el stack de código abierto](https://github.com/lobbystack/lobbystack). La vía autoalojada da control sobre la infraestructura y añade responsabilidad operativa.
 
@@ -127,4 +127,4 @@ Los negocios pueden usar la nube gestionada o [autoalojar el stack de código ab
 
 Mantenga el buzón de voz para las llamadas en las que una respuesta tardía supone poco riesgo. Use una recepcionista con IA cuando quien llama necesita una respuesta, una reserva, una calificación o una vía urgente durante la llamada.
 
-Empiece por las llamadas perdidas y las de fuera de horario. Registre mensajes, reservas, transferencias, fallos y devoluciones de llamada durante un mes. Si el flujo recupera trabajo útil, amplíelo. Puede [probar LobbyStack con el plan gratuito](/es/pricing/) antes de cambiar todas sus rutas telefónicas.
+Empiece por las llamadas perdidas y las de fuera de horario. Registre mensajes, reservas, transferencias, fallos y devoluciones de llamada durante un mes. Si el flujo recupera trabajo útil, amplíelo. Puede [probar Palakarimpu AI con el plan gratuito](/es/pricing/) antes de cambiar todas sus rutas telefónicas.

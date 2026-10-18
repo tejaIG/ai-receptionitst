@@ -45,7 +45,7 @@ export type TimelineCall = {
   at: string
   reason: string
   action: CallAction
-  // The image shows what LobbyStack did, and the alt text describes it.
+  // The image shows what Palakarimpu AI did, and the alt text describes it.
   image: string
   imageAlt: string
 }
@@ -64,7 +64,7 @@ export const nightCalls: TimelineCall[] = [
     action: "Answers",
     image: "/illustrations/after-hours/service-area.webp",
     imageAlt:
-      "A caller asks if the business comes to Brookline, and LobbyStack replies that it does",
+      "A caller asks if the business comes to Brookline, and Palakarimpu AI replies that it does",
   },
   {
     at: "10:40 p.m.",
@@ -154,7 +154,7 @@ export const dentalCalls: TimelineCall[] = [
     action: "Answers",
     image: "/illustrations/dental/insurance.webp",
     imageAlt:
-      "A patient asks about insurance, and LobbyStack replies that the plan is in network",
+      "A patient asks about insurance, and Palakarimpu AI replies that the plan is in network",
   },
   {
     at: "12:20 p.m.",

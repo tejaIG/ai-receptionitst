@@ -1,6 +1,6 @@
 ---
 title: "Déployer avec Docker Compose"
-description: "Exécutez LobbyStack sur un seul serveur avec Docker Compose. Vous configurerez PostgreSQL, Redis, le stockage de fichiers et le HTTPS, puis vérifierez le déploiement avant la mise en service."
+description: "Exécutez Palakarimpu AI sur un seul serveur avec Docker Compose. Vous configurerez PostgreSQL, Redis, le stockage de fichiers et le HTTPS, puis vérifierez le déploiement avant la mise en service."
 sidebarTitle: "Docker Compose"
 contentType: "Tutorial"
 ---
@@ -31,7 +31,7 @@ Compose définit `STORAGE_PROVIDER=local` par défaut. L'admin et le worker mont
   N'exposez pas une pile qui utilise encore les mots de passe d'exemple ou les secrets `change-me`.
 </Warning>
 
-## Démarrer LobbyStack
+## Démarrer Palakarimpu AI
 
 ```bash
 docker compose --env-file .env up -d --build
@@ -42,7 +42,7 @@ Le migrator applique les migrations PostgreSQL avant le démarrage des services 
 
 La réponse de disponibilité de l'admin inclut des vérifications de la base de données et du stockage. La réponse de disponibilité du worker inclut l'état de PostgreSQL, de Redis et du stockage.
 
-LobbyStack n'exécute pas de conteneurs de surveillance. Les journaux de l'application restent accessibles avec `docker compose logs`, et les points de terminaison de santé continuent de fonctionner.
+Palakarimpu AI n'exécute pas de conteneurs de surveillance. Les journaux de l'application restent accessibles avec `docker compose logs`, et les points de terminaison de santé continuent de fonctionner.
 
 ## Choisir un backend de stockage
 
@@ -92,7 +92,7 @@ OTEL_EXPORTER_OTLP_ENDPOINT=https://us.i.posthog.com/i
 OTEL_EXPORTER_OTLP_HEADERS=Authorization=Bearer your_posthog_project_token_here
 ```
 
-Utilisez l'hôte PostHog de votre région et le jeton de votre projet. LobbyStack ajoute `/v1/traces`, `/v1/metrics` et `/v1/logs` à l'URL de base. Vous pouvez utiliser les mêmes variables avec un autre backend compatible OTLP.
+Utilisez l'hôte PostHog de votre région et le jeton de votre projet. Palakarimpu AI ajoute `/v1/traces`, `/v1/metrics` et `/v1/logs` à l'URL de base. Vous pouvez utiliser les mêmes variables avec un autre backend compatible OTLP.
 
 Redémarrez les conteneurs de l'application après avoir modifié les valeurs :
 

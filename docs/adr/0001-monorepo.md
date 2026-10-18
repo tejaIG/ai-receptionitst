@@ -1,6 +1,6 @@
 # ADR 0001: use a pnpm monorepo
 
-LobbyStack keeps application runtimes, shared packages, database migrations, and operational tooling in one repository.
+Palakarimpu AI keeps application runtimes, shared packages, database migrations, and operational tooling in one repository.
 
 ## Status
 

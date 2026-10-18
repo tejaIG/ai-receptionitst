@@ -5,9 +5,9 @@ import { absoluteUrl } from "@/lib/seo"
 
 const meta = localizedRouteMeta("sr", "/docs/api/")
 
-const markdown = `# Dokumentacija javnog LobbyStack API-ja
+const markdown = `# Dokumentacija javnog Palakarimpu AI API-ja
 
-LobbyStack nudi javne resurse za otkrivanje namenjene agentima i integratorima. Ovi endpointi ne zahtevaju autentifikaciju.
+Palakarimpu AI nudi javne resurse za otkrivanje namenjene agentima i integratorima. Ovi endpointi ne zahtevaju autentifikaciju.
 
 ## Endpointi za otkrivanje
 

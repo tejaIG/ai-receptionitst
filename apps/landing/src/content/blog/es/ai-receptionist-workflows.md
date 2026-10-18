@@ -2,7 +2,7 @@
 title: "Flujos de recepcionista con IA sin diagramas"
 description: "Los flujos de una recepcionista con IA fallan cuando el comportamiento se reparte entre prompts, webhooks y ramas. Use reglas en lenguaje claro y herramientas fiables."
 pubDate: 2026-06-18T09:00:00-04:00
-author: "Equipo de LobbyStack"
+author: "Equipo de Palakarimpu AI"
 category: "Guías"
 featured: false
 coverImage: "/illustrations/ai-receptionist-workflows-hero.webp"
@@ -127,7 +127,7 @@ motivo, la franja horaria preferida, el nombre y el mejor número de teléfono.
 Si la solicitud parece urgente, indíquelo al principio del mensaje.
 ```
 
-La recepcionista puede convertir las palabras de quien llama en un mensaje listo para el equipo. LobbyStack guarda el motivo, la franja horaria y la urgencia junto a la transcripción y avisa al dueño.
+La recepcionista puede convertir las palabras de quien llama en un mensaje listo para el equipo. Palakarimpu AI guarda el motivo, la franja horaria y la urgencia junto a la transcripción y avisa al dueño.
 
 ### Traspaso
 
@@ -145,28 +145,28 @@ cuándo responderá el equipo.
 
 El negocio obtiene un traspaso más seguro porque la IA tiene una política, la capa de voz ejecuta la transferencia y el backend registra el resultado.
 
-## LobbyStack sustituye la cadena de flujos de la recepción
+## Palakarimpu AI sustituye la cadena de flujos de la recepción
 
 Las herramientas de flujos de trabajo pueden encargarse de automatizaciones del negocio fuera de la llamada. Como recepcionistas en vivo funcionan mal.
 
 Si su recepcionista con IA depende de una cadena de ramas para decidir qué decir, cuándo reservar, cuándo transferir, cómo recuperarse de una herramienta que falla y cómo registrar el resultado de la llamada, le está pidiendo a un constructor de flujos que se comporte como un producto telefónico.
 
-LobbyStack sustituye esa capa. Se encarga del comportamiento de la llamada en vivo, el estado de la llamada, los resultados de las herramientas, el contexto de la transcripción, el motivo del traspaso y el resultado final.
+Palakarimpu AI sustituye esa capa. Se encarga del comportamiento de la llamada en vivo, el estado de la llamada, los resultados de las herramientas, el contexto de la transcripción, el motivo del traspaso y el resultado final.
 
-Puede seguir usando n8n, Zapier o Make para automatizaciones fuera de la llamada. LobbyStack no se conecta a ellas ni envía webhooks salientes, así que se quedan fuera de la llamada en vivo. La recepcionista con IA debe poder decidir la siguiente acción responsable durante la llamada y luego registrar un resultado limpio en el que el equipo pueda confiar.
+Puede seguir usando n8n, Zapier o Make para automatizaciones fuera de la llamada. Palakarimpu AI no se conecta a ellas ni envía webhooks salientes, así que se quedan fuera de la llamada en vivo. La recepcionista con IA debe poder decidir la siguiente acción responsable durante la llamada y luego registrar un resultado limpio en el que el equipo pueda confiar.
 
-## Dónde encaja LobbyStack
+## Dónde encaja Palakarimpu AI
 
-[LobbyStack](/es/blog/open-source-ai-receptionist-stack/) es una plataforma de recepcionista con IA de código abierto. Le da la capa de producto de recepción: llamadas, reservas, transcripciones, grabaciones, resúmenes de llamadas, mensajes, alertas al dueño, traspasos, revisión en el panel, uso y facturación.
+[Palakarimpu AI](/es/blog/open-source-ai-receptionist-stack/) es una plataforma de recepcionista con IA de código abierto. Le da la capa de producto de recepción: llamadas, reservas, transcripciones, grabaciones, resúmenes de llamadas, mensajes, alertas al dueño, traspasos, revisión en el panel, uso y facturación.
 
 Puede usar la nube alojada cuando la rapidez importa, o [autoalojarlo con Docker](/solutions/self-hosted-ai-receptionist/) cuando quiera el stack en su propia infraestructura o en los servidores de un cliente.
 
-El modelo de comportamiento sigue siendo legible. Usted describe en lenguaje claro lo que debe hacer la recepcionista. LobbyStack usa herramientas para las acciones que requieren autoridad, como consultar la disponibilidad, reservar, tomar un mensaje, cambiar una cita o transferir una llamada.
+El modelo de comportamiento sigue siendo legible. Usted describe en lenguaje claro lo que debe hacer la recepcionista. Palakarimpu AI usa herramientas para las acciones que requieren autoridad, como consultar la disponibilidad, reservar, tomar un mensaje, cambiar una cita o transferir una llamada.
 
 Los equipos siguen teniendo que probar llamadas, revisar transcripciones y ajustar la política del negocio. Los sistemas telefónicos merecen ese cuidado.
 
 La diferencia está en dónde vive la complejidad. Su tiempo debería ir a mejorar la política de recepción, no a perseguir la misma regla por prompts, ramas de webhooks, restricciones del calendario y plantillas de alertas.
 
-Empiece con [LobbyStack Cloud](https://lobbystack.com/) si quiere probar el producto. Use la [documentación de autoalojamiento](https://docs.lobbystack.com/self-hosting/overview) si quiere ejecutarlo usted mismo. El código es público en [GitHub](https://github.com/lobbystack/lobbystack).
+Empiece con [Palakarimpu AI Cloud](https://lobbystack.com/) si quiere probar el producto. Use la [documentación de autoalojamiento](https://docs.lobbystack.com/self-hosting/overview) si quiere ejecutarlo usted mismo. El código es público en [GitHub](https://github.com/lobbystack/lobbystack).
 
 Si está decidiendo entre crear, comprar o conectar herramientas de flujos de trabajo a sus llamadas, lea [crear o comprar una recepcionista con IA](/es/blog/build-or-buy-ai-receptionist/) y [cómo elegir una recepcionista con IA](/es/blog/how-to-choose-an-ai-receptionist/).

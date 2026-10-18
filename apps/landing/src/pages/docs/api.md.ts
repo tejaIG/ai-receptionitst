@@ -2,9 +2,9 @@ import type { APIRoute } from "astro"
 import { markdownResponse } from "@/lib/markdown-response"
 import { absoluteUrl } from "@/lib/seo"
 
-const markdown = `# LobbyStack Public API Documentation
+const markdown = `# Palakarimpu AI Public API Documentation
 
-LobbyStack exposes public discovery resources for agents and integrators. These endpoints do not require authentication.
+Palakarimpu AI exposes public discovery resources for agents and integrators. These endpoints do not require authentication.
 
 ## Discovery Endpoints
 
@@ -23,7 +23,7 @@ export const GET: APIRoute = () =>
   markdownResponse({
     markdown,
     canonical: absoluteUrl("/docs/api/"),
-    title: "LobbyStack Public API Documentation",
+    title: "Palakarimpu AI Public API Documentation",
     description:
-      "Machine-readable discovery resources for agents and integrators visiting LobbyStack.",
+      "Machine-readable discovery resources for agents and integrators visiting Palakarimpu AI.",
   })

@@ -1,11 +1,11 @@
 ---
-title: "LobbyStack API"
+title: "Palakarimpu AI API"
 description: "Read calls, contacts, appointments and messages, book appointments, and receive webhooks."
 sidebarTitle: "Overview"
 contentType: "Conceptual"
 ---
 
-The LobbyStack API lets your own tools work with a business's receptionist data. Zapier, an MCP server, or a script can read calls and messages, keep contacts in sync, book appointments, add knowledge, and subscribe to webhooks.
+The Palakarimpu AI API lets your own tools work with a business's receptionist data. Zapier, an MCP server, or a script can read calls and messages, keep contacts in sync, book appointments, add knowledge, and subscribe to webhooks.
 
 ## Base URL
 
@@ -57,15 +57,15 @@ The response wraps the resource in `data`:
 
 ## OpenAPI
 
-The API publishes an OpenAPI 3.1 document at `GET /api/v1/openapi.json`, with no key required. LobbyStack generates it from the same schemas the server validates against, so it always matches the running version. Import it into Postman, generate a client, or browse the **API reference** section of these docs, which LobbyStack builds from the same file.
+The API publishes an OpenAPI 3.1 document at `GET /api/v1/openapi.json`, with no key required. Palakarimpu AI generates it from the same schemas the server validates against, so it always matches the running version. Import it into Postman, generate a client, or browse the **API reference** section of these docs, which Palakarimpu AI builds from the same file.
 
 ## Versioning
 
-The version is part of the path: `/api/v1`. Within v1, LobbyStack only makes additive changes:
+The version is part of the path: `/api/v1`. Within v1, Palakarimpu AI only makes additive changes:
 
 - New endpoints, new optional request fields, and new response fields.
 - New values in lists such as webhook event types and error codes.
 
 Build clients that ignore fields and event types they don't recognize.
 
-LobbyStack releases breaking changes only as a new version, such as `/api/v2`. Removing or renaming a field, changing a type, or adding a required request field counts as breaking. When a new version ships, v1 keeps working alongside it. Webhook payloads carry `api_version` so you can tell which shape you received.
+Palakarimpu AI releases breaking changes only as a new version, such as `/api/v2`. Removing or renaming a field, changing a type, or adding a required request field counts as breaking. When a new version ships, v1 keeps working alongside it. Webhook payloads carry `api_version` so you can tell which shape you received.

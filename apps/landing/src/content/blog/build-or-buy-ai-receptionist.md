@@ -1,8 +1,8 @@
 ---
 title: "Should you build or buy an AI receptionist?"
-description: "Compare building an AI receptionist from scratch, buying a hosted tool, or self-hosting open-source LobbyStack before you spend serious time or budget."
+description: "Compare building an AI receptionist from scratch, buying a hosted tool, or self-hosting open-source Palakarimpu AI before you spend serious time or budget."
 pubDate: 2026-06-12T09:00:00-04:00
-author: "LobbyStack Team"
+author: "Palakarimpu AI Team"
 category: "Guides"
 featured: false
 coverImage: "/illustrations/build-or-buy-ai-receptionist-hero.webp"
@@ -14,7 +14,7 @@ Should you build AI receptionist software yourself, or use something that alread
 
 That is the part most build-vs-buy conversations skip. A working demo can be fast. A receptionist that handles real callers, books cleanly, escalates safely, survives provider failures, and does not embarrass the business is a different thing.
 
-This guide is for teams weighing the real tradeoff: build from the ground up, buy a hosted AI receptionist, or start from an open-source base like LobbyStack and self-host it.
+This guide is for teams weighing the real tradeoff: build from the ground up, buy a hosted AI receptionist, or start from an open-source base like Palakarimpu AI and self-host it.
 
 ## The short answer: do not start with code
 
@@ -131,9 +131,9 @@ Also be wary of overconfident AI claims. The [FTC's deceptive AI claims release]
 
 There is a middle path between "build every piece yourself" and "trust a black box."
 
-You can start from an [open-source AI receptionist](/solutions/open-source-ai-receptionist/) and self-host it when you need more control. That is where LobbyStack fits.
+You can start from an [open-source AI receptionist](/solutions/open-source-ai-receptionist/) and self-host it when you need more control. That is where Palakarimpu AI fits.
 
-LobbyStack is an open-source AI receptionist for businesses that depend on phone calls and bookings. It gives you a working base for call answering, business knowledge, appointment booking, human handoff, transcripts, summaries, and configurable rules without forcing you to begin with a blank repo.
+Palakarimpu AI is an open-source AI receptionist for businesses that depend on phone calls and bookings. It gives you a working base for call answering, business knowledge, appointment booking, human handoff, transcripts, summaries, and configurable rules without forcing you to begin with a blank repo.
 
 The important phrase is "working base." Open source does not remove maintenance. It moves the maintenance into your control.
 
@@ -213,7 +213,7 @@ Use this as the blunt version.
 | --- | --- | --- |
 | Build from scratch | You have engineering capacity, unusual workflows, strict integration needs, and phone automation is strategic. | Slow first launch, hidden maintenance, compliance work, provider failures, and ongoing QA. |
 | Buy hosted | You need prompt coverage and your calls fit a vendor's existing workflow. | Vendor lock-in, opaque routing, pricing limits, export limits, and less customization. |
-| Self-host LobbyStack | You want an open-source starting point, data control, customization, and the option to inspect or modify the stack. | You still need someone to own deployment, upgrades, monitoring, and provider setup. |
+| Self-host Palakarimpu AI | You want an open-source starting point, data control, customization, and the option to inspect or modify the stack. | You still need someone to own deployment, upgrades, monitoring, and provider setup. |
 | Hybrid | You want AI for routine calls and humans for urgent, emotional, complex, or high-value calls. | You may pay for both software and human coverage, so routing rules need to be clear. |
 
 The decision usually comes down to one sentence:
@@ -228,12 +228,12 @@ If your workflow is common and you need calls answered now, buy or try a hosted 
 
 If your workflow is unusual, regulated, or important enough to own, look hard at open source before building from nothing. For a landscape view of self-hosted options, see the [best open-source AI phone answering services](/blog/best-open-source-ai-phone-answering-services/) comparison.
 
-If you want a practical place to start, review [LobbyStack's features](/features/), compare [LobbyStack pricing](/pricing/), and look at the [open-source AI receptionist](/solutions/open-source-ai-receptionist/) and [self-hosted AI receptionist](/solutions/self-hosted-ai-receptionist/) options. If you are still early in vendor evaluation, this companion guide on [how to choose an AI receptionist](/blog/how-to-choose-an-ai-receptionist/) can help you test products with real call scenarios. If you are tempted to wire n8n or Zapier into live calls, read [AI receptionist workflows without flowcharts](/blog/ai-receptionist-workflows/) first.
+If you want a practical place to start, review [Palakarimpu AI's features](/features/), compare [Palakarimpu AI pricing](/pricing/), and look at the [open-source AI receptionist](/solutions/open-source-ai-receptionist/) and [self-hosted AI receptionist](/solutions/self-hosted-ai-receptionist/) options. If you are still early in vendor evaluation, this companion guide on [how to choose an AI receptionist](/blog/how-to-choose-an-ai-receptionist/) can help you test products with real call scenarios. If you are tempted to wire n8n or Zapier into live calls, read [AI receptionist workflows without flowcharts](/blog/ai-receptionist-workflows/) first.
 
 The short version:
 
 - Build when the receptionist workflow is strategic and you can maintain it.
 - Buy when speed and support matter more than deep control.
-- Self-host LobbyStack when you want a real starting point without accepting a black box.
+- Self-host Palakarimpu AI when you want a real starting point without accepting a black box.
 
 The best AI receptionist is not the one with the flashiest demo. It is the one your business can trust, update, inspect, and afford after the first month is over.

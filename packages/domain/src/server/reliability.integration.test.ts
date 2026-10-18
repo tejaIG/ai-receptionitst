@@ -253,7 +253,7 @@ describe.skipIf(!testUrl)("reliability against dedicated PostgreSQL roles", () =
     await rollbackTest(async (tx) => {
       const businessId = randomUUID();
       await tx.insert(businesses).values({ id: businessId, slug: businessId, name: "Maple Family Clinic", timezone: "UTC", businessType: "test", deploymentMode: "cloud" });
-      await tx.insert(receptionistProfiles).values({ businessId, greeting: "Hi", tone: "warm", summary: "Maple Family Clinic uses LobbyStack to answer calls.", bookingPolicy: "Confirm first.", transferMode: "never" });
+      await tx.insert(receptionistProfiles).values({ businessId, greeting: "Hi", tone: "warm", summary: "Maple Family Clinic uses Palakarimpu AI to answer calls.", bookingPolicy: "Confirm first.", transferMode: "never" });
       const [indexed, pending] = [randomUUID(), randomUUID()];
       await tx.insert(knowledgeDocuments).values([
         { id: indexed, businessId, sourceType: "website", title: "Home", status: "indexed" },

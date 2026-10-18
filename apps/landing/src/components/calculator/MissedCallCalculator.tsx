@@ -43,7 +43,7 @@ const copy = {
         <strong>{jobs} lost jobs</strong> every month.
       </>
     ),
-    tryFree: "Try LobbyStack free",
+    tryFree: "Try Palakarimpu AI free",
     estimateNote: "These are estimates. Actual results may vary.",
     tradeLabels: {
       Custom: "Custom",
@@ -70,7 +70,7 @@ const copy = {
         <strong>{jobs} travaux perdus</strong> chaque mois.
       </>
     ),
-    tryFree: "Essayer LobbyStack gratuitement",
+    tryFree: "Essayer Palakarimpu AI gratuitement",
     estimateNote:
       "Ce sont des estimations. Les résultats réels peuvent varier.",
     tradeLabels: {
@@ -98,7 +98,7 @@ const copy = {
         <strong>{jobs} trabajos perdidos</strong> cada mes.
       </>
     ),
-    tryFree: "Pruebe LobbyStack gratis",
+    tryFree: "Pruebe Palakarimpu AI gratis",
     estimateNote: "Son estimaciones. Los resultados reales pueden variar.",
     tradeLabels: {
       Custom: "Personalizado",
@@ -125,7 +125,7 @@ const copy = {
         <strong>{jobs} izgubljenih poslova</strong> svakog meseca.
       </>
     ),
-    tryFree: "Isprobajte LobbyStack besplatno",
+    tryFree: "Isprobajte Palakarimpu AI besplatno",
     estimateNote: "Ovo su procene. Stvarni rezultati mogu da se razlikuju.",
     tradeLabels: {
       Custom: "Prilagođeno",

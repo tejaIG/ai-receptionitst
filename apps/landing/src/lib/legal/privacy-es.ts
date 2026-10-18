@@ -5,16 +5,16 @@ const support = `<a href="mailto:support@lobbystack.com">support@lobbystack.com<
 export const privacyEs: LegalDocument = {
   updated: "Última actualización: 8 de octubre de 2026",
   h1: "Política de privacidad",
-  intro: `La presente Política de privacidad explica cómo Lobbystack Inc. (“LobbyStack”, “nosotros”, “nuestro” o “nos”) recopila, utiliza, comparte y protege los datos personales cuando usted visita nuestros sitios web, utiliza el servicio alojado de LobbyStack, llama o chatea con un negocio que utiliza LobbyStack, recibe un mensaje de texto enviado a través de LobbyStack o se comunica con nosotros.`,
+  intro: `La presente Política de privacidad explica cómo Lobbystack Inc. (“Palakarimpu AI”, “nosotros”, “nuestro” o “nos”) recopila, utiliza, comparte y protege los datos personales cuando usted visita nuestros sitios web, utiliza el servicio alojado de Palakarimpu AI, llama o chatea con un negocio que utiliza Palakarimpu AI, recibe un mensaje de texto enviado a través de Palakarimpu AI o se comunica con nosotros.`,
   sections: [
     {
       id: "scope",
       nav: "Alcance",
       title: "1. Quiénes somos y qué abarca esta Política",
       blocks: [
-        `1.1 LobbyStack es una recepcionista con IA para pequeños negocios. Los negocios la utilizan para responder llamadas telefónicas y llamadas desde el navegador, chatear con los visitantes de su sitio web, reservar citas, tomar mensajes y transferir llamadas a su personal. Tenemos nuestra sede en Canadá.`,
-        `1.2 Esta Política abarca nuestros sitios web, incluido lobbystack.com, el servicio alojado de LobbyStack (el “Servicio”), nuestro soporte y nuestro programa de afiliados.`,
-        `1.3 Esta Política no abarca las copias de LobbyStack que otras personas ejecutan en sus propios servidores. Consulte la sección 20.`,
+        `1.1 Palakarimpu AI es una recepcionista con IA para pequeños negocios. Los negocios la utilizan para responder llamadas telefónicas y llamadas desde el navegador, chatear con los visitantes de su sitio web, reservar citas, tomar mensajes y transferir llamadas a su personal. Tenemos nuestra sede en Canadá.`,
+        `1.2 Esta Política abarca nuestros sitios web, incluido lobbystack.com, el servicio alojado de Palakarimpu AI (el “Servicio”), nuestro soporte y nuestro programa de afiliados.`,
+        `1.3 Esta Política no abarca las copias de Palakarimpu AI que otras personas ejecutan en sus propios servidores. Consulte la sección 20.`,
       ],
     },
     {
@@ -23,7 +23,7 @@ export const privacyEs: LegalDocument = {
       title: "2. Nuestra función",
       blocks: [
         `2.1 <strong>Cuando decidimos cómo se utilizan los datos.</strong> Somos responsables, en calidad de responsable del tratamiento o de empresa, de los datos personales de los visitantes de nuestros sitios web, los titulares de cuentas, los Usuarios Autorizados de las cuentas de clientes, los contactos de facturación, los afiliados y las personas que se comunican con nosotros.`,
-        `2.2 <strong>Cuando un negocio decide cómo se utilizan los datos.</strong> Cuando un negocio utiliza LobbyStack para comunicarse con las personas que lo llaman, los visitantes de su sitio web o sus clientes (los “Llamantes”), es ese negocio quien decide por qué y cómo se tratan sus datos. Nosotros actuamos como su proveedor de servicios o encargado del tratamiento y tratamos los datos de los Llamantes en su nombre, conforme a nuestros <a href="/es/terms/">Términos del servicio</a>. Se aplica el aviso de privacidad de ese negocio. Si usted es un Llamante, consulte la sección 18.`,
+        `2.2 <strong>Cuando un negocio decide cómo se utilizan los datos.</strong> Cuando un negocio utiliza Palakarimpu AI para comunicarse con las personas que lo llaman, los visitantes de su sitio web o sus clientes (los “Llamantes”), es ese negocio quien decide por qué y cómo se tratan sus datos. Nosotros actuamos como su proveedor de servicios o encargado del tratamiento y tratamos los datos de los Llamantes en su nombre, conforme a nuestros <a href="/es/terms/">Términos del servicio</a>. Se aplica el aviso de privacidad de ese negocio. Si usted es un Llamante, consulte la sección 18.`,
       ],
     },
     {
@@ -97,7 +97,7 @@ export const privacyEs: LegalDocument = {
             `<strong>Obligación legal:</strong> para conservar los registros fiscales y contables y responder a solicitudes legítimas.`,
           ],
         },
-        `En cuanto a los datos de los Llamantes, el negocio que utiliza LobbyStack es responsable de elegir y documentar su base jurídica.`,
+        `En cuanto a los datos de los Llamantes, el negocio que utiliza Palakarimpu AI es responsable de elegir y documentar su base jurídica.`,
       ],
     },
     {
@@ -117,19 +117,19 @@ export const privacyEs: LegalDocument = {
       nav: "Google Calendar",
       title: "7. Integración con Google Calendar",
       blocks: [
-        `7.1 Cuando usted conecta una cuenta de Google en LobbyStack, utilizamos Google OAuth para gestionar las reservas en el calendario que usted seleccione. Solicitamos los siguientes permisos:`,
+        `7.1 Cuando usted conecta una cuenta de Google en Palakarimpu AI, utilizamos Google OAuth para gestionar las reservas en el calendario que usted seleccione. Solicitamos los siguientes permisos:`,
         {
           ul: [
             `<strong>openid</strong> y <strong>email</strong>, para identificar la cuenta de Google conectada;`,
-            `<strong>calendar.calendarlist.readonly</strong>, para mostrar sus calendarios y que usted pueda elegir el que LobbyStack debe utilizar;`,
-            `<strong>calendar.events</strong>, para leer los eventos del calendario seleccionado a fin de encontrar los horarios ocupados, y para crear, actualizar y eliminar los eventos de las citas que LobbyStack reserva, reprograma o cancela.`,
+            `<strong>calendar.calendarlist.readonly</strong>, para mostrar sus calendarios y que usted pueda elegir el que Palakarimpu AI debe utilizar;`,
+            `<strong>calendar.events</strong>, para leer los eventos del calendario seleccionado a fin de encontrar los horarios ocupados, y para crear, actualizar y eliminar los eventos de las citas que Palakarimpu AI reserva, reprograma o cancela.`,
           ],
         },
         `7.2 <strong>Datos a los que accedemos.</strong> El identificador y la dirección de correo electrónico de su cuenta de Google, la lista de sus calendarios y los horarios de los eventos del calendario seleccionado.`,
         `7.3 <strong>Almacenamiento y protección.</strong> Almacenamos los tokens de OAuth necesarios para mantener la conexión activa. Los ciframos en reposo. Cuando usted desconecta Google Calendar, dejamos de sincronizar, eliminamos los tokens almacenados y eliminamos los horarios ocupados que copiamos de su calendario. Los eventos de citas que ya creamos permanecen en su Google Calendar; usted puede eliminarlos allí.`,
         `7.4 <strong>Comunicación a terceros.</strong> Compartimos los datos de usuario de Google únicamente con la API de Google Calendar para completar las acciones que usted solicitó, y con nuestros proveedores de alojamiento que los almacenan por nosotros.`,
         `7.5 <strong>Tratamiento mediante IA.</strong> No enviamos a los proveedores de IA los títulos ni las descripciones de los eventos de su Google Calendar. La recepcionista con IA solo recibe datos de programación derivados, como si un horario está libre y si una reserva se realizó correctamente.`,
-        `7.6 <strong>Uso Limitado.</strong> El uso y la transferencia por parte de LobbyStack de la información recibida de las API de Google se ajustan a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, incluidos sus requisitos de Uso Limitado (Limited Use). No vendemos los datos de usuario de Google, no los utilizamos con fines publicitarios ni los utilizamos para entrenar o mejorar modelos generales de IA o de aprendizaje automático.`,
+        `7.6 <strong>Uso Limitado.</strong> El uso y la transferencia por parte de Palakarimpu AI de la información recibida de las API de Google se ajustan a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, incluidos sus requisitos de Uso Limitado (Limited Use). No vendemos los datos de usuario de Google, no los utilizamos con fines publicitarios ni los utilizamos para entrenar o mejorar modelos generales de IA o de aprendizaje automático.`,
       ],
     },
     {
@@ -137,7 +137,7 @@ export const privacyEs: LegalDocument = {
       nav: "Mensajes de texto",
       title: "8. Mensajes de texto",
       blocks: [
-        `8.1 LobbyStack envía mensajes de texto no publicitarios a través de Twilio: alertas al personal de un negocio, un recordatorio de cita aproximadamente 24 horas antes de la cita a los Llamantes que lo aceptaron al reservar, y códigos de verificación de un solo uso. La frecuencia de los mensajes varía. Pueden aplicarse tarifas de mensajes y datos. Responda <strong>STOP</strong> para darse de baja o <strong>HELP</strong> para obtener ayuda, o escriba a ${support}.`,
+        `8.1 Palakarimpu AI envía mensajes de texto no publicitarios a través de Twilio: alertas al personal de un negocio, un recordatorio de cita aproximadamente 24 horas antes de la cita a los Llamantes que lo aceptaron al reservar, y códigos de verificación de un solo uso. La frecuencia de los mensajes varía. Pueden aplicarse tarifas de mensajes y datos. Responda <strong>STOP</strong> para darse de baja o <strong>HELP</strong> para obtener ayuda, o escriba a ${support}.`,
         `8.2 Conservamos registros de los números de teléfono, el consentimiento, las bajas, el contenido de los mensajes y el estado de entrega para enviar mensajes de texto, respetar las bajas y cumplir los requisitos de los operadores.`,
         `<strong>8.3 No vendemos, alquilamos ni compartimos números de teléfono móvil, datos de aceptación de mensajes de texto ni información sobre el consentimiento con terceros ni con afiliados para sus fines de marketing o promocionales.</strong>`,
       ],
@@ -163,8 +163,8 @@ export const privacyEs: LegalDocument = {
             `proveedores de supervisión y registro que nos ayudan a detectar errores y a mantener el Servicio en funcionamiento.`,
           ],
         },
-        `9.2 <strong>El negocio con el que usted se comunica.</strong> Cuando usted llama o chatea con un negocio que utiliza LobbyStack, ponemos sus datos a disposición de ese negocio en su panel, sus alertas y su calendario conectado.`,
-        `9.3 <strong>Motivos legales y de seguridad.</strong> Podemos divulgar datos para cumplir la ley, una orden judicial o una solicitud legítima de las autoridades, para hacer cumplir nuestros Términos, o para proteger los derechos, los bienes o la seguridad de LobbyStack, de nuestros clientes o de terceros.`,
+        `9.2 <strong>El negocio con el que usted se comunica.</strong> Cuando usted llama o chatea con un negocio que utiliza Palakarimpu AI, ponemos sus datos a disposición de ese negocio en su panel, sus alertas y su calendario conectado.`,
+        `9.3 <strong>Motivos legales y de seguridad.</strong> Podemos divulgar datos para cumplir la ley, una orden judicial o una solicitud legítima de las autoridades, para hacer cumplir nuestros Términos, o para proteger los derechos, los bienes o la seguridad de Palakarimpu AI, de nuestros clientes o de terceros.`,
         `9.4 <strong>Transacciones empresariales.</strong> Podemos compartir datos con un comprador, inversor o sucesor en el marco de una fusión, adquisición, financiación, reorganización o venta de activos, sujeto a condiciones de confidencialidad. Le informaremos si sus datos pasan a estar sujetos a una política de privacidad diferente.`,
         `9.5 <strong>Con su consentimiento.</strong> Podemos compartir datos con otros fines cuando usted nos lo solicite o lo acepte.`,
         `9.6 <strong>Sin venta.</strong> No vendemos datos personales ni los compartimos para publicidad conductual en contextos cruzados.`,
@@ -177,7 +177,7 @@ export const privacyEs: LegalDocument = {
       blocks: [
         `10.1 Utilizamos cookies necesarias y almacenamiento del navegador para operar nuestro sitio web, recordar su elección sobre las cookies y protegernos contra abusos. Utilizamos las cookies analíticas y las grabaciones de sesiones de PostHog únicamente después de que usted las acepte en nuestro banner de cookies. Antes de que usted elija, contamos las visitas a las páginas sin almacenar nada en su dispositivo. Si usted rechaza las cookies opcionales, detenemos el análisis en nuestro sitio web.`,
         `10.2 Usted puede cambiar su elección en cualquier momento mediante el enlace <strong>Preferencias de cookies</strong> en el pie de página. Nuestra <a href="/es/cookie-policy/">Política de cookies</a> enumera las cookies que utilizamos.`,
-        `10.3 El panel de LobbyStack utiliza PostHog para comprender cómo los usuarios que han iniciado sesión utilizan el producto, únicamente mientras el análisis del producto esté activado en su configuración. No recopila datos analíticos en las páginas marcadas como confidenciales.`,
+        `10.3 El panel de Palakarimpu AI utiliza PostHog para comprender cómo los usuarios que han iniciado sesión utilizan el producto, únicamente mientras el análisis del producto esté activado en su configuración. No recopila datos analíticos en las páginas marcadas como confidenciales.`,
       ],
     },
     {
@@ -278,7 +278,7 @@ export const privacyEs: LegalDocument = {
       nav: "Llamantes",
       title: "18. Si usted llamó o chateó con un negocio",
       blocks: [
-        `18.1 Si usted llamó o chateó con un negocio que utiliza LobbyStack, o recibió un mensaje de texto de dicho negocio, ese negocio es quien controla sus datos. Le rogamos que dirija primero a ese negocio sus solicitudes de acceso, rectificación, eliminación y demás solicitudes relativas a la privacidad.`,
+        `18.1 Si usted llamó o chateó con un negocio que utiliza Palakarimpu AI, o recibió un mensaje de texto de dicho negocio, ese negocio es quien controla sus datos. Le rogamos que dirija primero a ese negocio sus solicitudes de acceso, rectificación, eliminación y demás solicitudes relativas a la privacidad.`,
         `18.2 Si se comunica con nosotros en su lugar, remitiremos su solicitud al negocio o le indicaremos cómo contactarlo, y ayudaremos al negocio a responder. No podemos atender su solicitud sin las instrucciones del negocio, salvo cuando la ley nos lo exija.`,
         `18.3 Para dejar de recibir mensajes de recordatorio o códigos de verificación, responda <strong>STOP</strong> a cualquier mensaje.`,
       ],
@@ -294,9 +294,9 @@ export const privacyEs: LegalDocument = {
     {
       id: "self-hosted",
       nav: "Autoalojamiento",
-      title: "20. LobbyStack autoalojado",
+      title: "20. Palakarimpu AI autoalojado",
       blocks: [
-        `El código fuente de LobbyStack es de código abierto. Cuando una organización ejecuta LobbyStack en sus propios servidores, no recibimos, no accedemos ni tratamos ningún dato de esa implementación. La organización que la ejecuta es responsable de sus prácticas de privacidad. Dirija cualquier pregunta a esa organización.`,
+        `El código fuente de Palakarimpu AI es de código abierto. Cuando una organización ejecuta Palakarimpu AI en sus propios servidores, no recibimos, no accedemos ni tratamos ningún dato de esa implementación. La organización que la ejecuta es responsable de sus prácticas de privacidad. Dirija cualquier pregunta a esa organización.`,
       ],
     },
     {

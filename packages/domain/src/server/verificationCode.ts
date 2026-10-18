@@ -20,10 +20,10 @@ export function newVerificationCode(): string {
 }
 
 const verificationCodeMessages: Record<InterfaceLocale, (code: string, minutes: number) => string> = {
-  en: (code, minutes) => `LobbyStack verification code: ${code}. It expires in ${minutes} minutes.`,
-  fr: (code, minutes) => `Code de vérification LobbyStack : ${code}. Il expire dans ${minutes} minutes.`,
-  es: (code, minutes) => `Código de verificación de LobbyStack: ${code}. Caduca en ${minutes} minutos.`,
-  sr: (code, minutes) => `LobbyStack kod za potvrdu: ${code}. Ističe za ${minutes} minuta.`,
+  en: (code, minutes) => `Palakarimpu AI verification code: ${code}. It expires in ${minutes} minutes.`,
+  fr: (code, minutes) => `Code de vérification Palakarimpu AI : ${code}. Il expire dans ${minutes} minutes.`,
+  es: (code, minutes) => `Código de verificación de Palakarimpu AI: ${code}. Caduca en ${minutes} minutos.`,
+  sr: (code, minutes) => `Palakarimpu AI kod za potvrdu: ${code}. Ističe za ${minutes} minuta.`,
 };
 
 /** The text that carries a verification code, in the recipient's language. */

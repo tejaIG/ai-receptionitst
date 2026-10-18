@@ -11,9 +11,9 @@ description: ${meta.description}
 url: ${absoluteUrl("/es/pricing/")}
 ---
 
-# Precios de LobbyStack
+# Precios de Palakarimpu AI
 
-LobbyStack ofrece los planes Free, Starter, Pro y Enterprise. Los planes crecen según el uso, en lugar de reservar las funciones básicas de recepción para los niveles superiores.
+Palakarimpu AI ofrece los planes Free, Starter, Pro y Enterprise. Los planes crecen según el uso, en lugar de reservar las funciones básicas de recepción para los niveles superiores.
 
 ## Planes
 
@@ -46,7 +46,7 @@ Starter cuesta $30/mes o $288/año e incluye 150 minutos de voz. Pro cuesta $100
 
 ### ¿Las llamadas de spam cuentan en el uso?
 
-No. LobbyStack excluye las llamadas de spam del uso, así que los números equivocados, las llamadas automáticas y el spam no descuentan minutos de voz incluidos ni generan excedentes en los planes de pago.
+No. Palakarimpu AI excluye las llamadas de spam del uso, así que los números equivocados, las llamadas automáticas y el spam no descuentan minutos de voz incluidos ni generan excedentes en los planes de pago.
 
 ### ¿Se cobran las llamadas de menos de 10 segundos?
 

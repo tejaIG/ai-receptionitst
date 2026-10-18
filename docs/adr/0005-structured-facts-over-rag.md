@@ -1,6 +1,6 @@
 # ADR 0005: keep structured facts authoritative
 
-LobbyStack stores operational facts in structured records and uses retrieval for supporting business knowledge.
+Palakarimpu AI stores operational facts in structured records and uses retrieval for supporting business knowledge.
 
 ## Status
 

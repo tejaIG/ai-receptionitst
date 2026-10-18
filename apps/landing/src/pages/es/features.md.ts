@@ -11,9 +11,9 @@ description: ${meta.description}
 url: ${absoluteUrl("/es/features/")}
 ---
 
-# Funciones de LobbyStack
+# Funciones de Palakarimpu AI
 
-LobbyStack es una recepcionista con IA de código abierto para pequeñas empresas que reciben muchas llamadas. Contesta llamadas, reserva citas, recopila los datos de quien llama y transfiere la llamada a una persona cuando hace falta.
+Palakarimpu AI es una recepcionista con IA de código abierto para pequeñas empresas que reciben muchas llamadas. Contesta llamadas, reserva citas, recopila los datos de quien llama y transfiere la llamada a una persona cuando hace falta.
 
 ## Funciones principales
 

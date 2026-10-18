@@ -25,10 +25,10 @@ const copy = {
   en: {
     hero: {
       headingPrefix: "Become a",
-      headingAccent: "LobbyStack",
+      headingAccent: "Palakarimpu AI",
       headingSuffix: "affiliate",
       subhead:
-        "Refer businesses to LobbyStack hosted plans and earn 20% of their payments for 12 months. Referrals save 5% when they sign up through your link.",
+        "Refer businesses to Palakarimpu AI hosted plans and earn 20% of their payments for 12 months. Referrals save 5% when they sign up through your link.",
       cta: "Join the program",
     },
     benefits: {
@@ -43,7 +43,7 @@ const copy = {
         {
           title: "5% off for referrals",
           description:
-            "Referrals get 5% off hosted LobbyStack plans at signup.",
+            "Referrals get 5% off hosted Palakarimpu AI plans at signup.",
           icon: Gift,
         },
         {
@@ -98,7 +98,7 @@ const copy = {
         {
           title: "Keep it honest",
           description:
-            "Describe LobbyStack accurately. Recommend it for missed calls, after-hours coverage, booking, and routing problems you have actually seen.",
+            "Describe Palakarimpu AI accurately. Recommend it for missed calls, after-hours coverage, booking, and routing problems you have actually seen.",
         },
         {
           title: "Disclose compensation",
@@ -108,18 +108,18 @@ const copy = {
         {
           title: "No paid search on our trademarks",
           description:
-            "Do not bid on LobbyStack trademarks or confusingly similar terms in paid search ads.",
+            "Do not bid on Palakarimpu AI trademarks or confusingly similar terms in paid search ads.",
         },
         {
           title: "No spam or abuse",
           description:
-            "No fake reviews, misleading claims, self-referrals, coupon abuse, fake traffic, or pretending to be LobbyStack.",
+            "No fake reviews, misleading claims, self-referrals, coupon abuse, fake traffic, or pretending to be Palakarimpu AI.",
         },
         {
           title: "Termination rights",
           descriptionPrefix: "Attribution, holds, refunds, and payout rules are in our",
           termsLabel: "Terms of Service",
-          descriptionSuffix: "LobbyStack can change or pause the program at any time.",
+          descriptionSuffix: "Palakarimpu AI can change or pause the program at any time.",
         },
       ],
       footerPrefix: "Questions? Email",
@@ -130,10 +130,10 @@ const copy = {
   fr: {
     hero: {
       headingPrefix: "Devenez affilié",
-      headingAccent: "LobbyStack",
+      headingAccent: "Palakarimpu AI",
       headingSuffix: "",
       subhead:
-        "Parrainez des entreprises vers les forfaits hébergés LobbyStack et touchez 20 % de leurs paiements pendant 12 mois. Les parrainages obtiennent 5 % de rabais lorsqu'ils s'inscrivent via votre lien.",
+        "Parrainez des entreprises vers les forfaits hébergés Palakarimpu AI et touchez 20 % de leurs paiements pendant 12 mois. Les parrainages obtiennent 5 % de rabais lorsqu'ils s'inscrivent via votre lien.",
       cta: "Rejoindre le programme",
     },
     benefits: {
@@ -148,7 +148,7 @@ const copy = {
         {
           title: "5 % de rabais pour les parrainages",
           description:
-            "Les parrainages obtiennent 5 % de rabais sur les forfaits hébergés LobbyStack à l'inscription.",
+            "Les parrainages obtiennent 5 % de rabais sur les forfaits hébergés Palakarimpu AI à l'inscription.",
           icon: Gift,
         },
         {
@@ -204,7 +204,7 @@ const copy = {
         {
           title: "Restez honnête",
           description:
-            "Décrivez LobbyStack avec précision. Recommandez-le pour les appels manqués, la couverture hors horaires, la réservation et le routage que vous avez vus sur le terrain.",
+            "Décrivez Palakarimpu AI avec précision. Recommandez-le pour les appels manqués, la couverture hors horaires, la réservation et le routage que vous avez vus sur le terrain.",
         },
         {
           title: "Divulguez votre rémunération",
@@ -214,18 +214,18 @@ const copy = {
         {
           title: "Pas de recherche payante sur nos marques",
           description:
-            "N'enchérissez pas sur les marques LobbyStack ou des termes similaires pouvant prêter à confusion dans les annonces de recherche payante.",
+            "N'enchérissez pas sur les marques Palakarimpu AI ou des termes similaires pouvant prêter à confusion dans les annonces de recherche payante.",
         },
         {
           title: "Pas de spam ni d'abus",
           description:
-            "Pas de faux avis, d'allégations trompeuses, d'auto-parrainage, d'abus de coupons, de trafic artificiel ni d'usurpation de LobbyStack.",
+            "Pas de faux avis, d'allégations trompeuses, d'auto-parrainage, d'abus de coupons, de trafic artificiel ni d'usurpation de Palakarimpu AI.",
         },
         {
           title: "Droit de résiliation",
           descriptionPrefix: "L'attribution, les retenues, les remboursements et les règles de paiement sont dans nos",
           termsLabel: "Conditions d'utilisation",
-          descriptionSuffix: "LobbyStack peut modifier ou suspendre le programme à tout moment.",
+          descriptionSuffix: "Palakarimpu AI peut modifier ou suspendre le programme à tout moment.",
         },
       ],
       footerPrefix: "Des questions ? Écrivez à",
@@ -236,10 +236,10 @@ const copy = {
   es: {
     hero: {
       headingPrefix: "Hágase afiliado de",
-      headingAccent: "LobbyStack",
+      headingAccent: "Palakarimpu AI",
       headingSuffix: "",
       subhead:
-        "Recomiende los planes alojados de LobbyStack a otros negocios y gane el 20% de sus pagos durante 12 meses. Sus referidos ahorran un 5% al registrarse con su enlace.",
+        "Recomiende los planes alojados de Palakarimpu AI a otros negocios y gane el 20% de sus pagos durante 12 meses. Sus referidos ahorran un 5% al registrarse con su enlace.",
       cta: "Unirse al programa",
     },
     benefits: {
@@ -254,7 +254,7 @@ const copy = {
         {
           title: "5% de descuento para referidos",
           description:
-            "Sus referidos obtienen un 5% de descuento en los planes alojados de LobbyStack al registrarse.",
+            "Sus referidos obtienen un 5% de descuento en los planes alojados de Palakarimpu AI al registrarse.",
           icon: Gift,
         },
         {
@@ -310,7 +310,7 @@ const copy = {
         {
           title: "Sea honesto",
           description:
-            "Describa LobbyStack con precisión. Recomiéndelo para problemas de llamadas perdidas, atención fuera de horario, reservas y enrutamiento que haya visto de verdad.",
+            "Describa Palakarimpu AI con precisión. Recomiéndelo para problemas de llamadas perdidas, atención fuera de horario, reservas y enrutamiento que haya visto de verdad.",
         },
         {
           title: "Declare su comisión",
@@ -320,12 +320,12 @@ const copy = {
         {
           title: "Sin anuncios de búsqueda con nuestras marcas",
           description:
-            "No puje por las marcas de LobbyStack ni por términos parecidos que generen confusión en anuncios de búsqueda de pago.",
+            "No puje por las marcas de Palakarimpu AI ni por términos parecidos que generen confusión en anuncios de búsqueda de pago.",
         },
         {
           title: "Sin spam ni abusos",
           description:
-            "Nada de reseñas falsas, afirmaciones engañosas, autorreferidos, abuso de cupones, tráfico falso ni hacerse pasar por LobbyStack.",
+            "Nada de reseñas falsas, afirmaciones engañosas, autorreferidos, abuso de cupones, tráfico falso ni hacerse pasar por Palakarimpu AI.",
         },
         {
           title: "Derecho de terminación",
@@ -333,7 +333,7 @@ const copy = {
             "Las reglas de atribución, retenciones, reembolsos y pagos están en nuestros",
           termsLabel: "Términos del servicio",
           descriptionSuffix:
-            "LobbyStack puede cambiar o pausar el programa en cualquier momento.",
+            "Palakarimpu AI puede cambiar o pausar el programa en cualquier momento.",
         },
       ],
       footerPrefix: "¿Tiene preguntas? Escriba a",
@@ -344,10 +344,10 @@ const copy = {
   sr: {
     hero: {
       headingPrefix: "Postanite",
-      headingAccent: "LobbyStack",
+      headingAccent: "Palakarimpu AI",
       headingSuffix: "partner",
       subhead:
-        "Preporučite hostovane LobbyStack pakete drugim firmama i zaradite 20% njihovih uplata tokom 12 meseci. Preporučeni klijenti štede 5% kada se registruju preko Vašeg linka.",
+        "Preporučite hostovane Palakarimpu AI pakete drugim firmama i zaradite 20% njihovih uplata tokom 12 meseci. Preporučeni klijenti štede 5% kada se registruju preko Vašeg linka.",
       cta: "Pridružite se programu",
     },
     benefits: {
@@ -362,7 +362,7 @@ const copy = {
         {
           title: "5% popusta za preporučene",
           description:
-            "Preporučeni klijenti dobijaju 5% popusta na hostovane LobbyStack pakete pri registraciji.",
+            "Preporučeni klijenti dobijaju 5% popusta na hostovane Palakarimpu AI pakete pri registraciji.",
           icon: Gift,
         },
         {
@@ -417,7 +417,7 @@ const copy = {
         {
           title: "Budite iskreni",
           description:
-            "Opišite LobbyStack tačno. Preporučite ga za propuštene pozive, pokrivanje van radnog vremena, zakazivanje i usmeravanje poziva tamo gde ste te probleme zaista videli.",
+            "Opišite Palakarimpu AI tačno. Preporučite ga za propuštene pozive, pokrivanje van radnog vremena, zakazivanje i usmeravanje poziva tamo gde ste te probleme zaista videli.",
         },
         {
           title: "Navedite da dobijate proviziju",
@@ -427,12 +427,12 @@ const copy = {
         {
           title: "Bez plaćenih oglasa na naše žigove",
           description:
-            "Ne licitirajte za LobbyStack žigove ni za slične izraze koji mogu da zbune u plaćenim oglasima na pretraživačima.",
+            "Ne licitirajte za Palakarimpu AI žigove ni za slične izraze koji mogu da zbune u plaćenim oglasima na pretraživačima.",
         },
         {
           title: "Bez spama i zloupotreba",
           description:
-            "Bez lažnih recenzija, obmanjujućih tvrdnji, samopreporuka, zloupotrebe kupona, lažnog saobraćaja i lažnog predstavljanja kao LobbyStack.",
+            "Bez lažnih recenzija, obmanjujućih tvrdnji, samopreporuka, zloupotrebe kupona, lažnog saobraćaja i lažnog predstavljanja kao Palakarimpu AI.",
         },
         {
           title: "Pravo na raskid",
@@ -440,7 +440,7 @@ const copy = {
             "Pravila o pripisivanju, zadržavanju, povraćaju novca i isplatama nalaze se u našim",
           termsLabel: "Uslovima korišćenja",
           descriptionSuffix:
-            "LobbyStack može da izmeni ili pauzira program u bilo kom trenutku.",
+            "Palakarimpu AI može da izmeni ili pauzira program u bilo kom trenutku.",
         },
       ],
       footerPrefix: "Imate pitanja? Pišite na",

@@ -40,10 +40,10 @@ function assertAuthDatabaseRoles(): Promise<void> {
 }
 
 const EXISTING_ACCOUNT_SUBJECTS: Record<SupportedLocale, string> = {
-  en: "You already have a LobbyStack account",
-  fr: "Votre compte LobbyStack existe déjà",
-  es: "Ya tiene una cuenta de LobbyStack",
-  sr: "Već imate LobbyStack nalog",
+  en: "You already have a Palakarimpu AI account",
+  fr: "Votre compte Palakarimpu AI existe déjà",
+  es: "Ya tiene una cuenta de Palakarimpu AI",
+  sr: "Već imate Palakarimpu AI nalog",
 };
 
 const enabledEmailOtpPaths = new Set([
@@ -113,10 +113,10 @@ async function enqueueAuthEmail(input: {
 }): Promise<void> {
   const urlHash = createHash("sha256").update(input.url).digest("hex");
   const subject = input.purpose === "verification"
-    ? "Verify your LobbyStack email"
+    ? "Verify your Palakarimpu AI email"
     : input.purpose === "password_reset"
-      ? "Reset your LobbyStack password"
-      : "Confirm your LobbyStack email change";
+      ? "Reset your Palakarimpu AI password"
+      : "Confirm your Palakarimpu AI email change";
   await enqueueAuthEmailOutbox({
     userId: input.userId,
     dedupeKey: `auth-email:${input.purpose}:${input.userId}:${urlHash}`,
@@ -136,7 +136,7 @@ async function enqueueEmailVerificationCode(input: { userId: string; email: stri
     payload: {
       template: "verify_email",
       to: input.email,
-      subject: "Your LobbyStack verification code",
+      subject: "Your Palakarimpu AI verification code",
       variables: { code: input.otp },
     },
   });
@@ -240,7 +240,7 @@ function createAuth(adapterDatabase?: Parameters<typeof drizzleAdapter>[0]) {
         await enqueueAuthEmailOutbox({
           userId: user.id,
           dedupeKey: `auth-reset-code:${user.id}:${randomUUID()}`,
-          payload: { template: "password_reset", to: email, subject: "Reset your LobbyStack password", variables: { code: otp } },
+          payload: { template: "password_reset", to: email, subject: "Reset your Palakarimpu AI password", variables: { code: otp } },
         });
       },
     })],

@@ -3,7 +3,7 @@ import { and, eq } from "drizzle-orm";
 import { billingAccounts, businesses, phoneNumbers, type DatabaseTransaction } from "@lobbystack/db";
 
 /**
- * LobbyStack's own verified number, which texts for every cloud business. No
+ * Palakarimpu AI's own verified number, which texts for every cloud business. No
  * business owns it, so inbound texts to it don't resolve to a business.
  */
 export function sharedSmsSender(): string | null {

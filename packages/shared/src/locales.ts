@@ -1,5 +1,5 @@
 /**
- * Languages LobbyStack's interfaces are translated into: the dashboard, the
+ * Languages Palakarimpu AI's interfaces are translated into: the dashboard, the
  * website widget, the landing site and transactional email. The short codes
  * are the identifiers used in URLs, cookies, storage and locale folders.
  *

@@ -15,7 +15,7 @@ Official pages advertise FAQs, qualification, booking and rescheduling, routing,
 
 ## Fair comparison
 
-XBert appeals to teams that want AI inside Nextiva's broader customer-experience suite. LobbyStack offers a focused receptionist stack, public code, and self-hosting. Buyers should price the required Nextiva plan and XBert together.
+XBert appeals to teams that want AI inside Nextiva's broader customer-experience suite. Palakarimpu AI offers a focused receptionist stack, public code, and self-hosting. Buyers should price the required Nextiva plan and XBert together.
 
 ## Claims to avoid
 

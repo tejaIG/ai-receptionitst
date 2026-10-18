@@ -1,7 +1,7 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "LobbyStack API",
+    "title": "Palakarimpu AI API",
     "version": "v1",
     "description": "Read calls, contacts, appointments and messages, book appointments, and subscribe to webhooks. Authenticate with an API key in the Authorization header. Each key allows 120 requests per minute by default."
   },
@@ -4236,12 +4236,12 @@
             "maxLength": 200
           },
           "staff_id": {
-            "description": "Book with this active staff member. Without it, LobbyStack picks one who is free.",
+            "description": "Book with this active staff member. Without it, Palakarimpu AI picks one who is free.",
             "type": "string",
             "format": "uuid"
           },
           "sms_consent": {
-            "description": "True only if the customer agreed to receive confirmation and reminder texts. Self-hosted instances only: on LobbyStack Cloud, texts come from LobbyStack's shared number, and only the receptionist can collect that consent, on a call.",
+            "description": "True only if the customer agreed to receive confirmation and reminder texts. Self-hosted instances only: on Palakarimpu AI Cloud, texts come from Palakarimpu AI's shared number, and only the receptionist can collect that consent, on a call.",
             "type": "boolean"
           }
         },

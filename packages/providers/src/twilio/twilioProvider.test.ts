@@ -41,6 +41,23 @@ describe("TwilioProvider phone provisioning", () => {
     expect(mocks.incomingPhoneNumbers).not.toHaveBeenCalled();
   });
 
+  it("sends WhatsApp through Twilio with whatsapp: addresses, as a template when one is configured", async () => {
+    mocks.client.messages.create.mockResolvedValue({ sid: "SMwa1" });
+    const client = provider();
+    const plain = await client.sendWhatsApp({ to: "+14165550999", from: "+14155238886", body: "Confirmed", statusCallback: "https://app.test/status" });
+    expect(plain).toEqual({ providerMessageId: "SMwa1" });
+    expect(mocks.client.messages.create).toHaveBeenLastCalledWith({ to: "whatsapp:+14165550999", from: "whatsapp:+14155238886", body: "Confirmed", statusCallback: "https://app.test/status" });
+    await client.sendWhatsApp({ to: "whatsapp:+14165550999", from: "whatsapp:+14155238886", body: "ignored with a template", contentSid: "HXtemplate", contentVariables: { "1": "Maple Clinic", "2": "Cleaning" } });
+    expect(mocks.client.messages.create).toHaveBeenLastCalledWith({ to: "whatsapp:+14165550999", from: "whatsapp:+14155238886", contentSid: "HXtemplate", contentVariables: JSON.stringify({ "1": "Maple Clinic", "2": "Cleaning" }) });
+  });
+
+  it("blocks WhatsApp to an unapproved recipient during certification", async () => {
+    vi.stubEnv("LOBBYSTACK_CERTIFICATION_MODE", "true");
+    vi.stubEnv("LOBBYSTACK_CERTIFICATION_PHONES", "+14165550123");
+    await expect(provider().sendWhatsApp({ to: "+14165550999", from: "+14155238886", body: "x" })).rejects.toThrow("CERTIFICATION_RECIPIENT_BLOCKED");
+    expect(mocks.client.messages.create).not.toHaveBeenCalled();
+  });
+
   it("authenticates a restricted REST key with the owning account and never uses it for webhook validation", async () => {
     const restricted = new TwilioProvider({ accountSid: "ACowner", apiKeySid: "SKrestricted", apiKeySecret: "restricted-secret" });
     expect(twilio).toHaveBeenCalledWith("SKrestricted", "restricted-secret", { accountSid: "ACowner" });
@@ -63,10 +80,10 @@ describe("TwilioProvider phone provisioning", () => {
 
   it("purchases and can reconcile an already-owned number", async () => {
     mocks.incomingPhoneNumbers.create.mockResolvedValue({ sid: "PN123", phoneNumber: "+14165550100", smsUrl: "https://app.test/sms", voiceUrl: "https://app.test/voice" });
-    mocks.incomingPhoneNumbers.list.mockResolvedValue([{ sid: "PN123", phoneNumber: "+14165550100", friendlyName: "LobbyStack" }]);
+    mocks.incomingPhoneNumbers.list.mockResolvedValue([{ sid: "PN123", phoneNumber: "+14165550100", friendlyName: "Palakarimpu AI" }]);
     const twilio = provider();
-    expect(await twilio.purchasePhoneNumber({ e164: "+14165550100", friendlyName: "LobbyStack", smsUrl: "https://app.test/sms", statusCallbackUrl: "https://app.test/status" })).toEqual({ providerPhoneId: "PN123", e164: "+14165550100", smsUrl: "https://app.test/sms" });
-    expect(await twilio.findOwnedPhoneNumber({ e164: "+14165550100" })).toEqual({ providerPhoneId: "PN123", e164: "+14165550100", friendlyName: "LobbyStack" });
+    expect(await twilio.purchasePhoneNumber({ e164: "+14165550100", friendlyName: "Palakarimpu AI", smsUrl: "https://app.test/sms", statusCallbackUrl: "https://app.test/status" })).toEqual({ providerPhoneId: "PN123", e164: "+14165550100", smsUrl: "https://app.test/sms" });
+    expect(await twilio.findOwnedPhoneNumber({ e164: "+14165550100" })).toEqual({ providerPhoneId: "PN123", e164: "+14165550100", friendlyName: "Palakarimpu AI" });
   });
 
   it("checks Verify using the durable verification SID", async () => {

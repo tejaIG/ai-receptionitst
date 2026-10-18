@@ -65,11 +65,11 @@ The Convex write-freeze control was rehearsed against the **development** deploy
 Candidate `c775fa25` was deployed to the existing staging environment (migrator applied `0051`/`0052`; admin, worker, and voice redeployed and healthy, including the new dependency-aware voice readiness). The real Google Calendar lifecycle then passed against the deployed worker:
 
 1. **Connect**: the OAuth flow now requests `openid email calendar`; consent completed and the callback stored the connection with the new state nonce. The prior staging failure was reproduced first and matched the logs exactly: `Google account lookup failed with status 401` (missing `openid` scope), which this fix resolves.
-2. **Discovery/selection**: the account's calendars were discovered; a dedicated writable secondary calendar, **LobbyStack Test**, was created (the holiday calendar is read-only) and selected. Selection was applied in the isolated staging database because the Base UI dropdown did not respond to UI automation reliably.
+2. **Discovery/selection**: the account's calendars were discovered; a dedicated writable secondary calendar, **Palakarimpu AI Test**, was created (the holiday calendar is read-only) and selected. Selection was applied in the isolated staging database because the Base UI dropdown did not respond to UI automation reliably.
 3. **Reconcile**: the deployed worker fetched Google free/busy and marked the connection synced (`last_synced_at` set, empty `last_sync_error`, outbox published on first attempt).
 4. **Create**: a test appointment synced to Google; the real event existed with the deterministic client event ID (`a34193b2201e37d2267b5d2cf9873680`, summary "Calendar Test Service").
 5. **Cancel**: the event was soft-deleted by Google (`events.delete` returns 204; a follow-up `events.get` reports `status: cancelled` and `events.list` no longer returns it; a second delete returns 410). The appointment reached `calendar_sync_state = synced`. This confirms the cancellation regression is fixed: the old code re-upserted the event and left it booked.
-6. Test appointments, service, staff, contact, and outbox rows were removed from staging; the connection remains selected to the LobbyStack Test calendar.
+6. Test appointments, service, staff, contact, and outbox rows were removed from staging; the connection remains selected to the Palakarimpu AI Test calendar.
 
 Scope note: this used a controlled SQL fixture and the deployed worker rather than clicking through every UI screen; the connect, discovery, token use, event create, and event cancel all exercised real Google. The Polar sandbox lifecycle is recorded in the next section.
 

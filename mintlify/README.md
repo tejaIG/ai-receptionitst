@@ -1,4 +1,4 @@
-# LobbyStack Mintlify docs
+# Palakarimpu AI Mintlify docs
 
 This directory contains the source for [docs.lobbystack.com](https://docs.lobbystack.com/).
 

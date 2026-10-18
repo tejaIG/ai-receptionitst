@@ -1,8 +1,8 @@
 ---
-title: "LobbyStack je pokrenut"
-description: "LobbyStack je pokrenut: AI recepcioner otvorenog koda koji odgovara na pozive, zakazuje termine i ostavlja timu punu kontrolu."
+title: "Palakarimpu AI je pokrenut"
+description: "Palakarimpu AI je pokrenut: AI recepcioner otvorenog koda koji odgovara na pozive, zakazuje termine i ostavlja timu punu kontrolu."
 pubDate: 2026-05-13T12:00:00-04:00
-author: "LobbyStack tim"
+author: "Palakarimpu AI tim"
 category: "Novosti o proizvodu"
 featured: false
 coverImage: "/illustrations/lobbystack-is-live-hero.webp"
@@ -12,19 +12,19 @@ canonicalSlug: "lobbystack-is-live"
 
 Većina malih firmi ne gubi klijente zato što loše radi. Gubi ih zato što je telefon zazvonio dok su svi već bili zauzeti poslom.
 
-Od danas je [LobbyStack](https://lobbystack.com/sr/) pokrenut.
+Od danas je [Palakarimpu AI](https://lobbystack.com/sr/) pokrenut.
 
-LobbyStack je **AI recepcioner otvorenog koda** za firme koje zavise od telefonskih poziva i zakazivanja. Odgovara kada je Vaš tim zauzet, kada ne radite, kada ste u vožnji između dva posla ili kada već pomažete drugom klijentu.
+Palakarimpu AI je **AI recepcioner otvorenog koda** za firme koje zavise od telefonskih poziva i zakazivanja. Odgovara kada je Vaš tim zauzet, kada ne radite, kada ste u vožnji između dva posla ili kada već pomažete drugom klijentu.
 
 Cilj je praktičan: **dobar pozivalac ne bi trebalo da postane propuštena prilika samo zato što je pozvao u pogrešnom trenutku.**
 
-Govorna pošta nije tok rada. LobbyStack je naš odgovor na to.
+Govorna pošta nije tok rada. Palakarimpu AI je naš odgovor na to.
 
 ## Šta radi
 
-[LobbyStack](/sr/features/) stoji između Vašeg poslovnog telefona i Vašeg tima. Vi odlučujete kada odgovara: na svaki poziv, van radnog vremena, u periodima gužve ili samo kada niko ne podigne slušalicu.
+[Palakarimpu AI](/sr/features/) stoji između Vašeg poslovnog telefona i Vašeg tima. Vi odlučujete kada odgovara: na svaki poziv, van radnog vremena, u periodima gužve ili samo kada niko ne podigne slušalicu.
 
-Kada se pozivaocu javi LobbyStack, on može da:
+Kada se pozivaocu javi Palakarimpu AI, on može da:
 
 - **odgovori na pitanja** na osnovu znanja o Vašoj firmi
 - **zabeleži podatke pozivaoca** kao što su ime, broj, potrebna usluga, lokacija i hitnost
@@ -46,11 +46,11 @@ AI je promenio ono što je moguće, ali mnogi AI telefonski alati i dalje deluju
 
 Malim firmama treba nešto praktičnije od toga. Treba im recepcioner koji poznaje firmu, prati uputstva, zakaže termin dok je pozivalac još zainteresovan i skloni se kada treba da uskoči čovek.
 
-Takav je LobbyStack.
+Takav je Palakarimpu AI.
 
 ## Po čemu se razlikuje
 
-LobbyStack nije chatbot prikačen na broj telefona. To je sistem za recepciju poziva koji treba da se završe konkretnim ishodom.
+Palakarimpu AI nije chatbot prikačen na broj telefona. To je sistem za recepciju poziva koji treba da se završe konkretnim ishodom.
 
 Izgrađen je oko **kontrole, a ne magije**.
 
@@ -58,27 +58,27 @@ Vi dodajete znanje koje recepcioner treba da koristi: usluge, cene, radno vreme,
 
 To je važno jer su stvarni pozivi haotični. Ljudi prekidaju sami sebe. Postavljaju dva pitanja odjednom. Predomisle se na pola razgovora. Daju adresu pre vrste usluge. Krut dijagram toka to loše podnosi.
 
-LobbyStack Vam omogućava da ishod opišete običnim jezikom:
+Palakarimpu AI Vam omogućava da ishod opišete običnim jezikom:
 
 > Ako neko pita za cenu, zabeleži vrstu usluge, lokaciju, budžet i rok. Navedi odobreni raspon cena kada postoji. Ako mu treba tačna cena, primi poruku za prodajni tim.
 
 To je bliže načinu na koji biste obučili čoveka i bliže načinu na koji Vaš tim već razmišlja o poslu.
 
-Postoji još jedna razlika: LobbyStack Vam ne naplaćuje smeće. Spam pozivi i pozivi kraći od 10 sekundi se ne računaju u Vaš paket, jer niko ne bi trebalo da plaća pogrešne brojeve, automatske pozive ili trenutne prekide veze.
+Postoji još jedna razlika: Palakarimpu AI Vam ne naplaćuje smeće. Spam pozivi i pozivi kraći od 10 sekundi se ne računaju u Vaš paket, jer niko ne bi trebalo da plaća pogrešne brojeve, automatske pozive ili trenutne prekide veze.
 
 ## Otvoren kod od samog početka
 
-LobbyStack je [otvorenog koda](https://github.com/lobbystack/lobbystack) jer telefonski pozivi sadrže stvarne podatke o klijentima, a firme ne bi trebalo da prema svojoj recepciji postupaju kao prema crnoj kutiji.
+Palakarimpu AI je [otvorenog koda](https://github.com/lobbystack/lobbystack) jer telefonski pozivi sadrže stvarne podatke o klijentima, a firme ne bi trebalo da prema svojoj recepciji postupaju kao prema crnoj kutiji.
 
 Za mnoge timove hostovana verzija je najbrži način da počnu. Napravite nalog, povežite delove, dodajte znanje o firmi i krenite uživo.
 
-Za timove sa strožim zahtevima za privatnost, usklađenost ili infrastrukturu, samostalno hostovanje je deo proizvoda, a ne naknadna ideja. LobbyStack možete da pokrenete na sopstvenom serveru, zadržite čvršću kontrolu nad podacima klijenata i prilagodite sistem svojim operativnim zahtevima.
+Za timove sa strožim zahtevima za privatnost, usklađenost ili infrastrukturu, samostalno hostovanje je deo proizvoda, a ne naknadna ideja. Palakarimpu AI možete da pokrenete na sopstvenom serveru, zadržite čvršću kontrolu nad podacima klijenata i prilagodite sistem svojim operativnim zahtevima.
 
 To je velika razlika u odnosu na većinu softvera za recepciju. Ne mislimo da poverenje treba da zavisi od dobavljača koji traži da mu sve verujete na reč.
 
 ## Napravljen za pozive koji zaista odlučuju o prihodu
 
-Prva verzija LobbyStack se fokusira na svakodnevne pozive koji odlučuju da li će posao biti zakazan:
+Prva verzija Palakarimpu AI se fokusira na svakodnevne pozive koji odlučuju da li će posao biti zakazan:
 
 - novi klijent koji pita da li radite u njegovom području
 - neko ko pokušava da zakaže, pomeri ili otkaže termin
@@ -91,7 +91,7 @@ To nisu retki izuzeci. To su obični pozivi koji pune kalendare, pokreću procen
 
 ## Počnite malo, pa rastite
 
-Možete da počnete sa [paketom Free](/sr/pricing/), testirate pozive u pregledaču i vidite da li LobbyStack odgovara Vašoj firmi pre nego što ga stavite pred više klijenata. Paket Pro je namenjen za pokrivanje poziva u stvarnom radu, uz transparentnu naplatu prema potrošnji, a Enterprise je dostupan za veći obim poziva ili podršku pri samostalnom hostovanju.
+Možete da počnete sa [paketom Free](/sr/pricing/), testirate pozive u pregledaču i vidite da li Palakarimpu AI odgovara Vašoj firmi pre nego što ga stavite pred više klijenata. Paket Pro je namenjen za pokrivanje poziva u stvarnom radu, uz transparentnu naplatu prema potrošnji, a Enterprise je dostupan za veći obim poziva ili podršku pri samostalnom hostovanju.
 
 U ovom prvom izdanju najvažnije su tri stvari:
 
@@ -103,6 +103,6 @@ Sada smo uživo, a ovo je tek početak. Proizvod će nastaviti da se poboljšava
 
 **Odgovori na poziv. Razumi klijenta. Preduzmi sledeći koristan korak. Ostavi firmi kontrolu.**
 
-Ako Vas propušteni pozivi koštaju dobrih poslova, [isprobajte LobbyStack besplatno](https://app.lobbystack.com/sr/signup) i omogućite sledećem pozivaocu da dobije nekoga, čak i kada je Vaš tim zauzet.
+Ako Vas propušteni pozivi koštaju dobrih poslova, [isprobajte Palakarimpu AI besplatno](https://app.lobbystack.com/sr/signup) i omogućite sledećem pozivaocu da dobije nekoga, čak i kada je Vaš tim zauzet.
 
 Za detaljniji pogled na proizvod pročitajte [pregled sistema AI recepcionera otvorenog koda](/sr/blog/open-source-ai-receptionist-stack/). Ako procenjujete dobavljače, počnite sa tekstom [kako izabrati AI recepcionera](/sr/blog/how-to-choose-an-ai-receptionist/) ili [koliko AI recepcioner može da uštedi](/sr/blog/ai-receptionist-savings/).

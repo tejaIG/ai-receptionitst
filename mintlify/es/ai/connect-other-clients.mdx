@@ -1,11 +1,11 @@
 ---
 title: "Conecte otros clientes MCP"
-description: "Agregue el servidor MCP de LobbyStack a Cursor, VS Code o cualquier cliente compatible con Streamable HTTP, y pruébelo con el MCP Inspector."
+description: "Agregue el servidor MCP de Palakarimpu AI a Cursor, VS Code o cualquier cliente compatible con Streamable HTTP, y pruébelo con el MCP Inspector."
 sidebarTitle: "Otros clientes"
 contentType: "How-to"
 ---
 
-Cualquier cliente MCP compatible con Streamable HTTP puede conectarse. Los clientes compatibles con MCP OAuth inician sesión con LobbyStack por sí solos; los demás necesitan una clave de API en un encabezado.
+Cualquier cliente MCP compatible con Streamable HTTP puede conectarse. Los clientes compatibles con MCP OAuth inician sesión con Palakarimpu AI por sí solos; los demás necesitan una clave de API en un encabezado.
 
 | Ajuste | Valor |
 | --- | --- |
@@ -17,7 +17,7 @@ El servidor no guarda estado. Admite la revisión 2026-07-28 del protocolo y rec
 
 ## Cursor
 
-Agregue LobbyStack a `~/.cursor/mcp.json`, o a `.cursor/mcp.json` en un proyecto:
+Agregue Palakarimpu AI a `~/.cursor/mcp.json`, o a `.cursor/mcp.json` en un proyecto:
 
 ```json mcp.json
 {
@@ -34,12 +34,12 @@ Agregue LobbyStack a `~/.cursor/mcp.json`, o a `.cursor/mcp.json` en un proyecto
 
 ## VS Code
 
-Agregue LobbyStack a `.vscode/mcp.json`. VS Code le pide la clave la primera vez que inicia el servidor y la guarda por usted:
+Agregue Palakarimpu AI a `.vscode/mcp.json`. VS Code le pide la clave la primera vez que inicia el servidor y la guarda por usted:
 
 ```json .vscode/mcp.json
 {
   "inputs": [
-    { "type": "promptString", "id": "lobbystack-key", "description": "LobbyStack API key", "password": true }
+    { "type": "promptString", "id": "lobbystack-key", "description": "Palakarimpu AI API key", "password": true }
   ],
   "servers": {
     "lobbystack": {

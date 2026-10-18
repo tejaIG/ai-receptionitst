@@ -168,7 +168,7 @@ export function Footer({ locale = "en", path }: FooterProps) {
           >
             <img
               src="/lobbystack-logo.svg"
-              alt="LobbyStack"
+              alt="Palakarimpu AI"
               width={155}
               height={43}
               decoding="async"
@@ -224,7 +224,7 @@ export function Footer({ locale = "en", path }: FooterProps) {
       <div className="mx-auto max-w-7xl px-6 pb-8">
         <div className="flex flex-col items-center justify-between gap-4 text-xs text-muted-foreground md:flex-row">
           <p>
-            © {new Date().getFullYear()} LobbyStack. {copy.rights}
+            © {new Date().getFullYear()} Palakarimpu AI. {copy.rights}
           </p>
           <nav
             aria-label={languageLabels[locale]}

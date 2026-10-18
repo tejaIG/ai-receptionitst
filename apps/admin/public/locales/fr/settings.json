@@ -402,7 +402,7 @@
     },
     "telemetry": {
       "label": "Partager les données de télémétrie",
-      "description": "Aidez-nous à améliorer LobbyStack en partageant des données d'utilisation et d'erreurs anonymisées.",
+      "description": "Aidez-nous à améliorer Palakarimpu AI en partageant des données d'utilisation et d'erreurs anonymisées.",
       "saveFailed": "Nous n’avons pas pu enregistrer votre préférence de télémétrie. Veuillez réessayer."
     }
   },
@@ -422,7 +422,7 @@
     "google": {
       "sheetTitle": "Google Calendar",
       "sheetDescription": "Connectez les calendriers de l'équipe et choisissez celui qui reçoit les réservations.",
-      "privacyNoticeText": "La connexion à Google Calendar permet à LobbyStack de lire la disponibilité de votre calendrier et de créer, mettre à jour ou supprimer des rendez-vous sur le calendrier que vous sélectionnez.",
+      "privacyNoticeText": "La connexion à Google Calendar permet à Palakarimpu AI de lire la disponibilité de votre calendrier et de créer, mettre à jour ou supprimer des rendez-vous sur le calendrier que vous sélectionnez.",
       "privacyPolicyLinkText": "Politique de confidentialité",
       "staffLabel": "Membre de l'équipe",
       "selectStaff": "Choisir un membre",
@@ -472,6 +472,12 @@
       "webhooks": {
         "title": "Webhooks",
         "description": "Envoyez les appels, les réservations et les messages à vos outils."
+      },
+      "whatsapp": {
+        "title": "Confirmations WhatsApp",
+        "description": "Envoyez un message WhatsApp aux clients lorsque leur rendez-vous est réservé.",
+        "notConfigured": "WhatsApp n’est pas encore configuré sur ce serveur. Ajoutez un expéditeur WhatsApp Twilio pour envoyer des messages.",
+        "noTemplate": "Aucun modèle de message approuvé n’est défini. Les messages n’atteignent que les clients qui vous ont écrit au cours des dernières 24 heures."
       }
     },
     "status": {
@@ -789,7 +795,7 @@
       },
       "webhookDisabled": {
         "title": "Point de terminaison webhook désactivé",
-        "description": "Quand LobbyStack cesse d'envoyer des événements à un point de terminaison webhook parce que toutes les livraisons ont échoué pendant environ une journée."
+        "description": "Quand Palakarimpu AI cesse d'envoyer des événements à un point de terminaison webhook parce que toutes les livraisons ont échoué pendant environ une journée."
       }
     },
     "systemIssues": {
@@ -798,11 +804,11 @@
     "phoneVerification": {
       "phone": {
         "title": "Votre numéro de mobile",
-        "consent": "En envoyant le code, vous acceptez de recevoir les alertes LobbyStack par SMS. Fréquence variable. Des frais de messagerie et de données peuvent s'appliquer. Répondez STOP pour vous désabonner, HELP pour de l'aide."
+        "consent": "En envoyant le code, vous acceptez de recevoir les alertes Palakarimpu AI par SMS. Fréquence variable. Des frais de messagerie et de données peuvent s'appliquer. Répondez STOP pour vous désabonner, HELP pour de l'aide."
       },
       "confirm": {
         "title": "Activer les alertes par SMS",
-        "consent": "En les activant, vous acceptez de recevoir les alertes LobbyStack par SMS à votre numéro vérifié. Fréquence variable. Des frais de messagerie et de données peuvent s'appliquer. Répondez STOP pour vous désabonner, HELP pour de l'aide.",
+        "consent": "En les activant, vous acceptez de recevoir les alertes Palakarimpu AI par SMS à votre numéro vérifié. Fréquence variable. Des frais de messagerie et de données peuvent s'appliquer. Répondez STOP pour vous désabonner, HELP pour de l'aide.",
         "turnOn": "Activer"
       },
       "fields": {
@@ -843,7 +849,7 @@
   },
   "apiKeys": {
     "title": "Clés API",
-    "description": "Connectez des outils comme Zapier ou vos propres scripts à LobbyStack. Chaque clé ne fonctionne que pour cette entreprise.",
+    "description": "Connectez des outils comme Zapier ou vos propres scripts à Palakarimpu AI. Chaque clé ne fonctionne que pour cette entreprise.",
     "empty": "Aucune clé API pour l'instant.",
     "neverUsed": "Jamais",
     "createdBy": "{{date}} par {{name}}",
@@ -901,7 +907,7 @@
   },
   "webhooks": {
     "title": "Webhooks",
-    "description": "LobbyStack envoie une requête HTTPS POST à votre URL quand quelque chose se produit, par exemple un appel terminé ou une nouvelle réservation. Chaque requête est signée pour que vous puissiez vérifier qu'elle vient de nous.",
+    "description": "Palakarimpu AI envoie une requête HTTPS POST à votre URL quand quelque chose se produit, par exemple un appel terminé ou une nouvelle réservation. Chaque requête est signée pour que vous puissiez vérifier qu'elle vient de nous.",
     "empty": "Aucun point de terminaison webhook pour l'instant.",
     "enabledLabel": "Envoyer les événements à ce point de terminaison",
     "restricted": {
@@ -935,19 +941,19 @@
     "create": {
       "action": "Ajouter un point de terminaison",
       "title": "Ajouter un point de terminaison webhook",
-      "description": "Choisissez où LobbyStack envoie les événements et lesquels envoyer.",
+      "description": "Choisissez où Palakarimpu AI envoie les événements et lesquels envoyer.",
       "submit": "Ajouter"
     },
     "edit": {
       "action": "Modifier",
       "title": "Modifier le point de terminaison webhook",
-      "description": "Les changements s'appliquent au prochain événement envoyé par LobbyStack.",
+      "description": "Les changements s'appliquent au prochain événement envoyé par Palakarimpu AI.",
       "submit": "Enregistrer"
     },
     "delete": {
       "action": "Supprimer",
       "title": "Supprimer ce point de terminaison?",
-      "description": "LobbyStack cesse d'envoyer des événements à {{url}} et supprime son journal des livraisons.",
+      "description": "Palakarimpu AI cesse d'envoyer des événements à {{url}} et supprime son journal des livraisons.",
       "confirm": "Supprimer",
       "done": "Point de terminaison supprimé"
     },
@@ -994,8 +1000,8 @@
   },
   "connectedApps": {
     "title": "Applications connectées",
-    "description": "Les assistants IA comme Claude ou ChatGPT connectés à LobbyStack. Chacun ne fonctionne que pour cette entreprise, avec l'accès approuvé lors de la connexion.",
-    "empty": "Aucune application connectée pour l'instant. Pour en connecter une, ajoutez LobbyStack dans les réglages de l'assistant et connectez-vous.",
+    "description": "Les assistants IA comme Claude ou ChatGPT connectés à Palakarimpu AI. Chacun ne fonctionne que pour cette entreprise, avec l'accès approuvé lors de la connexion.",
+    "empty": "Aucune application connectée pour l'instant. Pour en connecter une, ajoutez Palakarimpu AI dans les réglages de l'assistant et connectez-vous.",
     "neverUsed": "Jamais",
     "unnamed": "Application sans nom",
     "grantedBy": "{{date}} par {{name}}",

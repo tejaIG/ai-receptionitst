@@ -31,7 +31,7 @@ export function LandingNavbar({ locale = "en" }: LandingNavbarProps) {
         >
           <img
             src={versionedAssetUrl("/lobbystack-logo.svg")}
-            alt="LobbyStack"
+            alt="Palakarimpu AI"
             width={155}
             height={43}
             decoding="async"

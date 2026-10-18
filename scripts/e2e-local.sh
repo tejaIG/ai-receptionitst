@@ -87,7 +87,7 @@ export PLAYWRIGHT_BASE_URL="http://localhost:${ADMIN_PORT}"
 export SMTP_HOST=127.0.0.1
 export SMTP_PORT="$MAILPIT_SMTP_PORT"
 export SMTP_SECURE=false
-export EMAIL_FROM="LobbyStack <no-reply@example.test>"
+export EMAIL_FROM="Palakarimpu AI <no-reply@example.test>"
 
 if [[ "$SKIP_BUILD" -eq 0 ]]; then
   echo "==> Building workspace packages and the admin standalone server"

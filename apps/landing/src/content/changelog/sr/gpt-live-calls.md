@@ -7,7 +7,7 @@ canonicalSlug: "gpt-live-calls"
 category: "Proizvod"
 ---
 
-Pozivi na Vaš LobbyStack broj, probni pozivi s kontrolne table i glasovno dugme u vidžetu na Vašem sajtu sada rade na GPT-Live, glasovnom modelu koji je OpenAI napravio za ChatGPT Voice. Vaš recepcioner sluša dok govori, prestaje kada ga pozivalac prekine i nastavlja da priča dok proverava Vaš kalendar ili prima poruku. [Pročitajte kako smo prešli na novi model](/sr/blog/ai-voice-agent-gpt-live/).
+Pozivi na Vaš Palakarimpu AI broj, probni pozivi s kontrolne table i glasovno dugme u vidžetu na Vašem sajtu sada rade na GPT-Live, glasovnom modelu koji je OpenAI napravio za ChatGPT Voice. Vaš recepcioner sluša dok govori, prestaje kada ga pozivalac prekine i nastavlja da priča dok proverava Vaš kalendar ili prima poruku. [Pročitajte kako smo prešli na novi model](/sr/blog/ai-voice-agent-gpt-live/).
 
 Ćaskanje na sajtu sada koristi istog agenta kao i Vaši pozivi. Posetilac može da zatraži slobodan termin, da ga zakaže ili da ostavi poruku Vašem timu, i dobija iste odgovore kao i pozivalac.
 

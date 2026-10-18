@@ -11,9 +11,9 @@ description: ${meta.description}
 url: ${absoluteUrl("/sr/pricing/")}
 ---
 
-# LobbyStack cene
+# Palakarimpu AI cene
 
-LobbyStack nudi pakete Free, Starter, Pro i Enterprise. Paketi rastu sa potrošnjom, umesto da osnovne funkcije recepcionera budu zaključane u skupljim paketima.
+Palakarimpu AI nudi pakete Free, Starter, Pro i Enterprise. Paketi rastu sa potrošnjom, umesto da osnovne funkcije recepcionera budu zaključane u skupljim paketima.
 
 ## Paketi
 
@@ -46,7 +46,7 @@ Starter košta $30 mesečno ili $288 godišnje i uključuje 150 minuta razgovora
 
 ### Da li se spam pozivi računaju u potrošnju?
 
-Ne. LobbyStack ne računa spam pozive u potrošnju, pa pogrešni brojevi, automatski pozivi i spam ne troše uključene minute i ne prave prekoračenja na plaćenim paketima.
+Ne. Palakarimpu AI ne računa spam pozive u potrošnju, pa pogrešni brojevi, automatski pozivi i spam ne troše uključene minute i ne prave prekoračenja na plaćenim paketima.
 
 ### Da li se naplaćuju pozivi kraći od 10 sekundi?
 

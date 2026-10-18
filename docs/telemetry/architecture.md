@@ -1,6 +1,6 @@
 # Understand telemetry architecture
 
-LobbyStack uses PostHog for product analytics and error tracking, and OpenTelemetry for server traces, metrics, and logs.
+Palakarimpu AI uses PostHog for product analytics and error tracking, and OpenTelemetry for server traces, metrics, and logs.
 
 ## Assign runtime ownership
 

@@ -1,12 +1,12 @@
-# Research: Why LobbyStack is moving away from Convex
+# Research: Why Palakarimpu AI is moving away from Convex
 
 ## Claim boundaries
 
 The article should distinguish repository evidence from business context supplied by the founder.
 
-- **Founder-supplied business context:** Convex helped the team move fast at the start. It has worked well for LobbyStack and continues to serve current paying customers reliably. LobbyStack has not reached the product or contributor adoption the team expected.
+- **Founder-supplied business context:** Convex helped the team move fast at the start. It has worked well for Palakarimpu AI and continues to serve current paying customers reliably. Palakarimpu AI has not reached the product or contributor adoption the team expected.
 - **Repository evidence:** Convex was the original source of truth and workflow engine. The platform-port branch replaces that runtime with Next.js, PostgreSQL, Drizzle, Redis, BullMQ, shared domain modules, and the existing Fastify voice gateway. The code port and parity work are present, while production data and traffic cutover remain gated.
-- **Strategic interpretation for the article:** A conventional stack can reduce the amount of unfamiliar infrastructure that contributors, agencies, and self-hosters must evaluate. It also gives the project access to a broader pool of developers and operators who already know Next.js and PostgreSQL. Present this as LobbyStack's business judgment, not a measured comparison of ecosystem size.
+- **Strategic interpretation for the article:** A conventional stack can reduce the amount of unfamiliar infrastructure that contributors, agencies, and self-hosters must evaluate. It also gives the project access to a broader pool of developers and operators who already know Next.js and PostgreSQL. Present this as Palakarimpu AI's business judgment, not a measured comparison of ecosystem size.
 - **Avoid:** Do not claim that Convex has poor adoption, failed technically, caused customer problems, or forced the migration. Do not invent signup, customer, contributor, or revenue figures.
 
 ## What the previous architecture did
@@ -49,10 +49,10 @@ Use the repository-backed rationale first:
 
 Then connect those choices to the founder's business decision:
 
-- LobbyStack needs more users, self-hosters, contributors, integrators, and agency deployments.
-- The original product worked for paying customers, but LobbyStack adoption did not reach the team's expectations.
+- Palakarimpu AI needs more users, self-hosters, contributors, integrators, and agency deployments.
+- The original product worked for paying customers, but Palakarimpu AI adoption did not reach the team's expectations.
 - The team believes familiar infrastructure will shorten technical evaluation, clarify deployment requirements, and let more developers contribute without first learning a project-specific backend.
-- This is a distribution decision based on LobbyStack's needs. Convex delivered the speed and reliability the team needed during the first stage.
+- This is a distribution decision based on Palakarimpu AI's needs. Convex delivered the speed and reliability the team needed during the first stage.
 
 ## Exact port and production-cutover status
 
@@ -78,13 +78,13 @@ Current repository guardrails:
 
 ## Suggested article frame
 
-**SEO title, 38 characters:** `Why LobbyStack is moving to PostgreSQL`
+**SEO title, 38 characters:** `Why Palakarimpu AI is moving to PostgreSQL`
 
-**Meta description:** `We are moving LobbyStack from Convex to PostgreSQL and Next.js to improve self-hosting and contribution, with strict production migration checks first.`
+**Meta description:** `We are moving Palakarimpu AI from Convex to PostgreSQL and Next.js to improve self-hosting and contribution, with strict production migration checks first.`
 
 Suggested flow:
 
-1. Open with the honest outcome: Convex worked, including for paying customers, but LobbyStack adoption fell short of the team's goal.
+1. Open with the honest outcome: Convex worked, including for paying customers, but Palakarimpu AI adoption fell short of the team's goal.
 2. Credit the original architecture for turning an MVP into a working product sooner.
 3. Explain why distribution now matters more than backend convenience for the next stage.
 4. Show the new stack and the operational capabilities it makes explicit.
@@ -93,9 +93,9 @@ Suggested flow:
 
 ## Links and CTA
 
-- **Primary developer CTA:** [Explore LobbyStack on GitHub](https://github.com/lobbystack/lobbystack).
+- **Primary developer CTA:** [Explore Palakarimpu AI on GitHub](https://github.com/lobbystack/lobbystack).
 - **Self-hosting CTA:** [Read the self-hosting overview](https://docs.lobbystack.com/self-hosting/overview) or [follow the Docker Compose guide](https://docs.lobbystack.com/self-hosting/docker-compose).
-- **Managed-product CTA:** [Create a LobbyStack Cloud account](https://app.lobbystack.com/signup).
-- **Related product page:** [See LobbyStack](https://lobbystack.com/).
+- **Managed-product CTA:** [Create a Palakarimpu AI Cloud account](https://app.lobbystack.com/signup).
+- **Related product page:** [See Palakarimpu AI](https://lobbystack.com/).
 
-Recommended closing idea: developers can inspect the migration and contribute to the conventional stack today; businesses that want the receptionist without operating infrastructure can use LobbyStack Cloud.
+Recommended closing idea: developers can inspect the migration and contribute to the conventional stack today; businesses that want the receptionist without operating infrastructure can use Palakarimpu AI Cloud.

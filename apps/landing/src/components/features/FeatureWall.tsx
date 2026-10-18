@@ -52,7 +52,7 @@ const largeCards: FeatureCard[] = [
   {
     title: "Build workflows with words, not flowcharts",
     description:
-      "Train LobbyStack the way you would train a real employee. Tell it what to ask, what to say, when to quote, when to book, when to transfer, and who to notify without touching a workflow builder.",
+      "Train Palakarimpu AI the way you would train a real employee. Tell it what to ask, what to say, when to quote, when to book, when to transfer, and who to notify without touching a workflow builder.",
     icon: Pencil,
     size: "large",
     visual: "workflow",
@@ -60,7 +60,7 @@ const largeCards: FeatureCard[] = [
   {
     title: "Book appointments while the customer is still ready",
     description:
-      "LobbyStack checks availability, offers times, books the appointment, and sends the confirmation before the caller moves on to someone else.",
+      "Palakarimpu AI checks availability, offers times, books the appointment, and sends the confirmation before the caller moves on to someone else.",
     icon: CalendarCheck,
     size: "large",
     visual: "calendar",
@@ -68,7 +68,7 @@ const largeCards: FeatureCard[] = [
   {
     title: "Give quotes without making callers wait",
     description:
-      "For approved services, LobbyStack can give exact prices, starting prices, or price ranges. For custom work, it asks the right questions and passes the details to your team.",
+      "For approved services, Palakarimpu AI can give exact prices, starting prices, or price ranges. For custom work, it asks the right questions and passes the details to your team.",
     icon: DollarSign,
     size: "large",
     visual: "quote",
@@ -76,7 +76,7 @@ const largeCards: FeatureCard[] = [
   {
     title: "Transfer the calls that need a person",
     description:
-      "LobbyStack handles routine calls first, then transfers based on your instructions. Urgent requests, upset customers, high-value leads, and special cases can go straight to the right person.",
+      "Palakarimpu AI handles routine calls first, then transfers based on your instructions. Urgent requests, upset customers, high-value leads, and special cases can go straight to the right person.",
     icon: ArrowRightLeft,
     size: "large",
     visual: "routing",
@@ -84,7 +84,7 @@ const largeCards: FeatureCard[] = [
   {
     title: "Pay for real calls, not junk",
     description:
-      "LobbyStack excludes spam calls and calls under 10 seconds from usage, so wrong numbers, robocalls, instant hang-ups, and pocket dials do not eat your plan.",
+      "Palakarimpu AI excludes spam calls and calls under 10 seconds from usage, so wrong numbers, robocalls, instant hang-ups, and pocket dials do not eat your plan.",
     icon: ShieldBan,
     size: "large",
     visual: "usage",
@@ -95,7 +95,7 @@ const mediumCards: FeatureCard[] = [
   {
     title: "Your phone, always staffed",
     description:
-      "LobbyStack can answer every call or step in only when your team is busy, closed, or unavailable.",
+      "Palakarimpu AI can answer every call or step in only when your team is busy, closed, or unavailable.",
     icon: Phone,
     size: "medium",
     tag: "Always on",
@@ -103,7 +103,7 @@ const mediumCards: FeatureCard[] = [
   {
     title: "Answers in your caller's language",
     description:
-      "LobbyStack replies in the language the caller speaks, so customers who don't speak English can still book and ask questions.",
+      "Palakarimpu AI replies in the language the caller speaks, so customers who don't speak English can still book and ask questions.",
     icon: Globe,
     size: "medium",
     tag: "Multilingual",
@@ -119,21 +119,21 @@ const mediumCards: FeatureCard[] = [
   {
     title: "Natural conversations",
     description:
-      "Customers can speak normally. LobbyStack handles interruptions, follow-up questions, and messy real-world calls.",
+      "Customers can speak normally. Palakarimpu AI handles interruptions, follow-up questions, and messy real-world calls.",
     icon: AudioWaveform,
     size: "medium",
   },
   {
     title: "Dedicated call lines",
     description:
-      "Use LobbyStack for a sales line, quote line, booking line, support line, or intake line.",
+      "Use Palakarimpu AI for a sales line, quote line, booking line, support line, or intake line.",
     icon: Hash,
     size: "medium",
   },
   {
     title: "Lead qualification",
     description:
-      "Have LobbyStack ask about budget, timeline, location, service type, urgency, and buying intent before booking or transferring.",
+      "Have Palakarimpu AI ask about budget, timeline, location, service type, urgency, and buying intent before booking or transferring.",
     icon: UserCheck,
     size: "medium",
   },
@@ -147,7 +147,7 @@ const mediumCards: FeatureCard[] = [
   {
     title: "Appointment confirmation texts",
     description:
-      "After booking, LobbyStack sends the customer a confirmation text with the appointment details.",
+      "After booking, Palakarimpu AI sends the customer a confirmation text with the appointment details.",
     icon: MessageSquareText,
     size: "medium",
   },
@@ -161,14 +161,14 @@ const mediumCards: FeatureCard[] = [
   {
     title: "Cancellations",
     description:
-      "LobbyStack can handle cancellations according to your policies and notify your team.",
+      "Palakarimpu AI can handle cancellations according to your policies and notify your team.",
     icon: CalendarX,
     size: "medium",
   },
   {
     title: "Appointment reminders",
     description:
-      "If the caller agrees, LobbyStack texts them a reminder 24 hours before the appointment.",
+      "If the caller agrees, Palakarimpu AI texts them a reminder 24 hours before the appointment.",
     icon: Bell,
     size: "medium",
   },
@@ -203,7 +203,7 @@ const mediumCards: FeatureCard[] = [
   {
     title: "Business knowledge",
     description:
-      "Add your services, prices, hours, locations, policies, FAQs, and staff details so LobbyStack knows what to say.",
+      "Add your services, prices, hours, locations, policies, FAQs, and staff details so Palakarimpu AI knows what to say.",
     icon: BookOpen,
     size: "medium",
   },
@@ -217,21 +217,21 @@ const mediumCards: FeatureCard[] = [
   {
     title: "Do-not-say instructions",
     description:
-      "Tell LobbyStack what it should never promise, explain, diagnose, quote, or book.",
+      "Tell Palakarimpu AI what it should never promise, explain, diagnose, quote, or book.",
     icon: CircleSlash,
     size: "medium",
   },
   {
     title: "Fallback behavior",
     description:
-      "When LobbyStack does not know something, it can ask follow-up questions, take a message, transfer, or notify the team.",
+      "When Palakarimpu AI does not know something, it can ask follow-up questions, take a message, transfer, or notify the team.",
     icon: LifeBuoy,
     size: "medium",
   },
   {
     title: "Failed-transfer fallback",
     description:
-      "If no one picks up, LobbyStack takes a message and sends your team a summary.",
+      "If no one picks up, Palakarimpu AI takes a message and sends your team a summary.",
     icon: PhoneForwarded,
     size: "medium",
   },
@@ -269,7 +269,7 @@ const largeCardsFr: FeatureCard[] = [
   {
     title: "Décrivez vos règles avec des mots, pas avec des organigrammes",
     description:
-      "Formez LobbyStack comme une vraie personne à l’accueil. Dites-lui quoi demander, quoi répondre, quand donner une fourchette, quand planifier, quand transférer et qui prévenir.",
+      "Formez Palakarimpu AI comme une vraie personne à l’accueil. Dites-lui quoi demander, quoi répondre, quand donner une fourchette, quand planifier, quand transférer et qui prévenir.",
     icon: Pencil,
     size: "large",
     visual: "workflow",
@@ -277,7 +277,7 @@ const largeCardsFr: FeatureCard[] = [
   {
     title: "Prenez le rendez‑vous pendant que le client est encore disponible",
     description:
-      "LobbyStack vérifie les disponibilités, propose des créneaux, planifie le rendez‑vous et envoie la confirmation avant que l’appelant passe à un autre fournisseur.",
+      "Palakarimpu AI vérifie les disponibilités, propose des créneaux, planifie le rendez‑vous et envoie la confirmation avant que l’appelant passe à un autre fournisseur.",
     icon: CalendarCheck,
     size: "large",
     visual: "calendar",
@@ -285,7 +285,7 @@ const largeCardsFr: FeatureCard[] = [
   {
     title: "Donnez une fourchette sans faire attendre les appelants",
     description:
-      "Pour les services approuvés, LobbyStack peut donner un prix exact, un prix de départ ou une fourchette. Pour les demandes sur mesure, il pose les bonnes questions et transmet les détails à votre équipe.",
+      "Pour les services approuvés, Palakarimpu AI peut donner un prix exact, un prix de départ ou une fourchette. Pour les demandes sur mesure, il pose les bonnes questions et transmet les détails à votre équipe.",
     icon: DollarSign,
     size: "large",
     visual: "quote",
@@ -293,7 +293,7 @@ const largeCardsFr: FeatureCard[] = [
   {
     title: "Transférez les appels qui ont besoin d’une personne",
     description:
-      "LobbyStack traite d’abord les appels simples, puis transfère selon vos consignes. Urgences, clients mécontents, prospects importants et cas particuliers peuvent arriver directement à la bonne personne.",
+      "Palakarimpu AI traite d’abord les appels simples, puis transfère selon vos consignes. Urgences, clients mécontents, prospects importants et cas particuliers peuvent arriver directement à la bonne personne.",
     icon: ArrowRightLeft,
     size: "large",
     visual: "routing",
@@ -301,7 +301,7 @@ const largeCardsFr: FeatureCard[] = [
   {
     title: "Payez pour les vrais appels, pas pour le bruit",
     description:
-      "LobbyStack exclut les appels indésirables et les appels de moins de 10 secondes, afin que mauvais numéros, appels automatisés et raccrochages immédiats ne consomment pas votre forfait.",
+      "Palakarimpu AI exclut les appels indésirables et les appels de moins de 10 secondes, afin que mauvais numéros, appels automatisés et raccrochages immédiats ne consomment pas votre forfait.",
     icon: ShieldBan,
     size: "large",
     visual: "usage",
@@ -312,7 +312,7 @@ const mediumCardsFr: FeatureCard[] = [
   {
     title: "Votre téléphone, toujours couvert",
     description:
-      "LobbyStack peut répondre à chaque appel ou seulement prendre le relais quand votre équipe est occupée, fermée ou indisponible.",
+      "Palakarimpu AI peut répondre à chaque appel ou seulement prendre le relais quand votre équipe est occupée, fermée ou indisponible.",
     icon: Phone,
     size: "medium",
     tag: "Toujours prêt",
@@ -320,7 +320,7 @@ const mediumCardsFr: FeatureCard[] = [
   {
     title: "Répond dans la langue de l’appelant",
     description:
-      "LobbyStack répond dans la langue que parle l’appelant. Les clients qui ne parlent pas français peuvent quand même réserver et poser leurs questions.",
+      "Palakarimpu AI répond dans la langue que parle l’appelant. Les clients qui ne parlent pas français peuvent quand même réserver et poser leurs questions.",
     icon: Globe,
     size: "medium",
     tag: "Multilingue",
@@ -336,21 +336,21 @@ const mediumCardsFr: FeatureCard[] = [
   {
     title: "Conversations naturelles",
     description:
-      "Les clients parlent normalement. LobbyStack gère les interruptions, les questions de suivi et les appels désordonnés.",
+      "Les clients parlent normalement. Palakarimpu AI gère les interruptions, les questions de suivi et les appels désordonnés.",
     icon: AudioWaveform,
     size: "medium",
   },
   {
     title: "Lignes dédiées",
     description:
-      "Utilisez LobbyStack pour une ligne de vente, de devis, de réservation, de support ou d’accueil.",
+      "Utilisez Palakarimpu AI pour une ligne de vente, de devis, de réservation, de support ou d’accueil.",
     icon: Hash,
     size: "medium",
   },
   {
     title: "Qualification des demandes",
     description:
-      "Demandez à LobbyStack de vérifier budget, délai, adresse, type de service, urgence et intention d’achat avant de planifier ou transférer.",
+      "Demandez à Palakarimpu AI de vérifier budget, délai, adresse, type de service, urgence et intention d’achat avant de planifier ou transférer.",
     icon: UserCheck,
     size: "medium",
   },
@@ -364,7 +364,7 @@ const mediumCardsFr: FeatureCard[] = [
   {
     title: "SMS de confirmation",
     description:
-      "Après la prise de rendez‑vous, LobbyStack envoie au client un SMS avec les détails.",
+      "Après la prise de rendez‑vous, Palakarimpu AI envoie au client un SMS avec les détails.",
     icon: MessageSquareText,
     size: "medium",
   },
@@ -378,14 +378,14 @@ const mediumCardsFr: FeatureCard[] = [
   {
     title: "Annulations",
     description:
-      "LobbyStack peut gérer les annulations selon vos politiques et prévenir votre équipe.",
+      "Palakarimpu AI peut gérer les annulations selon vos politiques et prévenir votre équipe.",
     icon: CalendarX,
     size: "medium",
   },
   {
     title: "Rappels de rendez‑vous",
     description:
-      "Si l’appelant accepte, LobbyStack lui envoie un SMS de rappel 24 heures avant le rendez‑vous.",
+      "Si l’appelant accepte, Palakarimpu AI lui envoie un SMS de rappel 24 heures avant le rendez‑vous.",
     icon: Bell,
     size: "medium",
   },
@@ -420,7 +420,7 @@ const mediumCardsFr: FeatureCard[] = [
   {
     title: "Connaissances métier",
     description:
-      "Ajoutez services, prix, horaires, adresses, politiques, FAQ et informations d’équipe pour que LobbyStack sache quoi répondre.",
+      "Ajoutez services, prix, horaires, adresses, politiques, FAQ et informations d’équipe pour que Palakarimpu AI sache quoi répondre.",
     icon: BookOpen,
     size: "medium",
   },
@@ -434,21 +434,21 @@ const mediumCardsFr: FeatureCard[] = [
   {
     title: "Consignes à ne jamais dire",
     description:
-      "Indiquez ce que LobbyStack ne doit jamais promettre, expliquer, diagnostiquer, chiffrer ou réserver.",
+      "Indiquez ce que Palakarimpu AI ne doit jamais promettre, expliquer, diagnostiquer, chiffrer ou réserver.",
     icon: CircleSlash,
     size: "medium",
   },
   {
     title: "Comportement de secours",
     description:
-      "Quand LobbyStack ne sait pas répondre, il peut poser une question, prendre un message, transférer ou prévenir l’équipe.",
+      "Quand Palakarimpu AI ne sait pas répondre, il peut poser une question, prendre un message, transférer ou prévenir l’équipe.",
     icon: LifeBuoy,
     size: "medium",
   },
   {
     title: "Secours après transfert manqué",
     description:
-      "Si personne ne décroche, LobbyStack prend un message et envoie un résumé à votre équipe.",
+      "Si personne ne décroche, Palakarimpu AI prend un message et envoie un résumé à votre équipe.",
     icon: PhoneForwarded,
     size: "medium",
   },
@@ -486,7 +486,7 @@ const largeCardsEs: FeatureCard[] = [
   {
     title: "Cree flujos de trabajo con palabras, no con diagramas",
     description:
-      "Entrene a LobbyStack como entrenaría a un empleado real. Dígale qué preguntar, qué decir, cuándo dar un presupuesto, cuándo reservar, cuándo transferir y a quién avisar, sin tocar un editor de flujos.",
+      "Entrene a Palakarimpu AI como entrenaría a un empleado real. Dígale qué preguntar, qué decir, cuándo dar un presupuesto, cuándo reservar, cuándo transferir y a quién avisar, sin tocar un editor de flujos.",
     icon: Pencil,
     size: "large",
     visual: "workflow",
@@ -494,7 +494,7 @@ const largeCardsEs: FeatureCard[] = [
   {
     title: "Reserve la cita mientras el cliente sigue decidido",
     description:
-      "LobbyStack consulta la disponibilidad, ofrece horarios, reserva la cita y envía la confirmación antes de que el cliente llame a otro proveedor.",
+      "Palakarimpu AI consulta la disponibilidad, ofrece horarios, reserva la cita y envía la confirmación antes de que el cliente llame a otro proveedor.",
     icon: CalendarCheck,
     size: "large",
     visual: "calendar",
@@ -502,7 +502,7 @@ const largeCardsEs: FeatureCard[] = [
   {
     title: "Dé presupuestos sin hacer esperar a nadie",
     description:
-      "Para los servicios aprobados, LobbyStack puede dar precios exactos, precios desde o rangos de precios. Para trabajos a medida, hace las preguntas adecuadas y pasa los detalles a su equipo.",
+      "Para los servicios aprobados, Palakarimpu AI puede dar precios exactos, precios desde o rangos de precios. Para trabajos a medida, hace las preguntas adecuadas y pasa los detalles a su equipo.",
     icon: DollarSign,
     size: "large",
     visual: "quote",
@@ -510,7 +510,7 @@ const largeCardsEs: FeatureCard[] = [
   {
     title: "Transfiera las llamadas que necesitan a una persona",
     description:
-      "LobbyStack atiende primero las llamadas rutinarias y luego transfiere según sus instrucciones. Las urgencias, los clientes molestos, los clientes potenciales de alto valor y los casos especiales pueden ir directamente a la persona adecuada.",
+      "Palakarimpu AI atiende primero las llamadas rutinarias y luego transfiere según sus instrucciones. Las urgencias, los clientes molestos, los clientes potenciales de alto valor y los casos especiales pueden ir directamente a la persona adecuada.",
     icon: ArrowRightLeft,
     size: "large",
     visual: "routing",
@@ -518,7 +518,7 @@ const largeCardsEs: FeatureCard[] = [
   {
     title: "Pague por llamadas reales, no por basura",
     description:
-      "LobbyStack no cuenta en el uso las llamadas de spam ni las de menos de 10 segundos, así que los números equivocados, las llamadas automáticas, los cuelgues inmediatos y las llamadas accidentales no consumen su plan.",
+      "Palakarimpu AI no cuenta en el uso las llamadas de spam ni las de menos de 10 segundos, así que los números equivocados, las llamadas automáticas, los cuelgues inmediatos y las llamadas accidentales no consumen su plan.",
     icon: ShieldBan,
     size: "large",
     visual: "usage",
@@ -529,7 +529,7 @@ const mediumCardsEs: FeatureCard[] = [
   {
     title: "Su teléfono, siempre atendido",
     description:
-      "LobbyStack puede contestar todas las llamadas o intervenir solo cuando su equipo está ocupado, cerrado o no disponible.",
+      "Palakarimpu AI puede contestar todas las llamadas o intervenir solo cuando su equipo está ocupado, cerrado o no disponible.",
     icon: Phone,
     size: "medium",
     tag: "Siempre activo",
@@ -537,7 +537,7 @@ const mediumCardsEs: FeatureCard[] = [
   {
     title: "Responde en el idioma de quien llama",
     description:
-      "LobbyStack responde en el idioma de la persona que llama, así los clientes que no hablan español también pueden reservar y hacer preguntas.",
+      "Palakarimpu AI responde en el idioma de la persona que llama, así los clientes que no hablan español también pueden reservar y hacer preguntas.",
     icon: Globe,
     size: "medium",
     tag: "Multilingüe",
@@ -553,21 +553,21 @@ const mediumCardsEs: FeatureCard[] = [
   {
     title: "Conversaciones naturales",
     description:
-      "Los clientes pueden hablar con normalidad. LobbyStack maneja interrupciones, preguntas de seguimiento y llamadas desordenadas de la vida real.",
+      "Los clientes pueden hablar con normalidad. Palakarimpu AI maneja interrupciones, preguntas de seguimiento y llamadas desordenadas de la vida real.",
     icon: AudioWaveform,
     size: "medium",
   },
   {
     title: "Líneas dedicadas",
     description:
-      "Use LobbyStack para una línea de ventas, de presupuestos, de reservas, de soporte o de recepción de solicitudes.",
+      "Use Palakarimpu AI para una línea de ventas, de presupuestos, de reservas, de soporte o de recepción de solicitudes.",
     icon: Hash,
     size: "medium",
   },
   {
     title: "Calificación de clientes potenciales",
     description:
-      "Haga que LobbyStack pregunte por presupuesto, plazo, ubicación, tipo de servicio, urgencia e intención de compra antes de reservar o transferir.",
+      "Haga que Palakarimpu AI pregunte por presupuesto, plazo, ubicación, tipo de servicio, urgencia e intención de compra antes de reservar o transferir.",
     icon: UserCheck,
     size: "medium",
   },
@@ -581,7 +581,7 @@ const mediumCardsEs: FeatureCard[] = [
   {
     title: "SMS de confirmación de citas",
     description:
-      "Después de reservar, LobbyStack envía al cliente un SMS de confirmación con los detalles de la cita.",
+      "Después de reservar, Palakarimpu AI envía al cliente un SMS de confirmación con los detalles de la cita.",
     icon: MessageSquareText,
     size: "medium",
   },
@@ -595,14 +595,14 @@ const mediumCardsEs: FeatureCard[] = [
   {
     title: "Cancelaciones",
     description:
-      "LobbyStack puede gestionar cancelaciones según sus políticas y avisar a su equipo.",
+      "Palakarimpu AI puede gestionar cancelaciones según sus políticas y avisar a su equipo.",
     icon: CalendarX,
     size: "medium",
   },
   {
     title: "Recordatorios de citas",
     description:
-      "Si la persona que llama acepta, LobbyStack le envía un SMS de recordatorio 24 horas antes de la cita.",
+      "Si la persona que llama acepta, Palakarimpu AI le envía un SMS de recordatorio 24 horas antes de la cita.",
     icon: Bell,
     size: "medium",
   },
@@ -636,7 +636,7 @@ const mediumCardsEs: FeatureCard[] = [
   {
     title: "Conocimiento del negocio",
     description:
-      "Añada sus servicios, precios, horarios, ubicaciones, políticas, preguntas frecuentes y datos del personal para que LobbyStack sepa qué decir.",
+      "Añada sus servicios, precios, horarios, ubicaciones, políticas, preguntas frecuentes y datos del personal para que Palakarimpu AI sepa qué decir.",
     icon: BookOpen,
     size: "medium",
   },
@@ -650,21 +650,21 @@ const mediumCardsEs: FeatureCard[] = [
   {
     title: "Lo que nunca debe decir",
     description:
-      "Indique qué no debe LobbyStack prometer, explicar, diagnosticar, presupuestar ni reservar nunca.",
+      "Indique qué no debe Palakarimpu AI prometer, explicar, diagnosticar, presupuestar ni reservar nunca.",
     icon: CircleSlash,
     size: "medium",
   },
   {
     title: "Plan de respaldo",
     description:
-      "Cuando LobbyStack no sabe algo, puede hacer preguntas de seguimiento, tomar un mensaje, transferir la llamada o avisar al equipo.",
+      "Cuando Palakarimpu AI no sabe algo, puede hacer preguntas de seguimiento, tomar un mensaje, transferir la llamada o avisar al equipo.",
     icon: LifeBuoy,
     size: "medium",
   },
   {
     title: "Respaldo si falla la transferencia",
     description:
-      "Si nadie contesta, LobbyStack toma un mensaje y envía un resumen a su equipo.",
+      "Si nadie contesta, Palakarimpu AI toma un mensaje y envía un resumen a su equipo.",
     icon: PhoneForwarded,
     size: "medium",
   },
@@ -702,7 +702,7 @@ const largeCardsSr: FeatureCard[] = [
   {
     title: "Pravite tokove rada rečima, ne dijagramima",
     description:
-      "Obučite LobbyStack kao što biste obučili pravog zaposlenog. Recite mu šta da pita, šta da kaže, kada da navede cenu, kada da zakaže, kada da preusmeri poziv i koga da obavesti, bez alata za pravljenje tokova rada.",
+      "Obučite Palakarimpu AI kao što biste obučili pravog zaposlenog. Recite mu šta da pita, šta da kaže, kada da navede cenu, kada da zakaže, kada da preusmeri poziv i koga da obavesti, bez alata za pravljenje tokova rada.",
     icon: Pencil,
     size: "large",
     visual: "workflow",
@@ -710,7 +710,7 @@ const largeCardsSr: FeatureCard[] = [
   {
     title: "Zakažite termin dok je klijent još spreman",
     description:
-      "LobbyStack proverava dostupnost, nudi termine, zakazuje i šalje potvrdu pre nego što pozivalac ode kod nekog drugog.",
+      "Palakarimpu AI proverava dostupnost, nudi termine, zakazuje i šalje potvrdu pre nego što pozivalac ode kod nekog drugog.",
     icon: CalendarCheck,
     size: "large",
     visual: "calendar",
@@ -718,7 +718,7 @@ const largeCardsSr: FeatureCard[] = [
   {
     title: "Recite cenu odmah, bez čekanja",
     description:
-      "Za odobrene usluge LobbyStack može da navede tačnu cenu, početnu cenu ili raspon cena. Za posao po meri postavlja prava pitanja i prosleđuje detalje Vašem timu.",
+      "Za odobrene usluge Palakarimpu AI može da navede tačnu cenu, početnu cenu ili raspon cena. Za posao po meri postavlja prava pitanja i prosleđuje detalje Vašem timu.",
     icon: DollarSign,
     size: "large",
     visual: "quote",
@@ -726,7 +726,7 @@ const largeCardsSr: FeatureCard[] = [
   {
     title: "Preusmerite pozive kojima je potreban čovek",
     description:
-      "LobbyStack prvo rešava rutinske pozive, a zatim preusmerava prema Vašim uputstvima. Hitni zahtevi, nezadovoljni klijenti, vredni potencijalni klijenti i posebni slučajevi mogu odmah stići do odgovarajuće osobe.",
+      "Palakarimpu AI prvo rešava rutinske pozive, a zatim preusmerava prema Vašim uputstvima. Hitni zahtevi, nezadovoljni klijenti, vredni potencijalni klijenti i posebni slučajevi mogu odmah stići do odgovarajuće osobe.",
     icon: ArrowRightLeft,
     size: "large",
     visual: "routing",
@@ -734,7 +734,7 @@ const largeCardsSr: FeatureCard[] = [
   {
     title: "Plaćajte prave pozive, ne smeće",
     description:
-      "LobbyStack ne računa spam pozive i pozive kraće od 10 sekundi u potrošnju, pa pogrešni brojevi, automatski pozivi, trenutni prekidi i slučajni pozivi iz džepa ne troše Vaš paket.",
+      "Palakarimpu AI ne računa spam pozive i pozive kraće od 10 sekundi u potrošnju, pa pogrešni brojevi, automatski pozivi, trenutni prekidi i slučajni pozivi iz džepa ne troše Vaš paket.",
     icon: ShieldBan,
     size: "large",
     visual: "usage",
@@ -745,7 +745,7 @@ const mediumCardsSr: FeatureCard[] = [
   {
     title: "Vaš telefon, uvek pokriven",
     description:
-      "LobbyStack može da odgovara na svaki poziv ili da uskoči samo kada je Vaš tim zauzet, zatvoren ili nedostupan.",
+      "Palakarimpu AI može da odgovara na svaki poziv ili da uskoči samo kada je Vaš tim zauzet, zatvoren ili nedostupan.",
     icon: Phone,
     size: "medium",
     tag: "Uvek uključen",
@@ -753,7 +753,7 @@ const mediumCardsSr: FeatureCard[] = [
   {
     title: "Odgovara na jeziku pozivaoca",
     description:
-      "LobbyStack odgovara na jeziku kojim pozivalac govori, pa i klijenti koji ne govore srpski mogu da zakažu termin i postave pitanja.",
+      "Palakarimpu AI odgovara na jeziku kojim pozivalac govori, pa i klijenti koji ne govore srpski mogu da zakažu termin i postave pitanja.",
     icon: Globe,
     size: "medium",
     tag: "Višejezično",
@@ -769,21 +769,21 @@ const mediumCardsSr: FeatureCard[] = [
   {
     title: "Prirodni razgovori",
     description:
-      "Klijenti mogu normalno da pričaju. LobbyStack se snalazi sa prekidima, dodatnim pitanjima i neurednim pozivima iz stvarnog života.",
+      "Klijenti mogu normalno da pričaju. Palakarimpu AI se snalazi sa prekidima, dodatnim pitanjima i neurednim pozivima iz stvarnog života.",
     icon: AudioWaveform,
     size: "medium",
   },
   {
     title: "Namenske linije",
     description:
-      "Koristite LobbyStack za liniju za prodaju, ponude, zakazivanje, podršku ili prijem upita.",
+      "Koristite Palakarimpu AI za liniju za prodaju, ponude, zakazivanje, podršku ili prijem upita.",
     icon: Hash,
     size: "medium",
   },
   {
     title: "Kvalifikacija potencijalnih klijenata",
     description:
-      "Neka LobbyStack pita za budžet, rok, lokaciju, vrstu usluge, hitnost i nameru kupovine pre zakazivanja ili preusmeravanja.",
+      "Neka Palakarimpu AI pita za budžet, rok, lokaciju, vrstu usluge, hitnost i nameru kupovine pre zakazivanja ili preusmeravanja.",
     icon: UserCheck,
     size: "medium",
   },
@@ -797,7 +797,7 @@ const mediumCardsSr: FeatureCard[] = [
   {
     title: "SMS potvrde termina",
     description:
-      "Posle zakazivanja LobbyStack klijentu šalje SMS potvrdu sa detaljima termina.",
+      "Posle zakazivanja Palakarimpu AI klijentu šalje SMS potvrdu sa detaljima termina.",
     icon: MessageSquareText,
     size: "medium",
   },
@@ -811,14 +811,14 @@ const mediumCardsSr: FeatureCard[] = [
   {
     title: "Otkazivanja",
     description:
-      "LobbyStack može da obradi otkazivanja prema Vašim pravilima i obavesti Vaš tim.",
+      "Palakarimpu AI može da obradi otkazivanja prema Vašim pravilima i obavesti Vaš tim.",
     icon: CalendarX,
     size: "medium",
   },
   {
     title: "Podsetnici za termine",
     description:
-      "Ako se pozivalac složi, LobbyStack mu šalje SMS podsetnik 24 sata pre termina.",
+      "Ako se pozivalac složi, Palakarimpu AI mu šalje SMS podsetnik 24 sata pre termina.",
     icon: Bell,
     size: "medium",
   },
@@ -852,7 +852,7 @@ const mediumCardsSr: FeatureCard[] = [
   {
     title: "Znanje o firmi",
     description:
-      "Dodajte usluge, cene, radno vreme, lokacije, pravila, česta pitanja i podatke o zaposlenima da bi LobbyStack znao šta da kaže.",
+      "Dodajte usluge, cene, radno vreme, lokacije, pravila, česta pitanja i podatke o zaposlenima da bi Palakarimpu AI znao šta da kaže.",
     icon: BookOpen,
     size: "medium",
   },
@@ -866,21 +866,21 @@ const mediumCardsSr: FeatureCard[] = [
   {
     title: "Šta nikada ne sme da kaže",
     description:
-      "Navedite šta LobbyStack nikada ne sme da obeća, objasni, dijagnostikuje, proceni ili zakaže.",
+      "Navedite šta Palakarimpu AI nikada ne sme da obeća, objasni, dijagnostikuje, proceni ili zakaže.",
     icon: CircleSlash,
     size: "medium",
   },
   {
     title: "Rezervni plan",
     description:
-      "Kada LobbyStack nešto ne zna, može da postavi dodatna pitanja, primi poruku, preusmeri poziv ili obavesti tim.",
+      "Kada Palakarimpu AI nešto ne zna, može da postavi dodatna pitanja, primi poruku, preusmeri poziv ili obavesti tim.",
     icon: LifeBuoy,
     size: "medium",
   },
   {
     title: "Kada preusmeravanje ne uspe",
     description:
-      "Ako se niko ne javi, LobbyStack prima poruku i šalje rezime Vašem timu.",
+      "Ako se niko ne javi, Palakarimpu AI prima poruku i šalje rezime Vašem timu.",
     icon: PhoneForwarded,
     size: "medium",
   },
@@ -918,10 +918,10 @@ const featureWallCopy = {
   en: {
     heading: "Everything your front desk should already be doing",
     intro:
-      "LobbyStack answers, books, qualifies, quotes, transfers, filters junk, and keeps your team in the loop.",
+      "Palakarimpu AI answers, books, qualifies, quotes, transfers, filters junk, and keeps your team in the loop.",
     calloutTitle: "Your business is not a flowchart",
     calloutBody:
-      "Real calls are messy. Customers interrupt, change their mind, ask multiple questions, and explain things out of order. LobbyStack lets you describe the outcome in plain English instead of building fragile call trees.",
+      "Real calls are messy. Customers interrupt, change their mind, ask multiple questions, and explain things out of order. Palakarimpu AI lets you describe the outcome in plain English instead of building fragile call trees.",
     calloutExample:
       "If a customer asks for pricing, ask the required quote questions, give the approved price range, and take a message for the team if they need exact pricing.",
     visuals: {
@@ -962,10 +962,10 @@ const featureWallCopy = {
   fr: {
     heading: "Tout ce qu’un accueil efficace devrait déjà faire",
     intro:
-      "LobbyStack répond, planifie, qualifie, donne des fourchettes, transfère, filtre les appels inutiles et garde votre équipe informée.",
+      "Palakarimpu AI répond, planifie, qualifie, donne des fourchettes, transfère, filtre les appels inutiles et garde votre équipe informée.",
     calloutTitle: "Votre entreprise n’est pas un organigramme",
     calloutBody:
-      "Les vrais appels sont rarement linéaires. Les clients interrompent, changent d’idée, posent plusieurs questions et donnent les informations dans le désordre. LobbyStack vous laisse décrire le résultat attendu en français courant, sans construire un arbre d’appels fragile.",
+      "Les vrais appels sont rarement linéaires. Les clients interrompent, changent d’idée, posent plusieurs questions et donnent les informations dans le désordre. Palakarimpu AI vous laisse décrire le résultat attendu en français courant, sans construire un arbre d’appels fragile.",
     calloutExample:
       "Si un client demande un prix, posez les questions de devis, donnez la fourchette approuvée et prenez un message pour l’équipe s’il faut confirmer le montant exact.",
     visuals: {
@@ -1006,10 +1006,10 @@ const featureWallCopy = {
   es: {
     heading: "Todo lo que su recepción ya debería estar haciendo",
     intro:
-      "LobbyStack contesta, reserva, califica, da presupuestos, transfiere, filtra las llamadas basura y mantiene informado a su equipo.",
+      "Palakarimpu AI contesta, reserva, califica, da presupuestos, transfiere, filtra las llamadas basura y mantiene informado a su equipo.",
     calloutTitle: "Su negocio no es un diagrama de flujo",
     calloutBody:
-      "Las llamadas reales son desordenadas. Los clientes interrumpen, cambian de opinión, hacen varias preguntas y lo explican todo sin orden. LobbyStack le permite describir el resultado en español sencillo, sin construir frágiles árboles de llamadas.",
+      "Las llamadas reales son desordenadas. Los clientes interrumpen, cambian de opinión, hacen varias preguntas y lo explican todo sin orden. Palakarimpu AI le permite describir el resultado en español sencillo, sin construir frágiles árboles de llamadas.",
     calloutExample:
       "Si un cliente pide precios, haga las preguntas necesarias para el presupuesto, dé el rango de precios aprobado y tome un mensaje para el equipo si necesita un precio exacto.",
     visuals: {
@@ -1050,10 +1050,10 @@ const featureWallCopy = {
   sr: {
     heading: "Sve što bi Vaša recepcija već trebalo da radi",
     intro:
-      "LobbyStack odgovara, zakazuje, kvalifikuje, daje cene, preusmerava, filtrira nebitne pozive i obaveštava Vaš tim.",
+      "Palakarimpu AI odgovara, zakazuje, kvalifikuje, daje cene, preusmerava, filtrira nebitne pozive i obaveštava Vaš tim.",
     calloutTitle: "Vaša firma nije dijagram toka",
     calloutBody:
-      "Pravi pozivi su neuredni. Klijenti prekidaju, predomišljaju se, postavljaju više pitanja i objašnjavaju stvari bez reda. LobbyStack Vam omogućava da ishod opišete običnim srpskim jezikom, umesto da gradite krhka stabla poziva.",
+      "Pravi pozivi su neuredni. Klijenti prekidaju, predomišljaju se, postavljaju više pitanja i objašnjavaju stvari bez reda. Palakarimpu AI Vam omogućava da ishod opišete običnim srpskim jezikom, umesto da gradite krhka stabla poziva.",
     calloutExample:
       "Ako klijent pita za cenu, postavite potrebna pitanja za ponudu, navedite odobreni raspon cena i primite poruku za tim ako mu treba tačna cena.",
     visuals: {

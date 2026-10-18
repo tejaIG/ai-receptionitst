@@ -2,7 +2,7 @@
 title: "Pile open source pour réceptionniste IA"
 description: "Une pile open source pour réceptionniste IA : appels, réservation, transcriptions, tableaux de bord, facturation et auto-hébergement."
 pubDate: 2026-06-18T10:00:00-04:00
-author: "Équipe LobbyStack"
+author: "Équipe Palakarimpu AI"
 category: "Guides"
 featured: false
 coverImage: "/illustrations/open-source-ai-receptionist-stack-hero.webp"
@@ -14,7 +14,7 @@ Une pile open source pour réceptionniste IA ne se limite pas à un agent vocal.
 
 C'est la partie que beaucoup d'équipes finissent par reconstruire.
 
-[LobbyStack](https://lobbystack.com/) est une **pile open source pour réceptionniste IA** destinée aux équipes qui veulent déjà disposer de cette couche produit. Vous pouvez utiliser le cloud hébergé quand vous voulez que l'infrastructure soit gérée pour vous, ou l'auto-héberger avec Docker quand vous voulez garder le contrôle.
+[Palakarimpu AI](https://lobbystack.com/) est une **pile open source pour réceptionniste IA** destinée aux équipes qui veulent déjà disposer de cette couche produit. Vous pouvez utiliser le cloud hébergé quand vous voulez que l'infrastructure soit gérée pour vous, ou l'auto-héberger avec Docker quand vous voulez garder le contrôle.
 
 ## La pile que beaucoup reconstruisent
 
@@ -35,9 +35,9 @@ Une clinique n'a pas les mêmes règles de réservation qu'un spa médical. Une 
 
 À ce stade, l'agent vocal n'est qu'une pièce. Il faut tout le système autour de l'appel.
 
-## Ce que LobbyStack inclut
+## Ce que Palakarimpu AI inclut
 
-[Les fonctionnalités de LobbyStack](/features/) regroupent la couche réceptionniste au lieu de vous laisser l'assembler de zéro.
+[Les fonctionnalités de Palakarimpu AI](/features/) regroupent la couche réceptionniste au lieu de vous laisser l'assembler de zéro.
 
 La plateforme couvre :
 
@@ -50,7 +50,7 @@ La plateforme couvre :
 - la collecte des coordonnées de l'appelant et de la raison de l'appel ;
 - les contacts, rendez-vous, historiques d'appel, analytics, usage et surfaces de facturation.
 
-L'objectif n'est pas de remplacer tous les outils que vous utilisez déjà. Twilio, les calendriers, les fournisseurs courriel, les outils d'analyse et la facturation restent importants. LobbyStack fournit le produit de réception qui se place au-dessus.
+L'objectif n'est pas de remplacer tous les outils que vous utilisez déjà. Twilio, les calendriers, les fournisseurs courriel, les outils d'analyse et la facturation restent importants. Palakarimpu AI fournit le produit de réception qui se place au-dessus.
 
 Au lieu de construire des chaînes de workflows fragiles pour les comportements de base, vous décrivez ce que le réceptionniste doit faire en langage naturel.
 
@@ -66,9 +66,9 @@ L'IA peut mener la conversation, mais elle utilise des outils pour les actions q
 
 ## Cloud hébergé ou Docker auto-hébergé
 
-Certaines équipes veulent un produit géré. [LobbyStack Cloud](/pricing/) sert à cela : créer un compte, configurer l'entreprise, connecter les outils et tester des appels sans gérer l'infrastructure.
+Certaines équipes veulent un produit géré. [Palakarimpu AI Cloud](/pricing/) sert à cela : créer un compte, configurer l'entreprise, connecter les outils et tester des appels sans gérer l'infrastructure.
 
-D'autres équipes veulent la pile sur leur propre infrastructure. LobbyStack le permet aussi.
+D'autres équipes veulent la pile sur leur propre infrastructure. Palakarimpu AI le permet aussi.
 
 Le parcours [réceptionniste IA auto-hébergé](/solutions/self-hosted-ai-receptionist/) utilise Docker Compose comme base mono-serveur. La configuration documentée lance PostgreSQL, Redis, l'application Next.js, le worker, la passerelle vocale et Caddy pour acheminer le trafic. Vous placez HTTPS devant Caddy. Vous apportez les comptes fournisseurs que vous voulez contrôler, comme Twilio, une IA compatible avec OpenAI, Google Calendar, le courriel, les analytics et la facturation.
 
@@ -89,13 +89,13 @@ Elle est dans la compréhension de l'entreprise :
 - Quelles règles comptent dans ce secteur ?
 - Quels comptes fournisseurs et quelle infrastructure le client doit-il contrôler ?
 
-LobbyStack vous donne une base à adapter autour de ces questions.
+Palakarimpu AI vous donne une base à adapter autour de ces questions.
 
 Vous pouvez l'utiliser pour votre propre entreprise, le déployer pour un client ou choisir le cloud hébergé quand le contrôle de l'infrastructure n'est pas le point principal. En auto-hébergement, vous pouvez apporter vos propres clés fournisseurs et garder le déploiement dans l'environnement contrôlé par l'entreprise.
 
-## Quand LobbyStack est un bon choix
+## Quand Palakarimpu AI est un bon choix
 
-LobbyStack convient quand vous voulez un réceptionniste IA qui fait plus que répondre au téléphone.
+Palakarimpu AI convient quand vous voulez un réceptionniste IA qui fait plus que répondre au téléphone.
 
 C'est particulièrement utile si vous avez besoin de :
 
@@ -112,11 +112,11 @@ Ce n'est pas une façon d'éviter l'exploitation. Les systèmes téléphoniques 
 
 C'est une façon d'éviter des mois de plomberie produit avant de pouvoir travailler sur le vrai workflow métier.
 
-Si vous comparez d'abord les options open source du marché, consultez le guide des [meilleurs services open source de réponse IA](/fr/blog/best-open-source-ai-phone-answering-services/). Les agences qui déploient pour des clients peuvent aussi consulter le [programme d'affiliation LobbyStack](/fr/blog/ai-receptionist-affiliate-program/). Pour la conception des workflows, voir [des workflows IA sans flowcharts](/fr/blog/ai-receptionist-workflows/).
+Si vous comparez d'abord les options open source du marché, consultez le guide des [meilleurs services open source de réponse IA](/fr/blog/best-open-source-ai-phone-answering-services/). Les agences qui déploient pour des clients peuvent aussi consulter le [programme d'affiliation Palakarimpu AI](/fr/blog/ai-receptionist-affiliate-program/). Pour la conception des workflows, voir [des workflows IA sans flowcharts](/fr/blog/ai-receptionist-workflows/).
 
 ## Tester ou auto-héberger
 
-Commencez avec [LobbyStack Cloud](https://lobbystack.com/) si vous voulez tester le produit rapidement.
+Commencez avec [Palakarimpu AI Cloud](https://lobbystack.com/) si vous voulez tester le produit rapidement.
 
 Utilisez l'[aperçu de l'auto-hébergement](https://docs.lobbystack.com/self-hosting/overview) et le [guide Docker Compose](https://docs.lobbystack.com/self-hosting/docker-compose) si vous voulez faire tourner la pile vous-même.
 

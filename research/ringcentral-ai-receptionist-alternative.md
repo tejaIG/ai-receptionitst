@@ -16,7 +16,7 @@ The product advertises FAQ answers, contextual routing, multilingual voice, anal
 
 ## Fair comparison
 
-AIR fits teams already using RingCentral or buyers who want one large communications vendor. LobbyStack suits teams that value public code, self-hosting, and provider choice. Compare the complete phone-system relationship rather than the AI add-on price alone.
+AIR fits teams already using RingCentral or buyers who want one large communications vendor. Palakarimpu AI suits teams that value public code, self-hosting, and provider choice. Compare the complete phone-system relationship rather than the AI add-on price alone.
 
 ## Claims to avoid
 

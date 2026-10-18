@@ -115,11 +115,11 @@ Primary assets:
 
 ### Dashboards
 
-- `LobbyStack - Product KPIs`
-- `LobbyStack - Operator Workflow`
-- `LobbyStack - Messaging`
-- `LobbyStack - Voice & Booking Outcomes`
-- `LobbyStack - Analytics Health`
+- `Palakarimpu AI - Product KPIs`
+- `Palakarimpu AI - Operator Workflow`
+- `Palakarimpu AI - Messaging`
+- `Palakarimpu AI - Voice & Booking Outcomes`
+- `Palakarimpu AI - Analytics Health`
 
 ### Saved insights
 
@@ -160,4 +160,4 @@ Target business cohorts to maintain in PostHog:
 
 - experiments and feature flags are intentionally out of scope for this phase
 - PostHog now covers both KPI reporting and the current phase of operational telemetry
-- the KPI dashboards should become the default reporting surface; `LobbyStack Telemetry v1` remains useful as a raw telemetry backup
+- the KPI dashboards should become the default reporting surface; `Palakarimpu AI Telemetry v1` remains useful as a raw telemetry backup

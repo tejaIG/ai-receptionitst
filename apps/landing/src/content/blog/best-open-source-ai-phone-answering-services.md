@@ -2,7 +2,7 @@
 title: "Best open-source AI phone answering services"
 description: "Compare open-source AI phone answering services for self-hosting: Asterisk agents, LiveKit voice stacks, and full receptionist platforms."
 pubDate: 2026-07-08T10:00:00-04:00
-author: "LobbyStack Team"
+author: "Palakarimpu AI Team"
 category: "Guides"
 featured: false
 coverImage: "/illustrations/best-open-source-ai-phone-answering-services-hero.webp"
@@ -34,7 +34,7 @@ Run a real call test for each finalist: booking request, pricing question, angry
 
 ## The best open-source options, by use case
 
-### LobbyStack: best full receptionist platform (cloud or self-hosted)
+### Palakarimpu AI: best full receptionist platform (cloud or self-hosted)
 
 **GitHub:** [lobbystack/lobbystack](https://github.com/lobbystack/lobbystack)
 
@@ -42,11 +42,11 @@ Run a real call test for each finalist: booking request, pricing question, angry
 
 **Best for:** Service businesses and agencies that want calls, booking, transcripts, dashboards, billing, and self-hosting without assembling ten repos
 
-[LobbyStack](https://lobbystack.com/) is the option on this list closest to a complete **AI receptionist** product. It covers inbound calls, appointment booking and changes, transcripts and summaries, business context and FAQs, booking texts, email and SMS alerts, human handoff, staff dashboards, usage tracking, and client-style deployments. You can run the hosted cloud, use it as an [open-source AI receptionist](/solutions/open-source-ai-receptionist/), or [self-host with Docker](/solutions/self-hosted-ai-receptionist/).
+[Palakarimpu AI](https://lobbystack.com/) is the option on this list closest to a complete **AI receptionist** product. It covers inbound calls, appointment booking and changes, transcripts and summaries, business context and FAQs, booking texts, email and SMS alerts, human handoff, staff dashboards, usage tracking, and client-style deployments. You can run the hosted cloud, use it as an [open-source AI receptionist](/solutions/open-source-ai-receptionist/), or [self-host with Docker](/solutions/self-hosted-ai-receptionist/).
 
 The tradeoff is scope. You get a real operating layer around the call, but you still bring provider accounts (Twilio, OpenAI, calendar, email, and related services) and own the deployment if you self-host. That is the honest cost of skipping SaaS lock-in while keeping product depth.
 
-Choose LobbyStack when your problem is "answer calls and finish the work," not "prove voice AI in a lab."
+Choose Palakarimpu AI when your problem is "answer calls and finish the work," not "prove voice AI in a lab."
 
 ### AVA (Asterisk AI voice agent): best for existing Asterisk / FreePBX shops
 
@@ -108,7 +108,7 @@ Choose Hearthline when your calls are trade-specific and you want open code aime
 
 | Project | Phone entry point | Voice style | Product depth | Maturity signal |
 | --- | --- | --- | --- | --- |
-| LobbyStack | Twilio / voice gateway | Realtime voice stack | Full receptionist platform | Production-oriented monorepo |
+| Palakarimpu AI | Twilio / voice gateway | Realtime voice stack | Full receptionist platform | Production-oriented monorepo |
 | AVA | Asterisk / FreePBX | Modular STT/LLM/TTS or realtime | Voice agent + admin UI | Large community, frequent releases |
 | Helix | Asterisk ARI | Local STT/LLM/TTS | Receptionist features + dashboard | Newer, local-first focus |
 | AIReceptionist | LiveKit + SIP trunk | OpenAI Realtime speech-to-speech | Voice agent config | Small, focused codebase |
@@ -128,7 +128,7 @@ If you are deciding between building, buying, and self-hosting, pair this list w
 ## Practical next steps
 
 1. **Write down your top five call types** (booking, quote, emergency, existing customer, spam) and the outcome each one needs.
-2. **Match telephony first.** Asterisk shop → AVA or Helix. Twilio/LiveKit shop → AIReceptionist or LobbyStack. Home services → shortlist Hearthline.
+2. **Match telephony first.** Asterisk shop → AVA or Helix. Twilio/LiveKit shop → AIReceptionist or Palakarimpu AI. Home services → shortlist Hearthline.
 3. **Run the five-call test** on every finalist before you forward a production number.
 4. **Decide who owns ops.** Self-hosting needs someone who will patch, monitor, and replay bad calls weekly.
 
@@ -136,10 +136,10 @@ If you are deciding between building, buying, and self-hosting, pair this list w
 
 The best **open source AI phone answering service** for you is the one that matches your phone system and finishes the call the way your staff would.
 
-- Need a full receptionist product you can self-host or run in the cloud → **LobbyStack**
+- Need a full receptionist product you can self-host or run in the cloud → **Palakarimpu AI**
 - Need maximum Asterisk flexibility → **AVA**
 - Need local voice on Asterisk without cloud AI dependencies → **Helix**
 - Need a slim Realtime voice agent on LiveKit → **AIReceptionist**
 - Need a home-service front desk → **Hearthline**
 
-If you want to inspect a full stack before you forward your main line, start with the [LobbyStack GitHub repo](https://github.com/lobbystack/lobbystack) or the [open-source AI receptionist stack overview](/blog/open-source-ai-receptionist-stack/).
+If you want to inspect a full stack before you forward your main line, start with the [Palakarimpu AI GitHub repo](https://github.com/lobbystack/lobbystack) or the [open-source AI receptionist stack overview](/blog/open-source-ai-receptionist-stack/).

@@ -11,9 +11,9 @@ description: ${meta.description}
 url: ${absoluteUrl("/sr/features/")}
 ---
 
-# LobbyStack funkcije
+# Palakarimpu AI funkcije
 
-LobbyStack je AI recepcioner otvorenog koda za male firme koje primaju mnogo poziva. Odgovara na pozive, zakazuje termine, beleži podatke o pozivaocu i preusmerava poziv na čoveka kada je potrebno.
+Palakarimpu AI je AI recepcioner otvorenog koda za male firme koje primaju mnogo poziva. Odgovara na pozive, zakazuje termine, beleži podatke o pozivaocu i preusmerava poziv na čoveka kada je potrebno.
 
 ## Osnovne mogućnosti
 

@@ -77,3 +77,41 @@ describe("original integration permissions and setup navigation", () => {
     await waitFor(() => expect(route.router.replace).toHaveBeenCalledWith("/integrations?keep=value", { scroll: false }));
   });
 });
+
+describe("WhatsApp confirmations card", () => {
+  function setupWhatsapp(role: string, state: { enabled: boolean; configured: boolean; template: boolean }) {
+    const client = new QueryClient({ defaultOptions: { queries: { retry: false, staleTime: Infinity } } }); clients.push(client);
+    client.setQueryData(["businesses"], { businesses: [{ businessId: "business", active: true, role }] });
+    const fetchMock = vi.fn(async (url: string, init?: RequestInit) => {
+      if (url.includes("/api/integrations/whatsapp")) return Response.json(init?.method === "PATCH" ? { ...state, enabled: JSON.parse(String(init.body)).enabled } : state);
+      return Response.json({ calendarConnections: [], calendarOptions: [], staff: [], discoveryError: null });
+    });
+    vi.stubGlobal("fetch", fetchMock);
+    render(<QueryClientProvider client={client}><LiveIntegrationsSurface /></QueryClientProvider>);
+    return fetchMock;
+  }
+
+  it("turns confirmations on for an administrator and saves it", async () => {
+    const fetchMock = setupWhatsapp("business_admin", { enabled: false, configured: true, template: true });
+    const toggle = await screen.findByRole("switch", { name: "integrations.cards.whatsapp.title" });
+    await waitFor(() => expect(toggle.getAttribute("aria-checked")).toBe("false"));
+    fireEvent.click(toggle);
+    await waitFor(() => expect(fetchMock).toHaveBeenCalledWith("/api/integrations/whatsapp?businessId=business", expect.objectContaining({ method: "PATCH", body: JSON.stringify({ enabled: true }) })));
+    await waitFor(() => expect(screen.getByRole("switch", { name: "integrations.cards.whatsapp.title" }).getAttribute("aria-checked")).toBe("true"));
+  });
+
+  it("says when the server has no WhatsApp sender, and when no approved template is set", async () => {
+    setupWhatsapp("business_admin", { enabled: false, configured: false, template: false });
+    expect(await screen.findByText("integrations.cards.whatsapp.notConfigured")).toBeTruthy();
+    cleanup();
+    setupWhatsapp("business_admin", { enabled: true, configured: true, template: false });
+    expect(await screen.findByText("integrations.cards.whatsapp.noTemplate")).toBeTruthy();
+    expect(screen.queryByText("integrations.cards.whatsapp.notConfigured")).toBeNull();
+  });
+
+  it("keeps the card and its request away from viewers", () => {
+    const fetchMock = setupWhatsapp("viewer", { enabled: true, configured: true, template: true });
+    expect(fetchMock).not.toHaveBeenCalled();
+    expect(screen.queryByRole("switch", { name: "integrations.cards.whatsapp.title" })).toBeNull();
+  });
+});

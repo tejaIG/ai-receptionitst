@@ -2,7 +2,7 @@
 title: "Comment choisir un réceptionniste IA"
 description: "Apprenez à choisir un réceptionniste IA avec une liste de vérification pratique pour les fonctionnalités, les tarifs, la qualité d'appel et les intégrations."
 pubDate: 2026-06-03T13:00:00-04:00
-author: "Équipe LobbyStack"
+author: "Équipe Palakarimpu AI"
 category: "Guides"
 featured: false
 coverImage: "/illustrations/how-to-choose-an-ai-receptionist-hero.webp"
@@ -383,4 +383,4 @@ En bref :
 - testez les appels difficiles, pas seulement la démo facile ;
 - comparez le coût total aux appels traités avec succès et aux opportunités récupérées.
 
-Si les appels manqués font partie du problème, commencez par le [calculateur d'appels manqués](/fr/missed-call-revenue-calculator/) ou lisez [combien un réceptionniste IA peut vous faire économiser](/fr/blog/ai-receptionist-savings/). Si l'open source est sur votre liste, comparez les [meilleurs services open source de réponse IA](/fr/blog/best-open-source-ai-phone-answering-services/) avant vos démos fournisseurs. Si vous hésitez entre automatisation DIY et chaînes de workflow, consultez [des workflows IA sans flowcharts](/fr/blog/ai-receptionist-workflows/). Pour voir à quoi ressemble une mise en place concrète, comparez les [tarifs LobbyStack](/fr/pricing/) et commencez par un pilote étroit avant de couvrir chaque appel.
+Si les appels manqués font partie du problème, commencez par le [calculateur d'appels manqués](/fr/missed-call-revenue-calculator/) ou lisez [combien un réceptionniste IA peut vous faire économiser](/fr/blog/ai-receptionist-savings/). Si l'open source est sur votre liste, comparez les [meilleurs services open source de réponse IA](/fr/blog/best-open-source-ai-phone-answering-services/) avant vos démos fournisseurs. Si vous hésitez entre automatisation DIY et chaînes de workflow, consultez [des workflows IA sans flowcharts](/fr/blog/ai-receptionist-workflows/). Pour voir à quoi ressemble une mise en place concrète, comparez les [tarifs Palakarimpu AI](/fr/pricing/) et commencez par un pilote étroit avant de couvrir chaque appel.

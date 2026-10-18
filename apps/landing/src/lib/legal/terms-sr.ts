@@ -5,17 +5,17 @@ const support = `<a href="mailto:support@lobbystack.com">support@lobbystack.com<
 export const termsSr: LegalDocument = {
   updated: "Poslednje ažuriranje: 26. septembar 2026.",
   h1: "Uslovi korišćenja",
-  intro: `Ovi Uslovi korišćenja („Uslovi“) uređuju Vaše korišćenje hostovane usluge, sajtova i podrške kompanije LobbyStack. Pročitajte ih pre nego što počnete da koristite LobbyStack. Oni ograničavaju našu odgovornost, čine Vas odgovornim za pristanak na snimanje poziva i za usklađenost SMS poruka sa propisima i utvrđuju način na koji rešavamo sporove.`,
+  intro: `Ovi Uslovi korišćenja („Uslovi“) uređuju Vaše korišćenje hostovane usluge, sajtova i podrške kompanije Palakarimpu AI. Pročitajte ih pre nego što počnete da koristite Palakarimpu AI. Oni ograničavaju našu odgovornost, čine Vas odgovornim za pristanak na snimanje poziva i za usklađenost SMS poruka sa propisima i utvrđuju način na koji rešavamo sporove.`,
   sections: [
     {
       id: "agreement",
       nav: "Ugovor",
       title: "1. Ugovor i uslovi za korišćenje",
       blocks: [
-        `1.1 Ovi Uslovi predstavljaju ugovor između Vas i kompanije Lobbystack Inc. („LobbyStack“, „mi“, „naš“ ili „nas“). Prihvatate ih kada otvorite nalog, označite polje ili kliknete na dugme koje upućuje na njih, kupite paket ili koristite Uslugu. Ako se ne slažete, nemojte koristiti Uslugu.`,
-        `1.2 LobbyStack je namenjen isključivo firmama. Potvrđujete da Uslugu koristite za posao, delatnost ili profesiju, a ne u lične, porodične ili kućne svrhe. Kada koristite Uslugu, niste potrošač u smislu kvebečkog Zakona o zaštiti potrošača (Consumer Protection Act) ili bilo kog sličnog zakona.`,
+        `1.1 Ovi Uslovi predstavljaju ugovor između Vas i kompanije Lobbystack Inc. („Palakarimpu AI“, „mi“, „naš“ ili „nas“). Prihvatate ih kada otvorite nalog, označite polje ili kliknete na dugme koje upućuje na njih, kupite paket ili koristite Uslugu. Ako se ne slažete, nemojte koristiti Uslugu.`,
+        `1.2 Palakarimpu AI je namenjen isključivo firmama. Potvrđujete da Uslugu koristite za posao, delatnost ili profesiju, a ne u lične, porodične ili kućne svrhe. Kada koristite Uslugu, niste potrošač u smislu kvebečkog Zakona o zaštiti potrošača (Consumer Protection Act) ili bilo kog sličnog zakona.`,
         `1.3 Ako ove Uslove prihvatate u ime kompanije ili druge organizacije, potvrđujete da ste ovlašćeni da je obavežete. „Vi“ i „Klijent“ u tom slučaju označavaju tu organizaciju. Morate imati najmanje 18 godina i biti punoletni prema propisima mesta u kome živite.`,
-        `1.4 Ako Vi i LobbyStack potpišete obrazac porudžbine ili drugi pisani ugovor za Uslugu („Porudžbina“), Porudžbina ima prednost u odnosu na ove Uslove ako su međusobno u suprotnosti, ali samo u pogledu predmeta koji Porudžbina obuhvata.`,
+        `1.4 Ako Vi i Palakarimpu AI potpišete obrazac porudžbine ili drugi pisani ugovor za Uslugu („Porudžbina“), Porudžbina ima prednost u odnosu na ove Uslove ako su međusobno u suprotnosti, ali samo u pogledu predmeta koji Porudžbina obuhvata.`,
       ],
     },
     {
@@ -25,7 +25,7 @@ export const termsSr: LegalDocument = {
       blocks: [
         {
           ul: [
-            `<strong>Usluga</strong> označava hostovanog AI recepcionera kompanije LobbyStack, kontrolnu tablu, vidžet za čet i pozive na sajtu, naše sajtove, naše API-je i povezanu podršku koju Vam pružamo.`,
+            `<strong>Usluga</strong> označava hostovanog AI recepcionera kompanije Palakarimpu AI, kontrolnu tablu, vidžet za čet i pozive na sajtu, naše sajtove, naše API-je i povezanu podršku koju Vam pružamo.`,
             `<strong>Ovlašćeni korisnici</strong> označavaju Vaše zaposlene i spoljne saradnike kojima dozvolite da koriste Vaš nalog.`,
             `<strong>Pozivaoci</strong> označavaju lica koja komuniciraju sa Vašim AI recepcionerom putem telefonskog poziva, poziva iz pregledača ili četa na sajtu, kao i lica koja primaju SMS poruke poslate putem Usluge.`,
             `<strong>Podaci Klijenta</strong> označavaju podatke koje Vi ili Vaši Pozivaoci dostavite Usluzi, uključujući podatke o firmi, sadržaj znanja, zvuk poziva, snimke, transkripte, poruke, razgovore u četu, kontakt podatke i evidencije o terminima.`,
@@ -40,7 +40,7 @@ export const termsSr: LegalDocument = {
       nav: "Usluga",
       title: "3. Usluga",
       blocks: [
-        `3.1 LobbyStack je AI recepcioner za mala preduzeća. U zavisnosti od Vašeg paketa i podešavanja, Usluga može da odgovara na dolazne telefonske pozive i pozive iz pregledača pomoću AI glasovnog agenta, odgovara na pitanja u četu na sajtu, zakazuje, otkazuje i pomera termine nakon provere Pozivaoca, prima poruke, preusmerava pozive Vašim zaposlenima, snima i transkribuje pozive, šalje SMS obaveštenja Vašem timu i šalje opcioni SMS podsetnik za termin Pozivaocima koji pristanu da ga prime.`,
+        `3.1 Palakarimpu AI je AI recepcioner za mala preduzeća. U zavisnosti od Vašeg paketa i podešavanja, Usluga može da odgovara na dolazne telefonske pozive i pozive iz pregledača pomoću AI glasovnog agenta, odgovara na pitanja u četu na sajtu, zakazuje, otkazuje i pomera termine nakon provere Pozivaoca, prima poruke, preusmerava pozive Vašim zaposlenima, snima i transkribuje pozive, šalje SMS obaveštenja Vašem timu i šalje opcioni SMS podsetnik za termin Pozivaocima koji pristanu da ga prime.`,
         `3.2 Funkcije, ograničenja i uključena potrošnja razlikuju se u zavisnosti od paketa. Opisani su na <a href="/sr/pricing/">stranici sa cenama</a> ili u Vašoj Porudžbini. Možemo dodavati, menjati ili uklanjati funkcije. Ako uklonimo bitnu funkciju iz plaćenog paketa koji koristite, obavestićemo Vas u razumnom roku. Ne obećavamo nikakve buduće funkcije i ne bi trebalo da kupujete paket oslanjajući se na neku od njih.`,
         `3.3 Dajemo Vam ograničeno, neisključivo i neprenosivo pravo, bez prava na podlicenciranje, da koristite Uslugu za svoje interne poslovne potrebe tokom trajanja pretplate, u skladu sa ovim Uslovima. Ovo uključuje pravo da naš vidžet postavite na sajtove koje kontrolišete.`,
       ],
@@ -52,7 +52,7 @@ export const termsSr: LegalDocument = {
       blocks: [
         `4.1 Dužni ste da nam dostavite tačne podatke o nalogu, firmi i naplati i da ih redovno ažurirate.`,
         `4.2 Odgovorni ste za svoje Ovlašćene korisnike i za sve što se dešava na Vašem nalogu. Čuvajte lozinke i pristup na bezbedan način. Odmah nas obavestite na ${support} ako sumnjate na neovlašćeni pristup.`,
-        `4.3 Možemo odbiti, suspendovati ili zatvoriti nalog koji koristi lažne podatke, za koji se čini da je duplikat otvoren radi sticanja dodatne besplatne potrošnje ili koji stvara rizik za LobbyStack, naše pružaoce usluga ili druga lica.`,
+        `4.3 Možemo odbiti, suspendovati ili zatvoriti nalog koji koristi lažne podatke, za koji se čini da je duplikat otvoren radi sticanja dodatne besplatne potrošnje ili koji stvara rizik za Palakarimpu AI, naše pružaoce usluga ili druga lica.`,
       ],
     },
     {
@@ -62,7 +62,7 @@ export const termsSr: LegalDocument = {
       blocks: [
         `5.1 Usluga koristi veštačku inteligenciju, uključujući OpenAI modele. AI rezultat može biti netačan, nepotpun, nedosledan ili neprikladan. AI recepcioner može pogrešno razumeti Pozivaoca, dati odgovor koji Vaša firma ne bi dala, navesti pogrešnu cenu ili pravilo, zakazati pogrešan termin, ne uspeti da preusmeri poziv ili propustiti poruku.`,
         `5.2 Vi kontrolišete šta AI recepcioner zna i radi. Odgovorni ste za podatke o svojoj firmi, sadržaj znanja, uputstva, pozdrave, cene, radno vreme, usluge, pravila zakazivanja, brojeve za preusmeravanje i podešavanja obaveštenja. Morate testirati Uslugu pre nego što se na nju oslonite i nadzirati je dok je koristite.`,
-        `5.3 Odgovorni ste za svaku izjavu, ponudu cene, obećanje ili zakazivanje koje AI recepcioner napravi u ime Vaše firme, kao i za njihovo ispunjavanje ili ispravljanje prema Vašim Pozivaocima. LobbyStack nije strana u Vašim odnosima sa Pozivaocima.`,
+        `5.3 Odgovorni ste za svaku izjavu, ponudu cene, obećanje ili zakazivanje koje AI recepcioner napravi u ime Vaše firme, kao i za njihovo ispunjavanje ili ispravljanje prema Vašim Pozivaocima. Palakarimpu AI nije strana u Vašim odnosima sa Pozivaocima.`,
         `5.4 Usluga ne pruža medicinske, pravne, finansijske, poreske, bezbednosne ili druge stručne savete. Nemojte je podešavati tako da pruža takve savete ili donosi odluke za koje je potreban kvalifikovani stručnjak ili provera od strane čoveka.`,
         `5.5 Neki zakoni zahtevaju da obavestite ljude da razgovaraju sa AI sistemom. Dužni ste da pružite ta obaveštenja. AI recepcioner ne sme da tvrdi da je čovek kada ga Pozivalac to iskreno pita.`,
       ],
@@ -72,7 +72,7 @@ export const termsSr: LegalDocument = {
       nav: "Hitni slučajevi",
       title: "6. Usluga nije namenjena hitnim slučajevima",
       blocks: [
-        `<strong>6.1 LobbyStack nije služba za hitne slučajeve i ne podržava pozive na brojeve 911, 999, 112 ili bilo koji drugi broj za hitne slučajeve.</strong> Usluga ne može da uputi pomoć, utvrdi lokaciju Pozivaoca niti da bilo koji poziv tretira kao hitan.`,
+        `<strong>6.1 Palakarimpu AI nije služba za hitne slučajeve i ne podržava pozive na brojeve 911, 999, 112 ili bilo koji drugi broj za hitne slučajeve.</strong> Usluga ne može da uputi pomoć, utvrdi lokaciju Pozivaoca niti da bilo koji poziv tretira kao hitan.`,
         `6.2 Nemojte koristiti Uslugu, niti dozvoliti Pozivaocima da se na nju oslanjaju, za hitne slučajeve, krizne linije ili situacije u kojima su ugroženi životi. Ako Vaša firma može primati hitne pozive, Vaš pozdrav ili uputstva treba da upute Pozivaoce da prekinu vezu i pozovu lokalni broj za hitne slučajeve, a Vi morate imati postupak u kome takve pozive obrađuju ljudi.`,
       ],
     },
@@ -84,8 +84,8 @@ export const termsSr: LegalDocument = {
         `7.1 Usluga snima i transkribuje pozive, čuva razgovore iz četa na sajtu i koristi AI za obradu onoga što Pozivaoci kažu. Vi odlučujete da koristite ove funkcije i Vi ih primenjujete prema svojim Pozivaocima.`,
         `7.2 <strong>Isključivo ste Vi odgovorni za davanje svih obaveštenja i pribavljanje svih pristanaka koje zakon zahteva</strong> pre nego što se poziv ili čet snimi, transkribuje ili obradi pomoću AI. Ovo uključuje zakone koji zahtevaju pristanak svih učesnika u pozivu, kao što su zakoni Kalifornije, Floride, Ilinoisa, Merilenda, Masačusetsa, Pensilvanije i Vašingtona, kao i kanadske i kvebečke zakone o privatnosti. Ovo uključuje i zakone o presretanju komunikacija, prisluškivanju i obaveštavanju o upotrebi AI u svakom mestu u kome se nalazite Vi ili Vaši Pozivaoci.`,
         `7.3 Usluga ne koristi glasove Pozivalaca da bi ih identifikovala. Ako Vaše korišćenje Usluge podleže zakonima o privatnosti biometrijskih podataka, kao što su Zakon države Ilinois o privatnosti biometrijskih informacija (Illinois Biometric Information Privacy Act) ili slični zakoni u Teksasu i Vašingtonu, odgovorni ste za usklađenost sa njima, uključujući sva obaveštenja, pisane pristanke i politike čuvanja koje oni zahtevaju.`,
-        `7.4 Dužni ste da podesite svoj pozdrav ili obaveštenja na sajtu tako da Pozivaoci, pre početka razgovora, saznaju da poziv ili čet može biti snimljen i obrađen od strane AI sistema. Podrazumevani pozdrav ili šablon kompanije LobbyStack ne prenosi ovu odgovornost na nas. Ako naš vidžet postavite na svoj sajt, odgovorni ste i za sva obaveštenja i pristanke u vezi sa kolačićima ili skladištem pregledača koji su Vašem sajtu potrebni, jer vidžet čuva nasumični identifikator posetioca u pregledaču posetioca.`,
-        `7.5 Ne smete koristiti Uslugu za prikupljanje brojeva platnih kartica, brojeva državnih identifikacionih dokumenata, zdravstvenih podataka ili drugih osetljivih podataka, osim ako to zakon dozvoljava i ako imate sve potrebne mere zaštite i pristanke. LobbyStack nije namenjen obradi zaštićenih zdravstvenih informacija u smislu zakona HIPAA. Ne potpisujemo ugovore sa poslovnim saradnicima (business associate agreements), osim ako se na takav ugovor ne saglasimo u potpisanoj pisanoj formi.`,
+        `7.4 Dužni ste da podesite svoj pozdrav ili obaveštenja na sajtu tako da Pozivaoci, pre početka razgovora, saznaju da poziv ili čet može biti snimljen i obrađen od strane AI sistema. Podrazumevani pozdrav ili šablon kompanije Palakarimpu AI ne prenosi ovu odgovornost na nas. Ako naš vidžet postavite na svoj sajt, odgovorni ste i za sva obaveštenja i pristanke u vezi sa kolačićima ili skladištem pregledača koji su Vašem sajtu potrebni, jer vidžet čuva nasumični identifikator posetioca u pregledaču posetioca.`,
+        `7.5 Ne smete koristiti Uslugu za prikupljanje brojeva platnih kartica, brojeva državnih identifikacionih dokumenata, zdravstvenih podataka ili drugih osetljivih podataka, osim ako to zakon dozvoljava i ako imate sve potrebne mere zaštite i pristanke. Palakarimpu AI nije namenjen obradi zaštićenih zdravstvenih informacija u smislu zakona HIPAA. Ne potpisujemo ugovore sa poslovnim saradnicima (business associate agreements), osim ako se na takav ugovor ne saglasimo u potpisanoj pisanoj formi.`,
       ],
     },
     {
@@ -105,8 +105,8 @@ export const termsSr: LegalDocument = {
       nav: "SMS poruke",
       title: "9. SMS poruke",
       blocks: [
-        { h3: "SMS program LobbyStack" },
-        `9.1 Naziv programa: LobbyStack. LobbyStack šalje nemarketinške, transakcione SMS poruke za firme koje koriste Uslugu. To uključuje obaveštenja zaposlenima firme o pozivima, porukama i zakazivanjima; jedan podsetnik za termin poslat oko 24 sata pre termina, isključivo Pozivaocima koji su prilikom zakazivanja pristali da ga prime; i jednokratne kodove kojima se potvrđuje broj telefona neke osobe ili identitet Pozivaoca pre izmene termina. LobbyStack ne šalje marketinške SMS poruke i ne odgovara na SMS poruke pomoću AI.`,
+        { h3: "SMS program Palakarimpu AI" },
+        `9.1 Naziv programa: Palakarimpu AI. Palakarimpu AI šalje nemarketinške, transakcione SMS poruke za firme koje koriste Uslugu. To uključuje obaveštenja zaposlenima firme o pozivima, porukama i zakazivanjima; jedan podsetnik za termin poslat oko 24 sata pre termina, isključivo Pozivaocima koji su prilikom zakazivanja pristali da ga prime; i jednokratne kodove kojima se potvrđuje broj telefona neke osobe ili identitet Pozivaoca pre izmene termina. Palakarimpu AI ne šalje marketinške SMS poruke i ne odgovara na SMS poruke pomoću AI.`,
         `9.2 Učestalost poruka zavisi od Vaše aktivnosti. Mogu se primeniti troškovi slanja poruka i prenosa podataka. Odgovorite <strong>STOP</strong> da biste prestali da primate poruke i <strong>HELP</strong> za pomoć, ili pišite na ${support}. Nakon što odgovorite STOP, možete primiti jednu poruku potvrde, a nakon toga na taj broj nećemo slati poruke osim ako se ponovo ne prijavite. Operateri nisu odgovorni za zakasnele ili neisporučene poruke.`,
         { h3: "Vaše obaveze" },
         `9.3 Kao primaoce obaveštenja smete dodati samo svoje zaposlene ili spoljne saradnike koji su pristali da primaju SMS obaveštenja. Odgovorni ste za svaku SMS poruku poslatu na broj koji unesete u Uslugu.`,
@@ -173,11 +173,11 @@ export const termsSr: LegalDocument = {
       nav: "Partnerski program",
       title: "13. Partnerski program",
       blocks: [
-        `13.1 LobbyStack može nuditi partnerski program u okviru kog se isplaćuju provizije za preporuku novih klijenata. Ako učestvujete, ovaj odeljak se primenjuje pored ostalih odredbi ovih Uslova.`,
+        `13.1 Palakarimpu AI može nuditi partnerski program u okviru kog se isplaćuju provizije za preporuku novih klijenata. Ako učestvujete, ovaj odeljak se primenjuje pored ostalih odredbi ovih Uslova.`,
         `13.2 Osim ako Usluga ne navodi drugačije, partneri koji ispunjavaju uslove ostvaruju proviziju od 20% na kvalifikovana plaćanja koja preporučeni klijent izvrši tokom prvih 12 meseci nakon pripisivanja. Preporuke pratimo putem linkova ili kodova koje obezbeđujemo. Naše evidencije su odlučujuće za pripisivanje, ispunjenost uslova i iznose provizija.`,
         `13.3 Provizije podležu periodu zadržavanja od 30 dana. Provizija postaje plativa tek kada plaćanje preporučenog klijenta prođe taj period bez povraćaja novca, osporavanja transakcije (chargeback), spora, storniranja, knjižnog odobrenja ili otkazivanja. Možemo poništiti, umanjiti, zadržati ili stornirati neisplaćene provizije za plaćanja ili preporuke koje ne ispunjavaju uslove.`,
         `13.4 Partnerima isplaćujemo provizije putem usluge PayPal, na PayPal imejl adresu sačuvanu na partnerskoj kontrolnoj tabli. Minimalni iznos isplate je 100 USD u neisplaćenim provizijama koje ispunjavaju uslove. Vreme isplate može varirati u zavisnosti od provere, provere prevara, dostupnosti pružaoca usluga obrade plaćanja i tačnosti podataka za isplatu. Odgovorni ste za svoje poreze, prijavljivanje, naknade, konverziju valute i svoj platni nalog.`,
-        `13.5 Ne smete preporučivati sami sebe, otvarati lažne naloge, iznositi obmanjujuće tvrdnje, slati neželjene poruke, lažno se predstavljati kao LobbyStack, licitirati za žigove kompanije LobbyStack ili slične pojmove u plaćenoj pretrazi, objavljivati lažne recenzije, zloupotrebljavati popuste, generisati veštački saobraćaj ili promovisati LobbyStack na način kojim se krše zakon, pravila platformi ili ovi Uslovi. Kada preporučujete LobbyStack, morate jasno navesti da za to možete dobiti naknadu.`,
+        `13.5 Ne smete preporučivati sami sebe, otvarati lažne naloge, iznositi obmanjujuće tvrdnje, slati neželjene poruke, lažno se predstavljati kao Palakarimpu AI, licitirati za žigove kompanije Palakarimpu AI ili slične pojmove u plaćenoj pretrazi, objavljivati lažne recenzije, zloupotrebljavati popuste, generisati veštački saobraćaj ili promovisati Palakarimpu AI na način kojim se krše zakon, pravila platformi ili ovi Uslovi. Kada preporučujete Palakarimpu AI, morate jasno navesti da za to možete dobiti naknadu.`,
         `13.6 Možemo odbiti, suspendovati ili okončati Vaše učešće i zadržati neisplaćene provizije u slučaju prevare, zloupotrebe, neusklađenosti ili rizika. Možemo u bilo kom trenutku izmeniti, privremeno obustaviti ili ukinuti program, njegove stope, pravila pripisivanja, periode zadržavanja, pragove za isplatu ili načine isplate, u skladu sa važećim propisima.`,
       ],
     },
@@ -186,7 +186,7 @@ export const termsSr: LegalDocument = {
       nav: "Podaci Klijenta",
       title: "14. Podaci Klijenta",
       blocks: [
-        `14.1 <strong>Vlasništvo.</strong> U odnosu između Vas i kompanije LobbyStack, Vi ste vlasnik Podataka Klijenta.`,
+        `14.1 <strong>Vlasništvo.</strong> U odnosu između Vas i kompanije Palakarimpu AI, Vi ste vlasnik Podataka Klijenta.`,
         `14.2 <strong>Naša licenca.</strong> Dajete nam svetsku, neisključivu licencu bez naknade da hostujemo, kopiramo, obrađujemo, prenosimo, prikazujemo i prilagođavamo Podatke Klijenta u meri potrebnoj za pružanje, zaštitu, podršku, otklanjanje problema i unapređenje Usluge, za sprečavanje zloupotreba, za postupanje u skladu sa zakonom i za sprovođenje ovih Uslova. Naši pružaoci usluga mogu koristiti ovu licencu u naše ime samo da bi nam pomogli u tome.`,
         `14.3 <strong>Vaše garancije.</strong> Potvrđujete da imate sva prava, da ste dali sva obaveštenja i pribavili sve pristanke potrebne da bismo obrađivali Podatke Klijenta u skladu sa ovim Uslovima i <a href="/sr/privacy/">Politikom privatnosti</a>, kao i da se Podacima Klijenta ne povređuju ničija prava i ne krši nijedan zakon.`,
         `14.4 <strong>Naša uloga.</strong> U pogledu podataka o ličnosti Vaših Pozivalaca, postupamo kao Vaš pružalac usluga ili obrađivač. Obrađujemo ih u Vaše ime i prema Vašim uputstvima, kako je opisano u Politici privatnosti. Odgovorni ste za sopstvena obaveštenja o privatnosti namenjena Pozivaocima i za odgovaranje na njihove zahteve.`,
@@ -201,7 +201,7 @@ export const termsSr: LegalDocument = {
       title: "15. Čuvanje, izvoz i brisanje podataka",
       blocks: [
         `15.1 Usluga automatski briše snimke, transkripte, poruke i sličan sadržaj nakon isteka roka čuvanja za Vaš paket. <a href="/sr/privacy/#retention">Politika privatnosti</a> navodi važeće rokove. Obrisani sadržaj se ne može povratiti.`,
-        `15.2 LobbyStack nije usluga za izradu rezervnih kopija ili arhiviranje. Odgovorni ste za izvoz i čuvanje svih evidencija koje su Vam potrebne, uključujući evidencije koje ste po zakonu dužni da čuvate.`,
+        `15.2 Palakarimpu AI nije usluga za izradu rezervnih kopija ili arhiviranje. Odgovorni ste za izvoz i čuvanje svih evidencija koje su Vam potrebne, uključujući evidencije koje ste po zakonu dužni da čuvate.`,
         `15.3 Nakon zatvaranja Vašeg naloga možemo obrisati Podatke Klijenta bez daljeg obaveštenja. Kopije mogu ostati u rezervnim kopijama dok ne isteknu u svom redovnom ciklusu, a možemo zadržati evidencije koje su nam potrebne iz pravnih, poreskih, bezbednosnih razloga, razloga naplate ili radi rešavanja sporova.`,
       ],
     },
@@ -218,9 +218,9 @@ export const termsSr: LegalDocument = {
       nav: "Otvoreni kod",
       title: "17. Otvoreni kod i žigovi",
       blocks: [
-        `17.1 Izvorni kod softvera LobbyStack objavljen u našem javnom repozitorijumu licenciran je pod licencom MIT (MIT License). Ta licenca uređuje Vaše korišćenje, kopiranje, menjanje i distribuciju tog koda. Ovi Uslovi ne ograničavaju Vaša prava iz te licence.`,
+        `17.1 Izvorni kod softvera Palakarimpu AI objavljen u našem javnom repozitorijumu licenciran je pod licencom MIT (MIT License). Ta licenca uređuje Vaše korišćenje, kopiranje, menjanje i distribuciju tog koda. Ovi Uslovi ne ograničavaju Vaša prava iz te licence.`,
         `17.2 Licenca MIT obuhvata samo kod. Ona Vam ne daje nikakva prava na hostovanu Uslugu, naše servere, naloge, brojeve telefona, aranžmane sa pružaocima usluga ili podatke, niti pravo na podršku.`,
-        `17.3 Naziv, logotipi i brend LobbyStack su naši žigovi. Licenca MIT ne daje licencu za njih. Ne smete ih koristiti na način koji sugeriše da smo mi napravili, odobrili ili da podržavamo Vaš proizvod ili uslugu, uključujući izmenjenu ili hostovanu kopiju softvera LobbyStack, bez našeg pisanog odobrenja. Možete tačno i činjenično upućivati na LobbyStack.`,
+        `17.3 Naziv, logotipi i brend Palakarimpu AI su naši žigovi. Licenca MIT ne daje licencu za njih. Ne smete ih koristiti na način koji sugeriše da smo mi napravili, odobrili ili da podržavamo Vaš proizvod ili uslugu, uključujući izmenjenu ili hostovanu kopiju softvera Palakarimpu AI, bez našeg pisanog odobrenja. Možete tačno i činjenično upućivati na Palakarimpu AI.`,
       ],
     },
     {
@@ -228,7 +228,7 @@ export const termsSr: LegalDocument = {
       nav: "Samostalno hostovanje",
       title: "18. Samostalno hostovane instalacije",
       blocks: [
-        `18.1 Ako LobbyStack pokrećete na sopstvenoj infrastrukturi, to činite na osnovu licence MIT, a ne ovih Uslova. Nemamo pristup Vašoj instalaciji ni njenim podacima, ne obrađujemo te podatke i nismo odgovorni za njih.`,
+        `18.1 Ako Palakarimpu AI pokrećete na sopstvenoj infrastrukturi, to činite na osnovu licence MIT, a ne ovih Uslova. Nemamo pristup Vašoj instalaciji ni njenim podacima, ne obrađujemo te podatke i nismo odgovorni za njih.`,
         `18.2 Odgovorni ste za svoje servere, bezbednost, rezervne kopije, ažuriranja, naloge kod pružalaca usluga, brojeve telefona, registracije kod operatera, obaveštenja, pristanke i usklađenost sa propisima. Vaše korišćenje usluga OpenAI, Twilio i drugih pružalaca usluga predmet je odnosa između Vas i njih.`,
         `18.3 Za samostalno hostovane instalacije ne pružamo podršku, garanciju niti obavezu u pogledu usluge, osim ako se na to ne saglasimo u potpisanoj pisanoj formi.`,
       ],
@@ -238,7 +238,7 @@ export const termsSr: LegalDocument = {
       nav: "Intelektualna svojina",
       title: "19. Intelektualna svojina",
       blocks: [
-        `19.1 Osim Podataka Klijenta i otvorenog koda opisanog u odeljku 17, LobbyStack i njegovi davaoci licence poseduju sva prava na Uslugu, naše sajtove, dokumentaciju, dizajn, promptove, šablone i brend. Ovi Uslovi Vam daju samo prava koja su u njima navedena.`,
+        `19.1 Osim Podataka Klijenta i otvorenog koda opisanog u odeljku 17, Palakarimpu AI i njegovi davaoci licence poseduju sva prava na Uslugu, naše sajtove, dokumentaciju, dizajn, promptove, šablone i brend. Ovi Uslovi Vam daju samo prava koja su u njima navedena.`,
         `19.2 Ne smete kopirati, menjati ili stvarati izvedena dela hostovane Usluge, niti je podvrgavati obrnutom inženjeringu ili dekompilovati, osim u meri u kojoj to licenca MIT dozvoljava za naš objavljeni kod ili u kojoj to zakon dozvoljava uprkos ovom ograničenju.`,
       ],
     },
@@ -286,7 +286,7 @@ export const termsSr: LegalDocument = {
       nav: "Odricanje od garancija",
       title: "24. Odricanje od garancija",
       blocks: [
-        `<strong>24.1 U najvećoj meri koju zakon dozvoljava, Usluga se pruža „takva kakva jeste“ i „kako je dostupna“. LobbyStack se odriče svih garancija i uslova, bilo izričitih, prećutnih ili zakonskih, uključujući garancije podobnosti za prodaju, podobnosti za određenu namenu, prava svojine, nepovređivanja prava trećih lica i kvaliteta.</strong>`,
+        `<strong>24.1 U najvećoj meri koju zakon dozvoljava, Usluga se pruža „takva kakva jeste“ i „kako je dostupna“. Palakarimpu AI se odriče svih garancija i uslova, bilo izričitih, prećutnih ili zakonskih, uključujući garancije podobnosti za prodaju, podobnosti za određenu namenu, prava svojine, nepovređivanja prava trećih lica i kvaliteta.</strong>`,
         `24.2 Ne ograničavajući odeljak 24.1, ne garantujemo da će AI rezultat biti tačan ili primeren, da će svaki poziv biti ispravno prihvaćen, obrađen, snimljen ili preusmeren, da će SMS poruke biti isporučene, da će zakazivanja odgovarati Vašem kalendaru niti da će Usluga doneti bilo kakav poslovni rezultat.`,
       ],
     },
@@ -295,8 +295,8 @@ export const termsSr: LegalDocument = {
       nav: "Odgovornost",
       title: "25. Ograničenje odgovornosti",
       blocks: [
-        `<strong>25.1 U najvećoj meri koju zakon dozvoljava, ni LobbyStack ni njegova povezana lica, rukovodioci, direktori, zaposleni, spoljni saradnici ili dobavljači neće biti odgovorni za bilo kakvu posrednu, slučajnu, posebnu, posledičnu, primernu ili kaznenu štetu, niti za bilo kakav gubitak dobiti, prihoda, poslovanja, klijenata, ugleda ili podataka, niti za troškove zamenskih usluga. Ovo uključuje gubitke nastale usled propuštenih, prekinutih, pogrešno usmerenih ili nepravilno obrađenih poziva, pogrešnih odgovora, pogrešnih ili propuštenih zakazivanja i neisporučenih SMS poruka.</strong>`,
-        `<strong>25.2 U najvećoj meri koju zakon dozvoljava, ukupna odgovornost kompanije LobbyStack za sve zahteve u vezi sa ovim Uslovima ili Uslugom ograničena je na veći od sledećih iznosa: (a) iznos koji ste platili kompaniji LobbyStack za Uslugu u 12 meseci pre događaja iz kog je zahtev proistekao i (b) 100 CAD.</strong>`,
+        `<strong>25.1 U najvećoj meri koju zakon dozvoljava, ni Palakarimpu AI ni njegova povezana lica, rukovodioci, direktori, zaposleni, spoljni saradnici ili dobavljači neće biti odgovorni za bilo kakvu posrednu, slučajnu, posebnu, posledičnu, primernu ili kaznenu štetu, niti za bilo kakav gubitak dobiti, prihoda, poslovanja, klijenata, ugleda ili podataka, niti za troškove zamenskih usluga. Ovo uključuje gubitke nastale usled propuštenih, prekinutih, pogrešno usmerenih ili nepravilno obrađenih poziva, pogrešnih odgovora, pogrešnih ili propuštenih zakazivanja i neisporučenih SMS poruka.</strong>`,
+        `<strong>25.2 U najvećoj meri koju zakon dozvoljava, ukupna odgovornost kompanije Palakarimpu AI za sve zahteve u vezi sa ovim Uslovima ili Uslugom ograničena je na veći od sledećih iznosa: (a) iznos koji ste platili kompaniji Palakarimpu AI za Uslugu u 12 meseci pre događaja iz kog je zahtev proistekao i (b) 100 CAD.</strong>`,
         `25.3 Ova ograničenja se primenjuju na sve vrste zahteva, bilo da su zasnovani na ugovoru, vanugovornoj odgovornosti, deliktu, nepažnji ili bilo kom drugom pravnom osnovu, čak i ako smo bili obavešteni da je gubitak moguć i čak i ako pravno sredstvo ne ostvari svoju suštinsku svrhu.`,
         `25.4 Ništa u ovim Uslovima ne ograničava odgovornost koju zakon ne dozvoljava da strana ograniči, kao što je odgovornost za nameru ili krajnju nepažnju ili za telesnu ili moralnu štetu prouzrokovanu licu.`,
       ],
@@ -306,7 +306,7 @@ export const termsSr: LegalDocument = {
       nav: "Obeštećenje",
       title: "26. Obeštećenje",
       blocks: [
-        `26.1 Branićete LobbyStack i njegova povezana lica, rukovodioce, direktore, zaposlene i spoljne saradnike od svakog zahteva, istrage ili postupka trećeg lica i platiti nastalu štetu, novčane kazne, druge kazne, iznose poravnanja i razumne troškove pravnog zastupanja, u meri u kojoj proističu iz:`,
+        `26.1 Branićete Palakarimpu AI i njegova povezana lica, rukovodioce, direktore, zaposlene i spoljne saradnike od svakog zahteva, istrage ili postupka trećeg lica i platiti nastalu štetu, novčane kazne, druge kazne, iznose poravnanja i razumne troškove pravnog zastupanja, u meri u kojoj proističu iz:`,
         {
           ul: [
             `Podataka Klijenta ili podataka o Vašoj firmi, Vaših uputstava i konfiguracije;`,
@@ -361,7 +361,7 @@ export const termsSr: LegalDocument = {
       nav: "Opšte odredbe",
       title: "31. Opšte odredbe",
       blocks: [
-        `31.1 <strong>Celokupan ugovor.</strong> Ovi Uslovi, Politika privatnosti, svaka Porudžbina i dokumenti na koje oni upućuju čine celokupan ugovor između Vas i kompanije LobbyStack u vezi sa Uslugom. Oni zamenjuju svaki raniji ugovor o tom predmetu. Uslovi u Vašim narudžbenicama ili drugim dokumentima se ne primenjuju.`,
+        `31.1 <strong>Celokupan ugovor.</strong> Ovi Uslovi, Politika privatnosti, svaka Porudžbina i dokumenti na koje oni upućuju čine celokupan ugovor između Vas i kompanije Palakarimpu AI u vezi sa Uslugom. Oni zamenjuju svaki raniji ugovor o tom predmetu. Uslovi u Vašim narudžbenicama ili drugim dokumentima se ne primenjuju.`,
         `31.2 <strong>Ustupanje.</strong> Ne smete ustupiti niti preneti ove Uslove bez našeg pisanog pristanka. Mi ih možemo ustupiti povezanom licu ili pravnom sledbeniku u slučaju spajanja, preuzimanja, reorganizacije ili prodaje imovine.`,
         `31.3 <strong>Deljivost odredbi i odricanje od prava.</strong> Ako sud utvrdi da je deo ovih Uslova neizvršiv, taj deo će se primeniti u meri u kojoj je to moguće, a ostatak ostaje na snazi. Nesprovođenje nekog prava ne predstavlja odricanje od tog prava.`,
         `31.4 <strong>Odnos strana.</strong> Strane su nezavisni ugovorni partneri. Ovi Uslovi ne stvaraju ortakluk, zajednički poduhvat, radni odnos niti odnos zastupanja i ne daju prava trećim licima kao korisnicima.`,

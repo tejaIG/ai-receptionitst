@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { RefreshCcw, Trash2, Webhook } from "lucide-react";
+import { MessageCircle, RefreshCcw, Trash2, Webhook } from "lucide-react";
 import Link from "next/link";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useSearchParams } from "next/navigation";
@@ -19,6 +19,7 @@ import { Field, FieldLabel } from "@/components/ui/field";
 import { PageHeader } from "@/components/page-header";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Skeleton } from "@/components/ui/skeleton";
+import { Switch } from "@/components/ui/switch";
 import { surfaceClassName } from "@/components/ui/surface";
 import { useTelemetry } from "@/components/product-analytics";
 
@@ -60,6 +61,14 @@ export function LiveIntegrationsSurface() {
     onError: (error) => toast.error(error.message),
   });
 
+  // Customers get a WhatsApp confirmation after each booking when this is on. Whether WhatsApp can send at all is a platform setting.
+  const whatsapp = useQuery({ queryKey: ["whatsapp-confirmations", business?.businessId], queryFn: () => requestJson<{ enabled: boolean; configured: boolean; template: boolean }>(`/api/integrations/whatsapp?businessId=${encodeURIComponent(business!.businessId)}`), enabled: Boolean(business?.businessId && canManage) });
+  const updateWhatsapp = useMutation({
+    mutationFn: (enabled: boolean) => requestJson<{ enabled: boolean; configured: boolean; template: boolean }>(`/api/integrations/whatsapp?businessId=${encodeURIComponent(business!.businessId)}`, { method: "PATCH", body: JSON.stringify({ enabled }) }),
+    onSuccess: (data) => queryClient.setQueryData(["whatsapp-confirmations", business?.businessId], data),
+    onError: (error) => toast.error(error.message),
+  });
+
   // Picking a calendar saves it; there's no separate save step.
   function selectCalendar(calendarId: string) {
     setSelectedCalendarId(calendarId);
@@ -80,7 +89,15 @@ export function LiveIntegrationsSurface() {
       </li><li className={`${surfaceClassName} p-4`}>
         <div className="mb-8 flex items-center justify-between gap-3"><div className="flex size-10 shrink-0 items-center justify-center"><Webhook aria-hidden="true" className="size-7" /></div><Button disabled={!canManage} nativeButton={false} render={<Link href="/integrations/webhooks" />} size="sm" variant="outline">{t("integrations.actions.manage")}</Button></div>
         <div className="flex flex-col gap-1"><h2 className="type-section-title text-lg">{t("integrations.cards.webhooks.title")}</h2><p className="type-body-muted line-clamp-2">{t("integrations.cards.webhooks.description")}</p></div>
-      </li></ul>
+      </li>{canManage ? <li className={`${surfaceClassName} p-4`}>
+        <div className="mb-8 flex items-center justify-between gap-3"><div className="flex size-10 shrink-0 items-center justify-center"><MessageCircle aria-hidden="true" className="size-7" /></div>
+          {whatsapp.isLoading ? <Skeleton className="h-6 w-11 rounded-full" /> : <Switch aria-label={t("integrations.cards.whatsapp.title")} checked={whatsapp.data?.enabled ?? false} disabled={!canManage || whatsapp.isError || updateWhatsapp.isPending} onCheckedChange={(checked) => updateWhatsapp.mutate(checked)} />}
+        </div>
+        <div className="flex flex-col gap-1"><h2 className="type-section-title text-lg">{t("integrations.cards.whatsapp.title")}</h2><p className="type-body-muted line-clamp-2">{t("integrations.cards.whatsapp.description")}</p>
+          {whatsapp.data && !whatsapp.data.configured ? <p className="type-body-muted text-amber-700 dark:text-amber-400">{t("integrations.cards.whatsapp.notConfigured")}</p> : null}
+          {whatsapp.data?.configured && whatsapp.data.enabled && !whatsapp.data.template ? <p className="type-body-muted">{t("integrations.cards.whatsapp.noTemplate")}</p> : null}
+        </div>
+      </li> : null}</ul>
     </div>
     <Dialog onOpenChange={setDialogOpen} open={dialogOpen}><DialogContent className="w-full gap-0 p-0 sm:max-w-md">
       <DialogHeader className="flex-row items-center gap-3 p-6 pb-4"><GoogleCalendarLogo /><div className="flex flex-col gap-1"><DialogTitle>{t("integrations.google.sheetTitle")}</DialogTitle><DialogDescription>{t("integrations.google.sheetDescription")}</DialogDescription></div></DialogHeader>

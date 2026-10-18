@@ -1,6 +1,6 @@
 ---
 title: "Configure environment variables"
-description: "Key environment variables for the LobbyStack admin, worker, voice calls, storage, and providers."
+description: "Key environment variables for the Palakarimpu AI admin, worker, voice calls, storage, and providers."
 sidebarTitle: "Environment variables"
 contentType: "Reference"
 ---
@@ -41,6 +41,17 @@ OpenAI's GPT-Live model answers browser calls and phone calls. Phone calls reach
 | `WEB_CALL_PUBLIC_BUSINESS_SLUG` | Business that answers the public demo call on your marketing site. |
 | `WEB_CALL_ALLOWED_ORIGINS` | Comma-separated sites allowed to start that public demo call. Website widget calls use each widget key's allowed origins instead. |
 
+## WhatsApp confirmations
+
+A business can also confirm each booked appointment to the customer on WhatsApp, next to the SMS confirmation. An administrator turns it on in **Integrations**. The sender and message template are set once for the deployment, on admin and worker.
+
+| Variable | Purpose |
+| --- | --- |
+| `TWILIO_WHATSAPP_FROM` | The WhatsApp sender, with its country code, such as `+14155238886`, the Twilio sandbox number. Without it, businesses can switch the feature on but nothing is sent. |
+| `TWILIO_WHATSAPP_CONFIRMATION_CONTENT_SID` | The approved Twilio message template for the confirmation (`HX...`). Its placeholders are the business name, the service and the date and time, as `{{1}}`, `{{2}}` and `{{3}}`. Without it, Twilio sends the plain message, which only reaches customers who wrote to you in the last 24 hours, or sandbox testers who joined. |
+
+WhatsApp only goes to customers who agreed to confirmation texts and haven't texted STOP. It uses the same Twilio account credentials as SMS.
+
 ## Redis and file storage
 
 | Variable | Purpose |
@@ -70,7 +81,7 @@ Webhook deliveries refuse private, loopback, link-local and cloud metadata addre
 
 | Variable | Purpose |
 | --- | --- |
-| `OTEL_EXPORTER_OTLP_ENDPOINT` | OTLP base URL. LobbyStack appends `/v1/traces`, `/v1/metrics`, and `/v1/logs`. Leave empty to disable export. |
+| `OTEL_EXPORTER_OTLP_ENDPOINT` | OTLP base URL. Palakarimpu AI appends `/v1/traces`, `/v1/metrics`, and `/v1/logs`. Leave empty to disable export. |
 | `OTEL_EXPORTER_OTLP_HEADERS` | Optional comma-separated `key=value` headers sent with each OTLP request. For PostHog, use `Authorization=Bearer your_posthog_project_token_here`. |
 
 An empty OTLP endpoint does not disable container stdout logs, application health endpoints, direct product analytics, or direct error reporting.
@@ -89,7 +100,7 @@ An empty OTLP endpoint does not disable container stdout logs, application healt
 | `AI_DELEGATION_REASONING_EFFORT` | OpenAI only: reasoning effort for answers during calls. Defaults to `low`, which answers in about half the time of `high`. Website chat keeps `AI_CHAT_REASONING_EFFORT`. |
 | `AI_DELEGATION_SERVICE_TIER` | OpenAI only: the processing tier for answers during calls: `auto`, `default`, `flex` or `priority`. Defaults to `priority`, which answers faster and costs twice the standard token price. |
 | `AI_CHAT_INPUT_COST_PER_MILLION_TOKENS`, `AI_CHAT_CACHED_INPUT_COST_PER_MILLION_TOKENS`, `AI_CHAT_OUTPUT_COST_PER_MILLION_TOKENS` | The `AI_CHAT_*` model's prices in USD per million tokens, so chat, call summaries and answers during calls record what they cost. Cached input uses the input price when you leave it blank. |
-| `AI_CHAT_PRICING_VERSION`, `AI_CHAT_PRICING_SOURCE`, `AI_CHAT_PRICING_EFFECTIVE_DATE` | A label, a source URL and the date for those prices. LobbyStack records a cost only when all three are set. |
+| `AI_CHAT_PRICING_VERSION`, `AI_CHAT_PRICING_SOURCE`, `AI_CHAT_PRICING_EFFECTIVE_DATE` | A label, a source URL and the date for those prices. Palakarimpu AI records a cost only when all three are set. |
 | `AI_EMBEDDING_API_KEY`, `AI_EMBEDDING_BASE_URL`, `AI_EMBEDDING_MODEL`, `AI_EMBEDDING_PROVIDER_NAME`, `AI_EMBEDDING_REVISION` | OpenAI-compatible 1536-dimensional embeddings. |
 | `WIDGET_SESSION_SECRET` | Signs cross-origin website-widget sessions. |
 | `FIRECRAWL_*` | Website knowledge ingestion. |

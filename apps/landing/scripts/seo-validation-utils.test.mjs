@@ -6,8 +6,8 @@ import {
 
 describe("SEO validation utilities", () => {
   it("decodes supported HTML entities exactly once", () => {
-    expect(decodeHtmlEntities("&lt;LobbyStack&gt; &amp; &quot;AI&quot;")).toBe(
-      '<LobbyStack> & "AI"'
+    expect(decodeHtmlEntities("&lt;Palakarimpu AI&gt; &amp; &quot;AI&quot;")).toBe(
+      '<Palakarimpu AI> & "AI"'
     )
     expect(decodeHtmlEntities("&amp;quot;")).toBe("&quot;")
   })

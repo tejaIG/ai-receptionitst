@@ -1,8 +1,8 @@
 ---
-title: "Earn 20% with the LobbyStack affiliate program"
-description: "Compare AI receptionist affiliate programs and see why agencies, consultants, creators, and local business experts can earn recurring revenue with LobbyStack."
+title: "Earn 20% with the Palakarimpu AI affiliate program"
+description: "Compare AI receptionist affiliate programs and see why agencies, consultants, creators, and local business experts can earn recurring revenue with Palakarimpu AI."
 pubDate: 2026-07-07T09:00:00-04:00
-author: "LobbyStack Team"
+author: "Palakarimpu AI Team"
 category: "Product updates"
 featured: false
 coverImage: "/illustrations/open-source-ai-receptionist-affiliate-program-hero.webp"
@@ -18,13 +18,13 @@ Most of those callers do not wait. They call the next business.
 
 That is why [AI receptionists](/features/) are becoming a practical product to recommend. The problem is obvious, the value is clear, and the customer does not need to replace their whole business system to get started.
 
-The [LobbyStack Affiliate Program](/affiliate-program/) gives you a direct way to earn recurring revenue by helping businesses answer more calls, capture more leads, and book more appointments.
+The [Palakarimpu AI Affiliate Program](/affiliate-program/) gives you a direct way to earn recurring revenue by helping businesses answer more calls, capture more leads, and book more appointments.
 
-## What is the LobbyStack affiliate program?
+## What is the Palakarimpu AI affiliate program?
 
-The LobbyStack Affiliate Program pays you **20% commission for the first 12 months** when a customer signs up through your referral. Referred customers also get **5% off** when they start an eligible hosted LobbyStack plan through your referral link.
+The Palakarimpu AI Affiliate Program pays you **20% commission for the first 12 months** when a customer signs up through your referral. Referred customers also get **5% off** when they start an eligible hosted Palakarimpu AI plan through your referral link.
 
-You share LobbyStack with businesses that need better phone coverage. When they become a paying customer, you earn a recurring commission while they stay subscribed during their first year.
+You share Palakarimpu AI with businesses that need better phone coverage. When they become a paying customer, you earn a recurring commission while they stay subscribed during their first year.
 
 The arrangement is direct:
 
@@ -33,7 +33,7 @@ The arrangement is direct:
 - No implementation team to hire.
 - No custom AI stack to maintain.
 
-You bring the customer. LobbyStack handles the AI receptionist platform.
+You bring the customer. Palakarimpu AI handles the AI receptionist platform.
 
 ## Why AI receptionist affiliate programs are growing
 
@@ -51,9 +51,9 @@ A business owner may not know what “voice AI automation” means, but they und
 
 > “When someone calls and nobody answers, you might lose the job.”
 
-That makes LobbyStack straightforward to explain.
+That makes Palakarimpu AI straightforward to explain.
 
-## How LobbyStack compares to other AI receptionist affiliate programs
+## How Palakarimpu AI compares to other AI receptionist affiliate programs
 
 There are already several AI receptionist and AI phone agent companies with affiliate or referral programs.
 
@@ -63,7 +63,7 @@ Here is the practical comparison.
 
 | Program         |                 Publicly advertised structure | What to know                                                                       |
 | --------------- | --------------------------------------------: | ---------------------------------------------------------------------------------- |
-| LobbyStack      |                  20% commission for 12 months | Open-source AI receptionist for SMBs, with cloud hosting and self-hosting options  |
+| Palakarimpu AI      |                  20% commission for 12 months | Open-source AI receptionist for SMBs, with cloud hosting and self-hosting options  |
 | Cira            |                  30% commission for 12 months | Focused heavily on home service businesses                                         |
 | CallSphere      |                  22% commission for 12 months | Also offers deeper partner options for reselling, white-labeling, and integrations |
 | Upfirst         |        $50 bonus plus 25% lifetime commission | Strong recurring payout structure                                                  |
@@ -72,23 +72,23 @@ Here is the practical comparison.
 | Savvy Agents    |                   30% commission for 3 months | Dental-specific AI workforce platform                                              |
 | RealVoice AI    |                          Up to 40% commission | Broader AI workforce positioning                                                   |
 
-So why choose LobbyStack if some programs advertise a higher percentage?
+So why choose Palakarimpu AI if some programs advertise a higher percentage?
 
 Because the best affiliate program is not always the one with the biggest number.
 
 It is the one you can actually sell repeatedly, confidently, and honestly.
 
-## Why promote LobbyStack?
+## Why promote Palakarimpu AI?
 
-### LobbyStack is open source
+### Palakarimpu AI is open source
 
 This is one of the biggest differences.
 
 Many AI receptionist platforms are closed systems. You refer the customer, they sign up, and they are fully dependent on that vendor’s hosted platform, pricing, roadmap, and policies.
 
-LobbyStack is different.
+Palakarimpu AI is different.
 
-LobbyStack is open source and [self-hosted ready](/solutions/self-hosted-ai-receptionist/). Customers can use LobbyStack Cloud for a managed service or self-host for more infrastructure control.
+Palakarimpu AI is open source and [self-hosted ready](/solutions/self-hosted-ai-receptionist/). Customers can use Palakarimpu AI Cloud for a managed service or self-host for more infrastructure control.
 
 That matters when you recommend software to clients.
 
@@ -100,17 +100,17 @@ For agencies and consultants, that makes the recommendation more credible.
 
 Some AI tools require a long demo before the customer understands why they need it.
 
-LobbyStack does not.
+Palakarimpu AI does not.
 
 Use this pitch:
 
-> LobbyStack answers calls, captures caller details, books appointments, takes messages, transfers urgent calls, and sends summaries when your team cannot answer.
+> Palakarimpu AI answers calls, captures caller details, books appointments, takes messages, transfers urgent calls, and sends summaries when your team cannot answer.
 
 That is a problem almost every service business understands.
 
 ### It works for many local businesses
 
-LobbyStack is not limited to one niche.
+Palakarimpu AI is not limited to one niche.
 
 You can promote it to:
 
@@ -139,7 +139,7 @@ A good AI receptionist is more than a voice demo.
 
 It needs to answer the call, understand the caller, follow business rules, check availability, book appointments, capture details, route urgent requests, and send the team a useful summary.
 
-LobbyStack is built around that full receptionist workflow.
+Palakarimpu AI is built around that full receptionist workflow.
 
 That gives you stronger marketing angles than saying “AI answers the phone.”
 
@@ -149,17 +149,17 @@ You can talk about answering calls your team would miss, after-hours answering, 
 
 AI receptionist products can become expensive as usage grows.
 
-LobbyStack is designed for small businesses that need real call coverage without hiring a full-time receptionist or paying for a traditional answering service.
+Palakarimpu AI is designed for small businesses that need real call coverage without hiring a full-time receptionist or paying for a traditional answering service.
 
 That keeps the affiliate conversation concrete.
 
 You are not only selling automation. You are helping businesses get more coverage at a price they can justify.
 
-See the current [LobbyStack pricing](/pricing/) for Free, Starter, Pro, and Enterprise plan details.
+See the current [Palakarimpu AI pricing](/pricing/) for Free, Starter, Pro, and Enterprise plan details.
 
 ## How much can you make?
 
-LobbyStack pays **20% commission for the first 12 months**.
+Palakarimpu AI pays **20% commission for the first 12 months**.
 
 Your earnings depend on the plan your referral chooses and how long they stay subscribed.
 
@@ -179,13 +179,13 @@ Starter is also available annually at $24/month, billed as $288/year. Pro is ava
 
 These are not unrealistic numbers for someone who already has access to local businesses.
 
-A web designer with 40 small business clients could refer a few. An SEO consultant could add LobbyStack to missed-call audits. A YouTuber could create comparison content. A marketing agency could recommend it when clients ask about lead capture. A CRM consultant could suggest it when a client’s phone process is broken.
+A web designer with 40 small business clients could refer a few. An SEO consultant could add Palakarimpu AI to missed-call audits. A YouTuber could create comparison content. A marketing agency could recommend it when clients ask about lead capture. A CRM consultant could suggest it when a client’s phone process is broken.
 
 You do not need thousands of referrals to make the program worthwhile.
 
 A handful of good customers can become meaningful recurring income.
 
-## Who should join the LobbyStack affiliate program?
+## Who should join the Palakarimpu AI affiliate program?
 
 The program is a good fit for people who already talk to businesses about growth, operations, marketing, customer experience, or automation.
 
@@ -197,9 +197,9 @@ If you run websites, SEO, ads, or local marketing for businesses, missed calls a
 
 You can help clients generate leads, but if they miss the phone call, the lead is wasted.
 
-LobbyStack gives you a practical add-on:
+Palakarimpu AI gives you a practical add-on:
 
-> “We can help you get more calls, and LobbyStack can help make sure those calls are answered.”
+> “We can help you get more calls, and Palakarimpu AI can help make sure those calls are answered.”
 
 ### Web designers
 
@@ -207,7 +207,7 @@ Many business websites already have “Call now” buttons.
 
 But what happens when nobody answers?
 
-If you build websites for service businesses, LobbyStack gives you another way to improve conversion after the visitor leaves the site and picks up the phone.
+If you build websites for service businesses, Palakarimpu AI gives you another way to improve conversion after the visitor leaves the site and picks up the phone.
 
 ### SEO consultants
 
@@ -215,7 +215,7 @@ Local SEO creates inbound demand. Phone calls are often the next step.
 
 If a client is investing in Google Business Profile optimization, local landing pages, or service-area SEO, they should also care about who answers the phone.
 
-LobbyStack is a natural recommendation.
+Palakarimpu AI is a natural recommendation.
 
 ### Business consultants
 
@@ -229,13 +229,13 @@ The conversation starts with a question:
 
 Many automation projects happen after the customer reaches the business.
 
-LobbyStack helps at the first point of contact: the phone call.
+Palakarimpu AI helps at the first point of contact: the phone call.
 
 That makes it a good front-end automation product to recommend before CRM workflows, follow-up sequences, or back-office automations.
 
 ### Creators and newsletter writers
 
-If your audience includes entrepreneurs, local business owners, agencies, or AI tool buyers, LobbyStack is a strong affiliate product because the use case is concrete.
+If your audience includes entrepreneurs, local business owners, agencies, or AI tool buyers, Palakarimpu AI is a strong affiliate product because the use case is concrete.
 
 You can write or film content like:
 
@@ -248,7 +248,7 @@ You can write or film content like:
 * How to capture more leads from phone calls
 * Open-source AI receptionist options
 
-## How to make money with LobbyStack
+## How to make money with Palakarimpu AI
 
 Here are practical ways to promote the program.
 
@@ -288,11 +288,11 @@ A specific audience makes the value clearer.
 
 ### 3. Add it to your agency offer
 
-If you already sell websites, SEO, ads, automations, CRM setup, or business consulting, LobbyStack can become part of your client recommendation stack.
+If you already sell websites, SEO, ads, automations, CRM setup, or business consulting, Palakarimpu AI can become part of your client recommendation stack.
 
 You can say:
 
-> “We help generate demand. LobbyStack helps make sure the phone gets answered when that demand turns into calls.”
+> “We help generate demand. Palakarimpu AI helps make sure the phone gets answered when that demand turns into calls.”
 
 That is a strong agency story.
 
@@ -307,7 +307,7 @@ Ask businesses a few common questions:
 * Do you know how many calls turned into appointments last month?
 * Are urgent calls routed to the right person?
 
-If the business does not have good answers, LobbyStack is relevant. You can also use the [missed-call revenue calculator](/missed-call-revenue-calculator/) to put a number on the problem.
+If the business does not have good answers, Palakarimpu AI is relevant. You can also use the [missed-call revenue calculator](/missed-call-revenue-calculator/) to put a number on the problem.
 
 ### 5. Use concrete ROI examples
 
@@ -323,7 +323,7 @@ That gives you stronger evidence for the recommendation.
 
 Some affiliate programs offer higher commission percentages.
 
-LobbyStack chose a sustainable structure aligned with long-term customers.
+Palakarimpu AI chose a sustainable structure aligned with long-term customers.
 
 A 20% commission for 12 months gives affiliates recurring upside while keeping the product affordable for the small businesses using it.
 
@@ -331,7 +331,7 @@ That matters.
 
 An affiliate program should not only reward the promoter. It should also support the customer experience. If the economics are too aggressive, the product can become overpriced, overpromised, or pushed to the wrong buyers.
 
-LobbyStack is designed to be recommended to real businesses with real phone problems.
+Palakarimpu AI is designed to be recommended to real businesses with real phone problems.
 
 The goal is not hype.
 
@@ -343,7 +343,7 @@ When you recommend software, you are putting your reputation behind it.
 
 Product transparency supports that review.
 
-LobbyStack being open source means customers are not locked into a closed-only platform. They can start with the hosted cloud and keep the option to self-host if their needs change.
+Palakarimpu AI being open source means customers are not locked into a closed-only platform. They can start with the hosted cloud and keep the option to self-host if their needs change.
 
 That is especially important for:
 
@@ -353,15 +353,15 @@ That is especially important for:
 * companies that care about data ownership
 * businesses that do not want to rebuild their phone system later
 
-Open source lets customers inspect LobbyStack before they trust, evaluate, or recommend it.
+Open source lets customers inspect Palakarimpu AI before they trust, evaluate, or recommend it.
 
-## What helps you sell LobbyStack?
+## What helps you sell Palakarimpu AI?
 
 A good affiliate product needs more than a commission rate.
 
 It needs a clear reason to buy.
 
-LobbyStack has several:
+Palakarimpu AI has several:
 
 * businesses already know missed calls cost money
 * setup follows a guided flow
@@ -372,7 +372,7 @@ LobbyStack has several:
 * the product is open source
 * customers are not trapped in a closed vendor-only model
 
-That combination makes LobbyStack a strong fit for affiliates who want to promote something useful, practical, and straightforward to explain.
+That combination makes Palakarimpu AI a strong fit for affiliates who want to promote something useful, practical, and straightforward to explain.
 
 ## Example affiliate angles you can use
 
@@ -380,11 +380,11 @@ Here are a few positioning ideas.
 
 ### For local service businesses
 
-> Stop losing jobs to voicemail. LobbyStack answers calls, collects job details, books appointments, and routes urgent requests when your team is busy or after hours.
+> Stop losing jobs to voicemail. Palakarimpu AI answers calls, collects job details, books appointments, and routes urgent requests when your team is busy or after hours.
 
 ### For salons and appointment-based businesses
 
-> Let clients book even when your front desk is busy. LobbyStack answers calls, checks availability, handles common questions, and sends confirmations.
+> Let clients book even when your front desk is busy. Palakarimpu AI answers calls, checks availability, handles common questions, and sends confirmations.
 
 ### For agencies
 
@@ -392,17 +392,17 @@ Here are a few positioning ideas.
 
 ### For open-source buyers
 
-> LobbyStack is an open-source AI receptionist. Use the hosted version for convenience or self-host when you want more control.
+> Palakarimpu AI is an open-source AI receptionist. Use the hosted version for convenience or self-host when you want more control.
 
 ### For busy founders
 
-> Your business should not lose leads because you were on another call. LobbyStack gives you an AI receptionist that answers, captures details, and follows your rules.
+> Your business should not lose leads because you were on another call. Palakarimpu AI gives you an AI receptionist that answers, captures details, and follows your rules.
 
 ## Frequently asked questions
 
-### What is the LobbyStack affiliate program?
+### What is the Palakarimpu AI affiliate program?
 
-The LobbyStack Affiliate Program lets you earn commission by referring paying customers to LobbyStack. You get 20% commission for the first 12 months of each referred customer’s subscription.
+The Palakarimpu AI Affiliate Program lets you earn commission by referring paying customers to Palakarimpu AI. You get 20% commission for the first 12 months of each referred customer’s subscription.
 
 ### How much can I earn?
 
@@ -410,19 +410,19 @@ Your earnings depend on the number of customers you refer, the plans they choose
 
 ### Do referred customers get a discount?
 
-Yes. Referred customers get 5% off when they start an eligible hosted LobbyStack plan through your referral link. The customer saves money, and you earn 20% commission for the first 12 months if they become a paying customer.
+Yes. Referred customers get 5% off when they start an eligible hosted Palakarimpu AI plan through your referral link. The customer saves money, and you earn 20% commission for the first 12 months if they become a paying customer.
 
-### Is LobbyStack open source?
+### Is Palakarimpu AI open source?
 
-Yes. LobbyStack is an open-source AI receptionist platform. Customers can use LobbyStack Cloud for convenience or self-host for more control.
+Yes. Palakarimpu AI is an open-source AI receptionist platform. Customers can use Palakarimpu AI Cloud for convenience or self-host for more control.
 
 ### Why does open source matter?
 
 Open source reduces vendor lock-in. It gives customers more transparency and control than a closed-only AI receptionist platform.
 
-### Who should promote LobbyStack?
+### Who should promote Palakarimpu AI?
 
-LobbyStack is a good fit for agencies, consultants, creators, web designers, SEO professionals, automation experts, and anyone with access to small businesses that depend on phone calls.
+Palakarimpu AI is a good fit for agencies, consultants, creators, web designers, SEO professionals, automation experts, and anyone with access to small businesses that depend on phone calls.
 
 ### What kinds of businesses should I refer?
 
@@ -430,22 +430,22 @@ The best referrals are businesses that miss calls, book appointments, handle quo
 
 ### Is this only for technical affiliates?
 
-No. LobbyStack is straightforward to explain to non-technical business owners. You do not need to build an AI receptionist yourself. You only need to introduce businesses to a product that solves a problem they already understand.
+No. Palakarimpu AI is straightforward to explain to non-technical business owners. You do not need to build an AI receptionist yourself. You only need to introduce businesses to a product that solves a problem they already understand.
 
-### Is LobbyStack better than other AI receptionist affiliate programs?
+### Is Palakarimpu AI better than other AI receptionist affiliate programs?
 
-LobbyStack may not always have the highest advertised commission percentage, but it has a strong combination of recurring commissions, broad SMB appeal, clear positioning, and open-source flexibility. That makes it a strong choice for affiliates who want to recommend a practical AI receptionist without locking customers into a closed platform.
+Palakarimpu AI may not always have the highest advertised commission percentage, but it has a strong combination of recurring commissions, broad SMB appeal, clear positioning, and open-source flexibility. That makes it a strong choice for affiliates who want to recommend a practical AI receptionist without locking customers into a closed platform.
 
-## Start earning with LobbyStack
+## Start earning with Palakarimpu AI
 
 AI receptionists are becoming a normal part of small business operations.
 
 Businesses want to answer faster, capture more leads, book more appointments, and stop relying on voicemail when customers are ready to buy.
 
-LobbyStack makes that possible with an open-source AI receptionist built for real phone workflows.
+Palakarimpu AI makes that possible with an open-source AI receptionist built for real phone workflows.
 
-If you already reach business owners, agencies, consultants, operators, or local service providers, the LobbyStack Affiliate Program gives you a direct way to turn those relationships into recurring revenue.
+If you already reach business owners, agencies, consultants, operators, or local service providers, the Palakarimpu AI Affiliate Program gives you a direct way to turn those relationships into recurring revenue.
 
-[Join the LobbyStack Affiliate Program](/affiliate-program/) and start earning 20% commission for 12 months on every customer you refer.
+[Join the Palakarimpu AI Affiliate Program](/affiliate-program/) and start earning 20% commission for 12 months on every customer you refer.
 
 If you want to understand the product before you recommend it, read the [open-source AI receptionist stack overview](/blog/open-source-ai-receptionist-stack/) and [how to choose an AI receptionist](/blog/how-to-choose-an-ai-receptionist/).

@@ -1,10 +1,10 @@
 # Understand the voice runtime
 
-LobbyStack answers calls with OpenAI's GPT-Live model (`gpt-live-1`). OpenAI hosts the audio: phone calls reach it over SIP and browser calls over WebRTC. The admin app starts each call and the worker runs it. This page explains how a call flows, what each runtime does, and how to configure the phone path.
+Palakarimpu AI answers calls with OpenAI's GPT-Live model (`gpt-live-1`). OpenAI hosts the audio: phone calls reach it over SIP and browser calls over WebRTC. The admin app starts each call and the worker runs it. This page explains how a call flows, what each runtime does, and how to configure the phone path.
 
 ## How a GPT-Live call works
 
-GPT-Live talks with the caller and hands anything that needs business data to LobbyStack. OpenAI calls this client delegation. The worker holds a sideband WebSocket to each session, receives the delegated request, and answers it with the agent core.
+GPT-Live talks with the caller and hands anything that needs business data to Palakarimpu AI. OpenAI calls this client delegation. The worker holds a sideband WebSocket to each session, receives the delegated request, and answers it with the agent core.
 
 The agent core (`packages/agent-core`) is an AI SDK `ToolLoopAgent`. Its tools cover:
 
@@ -63,7 +63,7 @@ The two calls whose greeting command was never acknowledged had no audio at all:
 
 To check whether audio reaches GPT-Live while a phone caller is silent, compare `inputAudioMs` on the call's `live.greeting` steps with `sinceAttachMs`, and `inputAudio.coveredMs` on `live.closed` with `durationMs`. Coverage close to the elapsed time means audio flowed through the silence. Coverage that grows only while the caller talks means the trunk or the carrier stops sending audio in silence. Zero on browser calls too means OpenAI isn't reflecting the caller's audio.
 
-OpenAI's [Live conversations guide](https://developers.openai.com/api/docs/guides/live-conversations) recommends a recorded or rendered clip for exact wording and a known end. On phone calls, Twilio sends the audio straight to OpenAI, so LobbyStack has no way to play one. Twilio would have to play the clip before it connects the call to OpenAI, or LobbyStack would have to relay the call's audio itself. The browser controls its own playback, so a browser call could play a clip while it holds back GPT-Live's audio.
+OpenAI's [Live conversations guide](https://developers.openai.com/api/docs/guides/live-conversations) recommends a recorded or rendered clip for exact wording and a known end. On phone calls, Twilio sends the audio straight to OpenAI, so Palakarimpu AI has no way to play one. Twilio would have to play the clip before it connects the call to OpenAI, or Palakarimpu AI would have to relay the call's audio itself. The browser controls its own playback, so a browser call could play a clip while it holds back GPT-Live's audio.
 
 ## Follow a phone call
 
@@ -102,7 +102,7 @@ Once attached, the worker owns the call until OpenAI closes the session. It:
 - hangs up after the receptionist's goodbye has played, when the agent ends the call
 - ends the call after 75 seconds without speech or keypad presses from either side, or at the duration limit. The limit is the minutes the call has reserved, and at most 30 minutes. When the admin sends no limit, as on an unlimited plan, the call stops at 30 minutes. A request still being answered pauses the silence timer.
 - records the final call state, billed seconds, and estimated cost
-- queues a copy of OpenAI's stored recording into LobbyStack storage, where the copy follows the plan's retention (see [Recordings](#recordings))
+- queues a copy of OpenAI's stored recording into Palakarimpu AI storage, where the copy follows the plan's retention (see [Recordings](#recordings))
 - reports the call to the dashboard's live-call count
 
 When the caller is done, GPT-Live hands the call to the backend and says nothing while it waits. The caller is done when they say goodbye, "that's it" or "nothing else". Only the backend can hang up, so GPT-Live hands it every ending, even one it could answer itself. The agent then calls `endCall` with the reason `caller_finished` and writes no reply.
@@ -182,7 +182,7 @@ The worker logs `live.recovered` when a session answers, with `gapMs`, the time 
 
 ## Recordings
 
-Sessions run with `store: true` (see `packages/agent-core/src/live/session.ts`), so OpenAI keeps each call's recording and the worker can download it. The database write that finishes a call also queues a `call.saveRecording` outbox job. The job downloads the stereo WAV from OpenAI and saves it in LobbyStack storage, where it follows the plan's retention. As an outbox job, the copy survives a worker restart.
+Sessions run with `store: true` (see `packages/agent-core/src/live/session.ts`), so OpenAI keeps each call's recording and the worker can download it. The database write that finishes a call also queues a `call.saveRecording` outbox job. The job downloads the stereo WAV from OpenAI and saves it in Palakarimpu AI storage, where it follows the plan's retention. As an outbox job, the copy survives a worker restart.
 
 OpenAI finishes the recording after the session closes and answers 404 or 409 until it's ready. The job first runs 5 seconds after the call ends. After each 404 or 409 it queues another attempt with twice the delay: 10, 20, 40, 80 and 160 seconds, about 5 minutes over 6 attempts. Any other error from OpenAI ends the copy. A storage or database error fails the job, and the queue retries it.
 

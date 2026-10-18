@@ -1,4 +1,4 @@
-# Deploy LobbyStack on Railway
+# Deploy Palakarimpu AI on Railway
 
 Manage the project with Railway Infrastructure as Code in `.railway/railway.ts`. The definition adopts the isolated parity staging environment: admin, worker, a separate migrator, PostgreSQL 16 with pgvector, Redis 7, two persistent volumes, and a private bucket. See `.railway/README.md` for explicit environment selection and plan/apply commands.
 

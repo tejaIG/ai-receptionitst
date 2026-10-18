@@ -37,7 +37,7 @@ function createEmailProvider(): SmtpEmailProvider | undefined {
     secure: process.env.SMTP_SECURE === "true",
     username: process.env.SMTP_USERNAME ?? "",
     password: process.env.SMTP_PASSWORD ?? "",
-    from: process.env.EMAIL_FROM || "LobbyStack <no-reply@localhost>",
+    from: process.env.EMAIL_FROM || "Palakarimpu AI <no-reply@localhost>",
     ...(process.env.EMAIL_REPLY_TO ? { replyTo: process.env.EMAIL_REPLY_TO } : {}),
   });
 }
@@ -70,6 +70,29 @@ function createAlertSmsProvider(): WorkerDependencies["twilioAlerts"] {
   return { from, sendSms: input => {
     if (input.from !== from) throw new Error("Restricted alert provider cannot use another sender.");
     return provider.sendSms(input);
+  } };
+}
+
+/**
+ * Customer WhatsApp confirmations go out from one platform sender (a WhatsApp-enabled
+ * Twilio number, or the sandbox number while testing). It needs the account's own
+ * credentials, or the restricted alert key when only that is configured.
+ */
+function createWhatsAppProvider(): WorkerDependencies["twilioWhatsApp"] {
+  const from = process.env.TWILIO_WHATSAPP_FROM;
+  if (!from) return undefined;
+  const accountSid = process.env.TWILIO_ACCOUNT_SID ?? process.env.TWILIO_ALERT_ACCOUNT_SID;
+  const authToken = process.env.TWILIO_AUTH_TOKEN;
+  const apiKeySid = process.env.TWILIO_ALERT_API_KEY_SID;
+  const apiKeySecret = process.env.TWILIO_ALERT_API_KEY_SECRET;
+  const provider = accountSid && authToken
+    ? new TwilioProvider({ accountSid, authToken })
+    : accountSid && apiKeySid && apiKeySecret ? new TwilioProvider({ accountSid, apiKeySid, apiKeySecret }) : undefined;
+  if (!provider) return undefined;
+  const contentSid = process.env.TWILIO_WHATSAPP_CONFIRMATION_CONTENT_SID;
+  return { from, ...(contentSid ? { contentSid } : {}), sendWhatsApp: input => {
+    if (input.from !== from) throw new Error("WhatsApp provider cannot use another sender.");
+    return provider.sendWhatsApp(input);
   } };
 }
 
@@ -146,6 +169,7 @@ async function main(): Promise<void> {
   const onboardingFollowupSender = createOnboardingFollowupSender();
   const twilio = createTwilioProvider();
   const twilioAlerts = createAlertSmsProvider();
+  const twilioWhatsApp = createWhatsAppProvider();
   const storage = createStorageProvider();
   const polar = createPolarProvider();
   const crawler = createCrawlerProvider();
@@ -215,6 +239,7 @@ async function main(): Promise<void> {
     ...(embeddings ? { embeddings } : {}),
     ...(twilio ? { twilio } : {}),
     ...(twilioAlerts ? { twilioAlerts } : {}),
+    ...(twilioWhatsApp ? { twilioWhatsApp } : {}),
     storage,
     ...(openai ? { liveSessions: openai.live.sessions } : {}),
     recoverLiveCall: liveCalls.recover,

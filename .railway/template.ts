@@ -1,4 +1,4 @@
-// Declares the published LobbyStack template (railway.com/deploy/lobbystack). Railway's CLI and
+// Declares the published Palakarimpu AI template (railway.com/deploy/lobbystack). Railway's CLI and
 // API can't apply to a template, so make each change in the dashboard template editor and keep
 // this file in step with it. In the template, generated secrets use ${{secret(64)}}; preserve()
 // marks them here. `randomString()` in the SDK is a public hash, so it must never produce a secret.

@@ -1,6 +1,6 @@
-# LobbyStack Mintlify docs instructions
+# Palakarimpu AI Mintlify docs instructions
 
-Use these instructions when you change the public LobbyStack Help Center.
+Use these instructions when you change the public Palakarimpu AI Help Center.
 
 ## About this project
 
@@ -12,7 +12,7 @@ Use these instructions when you change the public LobbyStack Help Center.
 
 ## Terminology
 
-- Use "LobbyStack" for the product name.
+- Use "Palakarimpu AI" for the product name.
 - Use "Help Center" for customer-facing docs.
 - Use "AI receptionist" for the caller-facing automation.
 - Use "dashboard" for the operator web app.

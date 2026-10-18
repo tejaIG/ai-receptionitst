@@ -1,6 +1,6 @@
 # Contribute to the documentation
 
-Use this guide to update the public LobbyStack Help Center and preview your work before opening a pull request.
+Use this guide to update the public Palakarimpu AI Help Center and preview your work before opening a pull request.
 
 ## How to contribute
 

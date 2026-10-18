@@ -159,7 +159,7 @@ describe("homepage Markdown content negotiation", () => {
   it.each(["/fr/", "/fr/index.html"])(
     "serves the French Markdown sidecar for %s",
     async (pathname) => {
-      const assetFetch = vi.fn(async () => new Response("# LobbyStack en français"))
+      const assetFetch = vi.fn(async () => new Response("# Palakarimpu AI en français"))
       const next = vi.fn()
 
       const response = await onRequest({
@@ -179,7 +179,7 @@ describe("homepage Markdown content negotiation", () => {
         "text/markdown; charset=utf-8"
       )
       expect(response.headers.get("Vary")).toBe("Accept")
-      expect(await response.text()).toBe("# LobbyStack en français")
+      expect(await response.text()).toBe("# Palakarimpu AI en français")
     }
   )
 })

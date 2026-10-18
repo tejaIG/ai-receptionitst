@@ -2,7 +2,7 @@
 title: "Kako izabrati AI recepcionera"
 description: "Naučite kako da izaberete AI recepcionera uz praktičnu kontrolnu listu za funkcije, cene, kvalitet poziva, integracije, usklađenost i testiranje."
 pubDate: 2026-06-03T13:00:00-04:00
-author: "LobbyStack tim"
+author: "Palakarimpu AI tim"
 category: "Vodiči"
 featured: false
 coverImage: "/illustrations/how-to-choose-an-ai-receptionist-hero.webp"
@@ -383,4 +383,4 @@ Ukratko:
 - Testirajte nezgodne pozive, više nego demo po scenariju.
 - Uporedite ukupni trošak s uspešno obrađenim pozivima i vraćenim prilikama.
 
-Ako su propušteni pozivi deo problema, počnite od [kalkulatora prihoda od propuštenih poziva](/sr/missed-call-revenue-calculator/) ili pročitajte [koliko AI recepcioner može da uštedi](/sr/blog/ai-receptionist-savings/). Ako je open source u Vašem užem izboru, uporedite [najbolje open-source AI usluge za javljanje na telefon](/sr/blog/best-open-source-ai-phone-answering-services/) pre demonstracija dobavljača. Ako razmišljate o lancima automatizacije koje biste sami sklopili, pogledajte [radne tokove AI recepcionera bez dijagrama toka](/sr/blog/ai-receptionist-workflows/). Ako želite da vidite kako izgleda praktično podešavanje AI recepcionera, uporedite [LobbyStack cene](/sr/pricing/) i počnite s uskim probnim periodom pre nego što ga uključite na svaki poziv.
+Ako su propušteni pozivi deo problema, počnite od [kalkulatora prihoda od propuštenih poziva](/sr/missed-call-revenue-calculator/) ili pročitajte [koliko AI recepcioner može da uštedi](/sr/blog/ai-receptionist-savings/). Ako je open source u Vašem užem izboru, uporedite [najbolje open-source AI usluge za javljanje na telefon](/sr/blog/best-open-source-ai-phone-answering-services/) pre demonstracija dobavljača. Ako razmišljate o lancima automatizacije koje biste sami sklopili, pogledajte [radne tokove AI recepcionera bez dijagrama toka](/sr/blog/ai-receptionist-workflows/). Ako želite da vidite kako izgleda praktično podešavanje AI recepcionera, uporedite [Palakarimpu AI cene](/sr/pricing/) i počnite s uskim probnim periodom pre nego što ga uključite na svaki poziv.

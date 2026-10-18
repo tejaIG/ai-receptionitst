@@ -2,7 +2,7 @@
 title: "Servicios de código abierto de atención con IA"
 description: "Compare servicios de código abierto para contestar llamadas con IA en autoalojamiento: agentes para Asterisk, stacks de voz con LiveKit y plataformas de recepción completas."
 pubDate: 2026-07-08T10:00:00-04:00
-author: "Equipo de LobbyStack"
+author: "Equipo de Palakarimpu AI"
 category: "Guías"
 featured: false
 coverImage: "/illustrations/best-open-source-ai-phone-answering-services-hero.webp"
@@ -34,7 +34,7 @@ Haga una prueba de llamada real con cada finalista: solicitud de reserva, pregun
 
 ## Las mejores opciones de código abierto, por caso de uso
 
-### LobbyStack: la mejor plataforma de recepción completa (en la nube o autoalojada)
+### Palakarimpu AI: la mejor plataforma de recepción completa (en la nube o autoalojada)
 
 **GitHub:** [lobbystack/lobbystack](https://github.com/lobbystack/lobbystack)
 
@@ -42,11 +42,11 @@ Haga una prueba de llamada real con cada finalista: solicitud de reserva, pregun
 
 **Ideal para:** Negocios de servicios y agencias que quieren llamadas, reservas, transcripciones, paneles, facturación y autoalojamiento sin ensamblar diez repositorios
 
-[LobbyStack](https://lobbystack.com/) es la opción de esta lista más cercana a un producto completo de **recepcionista con IA**. Cubre llamadas entrantes, reserva y cambio de citas, transcripciones y resúmenes, contexto del negocio y preguntas frecuentes, SMS de reserva, alertas por correo y SMS, traspaso a una persona, paneles para el equipo, seguimiento del uso y despliegues para clientes. Puede usar la nube alojada, usarlo como [recepcionista con IA de código abierto](/solutions/open-source-ai-receptionist/) o [autoalojarlo con Docker](/solutions/self-hosted-ai-receptionist/).
+[Palakarimpu AI](https://lobbystack.com/) es la opción de esta lista más cercana a un producto completo de **recepcionista con IA**. Cubre llamadas entrantes, reserva y cambio de citas, transcripciones y resúmenes, contexto del negocio y preguntas frecuentes, SMS de reserva, alertas por correo y SMS, traspaso a una persona, paneles para el equipo, seguimiento del uso y despliegues para clientes. Puede usar la nube alojada, usarlo como [recepcionista con IA de código abierto](/solutions/open-source-ai-receptionist/) o [autoalojarlo con Docker](/solutions/self-hosted-ai-receptionist/).
 
 La contrapartida es el alcance. Obtiene una capa operativa real alrededor de la llamada, pero sigue aportando sus propias cuentas de proveedores (Twilio, OpenAI, calendario, correo y servicios relacionados) y se encarga del despliegue si lo autoaloja. Ese es el costo honesto de evitar la dependencia de un SaaS sin renunciar a un producto completo.
 
-Elija LobbyStack cuando su problema sea "contestar llamadas y terminar el trabajo", no "demostrar la IA de voz en un laboratorio".
+Elija Palakarimpu AI cuando su problema sea "contestar llamadas y terminar el trabajo", no "demostrar la IA de voz en un laboratorio".
 
 ### AVA (Asterisk AI voice agent): la mejor para quienes ya usan Asterisk / FreePBX
 
@@ -108,7 +108,7 @@ Elija Hearthline cuando sus llamadas sean propias de un oficio y quiera código 
 
 | Proyecto | Entrada telefónica | Estilo de voz | Profundidad del producto | Señal de madurez |
 | --- | --- | --- | --- | --- |
-| LobbyStack | Twilio / pasarela de voz | Stack de voz en tiempo real | Plataforma de recepción completa | Monorepo orientado a producción |
+| Palakarimpu AI | Twilio / pasarela de voz | Stack de voz en tiempo real | Plataforma de recepción completa | Monorepo orientado a producción |
 | AVA | Asterisk / FreePBX | STT/LLM/TTS modular o en tiempo real | Agente de voz + interfaz de administración | Comunidad grande, versiones frecuentes |
 | Helix | Asterisk ARI | STT/LLM/TTS local | Funciones de recepción + panel | Más nuevo, enfoque local |
 | AIReceptionist | LiveKit + troncal SIP | OpenAI Realtime de voz a voz | Configuración del agente de voz | Código pequeño y enfocado |
@@ -128,7 +128,7 @@ Si está decidiendo entre crear, comprar o autoalojar, combine esta lista con [c
 ## Próximos pasos prácticos
 
 1. **Anote sus cinco tipos de llamada principales** (reserva, presupuesto, urgencia, cliente actual, spam) y el resultado que necesita cada uno.
-2. **Empiece por la telefonía.** Si usa Asterisk → AVA o Helix. Si usa Twilio/LiveKit → AIReceptionist o LobbyStack. Servicios del hogar → incluya Hearthline en la lista corta.
+2. **Empiece por la telefonía.** Si usa Asterisk → AVA o Helix. Si usa Twilio/LiveKit → AIReceptionist o Palakarimpu AI. Servicios del hogar → incluya Hearthline en la lista corta.
 3. **Haga la prueba de las cinco llamadas** con cada finalista antes de desviar un número en producción.
 4. **Decida quién se encarga de la operación.** El autoalojamiento necesita a alguien que aplique parches, vigile el sistema y revise las llamadas fallidas cada semana.
 
@@ -136,10 +136,10 @@ Si está decidiendo entre crear, comprar o autoalojar, combine esta lista con [c
 
 El mejor **servicio de código abierto para contestar llamadas con IA** para usted es el que encaja con su sistema telefónico y termina la llamada como lo haría su equipo.
 
-- Necesita un producto de recepción completo que pueda autoalojar o usar en la nube → **LobbyStack**
+- Necesita un producto de recepción completo que pueda autoalojar o usar en la nube → **Palakarimpu AI**
 - Necesita la máxima flexibilidad con Asterisk → **AVA**
 - Necesita voz local en Asterisk sin depender de IA en la nube → **Helix**
 - Necesita un agente de voz Realtime ligero sobre LiveKit → **AIReceptionist**
 - Necesita una recepción para servicios del hogar → **Hearthline**
 
-Si quiere inspeccionar un stack completo antes de desviar su línea principal, empiece por el [repositorio de LobbyStack en GitHub](https://github.com/lobbystack/lobbystack) o por la [visión general del stack de recepcionista con IA de código abierto](/es/blog/open-source-ai-receptionist-stack/).
+Si quiere inspeccionar un stack completo antes de desviar su línea principal, empiece por el [repositorio de Palakarimpu AI en GitHub](https://github.com/lobbystack/lobbystack) o por la [visión general del stack de recepcionista con IA de código abierto](/es/blog/open-source-ai-receptionist-stack/).

@@ -18,16 +18,16 @@ describe("SMTP delivery", () => {
   it("sends the onboarding follow-up as plain text from the founder, with replies going to the founder", async () => {
     const sendMail = vi.fn().mockResolvedValue({ messageId: "provider-id" });
     const provider = new SmtpEmailProvider({ host: "localhost", port: 1025, secure: false, username: "", password: "", from: "no-reply@example.test", replyTo: "support@example.test" }, { sendMail } as never);
-    await provider.sendTemplate({ template: "onboarding_followup", to: "owner@example.test", from: "Raphael <raphael@example.test>", subject: "How'd you like LobbyStack?", variables: { locale: "en", firstName: "Sam", businessName: "Acme Dental", senderName: "Raphael" } });
+    await provider.sendTemplate({ template: "onboarding_followup", to: "owner@example.test", from: "Raphael <raphael@example.test>", subject: "How'd you like Palakarimpu AI?", variables: { locale: "en", firstName: "Sam", businessName: "Acme Dental", senderName: "Raphael" } });
     const sent = sendMail.mock.calls[0]?.[0];
     expect(sent.from).toBe("Raphael <raphael@example.test>");
     expect(sent.replyTo).toBeUndefined();
     expect(sent.html).toBeUndefined();
     expect(sent.text).toMatch(/^Hi Sam,\n/);
-    expect(sent.text).toContain("I'm Raphael, the founder of LobbyStack. You set up a receptionist for Acme Dental yesterday.");
+    expect(sent.text).toContain("I'm Raphael, the founder of Palakarimpu AI. You set up a receptionist for Acme Dental yesterday.");
     expect(sent.text).toContain("3. Do you plan to use it for real, with your own phone number?");
-    expect(sent.text).toContain("You can reply to this email, and two lines would be plenty!\n\nThanks again,\nRaphael\nFounder, LobbyStack");
-    await provider.sendTemplate({ template: "onboarding_followup", to: "owner@example.test", subject: "Qu'avez-vous pensé de LobbyStack ?", variables: { locale: "fr", firstName: "", businessName: "Clinique", senderName: "Raphael" } });
+    expect(sent.text).toContain("You can reply to this email, and two lines would be plenty!\n\nThanks again,\nRaphael\nFounder, Palakarimpu AI");
+    await provider.sendTemplate({ template: "onboarding_followup", to: "owner@example.test", subject: "Qu'avez-vous pensé de Palakarimpu AI ?", variables: { locale: "fr", firstName: "", businessName: "Clinique", senderName: "Raphael" } });
     const french = sendMail.mock.calls[1]?.[0];
     expect(french.from).toBe("no-reply@example.test");
     expect(french.replyTo).toBe("support@example.test");
@@ -37,10 +37,10 @@ describe("SMTP delivery", () => {
   it("localizes the onboarding follow-up and existing-account emails in Spanish and Serbian", async () => {
     const sendMail = vi.fn().mockResolvedValue({ messageId: "provider-id" });
     const provider = new SmtpEmailProvider({ host: "localhost", port: 1025, secure: false, username: "", password: "", from: "no-reply@example.test" }, { sendMail } as never);
-    await provider.sendTemplate({ template: "onboarding_followup", to: "owner@example.test", subject: "¿Qué le pareció LobbyStack?", variables: { locale: "es", firstName: "Ana", businessName: "Clínica Sol", senderName: "Raphael" } });
-    await provider.sendTemplate({ template: "onboarding_followup", to: "owner@example.test", subject: "Kako Vam se dopao LobbyStack?", variables: { locale: "sr", firstName: "", businessName: "Ordinacija Javor", senderName: "Raphael" } });
-    await provider.sendTemplate({ template: "existing_account", to: "owner@example.test", subject: "Ya tiene una cuenta de LobbyStack", variables: { locale: "es", signInUrl: "https://app.example.test/es/login", resetUrl: "https://app.example.test/es/forgot-password" } });
-    await provider.sendTemplate({ template: "existing_account", to: "owner@example.test", subject: "Već imate LobbyStack nalog", variables: { locale: "sr", signInUrl: "https://app.example.test/sr/login", resetUrl: "https://app.example.test/sr/forgot-password" } });
+    await provider.sendTemplate({ template: "onboarding_followup", to: "owner@example.test", subject: "¿Qué le pareció Palakarimpu AI?", variables: { locale: "es", firstName: "Ana", businessName: "Clínica Sol", senderName: "Raphael" } });
+    await provider.sendTemplate({ template: "onboarding_followup", to: "owner@example.test", subject: "Kako Vam se dopao Palakarimpu AI?", variables: { locale: "sr", firstName: "", businessName: "Ordinacija Javor", senderName: "Raphael" } });
+    await provider.sendTemplate({ template: "existing_account", to: "owner@example.test", subject: "Ya tiene una cuenta de Palakarimpu AI", variables: { locale: "es", signInUrl: "https://app.example.test/es/login", resetUrl: "https://app.example.test/es/forgot-password" } });
+    await provider.sendTemplate({ template: "existing_account", to: "owner@example.test", subject: "Već imate Palakarimpu AI nalog", variables: { locale: "sr", signInUrl: "https://app.example.test/sr/login", resetUrl: "https://app.example.test/sr/forgot-password" } });
     const [spanish, serbian, spanishAccount, serbianAccount] = sendMail.mock.calls.map((call) => call[0].text as string);
     expect(spanish).toMatch(/^Hola, Ana:\n/);
     expect(spanish).toContain("una recepcionista para Clínica Sol");
@@ -54,7 +54,7 @@ describe("SMTP delivery", () => {
     const sendMail = vi.fn().mockResolvedValue({ messageId: "provider-id" });
     const provider = new SmtpEmailProvider({ host: "localhost", port: 1025, secure: false, username: "", password: "", from: "no-reply@example.test" }, { sendMail } as never);
     await provider.sendTemplate({ template: "password_reset", to: "recipient@example.test", subject: "Reset", variables: { code: "123456" } });
-    expect(sendMail.mock.calls[0]?.[0].text).toBe("Your LobbyStack password reset code is: 123456. It expires in 10 minutes.");
+    expect(sendMail.mock.calls[0]?.[0].text).toBe("Your Palakarimpu AI password reset code is: 123456. It expires in 10 minutes.");
     await provider.sendTemplate({ template: "password_reset", to: "recipient@example.test", subject: "Reset", variables: { url: "https://example.test/reset" } });
     expect(sendMail.mock.calls[1]?.[0].text).toContain("using this link: https://example.test/reset");
   });
@@ -62,7 +62,7 @@ describe("SMTP delivery", () => {
     const sendMail = vi.fn().mockResolvedValue({ messageId: "provider-id" });
     const provider = new SmtpEmailProvider({ host: "localhost", port: 1025, secure: false, username: "", password: "", from: "no-reply@example.test" }, { sendMail } as never);
     await provider.sendTemplate({ template: "verify_email", to: "recipient@example.test", subject: "Verify", variables: { code: "123456" } });
-    expect(sendMail.mock.calls[0]?.[0].text).toBe("Your LobbyStack email verification code is: 123456. It expires in 10 minutes.");
+    expect(sendMail.mock.calls[0]?.[0].text).toBe("Your Palakarimpu AI email verification code is: 123456. It expires in 10 minutes.");
     expect(sendMail.mock.calls[0]?.[0].html).toContain('<svg xmlns="http://www.w3.org/2000/svg"');
     expect(sendMail.mock.calls[0]?.[0].html).toContain("Verify your email address");
     expect(sendMail.mock.calls[0]?.[0].html).toContain(">123456</p>");
