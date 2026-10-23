@@ -217,7 +217,7 @@ export function initWidget(): boolean {
 
 declare global {
   interface Window {
-    Palakarimpu AI?: LobbyStackApi;
+    LobbyStack?: LobbyStackApi;
   }
 }
 

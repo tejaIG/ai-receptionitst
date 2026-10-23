@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: fileURLToPath(new URL("./src/index.ts", import.meta.url)),
-      name: "Palakarimpu AI",
+      name: "LobbyStack",
       formats: ["iife"],
       fileName: () => "embed.js",
     },
