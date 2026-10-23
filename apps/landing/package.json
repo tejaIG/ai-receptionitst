@@ -17,7 +17,7 @@
     "seo:validate": "node scripts/validate-seo-build.mjs"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.10",
+    "@astrojs/check": "^0.9.11",
     "@astrojs/react": "^7.0.0",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.4",
@@ -34,8 +34,8 @@
     "lucide-react": "^1.52.0",
     "parse5": "^8.0.1",
     "posthog-js": "^1.436.0",
-    "react": "19.3.0",
-    "react-dom": "19.3.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
     "satori": "^0.35.0",
     "sharp": "^0.35.5",
     "tailwind-merge": "^3.7.0",
