@@ -9,7 +9,7 @@
     "pnpm": ">=10.0.0"
   },
   "dependencies": {
-    "zod": "^4.6.5"
+    "zod": "^4.6.7"
   },
   "scripts": {
     "dev": "node scripts/dev.mjs",
@@ -106,7 +106,7 @@
     "@types/node": "^26.0.0",
     "@typescript/native": "npm:typescript@^7.0.2",
     "concurrently": "^10.0.5",
-    "drizzle-orm": "^0.45.3",
+    "drizzle-orm": "^0.45.4",
     "lucia": "^3.2.2",
     "next-devtools-mcp": "0.4.0",
     "openai": "^7.28.0",
