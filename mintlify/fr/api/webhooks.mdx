@@ -1,6 +1,6 @@
 ---
 title: "Recevoir des webhooks"
-description: "Abonnez une URL aux événements LobbyStack, vérifiez les signatures et gérez les nouvelles tentatives."
+description: "Abonnez une URL aux événements Palakarimpu AI, vérifiez les signatures et gérez les nouvelles tentatives."
 sidebarTitle: "Webhooks"
 contentType: "How-to"
 ---
@@ -11,7 +11,7 @@ Les webhooks envoient une requête HTTPS `POST` à votre URL quand quelque chose
 
 | Événement | Envoyé quand | `data` |
 | --- | --- | --- |
-| `call.completed` | Un appel s'est terminé et LobbyStack a enregistré son résumé et son résultat. | Appel |
+| `call.completed` | Un appel s'est terminé et Palakarimpu AI a enregistré son résumé et son résultat. | Appel |
 | `appointment.booked` | Quelqu'un réserve un rendez-vous : la réceptionniste, le tableau de bord ou l'API. | Rendez-vous |
 | `appointment.rescheduled` | Un rendez-vous est déplacé à une nouvelle heure. | Rendez-vous |
 | `appointment.cancelled` | Un rendez-vous est annulé. | Rendez-vous |
@@ -34,7 +34,7 @@ Vous pouvez ajouter des points de terminaison dans le tableau de bord ou avec l'
         Cliquez sur **Ajouter un point de terminaison**, saisissez l'URL et choisissez les événements.
       </Step>
       <Step title="Copier le secret de signature">
-        LobbyStack affiche le secret `whsec_` une seule fois. Conservez-le à un endroit où votre point de terminaison peut le lire.
+        Palakarimpu AI affiche le secret `whsec_` une seule fois. Conservez-le à un endroit où votre point de terminaison peut le lire.
       </Step>
       <Step title="Envoyer un événement test">
         Cliquez sur **Envoyer un événement test**, puis ouvrez **Journal des livraisons** pour voir la réponse renvoyée par votre point de terminaison.
@@ -89,12 +89,12 @@ Vous pouvez ajouter des points de terminaison dans le tableau de bord ou avec l'
 
 ## Vérifier les signatures
 
-LobbyStack signe chaque requête avec le schéma [Standard Webhooks](https://www.standardwebhooks.com) et envoie trois en-têtes :
+Palakarimpu AI signe chaque requête avec le schéma [Standard Webhooks](https://www.standardwebhooks.com) et envoie trois en-têtes :
 
 | En-tête | Valeur |
 | --- | --- |
 | `webhook-id` | L'`id` de l'événement. Il reste le même à chaque nouvelle tentative et à chaque renvoi. |
-| `webhook-timestamp` | Heure Unix, en secondes, à laquelle LobbyStack a signé cette tentative. |
+| `webhook-timestamp` | Heure Unix, en secondes, à laquelle Palakarimpu AI a signé cette tentative. |
 | `webhook-signature` | `v1,` suivi d'une signature HMAC-SHA256 en base64. |
 
 La signature couvre `{webhook-id}.{webhook-timestamp}.{raw body}`. Sa clé est la partie du secret qui suit `whsec_`, décodée depuis le base64. Utilisez une bibliothèque Standard Webhooks pour la vérifier sur le corps brut de la requête, avant d'analyser le JSON :
@@ -117,15 +117,15 @@ Rejetez les requêtes dont l'horodatage date de plus de quelques minutes pour bl
 
 ## Répondre et relancer
 
-Renvoyez n'importe quel statut `2xx` en moins de 10 secondes. LobbyStack considère toute autre réponse comme un échec, y compris les délais dépassés, les redirections et les erreurs de connexion. Il ne suit pas les redirections.
+Renvoyez n'importe quel statut `2xx` en moins de 10 secondes. Palakarimpu AI considère toute autre réponse comme un échec, y compris les délais dépassés, les redirections et les erreurs de connexion. Il ne suit pas les redirections.
 
-Après un échec, LobbyStack fait une nouvelle tentative après 30 secondes, 2 minutes, 10 minutes, 30 minutes, 1 heure, 3 heures, 6 heures et 12 heures, soit 9 tentatives sur environ 23 heures. Chaque tentative utilise le même `webhook-id`, donc dédoublonnez à partir de cette valeur. Les événements peuvent arriver dans le désordre. Comparez `created_at` ou récupérez la ressource si l'ordre compte.
+Après un échec, Palakarimpu AI fait une nouvelle tentative après 30 secondes, 2 minutes, 10 minutes, 30 minutes, 1 heure, 3 heures, 6 heures et 12 heures, soit 9 tentatives sur environ 23 heures. Chaque tentative utilise le même `webhook-id`, donc dédoublonnez à partir de cette valeur. Les événements peuvent arriver dans le désordre. Comparez `created_at` ou récupérez la ressource si l'ordre compte.
 
-Si un événement échoue à chaque tentative et que rien n'a atteint le point de terminaison pendant cette période, LobbyStack désactive le point de terminaison et alerte votre équipe selon les choix de chaque personne dans **Réglages** > **Notifications**. Corrigez le point de terminaison, réactivez-le dans le tableau de bord ou avec `PATCH /webhooks/{webhook_id}` et `{"status": "enabled"}`, puis utilisez **Renvoyer** dans le journal des livraisons pour envoyer les événements manqués.
+Si un événement échoue à chaque tentative et que rien n'a atteint le point de terminaison pendant cette période, Palakarimpu AI désactive le point de terminaison et alerte votre équipe selon les choix de chaque personne dans **Réglages** > **Notifications**. Corrigez le point de terminaison, réactivez-le dans le tableau de bord ou avec `PATCH /webhooks/{webhook_id}` et `{"status": "enabled"}`, puis utilisez **Renvoyer** dans le journal des livraisons pour envoyer les événements manqués.
 
 ## Journal des livraisons
 
-Le journal des livraisons montre chaque événement envoyé à un point de terminaison, son statut, le dernier code de réponse, le nombre de tentatives et l'heure de la prochaine tentative. **Renvoyer** envoie un événement de nouveau. LobbyStack conserve 30 jours d'historique des webhooks.
+Le journal des livraisons montre chaque événement envoyé à un point de terminaison, son statut, le dernier code de réponse, le nombre de tentatives et l'heure de la prochaine tentative. **Renvoyer** envoie un événement de nouveau. Palakarimpu AI conserve 30 jours d'historique des webhooks.
 
 ## Changer le secret
 
@@ -133,4 +133,4 @@ Cliquez sur **Changer le secret** sur le point de terminaison. L'ancien secret c
 
 ## Règles réseau
 
-Les points de terminaison doivent utiliser `https://` et pointer vers une adresse publique. LobbyStack refuse les URL qui pointent vers des adresses privées, de bouclage, de liaison locale ou de métadonnées cloud, au moment où vous enregistrez le point de terminaison et à chaque livraison. Les déploiements auto-hébergés suivent la même règle.
+Les points de terminaison doivent utiliser `https://` et pointer vers une adresse publique. Palakarimpu AI refuse les URL qui pointent vers des adresses privées, de bouclage, de liaison locale ou de métadonnées cloud, au moment où vous enregistrez le point de terminaison et à chaque livraison. Les déploiements auto-hébergés suivent la même règle.

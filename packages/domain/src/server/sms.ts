@@ -13,8 +13,8 @@ import { requireBusinessAdmin, requireBusinessMembership } from "../authz";
 const SMS_STOP_KEYWORDS = new Set(["STOP", "STOPALL", "UNSUBSCRIBE", "END", "QUIT", "CANCEL"]);
 const SMS_START_KEYWORDS = new Set(["START", "UNSTOP", "SUBSCRIBE"]);
 const SMS_HELP_KEYWORDS = new Set(["HELP"]);
-const SMS_HELP_REPLY = "LobbyStack: For help, contact hello@lobbystack.com or visit https://lobbystack.com. Reply STOP to opt out.";
-const SMS_START_REPLY = "LobbyStack: You are subscribed again. Reply HELP for help or STOP to opt out.";
+const SMS_HELP_REPLY = "Palakarimpu AI: For help, contact hello@lobbystack.com or visit https://lobbystack.com. Reply STOP to opt out.";
+const SMS_START_REPLY = "Palakarimpu AI: You are subscribed again. Reply HELP for help or STOP to opt out.";
 
 export type SmsConsentUpdate = { status: "subscribed" | "opted_out"; source: string };
 export type SmsKeywordReply = { body: string; kind: "help" | "start" };
@@ -46,8 +46,8 @@ export function classifySmsKeywordReply(input: { body: string; optOutType?: stri
 
 /** Marks a contact's consent status as set by a text to the shared sender: "shared_sender:STOP". */
 const SHARED_SENDER_SOURCE = "shared_sender";
-export const SHARED_SENDER_HELP_REPLY = "LobbyStack: For help with an appointment, call the business you booked with. For anything else, email hello@lobbystack.com. Reply STOP to opt out.";
-export const SHARED_SENDER_START_REPLY = "LobbyStack: You can get texts from this number again. Reply HELP for help or STOP to opt out.";
+export const SHARED_SENDER_HELP_REPLY = "Palakarimpu AI: For help with an appointment, call the business you booked with. For anything else, email hello@lobbystack.com. Reply STOP to opt out.";
+export const SHARED_SENDER_START_REPLY = "Palakarimpu AI: You can get texts from this number again. Reply HELP for help or STOP to opt out.";
 
 /**
  * Handles a text a phone sent to the shared sender, the number that texts for

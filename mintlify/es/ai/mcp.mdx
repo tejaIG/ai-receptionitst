@@ -1,11 +1,11 @@
 ---
 title: "Maneje su recepcionista desde un asistente de IA"
-description: "Conecte Claude, ChatGPT y otros clientes MCP a LobbyStack para leer llamadas, reservar citas y actualizar lo que sabe su recepcionista."
+description: "Conecte Claude, ChatGPT y otros clientes MCP a Palakarimpu AI para leer llamadas, reservar citas y actualizar lo que sabe su recepcionista."
 sidebarTitle: "Servidor MCP"
 contentType: "Reference"
 ---
 
-LobbyStack ejecuta un servidor de Model Context Protocol (MCP). Conecte un asistente de IA y pídale cosas con sus propias palabras: "¿Quién llamó ayer y no reservó?", "Reserve una limpieza para Dana Whitfield el martes por la mañana" o "A partir de ahora, cierre los sábados".
+Palakarimpu AI ejecuta un servidor de Model Context Protocol (MCP). Conecte un asistente de IA y pídale cosas con sus propias palabras: "¿Quién llamó ayer y no reservó?", "Reserve una limpieza para Dana Whitfield el martes por la mañana" o "A partir de ahora, cierre los sábados".
 
 El asistente sigue las mismas reglas que la [API REST](/es/api/overview). Ve un solo negocio, solo puede hacer lo que permite su clave de API y cada cambio que hace queda en el registro de auditoría del negocio.
 
@@ -15,22 +15,22 @@ El asistente sigue las mismas reglas que la [API REST](/es/api/overview). Ve un 
 | --- | --- |
 | URL del servidor | `https://app.lobbystack.com/api/mcp` |
 | Transporte | Streamable HTTP |
-| Autenticación | Iniciar sesión con LobbyStack (OAuth), o `Authorization: Bearer <API key>` |
+| Autenticación | Iniciar sesión con Palakarimpu AI (OAuth), o `Authorization: Bearer <API key>` |
 
 Las implementaciones autoalojadas sirven la misma ruta en su propio dominio, por ejemplo `https://lobbystack.example.com/api/mcp`.
 
 Los asistentes se conectan de una de estas dos formas:
 
-- **Inicio de sesión con LobbyStack.** Agregue la URL del servidor al asistente. Este abre una página de LobbyStack donde usted inicia sesión, elige el negocio y decide qué puede hacer el asistente. Use esta opción para los conectores de Claude y ChatGPT.
+- **Inicio de sesión con Palakarimpu AI.** Agregue la URL del servidor al asistente. Este abre una página de Palakarimpu AI donde usted inicia sesión, elige el negocio y decide qué puede hacer el asistente. Use esta opción para los conectores de Claude y ChatGPT.
 - **Clave de API.** Cree una clave en **Configuración** > **Claves de API** y póngala en la configuración del asistente. Use esta opción para scripts, CI y clientes que le permiten definir encabezados de solicitud. Consulte [Autenticación](/es/api/authentication).
 
 Siga la guía para [Claude](/es/ai/connect-claude), [ChatGPT](/es/ai/connect-chatgpt) u [otro cliente MCP](/es/ai/connect-other-clients).
 
-## Inicio de sesión con LobbyStack
+## Inicio de sesión con Palakarimpu AI
 
-LobbyStack ejecuta un servidor de autorización OAuth 2.1 para clientes MCP, como describe la [especificación de autorización de MCP](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization). Su asistente lo encuentra por sí solo a partir de la URL del servidor.
+Palakarimpu AI ejecuta un servidor de autorización OAuth 2.1 para clientes MCP, como describe la [especificación de autorización de MCP](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization). Su asistente lo encuentra por sí solo a partir de la URL del servidor.
 
-Al conectarse, LobbyStack le pide que:
+Al conectarse, Palakarimpu AI le pide que:
 
 1. Inicie sesión, si aún no lo ha hecho.
 2. Elija el negocio. Solo ve los negocios en los que es propietario o administrador.
@@ -111,8 +111,8 @@ Cada llamada a una herramienta cuenta para un límite de 120 solicitudes por min
 
 ## Registro de auditoría
 
-LobbyStack registra cada cambio hecho a través del servidor MCP en el registro de auditoría del negocio, con el actor `mcp` y el ID de la clave de API o, con OAuth, el ID de la conexión y la persona que la aprobó. Nunca registra claves ni tokens. Para cortar el acceso de un asistente, desconéctelo en **Configuración** > **Aplicaciones conectadas** o revoque su clave en **Configuración** > **Claves de API**.
+Palakarimpu AI registra cada cambio hecho a través del servidor MCP en el registro de auditoría del negocio, con el actor `mcp` y el ID de la clave de API o, con OAuth, el ID de la conexión y la persona que la aprobó. Nunca registra claves ni tokens. Para cortar el acceso de un asistente, desconéctelo en **Configuración** > **Aplicaciones conectadas** o revoque su clave en **Configuración** > **Claves de API**.
 
 ## Guía para agentes de IA
 
-La [skill de LobbyStack](/ai/lobbystack-skill) explica las herramientas, los flujos de trabajo habituales y el manejo de errores en un formato que puede darle a un agente como instrucciones.
+La [skill de Palakarimpu AI](/ai/lobbystack-skill) explica las herramientas, los flujos de trabajo habituales y el manejo de errores en un formato que puede darle a un agente como instrucciones.

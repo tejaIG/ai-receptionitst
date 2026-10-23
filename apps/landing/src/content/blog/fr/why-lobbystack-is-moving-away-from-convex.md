@@ -1,9 +1,9 @@
 ---
-title: "Pourquoi LobbyStack abandonne Convex"
-seoTitle: "Pourquoi LobbyStack abandonne Convex"
-description: "LobbyStack quitte Convex pour faciliter l'auto-hébergement et les contributions grâce à une pile moderne et connue : Next.js, PostgreSQL, Drizzle et Redis."
+title: "Pourquoi Palakarimpu AI abandonne Convex"
+seoTitle: "Pourquoi Palakarimpu AI abandonne Convex"
+description: "Palakarimpu AI quitte Convex pour faciliter l'auto-hébergement et les contributions grâce à une pile moderne et connue : Next.js, PostgreSQL, Drizzle et Redis."
 pubDate: 2026-09-04T10:00:00-04:00
-author: "Équipe LobbyStack"
+author: "Équipe Palakarimpu AI"
 category: "Mises à jour produit"
 featured: false
 coverImage: "/illustrations/why-lobbystack-is-moving-away-from-convex-hero.webp"
@@ -12,15 +12,15 @@ locale: "fr"
 canonicalSlug: "why-lobbystack-is-moving-away-from-convex"
 ---
 
-Convex nous a aidés à transformer LobbyStack en réceptionniste IA fonctionnel à un rythme que nous n'aurions pas pu tenir avec un backend construit pièce par pièce. Convex alimente encore le produit utilisé par nos clients payants et les sert bien.
+Convex nous a aidés à transformer Palakarimpu AI en réceptionniste IA fonctionnel à un rythme que nous n'aurions pas pu tenir avec un backend construit pièce par pièce. Convex alimente encore le produit utilisé par nos clients payants et les sert bien.
 
-Nous transférons LobbyStack vers une pile TypeScript répandue, centrée sur Next.js, PostgreSQL et Drizzle. Le portage du code applicatif est terminé. Nous déplacerons les données et le trafic de production quand tous les contrôles d'importation, de rapprochement, de stockage et de retour arrière auront réussi.
+Nous transférons Palakarimpu AI vers une pile TypeScript répandue, centrée sur Next.js, PostgreSQL et Drizzle. Le portage du code applicatif est terminé. Nous déplacerons les données et le trafic de production quand tous les contrôles d'importation, de rapprochement, de stockage et de retour arrière auront réussi.
 
-Nous avons pris cette décision parce que LobbyStack doit attirer plus d'utilisateurs et de contributeurs. Convex nous a donné un produit fiable, tandis que LobbyStack a grandi moins vite que prévu.
+Nous avons pris cette décision parce que Palakarimpu AI doit attirer plus d'utilisateurs et de contributeurs. Convex nous a donné un produit fiable, tandis que Palakarimpu AI a grandi moins vite que prévu.
 
 ## Convex nous a permis de livrer le premier produit
 
-Nous devions d'abord vérifier si LobbyStack pouvait répondre à de vrais appels, comprendre une entreprise, prendre des rendez-vous, envoyer des messages et confier une demande à une personne quand il le fallait. Convex nous a donné un cadre productif pour construire ce système.
+Nous devions d'abord vérifier si Palakarimpu AI pouvait répondre à de vrais appels, comprendre une entreprise, prendre des rendez-vous, envoyer des messages et confier une demande à une personne quand il le fallait. Convex nous a donné un cadre productif pour construire ce système.
 
 La plateforme gérait les données persistantes, la logique métier, les workflows, l'authentification, les tâches planifiées et les mises à jour en temps réel. Nous pouvions modifier un schéma, ajouter une opération et voir le résultat dans le tableau de bord sans assembler chaque couche du backend. Cette vitesse comptait tant que le produit changeait chaque semaine.
 
@@ -30,15 +30,15 @@ Convex nous a donné une bonne première étape et continue de servir nos client
 
 ## Notre priorité est passée de la livraison à l'adoption
 
-LobbyStack a maintenant besoin de plus d'entreprises utilisatrices et de plus de développeurs prêts à l'exécuter, l'inspecter et l'étendre. L'adoption de ces deux groupes reste sous nos attentes.
+Palakarimpu AI a maintenant besoin de plus d'entreprises utilisatrices et de plus de développeurs prêts à l'exécuter, l'inspecter et l'étendre. L'adoption de ces deux groupes reste sous nos attentes.
 
-L'évaluation technique créait des frictions pour certaines équipes que nous voulions rejoindre. Un contributeur devait comprendre notre produit et ajouter Convex aux systèmes à apprendre. Un opérateur devait gérer les services LobbyStack ainsi qu'un backend Convex séparé. Une agence qui préparait un déploiement client devait expliquer cette architecture à son équipe et à son client.
+L'évaluation technique créait des frictions pour certaines équipes que nous voulions rejoindre. Un contributeur devait comprendre notre produit et ajouter Convex aux systèmes à apprendre. Un opérateur devait gérer les services Palakarimpu AI ainsi qu'un backend Convex séparé. Une agence qui préparait un déploiement client devait expliquer cette architecture à son équipe et à son client.
 
 Les équipes consacraient plus de temps à l'évaluation et à l'apprentissage de l'infrastructure avant de pouvoir adopter le produit.
 
-Nous pensons qu'une pile familière raccourcit le chemin entre l'ouverture du dépôt et le lancement de LobbyStack. Elle donne aussi aux agences un plus grand bassin de développeurs et d'opérateurs capables de maintenir les déploiements clients. Un produit open source qui dépend de sa communauté et de mises en œuvre commerciales bénéficie de cet avantage.
+Nous pensons qu'une pile familière raccourcit le chemin entre l'ouverture du dépôt et le lancement de Palakarimpu AI. Elle donne aussi aux agences un plus grand bassin de développeurs et d'opérateurs capables de maintenir les déploiements clients. Un produit open source qui dépend de sa communauté et de mises en œuvre commerciales bénéficie de cet avantage.
 
-## La nouvelle pile LobbyStack
+## La nouvelle pile Palakarimpu AI
 
 Le remplacement conserve les parties de l'architecture qui fonctionnaient et rend le backend durable plus facile à reconnaître.
 
@@ -50,7 +50,7 @@ Le remplacement conserve les parties de l'architecture qui fonctionnaient et ren
 
 Nous avons placé les opérations métier dans des modules de domaine partagés par l'application Next.js et le worker. Les réservations, la facturation, les connaissances, les messages et les appels suivent ainsi les mêmes règles dans les deux environnements.
 
-Nous avons aussi ajouté une boîte d'envoi transactionnelle. Quand LobbyStack modifie les données métier et programme un effet externe, PostgreSQL valide les deux enregistrements dans une seule transaction. Le worker peut reprendre une livraison sans perdre le lien avec l'action initiale.
+Nous avons aussi ajouté une boîte d'envoi transactionnelle. Quand Palakarimpu AI modifie les données métier et programme un effet externe, PostgreSQL valide les deux enregistrements dans une seule transaction. Le worker peut reprendre une livraison sans perdre le lien avec l'action initiale.
 
 Les opérateurs disposent maintenant d'un ensemble de services standard : PostgreSQL, Redis, l'application Next.js, un worker, la passerelle vocale et le stockage de fichiers. Les équipes qui ont besoin d'un stockage objet peuvent connecter un fournisseur compatible S3. Elles utilisent les mêmes outils connus pour les sauvegardes, les migrations, la surveillance et les contrôles d'accès.
 
@@ -58,7 +58,7 @@ Les opérateurs disposent maintenant d'un ensemble de services standard : Postgr
 
 Les plateformes gérées retirent du travail au début d'un produit. Une infrastructure open source répond à une autre exigence. Les opérateurs doivent comprendre le déplacement des données, les permissions et la reprise d'un système sous leur contrôle.
 
-PostgreSQL donne à LobbyStack des migrations explicites, des procédures de sauvegarde et de restauration, des rôles à privilèges minimaux et une sécurité forcée au niveau des lignes. Drizzle conserve ces définitions dans le dépôt. Nos outils de validation peuvent tester l'isolation des entreprises et vérifier que les rôles applicatifs ne contournent pas les politiques.
+PostgreSQL donne à Palakarimpu AI des migrations explicites, des procédures de sauvegarde et de restauration, des rôles à privilèges minimaux et une sécurité forcée au niveau des lignes. Drizzle conserve ces définitions dans le dépôt. Nos outils de validation peuvent tester l'isolation des entreprises et vérifier que les rôles applicatifs ne contournent pas les politiques.
 
 Cette clarté aide aussi pendant les évaluations clients. Une agence peut expliquer où se trouvent les données, quel service peut les lire et comment son équipe les restaurera. Un contributeur peut inspecter le schéma sans apprendre un modèle de données propre à une plateforme.
 
@@ -76,10 +76,10 @@ Ces contrôles protègent les appels, les comptes et les données des clients pe
 
 ## Une plateforme ouverte à plus d'équipes
 
-LobbyStack reste le même produit : un réceptionniste IA pour les appels, les messages, les rendez-vous, les connaissances et le transfert vers une personne. Le nouveau backend offre aux développeurs un terrain connu pour contribuer et aux agences une pile qu'elles peuvent exploiter pour leurs clients.
+Palakarimpu AI reste le même produit : un réceptionniste IA pour les appels, les messages, les rendez-vous, les connaissances et le transfert vers une personne. Le nouveau backend offre aux développeurs un terrain connu pour contribuer et aux agences une pile qu'elles peuvent exploiter pour leurs clients.
 
-La licence soutient aussi cet objectif. Nous avons remplacé l'AGPL par la licence MIT afin que les équipes commerciales puissent adapter, concéder et vendre des produits issus du code. Lisez [pourquoi LobbyStack passe sous licence MIT](/fr/blog/lobbystack-mit-license-ai-receptionist-resellers/) pour comprendre les raisons commerciales et les nouvelles permissions.
+La licence soutient aussi cet objectif. Nous avons remplacé l'AGPL par la licence MIT afin que les équipes commerciales puissent adapter, concéder et vendre des produits issus du code. Lisez [pourquoi Palakarimpu AI passe sous licence MIT](/fr/blog/lobbystack-mit-license-ai-receptionist-resellers/) pour comprendre les raisons commerciales et les nouvelles permissions.
 
 Vous pouvez [inspecter la plateforme sur GitHub](https://github.com/lobbystack/lobbystack), consulter la [présentation de l'auto-hébergement](https://docs.lobbystack.com/self-hosting/overview) ou suivre le [guide Docker Compose](https://docs.lobbystack.com/self-hosting/docker-compose).
 
-Si vous voulez le réceptionniste sans exploiter l'infrastructure, [créez un compte LobbyStack Cloud](https://app.lobbystack.com/fr/signup) et testez-le avec votre entreprise.
+Si vous voulez le réceptionniste sans exploiter l'infrastructure, [créez un compte Palakarimpu AI Cloud](https://app.lobbystack.com/fr/signup) et testez-le avec votre entreprise.

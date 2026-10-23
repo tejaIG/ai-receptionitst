@@ -4,7 +4,7 @@ seoTitle: "AI recepcioner ili govorna pošta: praktičan vodič"
 description: "Uporedite AI recepcionera i govornu poštu: iskustvo pozivaoca, potencijalni klijenti, zakazivanje, cena, rad van radnog vremena i kada govorna pošta i dalje radi."
 pubDate: 2026-07-30T09:40:00-04:00
 updatedDate: 2026-07-30T09:40:00-04:00
-author: "LobbyStack tim"
+author: "Palakarimpu AI tim"
 category: "Poređenja"
 featured: false
 coverImage: "/illustrations/ai-receptionist-vs-voicemail-hero.webp"
@@ -117,9 +117,9 @@ AI sistem može da prepozna ili filtrira deo spama, ali nijedan filter ne hvata 
 
 I govorna pošta ima spam. Osoblje i dalje troši vreme na brisanje automatskih poziva i praznih poruka. Uporedite koliko buke stiže do zaposlenih u svakom od ova dva rešenja.
 
-## Kako LobbyStack rešava propuštene pozive
+## Kako Palakarimpu AI rešava propuštene pozive
 
-[LobbyStack](/sr/features/) može da odgovara na svaki dolazni poziv, na pozive van radnog vremena ili samo na pozive koje Vaš tim propusti. Može da radi na osnovu znanja o firmi, prikuplja podatke, zakazuje termine, preusmerava hitne pozive i šalje rezimee.
+[Palakarimpu AI](/sr/features/) može da odgovara na svaki dolazni poziv, na pozive van radnog vremena ili samo na pozive koje Vaš tim propusti. Može da radi na osnovu znanja o firmi, prikuplja podatke, zakazuje termine, preusmerava hitne pozive i šalje rezimee.
 
 Firme mogu da koriste upravljani cloud ili da [samostalno hostuju sistem otvorenog koda](https://github.com/lobbystack/lobbystack). Samostalno hostovanje daje kontrolu nad infrastrukturom i donosi operativnu odgovornost.
 
@@ -127,4 +127,4 @@ Firme mogu da koriste upravljani cloud ili da [samostalno hostuju sistem otvoren
 
 Zadržite govornu poštu za pozive kod kojih zakasneli odgovor nosi mali rizik. Koristite AI recepcionera tamo gde pozivaocima tokom poziva treba odgovor, zakazivanje, kvalifikacija ili hitno usmeravanje.
 
-Počnite sa propuštenim pozivima i pozivima van radnog vremena. Mesec dana pratite poruke, zakazivanja, preusmeravanja, greške i povratne pozive. Ako tok rada povrati koristan posao, proširite ga. Možete da [testirate LobbyStack na besplatnom paketu](/sr/pricing/) pre nego što promenite sve telefonske putanje.
+Počnite sa propuštenim pozivima i pozivima van radnog vremena. Mesec dana pratite poruke, zakazivanja, preusmeravanja, greške i povratne pozive. Ako tok rada povrati koristan posao, proširite ga. Možete da [testirate Palakarimpu AI na besplatnom paketu](/sr/pricing/) pre nego što promenite sve telefonske putanje.

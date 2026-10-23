@@ -1,11 +1,11 @@
 ---
 title: "Conecte ChatGPT y los agentes de OpenAI"
-description: "Agregue LobbyStack a ChatGPT como aplicación, o úselo desde la Responses API de OpenAI y Codex."
+description: "Agregue Palakarimpu AI a ChatGPT como aplicación, o úselo desde la Responses API de OpenAI y Codex."
 sidebarTitle: "ChatGPT"
 contentType: "How-to"
 ---
 
-La URL del servidor es `https://app.lobbystack.com/api/mcp`. Si usa una implementación autoalojada, reemplace `app.lobbystack.com` por su propio dominio. ChatGPT se conecta a ella desde internet, así que un LobbyStack autoalojado necesita una dirección HTTPS pública.
+La URL del servidor es `https://app.lobbystack.com/api/mcp`. Si usa una implementación autoalojada, reemplace `app.lobbystack.com` por su propio dominio. ChatGPT se conecta a ella desde internet, así que un Palakarimpu AI autoalojado necesita una dirección HTTPS pública.
 
 Consulte [Servidor MCP](/es/ai/mcp) para ver qué herramientas habilita cada permiso.
 
@@ -18,14 +18,14 @@ ChatGPT agrega servidores MCP personalizados como aplicaciones en el modo de des
     En ChatGPT, abra **Settings** > **Security and login** y active **Developer mode**.
   </Step>
   <Step title="Cree la aplicación">
-    Abra los plugins de ChatGPT, haga clic en **+** y cree una aplicación en modo de desarrollador. Llámela `LobbyStack`, pegue la URL del servidor y elija **OAuth** como autenticación. Deje vacíos el ID de cliente y el secreto; ChatGPT se registra solo en LobbyStack.
+    Abra los plugins de ChatGPT, haga clic en **+** y cree una aplicación en modo de desarrollador. Llámela `Palakarimpu AI`, pegue la URL del servidor y elija **OAuth** como autenticación. Deje vacíos el ID de cliente y el secreto; ChatGPT se registra solo en Palakarimpu AI.
   </Step>
   <Step title="Inicie sesión y elija el acceso">
-    ChatGPT abre LobbyStack. Inicie sesión, elija el negocio, desmarque lo que ChatGPT no deba hacer y haga clic en **Permitir acceso**.
+    ChatGPT abre Palakarimpu AI. Inicie sesión, elija el negocio, desmarque lo que ChatGPT no deba hacer y haga clic en **Permitir acceso**.
   </Step>
 </Steps>
 
-Para desconectarlo, vaya a **Configuración** > **Aplicaciones conectadas** en LobbyStack y haga clic en **Desconectar** junto a ChatGPT.
+Para desconectarlo, vaya a **Configuración** > **Aplicaciones conectadas** en Palakarimpu AI y haga clic en **Desconectar** junto a ChatGPT.
 
 ## Responses API de OpenAI
 
@@ -52,7 +52,7 @@ curl https://api.openai.com/v1/responses \
 
 ## Codex
 
-Agregue LobbyStack a `~/.codex/config.toml`. Codex lee la clave de API de la variable de entorno que usted indique:
+Agregue Palakarimpu AI a `~/.codex/config.toml`. Codex lee la clave de API de la variable de entorno que usted indique:
 
 ```toml ~/.codex/config.toml
 [mcp_servers.lobbystack]

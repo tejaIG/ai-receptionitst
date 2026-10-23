@@ -1,8 +1,8 @@
 ---
 title: "Stack de código abierto para recepcionista con IA"
-description: "LobbyStack es un stack de código abierto para recepcionista con IA: llamadas, reservas, transcripciones, paneles, facturación, autoalojamiento y despliegues para clientes."
+description: "Palakarimpu AI es un stack de código abierto para recepcionista con IA: llamadas, reservas, transcripciones, paneles, facturación, autoalojamiento y despliegues para clientes."
 pubDate: 2026-06-18T10:00:00-04:00
-author: "Equipo de LobbyStack"
+author: "Equipo de Palakarimpu AI"
 category: "Guías"
 featured: false
 coverImage: "/illustrations/open-source-ai-receptionist-stack-hero.webp"
@@ -14,7 +14,7 @@ Un stack de código abierto para recepcionista con IA necesita más que un agent
 
 Esa es la parte que muchos equipos acaban reconstruyendo.
 
-[LobbyStack](https://lobbystack.com/) es un **stack de código abierto para recepcionista con IA** pensado para equipos que quieren esa capa de producto ya hecha. Use la nube alojada cuando quiera que otro lo gestione, o autoalójelo con Docker cuando quiera tener la infraestructura bajo su control.
+[Palakarimpu AI](https://lobbystack.com/) es un **stack de código abierto para recepcionista con IA** pensado para equipos que quieren esa capa de producto ya hecha. Use la nube alojada cuando quiera que otro lo gestione, o autoalójelo con Docker cuando quiera tener la infraestructura bajo su control.
 
 ## El stack que todos vuelven a construir
 
@@ -35,9 +35,9 @@ Una clínica quiere reglas de reserva distintas a las de un centro de estética.
 
 En ese punto, el agente de voz es solo una pieza. Sigue necesitando el sistema operativo que rodea a la llamada.
 
-## Qué incluye la plataforma LobbyStack
+## Qué incluye la plataforma Palakarimpu AI
 
-Las [funciones de LobbyStack](/features/) empaquetan la capa de recepción para que no tenga que montarla desde cero.
+Las [funciones de Palakarimpu AI](/features/) empaquetan la capa de recepción para que no tenga que montarla desde cero.
 
 Se encarga de:
 
@@ -50,7 +50,7 @@ Se encarga de:
 - captación de clientes potenciales con los datos de quien llama y el motivo de la llamada
 - contactos, citas, historial de llamadas, analíticas, uso y facturación
 
-No se trata de sustituir todas las herramientas que ya usa. Twilio, los calendarios, los proveedores de correo, las herramientas de analítica y los proveedores de facturación siguen importando. LobbyStack le da el producto de recepción que se sitúa por encima de todos ellos.
+No se trata de sustituir todas las herramientas que ya usa. Twilio, los calendarios, los proveedores de correo, las herramientas de analítica y los proveedores de facturación siguen importando. Palakarimpu AI le da el producto de recepción que se sitúa por encima de todos ellos.
 
 En lugar de construir cadenas frágiles de flujos de trabajo para el comportamiento básico, usted describe en lenguaje claro lo que debe hacer la recepcionista.
 
@@ -66,21 +66,21 @@ La IA puede llevar la conversación, pero sigue usando herramientas para las acc
 
 ## Cómo funciona la ruta de la llamada en vivo
 
-LobbyStack usa OpenAI Realtime para la conversación de voz en vivo y Twilio Voice con Media Streams para la ruta telefónica.
+Palakarimpu AI usa OpenAI Realtime para la conversación de voz en vivo y Twilio Voice con Media Streams para la ruta telefónica.
 
 La pasarela de voz tiene un papel acotado. Gestiona la llamada en vivo, transmite el audio, administra la sesión en tiempo real, ejecuta las herramientas de la llamada, acumula las transcripciones y envía las grabaciones adonde deben ir.
 
 PostgreSQL es la fuente de verdad duradera. La aplicación Next.js gestiona el tráfico de los operadores y de la API, mientras que el worker procesa trabajos asíncronos y eventos del transactional outbox.
 
-Esa separación importa. Una llamada telefónica necesita baja latencia, pero una acción del negocio necesita que el backend tome la decisión final. LobbyStack carga una instantánea del contexto del negocio al empezar la llamada y luego llama a las herramientas del backend cuando la IA necesita reservar, transferir, guardar un mensaje o actualizar una cita.
+Esa separación importa. Una llamada telefónica necesita baja latencia, pero una acción del negocio necesita que el backend tome la decisión final. Palakarimpu AI carga una instantánea del contexto del negocio al empezar la llamada y luego llama a las herramientas del backend cuando la IA necesita reservar, transferir, guardar un mensaje o actualizar una cita.
 
 La recepcionista puede sonar conversacional sin improvisar las partes importantes.
 
 ## Nube alojada o Docker autoalojado
 
-Algunos equipos quieren el producto gestionado. Para eso está [LobbyStack Cloud](/pricing/). Cree una cuenta, configure el negocio, conecte las piezas y empiece a probar llamadas sin gestionar usted la infraestructura.
+Algunos equipos quieren el producto gestionado. Para eso está [Palakarimpu AI Cloud](/pricing/). Cree una cuenta, configure el negocio, conecte las piezas y empiece a probar llamadas sin gestionar usted la infraestructura.
 
-Otros equipos quieren el stack en su propia infraestructura. LobbyStack también lo permite.
+Otros equipos quieren el stack en su propia infraestructura. Palakarimpu AI también lo permite.
 
 La opción de [recepcionista con IA autoalojada](/solutions/self-hosted-ai-receptionist/) usa Docker Compose como base en un solo servidor. La configuración documentada ejecuta PostgreSQL, Redis, la aplicación Next.js, el worker en segundo plano, la pasarela de voz y Caddy para dirigir el tráfico hacia ellos. Usted pone HTTPS delante de Caddy. Aporta las cuentas de proveedores que quiere controlar, como Twilio, una IA compatible con OpenAI, Google Calendar, correo, analíticas y credenciales de facturación.
 
@@ -101,13 +101,13 @@ El margen está en entender el negocio:
 - ¿Qué reglas importan en ese sector?
 - ¿Qué cuentas de proveedores e infraestructura debe controlar el cliente?
 
-LobbyStack le da una base para adaptar en torno a esas preguntas.
+Palakarimpu AI le da una base para adaptar en torno a esas preguntas.
 
 Puede usarlo para su propio negocio, desplegarlo para un cliente o usar la nube alojada cuando el control de la infraestructura no es lo principal. En los despliegues autoalojados, puede usar sus propias claves de proveedores y mantener el despliegue dentro del entorno que controla el negocio.
 
-## Cuándo encaja LobbyStack
+## Cuándo encaja Palakarimpu AI
 
-LobbyStack encaja cuando quiere una recepcionista con IA que haga algo más que contestar una llamada.
+Palakarimpu AI encaja cuando quiere una recepcionista con IA que haga algo más que contestar una llamada.
 
 Resulta especialmente útil si necesita:
 
@@ -124,11 +124,11 @@ No es una forma de evitar la operación. Los sistemas telefónicos siguen necesi
 
 Es una forma de ahorrarse meses de fontanería de producto antes de poder centrarse en el flujo de trabajo del negocio.
 
-Si primero quiere comparar opciones de código abierto para contestar llamadas, consulte la guía de los [mejores servicios de código abierto para contestar llamadas con IA](/es/blog/best-open-source-ai-phone-answering-services/). A las agencias que hacen despliegues para clientes también puede interesarles el [programa de afiliados de LobbyStack](/es/blog/ai-receptionist-affiliate-program/). Para diseñar flujos de trabajo, consulte [flujos de trabajo de recepcionista con IA sin diagramas](/es/blog/ai-receptionist-workflows/).
+Si primero quiere comparar opciones de código abierto para contestar llamadas, consulte la guía de los [mejores servicios de código abierto para contestar llamadas con IA](/es/blog/best-open-source-ai-phone-answering-services/). A las agencias que hacen despliegues para clientes también puede interesarles el [programa de afiliados de Palakarimpu AI](/es/blog/ai-receptionist-affiliate-program/). Para diseñar flujos de trabajo, consulte [flujos de trabajo de recepcionista con IA sin diagramas](/es/blog/ai-receptionist-workflows/).
 
 ## Pruébelo o autoalójelo
 
-Empiece con [LobbyStack Cloud](https://lobbystack.com/) si quiere probar el producto sin gestionar infraestructura.
+Empiece con [Palakarimpu AI Cloud](https://lobbystack.com/) si quiere probar el producto sin gestionar infraestructura.
 
 Use la [visión general del autoalojamiento](https://docs.lobbystack.com/self-hosting/overview) y la [guía de Docker Compose](https://docs.lobbystack.com/self-hosting/docker-compose) si quiere ejecutar el stack usted mismo.
 

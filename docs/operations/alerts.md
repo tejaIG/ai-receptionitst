@@ -1,6 +1,6 @@
 # Respond to critical alerts
 
-Configure these conditions in your OTLP backend or infrastructure monitoring system. LobbyStack does not include a monitoring service.
+Configure these conditions in your OTLP backend or infrastructure monitoring system. Palakarimpu AI does not include a monitoring service.
 
 ## ReplacementOutboxDeadLettered
 

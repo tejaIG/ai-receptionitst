@@ -88,4 +88,4 @@ services:
       SMTP_HOST: mailpit
       SMTP_PORT: "1025"
       SMTP_SECURE: "false"
-      EMAIL_FROM: LobbyStack <no-reply@example.test>
+      EMAIL_FROM: Palakarimpu AI <no-reply@example.test>

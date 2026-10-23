@@ -20,6 +20,7 @@ export * from "./email";
 export * from "./knowledge";
 export * from "./liveCalls";
 export * from "./notifications";
+export * from "./whatsapp";
 export * from "./onboarding";
 export * from "./operatorActivity";
 export * from "./outbox";

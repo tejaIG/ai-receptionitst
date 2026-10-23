@@ -14,7 +14,7 @@ The service advertises recordings, summaries, notifications, knowledge uploads, 
 
 ## Fair comparison
 
-Dialzara gives agencies and resellers several commercial paths. LobbyStack gives technical teams public code and self-hosted deployment. Buyers should compare the complete plan and add-on cost for the workflow they need.
+Dialzara gives agencies and resellers several commercial paths. Palakarimpu AI gives technical teams public code and self-hosted deployment. Buyers should compare the complete plan and add-on cost for the workflow they need.
 
 ## Claims to avoid
 

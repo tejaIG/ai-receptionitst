@@ -1,4 +1,4 @@
-# LobbyStack SEO operating map
+# Palakarimpu AI SEO operating map
 
 This document records the intent behind the July 2026 landing-site remediation. It is the reference for future content additions, Search Console reviews, and external profile updates.
 
@@ -6,7 +6,7 @@ This document records the intent behind the July 2026 landing-site remediation. 
 
 | Search intent | Canonical page |
 | --- | --- |
-| LobbyStack, Lobby Stack | `https://lobbystack.com/` |
+| Palakarimpu AI, Lobby Stack | `https://lobbystack.com/` |
 | AI phone answering service | `/solutions/ai-phone-answering/` |
 | AI appointment scheduler | `/solutions/ai-appointment-scheduler/` |
 | AI receptionist for home services | `/solutions/ai-receptionist-for-home-services/` |
@@ -25,7 +25,7 @@ The open-source pages intentionally serve different stages of intent. Product co
 The pre-release three-month baseline was 47 clicks, 4,960 impressions, 0.9% CTR, and average position 55.2. Record the production release date and review at 7, 30, 60, and 90 days:
 
 - sitemap status, discovered URLs, and indexed landing pages;
-- exact-brand `LobbyStack` impressions, clicks, position, and visible result;
+- exact-brand `Palakarimpu AI` impressions, clicks, position, and visible result;
 - restored French URL coverage and hreflang selection;
 - the zero-click phone-answering, HVAC, salon, electrician, home-service, and
   virtual-receptionist query groups;
@@ -48,8 +48,8 @@ After deployment:
 
 ## Entity and authority checklist
 
-Keep the product name, canonical homepage, logo, category, and description consistent on GitHub, Capterra, SourceForge, AlternativeTo, SaaSHub, and other verified profiles. The public schema may include a profile in `sameAs` only after its URL and representation of LobbyStack have been verified.
+Keep the product name, canonical homepage, logo, category, and description consistent on GitHub, Capterra, SourceForge, AlternativeTo, SaaSHub, and other verified profiles. The public schema may include a profile in `sameAs` only after its URL and representation of Palakarimpu AI have been verified.
 
 Check existing listings against current pricing and licensing before promoting them. The source repository uses the permissive MIT License. Keep trademark rights separate from the software license when discussing white-label use.
 
-Request canonical links from existing editorial mentions that identify LobbyStack but omit or misdirect the official website. Do not use paid links, bulk directory submissions, or reciprocal-link schemes.
+Request canonical links from existing editorial mentions that identify Palakarimpu AI but omit or misdirect the official website. Do not use paid links, bulk directory submissions, or reciprocal-link schemes.

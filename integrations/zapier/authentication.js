@@ -26,16 +26,16 @@ module.exports = {
       type: 'password',
       required: true,
       helpText:
-        'In LobbyStack, go to **Settings > API keys** and create a key for Zapier. It starts with `lsk_`. Any key connects; give it the scopes for the steps you plan to use, and `webhooks:manage` for triggers. [Learn more](https://docs.lobbystack.com/api/authentication).',
+        'In Palakarimpu AI, go to **Settings > API keys** and create a key for Zapier. It starts with `lsk_`. Any key connects; give it the scopes for the steps you plan to use, and `webhooks:manage` for triggers. [Learn more](https://docs.lobbystack.com/api/authentication).',
     },
     {
       key: 'baseUrl',
-      label: 'LobbyStack URL',
+      label: 'Palakarimpu AI URL',
       type: 'string',
       required: false,
       default: DEFAULT_BASE_URL,
       helpText:
-        'Leave as is for LobbyStack Cloud. If you host LobbyStack yourself, enter the address you use to sign in, for example `https://lobbystack.yourcompany.com`.',
+        'Leave as is for Palakarimpu AI Cloud. If you host Palakarimpu AI yourself, enter the address you use to sign in, for example `https://lobbystack.yourcompany.com`.',
     },
   ],
   test,

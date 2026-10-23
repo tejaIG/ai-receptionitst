@@ -134,6 +134,8 @@ export const businesses = pgTable(
     hoursSource: varchar("hours_source", { length: 16 }).$type<"none" | "generated" | "operator">().default("none").notNull(),
     hoursFingerprint: varchar("hours_fingerprint", { length: 64 }),
     hoursGeneratedAt: timestamp("hours_generated_at", { withTimezone: true }),
+    // Also confirm each booked appointment to the customer on WhatsApp. The sender and template are platform settings.
+    whatsappConfirmationsEnabled: boolean("whatsapp_confirmations_enabled").default(false).notNull(),
     ...legacyId,
     ...timestamps,
   },
@@ -1541,7 +1543,7 @@ export const oauthConsents = pgTable(
     scopes: text("scopes").array().notNull(),
     createdAt: timestamp("created_at", { withTimezone: true }),
     updatedAt: timestamp("updated_at", { withTimezone: true }),
-    // LobbyStack's own column: when the grant last made an MCP request.
+    // Palakarimpu AI's own column: when the grant last made an MCP request.
     lastUsedAt: timestamp("last_used_at", { withTimezone: true }),
   },
   (table) => [index("oauth_consents_grant_idx").on(table.clientId, table.userId, table.referenceId), index("oauth_consents_reference_idx").on(table.referenceId)],

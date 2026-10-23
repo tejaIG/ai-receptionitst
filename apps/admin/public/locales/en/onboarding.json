@@ -47,7 +47,7 @@
     "submitFailed": "We couldn't save that business right now. Please try again."
   },
   "website": {
-    "title": "Now let's train LobbyStack on your website",
+    "title": "Now let's train Palakarimpu AI on your website",
     "description": "",
     "label": "Website",
     "placeholder": "yourcompany.com",
@@ -136,7 +136,7 @@
     "continue": "Continue"
   },
   "attribution": {
-    "title": "How did you hear about LobbyStack?",
+    "title": "How did you hear about Palakarimpu AI?",
     "description": "It helps us focus on what's working.",
     "options": {
       "ai_assistant": "ChatGPT, Claude, etc.",
@@ -187,7 +187,7 @@
         "name": "Free",
         "price": "$0",
         "period": "",
-        "description": "Try LobbyStack with enough usage to see it work.",
+        "description": "Try Palakarimpu AI with enough usage to see it work.",
         "cta": "Start free",
         "highlights": {
           "voiceMinutes": "30 browser voice minutes included",

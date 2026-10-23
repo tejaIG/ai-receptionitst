@@ -1,25 +1,25 @@
 ---
 title: "ElevenLabs Reception alternative: minutes and ownership"
-seoTitle: "ElevenLabs Reception alternative: LobbyStack vs Reception"
-description: "Compare ElevenLabs Reception (Reception.ai) and LobbyStack: $29 for 75 minutes vs $30 for 150, overage rates, web chat, HIPAA, languages, and self-hosting."
+seoTitle: "ElevenLabs Reception alternative: Palakarimpu vs Reception"
+description: "Compare ElevenLabs Reception (Reception.ai) and Palakarimpu AI: $29 for 75 minutes vs $30 for 150, overage rates, web chat, HIPAA, languages, and self-hosting."
 pubDate: 2026-09-19T10:00:00-04:00
 updatedDate: 2026-09-19T10:00:00-04:00
-author: "LobbyStack Team"
+author: "Palakarimpu AI Team"
 category: "Comparisons"
 featured: false
 coverImage: "/illustrations/elevenlabs-reception-alternative-hero.webp"
-coverImageAlt: "LobbyStack and ElevenLabs Reception logo cards facing each other on either side of a VS badge"
+coverImageAlt: "Palakarimpu AI and ElevenLabs Reception logo cards facing each other on either side of a VS badge"
 locale: "en"
 canonicalSlug: "elevenlabs-reception-alternative"
 ---
 
-If you're comparing an **ElevenLabs Reception alternative**, start with minutes. At the same $24 a month billed annually, Reception includes 75 phone minutes and LobbyStack includes 150. ElevenLabs launched Reception, branded Reception by ElevenAgents at Reception.ai, on September 16, 2026. It brings ElevenLabs voices to small businesses that need their phones answered.
+If you're comparing an **ElevenLabs Reception alternative**, start with minutes. At the same $24 a month billed annually, Reception includes 75 phone minutes and Palakarimpu AI includes 150. ElevenLabs launched Reception, branded Reception by ElevenAgents at Reception.ai, on September 16, 2026. It brings ElevenLabs voices to small businesses that need their phones answered.
 
-Reception sounds excellent and speaks more than 70 languages. LobbyStack gives you twice the minutes, a lower overage rate, a free plan that doesn't expire, and code you can host yourself under the MIT license.
+Reception sounds excellent and speaks more than 70 languages. Palakarimpu AI gives you twice the minutes, a lower overage rate, a free plan that doesn't expire, and code you can host yourself under the MIT license.
 
-## ElevenLabs Reception vs LobbyStack
+## ElevenLabs Reception vs Palakarimpu AI
 
-| Area | ElevenLabs Reception | LobbyStack |
+| Area | ElevenLabs Reception | Palakarimpu AI |
 | --- | --- | --- |
 | Free option | 14-day trial with 30 credits, no card | 30 browser voice minutes, no card, no telephone number |
 | Entry plan | $29 for 75 credits ($24 billed annually) | $30 for 150 minutes ($24 billed annually) |
@@ -40,15 +40,15 @@ Pricing and features were checked on September 19, 2026.
 
 Reception's Basic plan costs $29 a month for 75 credits. One credit buys one minute of phone time, so Basic covers 75 minutes of calls. Each extra minute costs $0.45. Plus costs $79 for 275 credits at $0.38 for each extra, and Premium costs $199 for 1,000 credits at $0.30.
 
-LobbyStack's Starter plan costs $30 a month for 150 voice minutes, and each extra minute costs $0.20. Pro costs $100 for 500 minutes at $0.18 for each extra. Annual billing brings Starter to $24 a month, the same as Reception Basic on an annual plan.
+Palakarimpu AI's Starter plan costs $30 a month for 150 voice minutes, and each extra minute costs $0.20. Pro costs $100 for 500 minutes at $0.18 for each extra. Annual billing brings Starter to $24 a month, the same as Reception Basic on an annual plan.
 
-A business that takes 150 minutes of calls a month pays $30 on LobbyStack Starter. On Reception Basic, the same month costs $29 plus 75 extra minutes at $0.45, for a total of $62.75. LobbyStack also leaves calls under 10 seconds and calls the receptionist ends as spam out of your usage, so a robocall or a wrong number costs you nothing.
+A business that takes 150 minutes of calls a month pays $30 on Palakarimpu AI Starter. On Reception Basic, the same month costs $29 plus 75 extra minutes at $0.45, for a total of $62.75. Palakarimpu AI also leaves calls under 10 seconds and calls the receptionist ends as spam out of your usage, so a robocall or a wrong number costs you nothing.
 
 ## Where ElevenLabs Reception is strong
 
 ElevenLabs builds some of the most natural AI voices you can buy, and Reception uses them. Callers hear a smooth, expressive voice, and Reception detects and switches between more than 70 languages.
 
-The staff-first mode suits businesses with a front desk. Your team answers during the hours you choose, and Reception picks up the calls they miss. LobbyStack can do the same job if your carrier forwards unanswered calls, but you set that up with your carrier rather than inside the app.
+The staff-first mode suits businesses with a front desk. Your team answers during the hours you choose, and Reception picks up the calls they miss. Palakarimpu AI can do the same job if your carrier forwards unanswered calls, but you set that up with your carrier rather than inside the app.
 
 Reception also puts Zapier, webhooks, and MCP on every plan, including Basic. A business that already runs its operations through Zapier can connect Reception on day one.
 
@@ -58,19 +58,19 @@ Reception counts phone calls and web chat from one credit pool. A phone minute u
 
 Basic also allows one call at a time. If two customers call at once, only one reaches the receptionist. Plus raises the limit to 3 and Premium to 10.
 
-LobbyStack counts voice minutes on their own. No plan caps how many calls run at once, so two callers on Starter both reach the receptionist. One exception: if you set a monthly spending cap, the active call reserves the remaining allowance, and a second caller hears the limit message until the first call ends.
+Palakarimpu AI counts voice minutes on their own. No plan caps how many calls run at once, so two callers on Starter both reach the receptionist. One exception: if you set a monthly spending cap, the active call reserves the remaining allowance, and a second caller hears the limit message until the first call ends.
 
 ## Is ElevenLabs Reception HIPAA compliant?
 
 No. Reception's FAQ says the product doesn't support HIPAA compliance, and it sends healthcare customers to the ElevenAgents enterprise platform. That rules Reception out for clinics, dental offices, and therapists who discuss patient details on calls.
 
-LobbyStack's hosted cloud doesn't advertise HIPAA compliance either. Because the code is open, a healthcare team can self-host LobbyStack on infrastructure it controls and sign its own agreements with its phone and AI providers. That route takes technical staff, but it keeps call recordings and transcripts on servers you choose.
+Palakarimpu AI's hosted cloud doesn't advertise HIPAA compliance either. Because the code is open, a healthcare team can self-host Palakarimpu AI on infrastructure it controls and sign its own agreements with its phone and AI providers. That route takes technical staff, but it keeps call recordings and transcripts on servers you choose.
 
 ## Hosted software or software you own
 
 Reception is a hosted product. ElevenLabs sets the price, the plan limits, and the features, and your receptionist lives in its account.
 
-LobbyStack publishes its code under the MIT license. You can use the managed cloud, or deploy the same software yourself with the one-click Railway template or Docker Compose. Self-hosters pay OpenAI and Twilio directly. Agencies can rebrand LobbyStack and sell it to clients, which Reception doesn't offer.
+Palakarimpu AI publishes its code under the MIT license. You can use the managed cloud, or deploy the same software yourself with the one-click Railway template or Docker Compose. Self-hosters pay OpenAI and Twilio directly. Agencies can rebrand Palakarimpu AI and sell it to clients, which Reception doesn't offer.
 
 ## An example month for a plumbing company
 
@@ -78,29 +78,29 @@ A plumbing company takes 120 calls a month that last about 2 minutes each, or 24
 
 On Reception, 240 minutes is more than Basic's 75, so the company needs Plus at $79 for 275 credits. Chat draws from the same pool: 100 minutes of website chat uses 50 more credits, for 290 in total. The 15 credits over the allowance cost $0.38 each, so the month comes to $84.70.
 
-On LobbyStack, 240 minutes costs $30 for Starter plus 90 extra minutes at $0.20, for a total of $48. LobbyStack covers phone calls only, so the chat widget stays with the tool the company uses today. Two emergency calls that arrive together both reach the receptionist.
+On Palakarimpu AI, 240 minutes costs $30 for Starter plus 90 extra minutes at $0.20, for a total of $48. Palakarimpu AI covers phone calls only, so the chat widget stays with the tool the company uses today. Two emergency calls that arrive together both reach the receptionist.
 
 ## Choose ElevenLabs Reception when
 
 Choose ElevenLabs Reception when voice quality and language coverage matter most, when your staff should answer first and hand off missed calls, or when you already run your business through Zapier. It fits a business with low call volume that wants a polished product from a well-known brand.
 
-## Choose LobbyStack when
+## Choose Palakarimpu AI when
 
-Choose LobbyStack for 150 minutes at $30 and a $0.20 overage rate. You can test 30 browser voice minutes on Free without a telephone number. With the MIT code, you can self-host, change the product, or resell it to your own clients.
+Choose Palakarimpu AI for 150 minutes at $30 and a $0.20 overage rate. You can test 30 browser voice minutes on Free without a telephone number. With the MIT code, you can self-host, change the product, or resell it to your own clients.
 
 ## Sources
 
 - [ElevenLabs Reception plans and pricing](https://elevenlabs.io/docs/reception-ai/billing/plans-and-pricing)
 - [Reception by ElevenLabs](https://elevenlabs.io/reception)
 - [Reception receptionist features](https://elevenlabs.io/docs/reception-ai/receptionist/overview)
-- [LobbyStack pricing](/pricing/)
+- [Palakarimpu AI pricing](/pricing/)
 - [Open-source AI receptionist](/solutions/open-source-ai-receptionist/)
-- [LobbyStack GitHub repository](https://github.com/lobbystack/lobbystack)
+- [Palakarimpu AI GitHub repository](https://github.com/lobbystack/lobbystack)
 
 For more comparisons, read the [Rosie alternative](/blog/rosie-ai-alternative/) and [Dialzara alternative](/blog/dialzara-alternative/) guides.
 
 ## Verdict
 
-LobbyStack gives you more receptionist for the money. At the same $24 annual price, you get twice the minutes and pay less than half the overage rate, and the entry plan answers two callers at once. Reception wins on voices, languages, and its staff-first mode, and it's a strong choice for a business that values those over minutes and ownership.
+Palakarimpu AI gives you more receptionist for the money. At the same $24 annual price, you get twice the minutes and pay less than half the overage rate, and the entry plan answers two callers at once. Reception wins on voices, languages, and its staff-first mode, and it's a strong choice for a business that values those over minutes and ownership.
 
-[Try LobbyStack with 30 free voice minutes](/pricing/), then compare the finished Reception plan with your real call volume and chat traffic included.
+[Try Palakarimpu AI with 30 free voice minutes](/pricing/), then compare the finished Reception plan with your real call volume and chat traffic included.

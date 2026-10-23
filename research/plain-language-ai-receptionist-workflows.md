@@ -2,7 +2,7 @@
 
 Research date: 2026-06-18
 
-Topic: a LobbyStack blog post about replacing brittle AI receptionist workflow chains with receptionist behavior described in plain language.
+Topic: a Palakarimpu AI blog post about replacing brittle AI receptionist workflow chains with receptionist behavior described in plain language.
 
 Requested scope:
 
@@ -12,7 +12,7 @@ Requested scope:
 - How prompt/tool-based behavior configuration differs from low-code automation chains.
 - Concrete examples for booking, quotes, callbacks, and handoff.
 - SEO/search intent angles.
-- Product-led positioning for LobbyStack without generic AI marketing.
+- Product-led positioning for Palakarimpu AI without generic AI marketing.
 
 ## Executive takeaways
 
@@ -20,9 +20,9 @@ Requested scope:
 - The post should include both categories:
   - Builder stack: Retell, Vapi, Twilio, n8n, Zapier, Make, custom webhooks, calendars, CRMs.
   - Closed receptionist apps: Upfirst, Phonely, My AI Front Desk / Frontdesk, Goodcall, Smith.ai, Myaifrontdesk-style hosted products.
-- The useful contrast is control surface, not "build vs buy." Closed receptionist tools can give setup speed and packaged features, but the business often adapts to the vendor's workflow model. Builder stacks give flexibility, but they push the operator into wiring phone behavior across nodes, webhooks, retries, and dashboards. LobbyStack should sit between those: a real AI receptionist product, open source, self-hostable, and configured through plain-language behavior plus trusted tools.
+- The useful contrast is control surface, not "build vs buy." Closed receptionist tools can give setup speed and packaged features, but the business often adapts to the vendor's workflow model. Builder stacks give flexibility, but they push the operator into wiring phone behavior across nodes, webhooks, retries, and dashboards. Palakarimpu AI should sit between those: a real AI receptionist product, open source, self-hostable, and configured through plain-language behavior plus trusted tools.
 - "Plain-language workflow" needs careful wording. It should not imply the model can invent safe behavior. The business describes the receptionist's policy in plain English; the system still uses tools and backend checks for authoritative actions such as booking, appointment changes, transfers, messages, and callbacks.
-- The article should be product-led, but it should spend most of its time explaining the operational problem. Mention LobbyStack after the reader sees why call behavior breaks when you model it as a chain of nodes.
+- The article should be product-led, but it should spend most of its time explaining the operational problem. Mention Palakarimpu AI after the reader sees why call behavior breaks when you model it as a chain of nodes.
 
 ## Search intent
 
@@ -45,7 +45,7 @@ Searchable angles:
 
 Shareable angle:
 
-- "Your business is not a flowchart." This already exists in LobbyStack's feature copy and should anchor the post. Real calls are messy: customers interrupt, bundle multiple requests, change their mind, ask pricing before giving scope, and mention urgent details out of order.
+- "Your business is not a flowchart." This already exists in Palakarimpu AI's feature copy and should anchor the post. Real calls are messy: customers interrupt, bundle multiple requests, change their mind, ask pricing before giving scope, and mention urgent details out of order.
 
 Likely reader:
 
@@ -97,7 +97,7 @@ Hosted AI receptionist products sell speed, packaging, and less operational work
 - Smith.ai sells an AI Front Desk with call volume packages, custom intake questions, lead qualification, call transfers, live-agent handoff, Calendly scheduling, call recordings, transcripts, summaries, and Zapier/CRM integrations.
 - Upfirst belongs in the competitor set because readers will recognize it as a full AI receptionist product, even if this research pass did not retrieve a reliable official source page for detailed claims.
 
-The blog should avoid attacking these products. Closed tools are legitimate choices when the buyer wants someone else to own hosting, onboarding, and support. The product-led opportunity for LobbyStack is control: open source, self-hostable, configurable, and still packaged as a receptionist system instead of a pile of workflow nodes.
+The blog should avoid attacking these products. Closed tools are legitimate choices when the buyer wants someone else to own hosting, onboarding, and support. The product-led opportunity for Palakarimpu AI is control: open source, self-hostable, configurable, and still packaged as a receptionist system instead of a pile of workflow nodes.
 
 ## Source anchors
 
@@ -119,7 +119,7 @@ Use these as factual anchors in the post or internal brief:
   - Source: https://www.goodcall.com/pricing
 - Smith.ai AI Receptionist pricing shows call-volume plans, managed custom configuration, custom integrations/workflows, lead qualification, intake questions, transfers, live-agent handoff, Calendly scheduling, phone numbers, recordings, transcripts, Q&A pairs, and summaries.
   - Source: https://smith.ai/pricing/ai-receptionist
-- LobbyStack local source anchors:
+- Palakarimpu AI local source anchors:
   - `README.md`: open-source AI receptionist for calls, SMS, appointments, hosted cloud or self-hosted infrastructure.
   - `docs/voice/runtime.md`: narrow voice gateway for live call handling; PostgreSQL-backed domain services own tenant data, booking, knowledge, and durable workflows; the gateway loads a business snapshot once and calls the backend for authoritative operations.
   - `apps/landing/src/components/features/FeatureWall.tsx`: "Build workflows with words, not flowcharts" and "Your business is not a flowchart."
@@ -306,10 +306,10 @@ confirms it. If no matching time exists, offer two nearby alternatives or
 take a callback message.
 ```
 
-LobbyStack product angle:
+Palakarimpu AI product angle:
 
 - The receptionist can talk naturally while tools check availability and book through the backend.
-- The post can cite LobbyStack's local architecture: the voice gateway handles the live call, while PostgreSQL-backed domain services own booking state and authoritative operations.
+- The post can cite Palakarimpu AI's local architecture: the voice gateway handles the live call, while PostgreSQL-backed domain services own booking state and authoritative operations.
 
 ### Quotes
 
@@ -341,10 +341,10 @@ the business knowledge. If the price depends on site conditions or staff
 review, create a quote callback and include the collected details.
 ```
 
-LobbyStack product angle:
+Palakarimpu AI product angle:
 
 - This maps to "Give quotes without making callers wait" from the feature wall.
-- The article should say LobbyStack can collect details, share approved ranges, and create callback tasks. Do not imply it invents pricing.
+- The article should say Palakarimpu AI can collect details, share approved ranges, and create callback tasks. Do not imply it invents pricing.
 
 ### Callbacks
 
@@ -373,7 +373,7 @@ urgent and notify the on-call contact. If the request is routine, create a
 task for the next business day.
 ```
 
-LobbyStack product angle:
+Palakarimpu AI product angle:
 
 - `takeMessage` already accepts caller name, callback phone, urgency, callback window, and message.
 - Plain-language behavior lets a business describe urgency and routing without making the callback flow unreadable.
@@ -404,12 +404,12 @@ If no one answers, take a message, mark the reason for handoff, and tell the
 caller when the team will respond.
 ```
 
-LobbyStack product angle:
+Palakarimpu AI product angle:
 
 - The voice gateway owns transfer execution; PostgreSQL stores durable state and call outcomes.
 - The post should emphasize "safe handoff with context" instead of "AI handles everything."
 
-## Positioning for LobbyStack
+## Positioning for Palakarimpu AI
 
 ### One-sentence thesis
 
@@ -417,7 +417,7 @@ AI receptionists should be configured like you train a front-desk employee, with
 
 ### Product-led positioning
 
-LobbyStack is:
+Palakarimpu AI is:
 
 - A full AI receptionist platform, not only a voice-agent API.
 - Open source, so technical teams can inspect, self-host, and adapt it.
@@ -437,9 +437,9 @@ Do not:
 
 - "n8n is bad."
 - "Zapier cannot handle production."
-- "Retell/Vapi/Twilio are competitors to LobbyStack."
+- "Retell/Vapi/Twilio are competitors to Palakarimpu AI."
 
-Retell, Vapi, and Twilio are better described as voice/telephony layers or builder platforms. LobbyStack competes more directly with packaged AI receptionist products and with the decision to build a custom receptionist layer from raw components.
+Retell, Vapi, and Twilio are better described as voice/telephony layers or builder platforms. Palakarimpu AI competes more directly with packaged AI receptionist products and with the decision to build a custom receptionist layer from raw components.
 
 ### How to compare to closed AI receptionist products
 
@@ -447,7 +447,7 @@ Do:
 
 - "Closed products can get you live fast."
 - "The tradeoff is control over workflow logic, data, deployment, and customization."
-- "LobbyStack gives you a packaged receptionist product with open-source control."
+- "Palakarimpu AI gives you a packaged receptionist product with open-source control."
 
 Do not:
 
@@ -457,7 +457,7 @@ Do not:
 
 Suggested phrasing:
 
-> Hosted AI receptionist tools package the front desk for you. Builder stacks let you wire your own. LobbyStack gives you a third option: a receptionist product you can run, inspect, and adapt, with behavior configured in plain language instead of scattered across workflow branches.
+> Hosted AI receptionist tools package the front desk for you. Builder stacks let you wire your own. Palakarimpu AI gives you a third option: a receptionist product you can run, inspect, and adapt, with behavior configured in plain language instead of scattered across workflow branches.
 
 ## Suggested blog structure
 
@@ -503,7 +503,7 @@ Suggested sections:
    - Quotes.
    - Callbacks.
    - Handoff.
-5. `Where LobbyStack fits`
+5. `Where Palakarimpu AI fits`
    - Open-source AI receptionist product.
    - Hosted or self-hosted.
    - Not raw voice API, not closed workflow box.
@@ -550,7 +550,7 @@ Link to:
 
 Potential CTA:
 
-> LobbyStack is open source. Try the hosted product, self-host it, or read the code on GitHub before you trust it with a phone line.
+> Palakarimpu AI is open source. Try the hosted product, self-host it, or read the code on GitHub before you trust it with a phone line.
 
 ## Draftable examples
 
@@ -582,7 +582,7 @@ send the team the transcript summary.
 
 - Do not imply plain-language config removes testing. The post should say teams still need to review transcripts and test real call paths.
 - Do not say workflow builders are useless. They are useful around the receptionist.
-- Do not position Retell/Vapi as direct competitors to LobbyStack. They are voice AI platforms and builder primitives.
+- Do not position Retell/Vapi as direct competitors to Palakarimpu AI. They are voice AI platforms and builder primitives.
 - Do not over-index on "inspect the code." The open-source angle matters, but the post is about behavior configuration and production reliability.
 - Do not say "this helps two groups." Keep the piece unified around the reader's job: make the receptionist match the business without building a fragile chain.
 - Do not close with a generic "I'd love feedback" question. Use a product CTA.
@@ -593,6 +593,6 @@ The blog post should make readers feel this:
 
 > I do not want to maintain a diagram that pretends callers behave like form submissions. I want to describe the receptionist's job in plain English, give it safe tools, and keep the product state in one place.
 
-LobbyStack can own that category phrase:
+Palakarimpu AI can own that category phrase:
 
 `Build workflows with words, not flowcharts.`

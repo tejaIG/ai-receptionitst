@@ -1,11 +1,11 @@
 ---
 title: "Configurer les webhooks"
-description: "Envoyez les appels, les réservations, les messages et les nouveaux contacts de LobbyStack vers vos propres outils."
+description: "Envoyez les appels, les réservations, les messages et les nouveaux contacts de Palakarimpu AI vers vos propres outils."
 sidebarTitle: "Webhooks"
 contentType: "How-to"
 ---
 
-Les webhooks permettent à un autre outil de réagir quand quelque chose se produit dans LobbyStack. Par exemple, votre CRM peut consigner chaque appel terminé, ou une feuille de calcul peut recevoir une ligne pour chaque réservation.
+Les webhooks permettent à un autre outil de réagir quand quelque chose se produit dans Palakarimpu AI. Par exemple, votre CRM peut consigner chaque appel terminé, ou une feuille de calcul peut recevoir une ligne pour chaque réservation.
 
 Seuls les propriétaires et les administrateurs peuvent gérer les webhooks.
 
@@ -19,7 +19,7 @@ Seuls les propriétaires et les administrateurs peuvent gérer les webhooks.
     Cliquez sur **Ajouter un point de terminaison**. Entrez l'URL `https://` fournie par votre outil et choisissez les événements à envoyer.
   </Step>
   <Step title="Enregistrer le secret de signature">
-    Copiez le secret qui commence par `whsec_` et collez-le dans votre outil. LobbyStack ne l'affiche qu'une seule fois.
+    Copiez le secret qui commence par `whsec_` et collez-le dans votre outil. Palakarimpu AI ne l'affiche qu'une seule fois.
   </Step>
   <Step title="Envoyer un événement test">
     Cliquez sur **Envoyer un événement test**, puis sur **Journal des livraisons** pour vérifier que votre outil a répondu.
@@ -30,7 +30,7 @@ Seuls les propriétaires et les administrateurs peuvent gérer les webhooks.
 
 Le **Journal des livraisons** liste les événements envoyés à un point de terminaison avec leur statut, le code de réponse et le nombre de tentatives. Cliquez sur **Renvoyer** pour envoyer un événement de nouveau.
 
-LobbyStack réessaie les livraisons échouées pendant environ 23 heures. Si toutes les tentatives échouent, il désactive le point de terminaison et envoie une alerte à votre équipe. Corrigez le point de terminaison, réactivez-le et renvoyez les événements manqués.
+Palakarimpu AI réessaie les livraisons échouées pendant environ 23 heures. Si toutes les tentatives échouent, il désactive le point de terminaison et envoie une alerte à votre équipe. Corrigez le point de terminaison, réactivez-le et renvoyez les événements manqués.
 
 ## Modifier ou supprimer un webhook
 

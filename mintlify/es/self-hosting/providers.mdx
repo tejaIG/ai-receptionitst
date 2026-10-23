@@ -1,11 +1,11 @@
 ---
 title: "Configure los proveedores externos"
-description: "Vea qué cuentas de proveedores necesita una instalación autoalojada de LobbyStack: Twilio y OpenAI para las llamadas en vivo, además de servicios opcionales como Google Calendar, el almacenamiento S3 y PostHog."
+description: "Vea qué cuentas de proveedores necesita una instalación autoalojada de Palakarimpu AI: Twilio y OpenAI para las llamadas en vivo, además de servicios opcionales como Google Calendar, el almacenamiento S3 y PostHog."
 sidebarTitle: "Proveedores externos"
 contentType: "Reference"
 ---
 
-La base de Docker Compose ejecuta la aplicación de LobbyStack, PostgreSQL, Redis y un volumen de almacenamiento local compartido. Conecte sus propias cuentas de proveedores para las funciones externas.
+La base de Docker Compose ejecuta la aplicación de Palakarimpu AI, PostgreSQL, Redis y un volumen de almacenamiento local compartido. Conecte sus propias cuentas de proveedores para las funciones externas.
 
 ## Necesarios para las llamadas en vivo
 
@@ -14,7 +14,7 @@ La base de Docker Compose ejecuta la aplicación de LobbyStack, PostgreSQL, Redi
     Twilio proporciona los números de teléfono, las transferencias de llamadas y la verificación por teléfono. Un trunk Elastic SIP envía a OpenAI las llamadas a sus números. Cada número debe estar en el trunk para contestar llamadas. Mantenga el token de autenticación de Twilio en el servidor.
   </Accordion>
   <Accordion title="OpenAI" icon="waveform">
-    El modelo GPT-Live de OpenAI mantiene la conversación en las llamadas telefónicas y desde el navegador, y OpenAI aloja el audio. Cuando la persona que llama necesita datos del negocio, como horarios disponibles o una reserva, GPT-Live se los pide al worker de LobbyStack, que responde con el agente de la recepcionista. Su proyecto de OpenAI necesita tener SIP activado y un webhook de llamadas entrantes para las llamadas telefónicas.
+    El modelo GPT-Live de OpenAI mantiene la conversación en las llamadas telefónicas y desde el navegador, y OpenAI aloja el audio. Cuando la persona que llama necesita datos del negocio, como horarios disponibles o una reserva, GPT-Live se los pide al worker de Palakarimpu AI, que responde con el agente de la recepcionista. Su proyecto de OpenAI necesita tener SIP activado y un webhook de llamadas entrantes para las llamadas telefónicas.
   </Accordion>
 </AccordionGroup>
 

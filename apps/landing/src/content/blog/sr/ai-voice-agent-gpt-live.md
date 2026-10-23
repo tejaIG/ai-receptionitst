@@ -1,9 +1,9 @@
 ---
 title: "Naš AI glasovni agent sada radi na GPT-Live, modelu koji pokreće ChatGPT Voice"
 seoTitle: "AI glasovni agent na GPT-Live, modelu ChatGPT Voice"
-description: "LobbyStack AI glasovni agent sada radi na OpenAI modelu GPT-Live, koji pokreće ChatGPT Voice. Nastavlja razgovor dok zakazuje, proverava radno vreme i prima poruke."
+description: "Palakarimpu AI AI glasovni agent sada radi na OpenAI modelu GPT-Live, koji pokreće ChatGPT Voice. Nastavlja razgovor dok zakazuje, proverava radno vreme i prima poruke."
 pubDate: 2026-09-26T21:00:00-04:00
-author: "LobbyStack tim"
+author: "Palakarimpu AI tim"
 category: "Novosti o proizvodu"
 featured: false
 coverImage: "/illustrations/ai-voice-agent-gpt-live-hero.webp"
@@ -12,9 +12,9 @@ locale: "sr"
 canonicalSlug: "ai-voice-agent-gpt-live"
 ---
 
-Pozivalac pita da li imate nešto slobodno u utorak ujutru. Kod većine AI glasovnih agenata linija utihne dok softver proverava kalendar. LobbyStack AI glasovni agent nastavlja razgovor dok proverava, jer sada radi na GPT-Live, glasovnom modelu koji je OpenAI napravio za ChatGPT Voice.
+Pozivalac pita da li imate nešto slobodno u utorak ujutru. Kod većine AI glasovnih agenata linija utihne dok softver proverava kalendar. Palakarimpu AI AI glasovni agent nastavlja razgovor dok proverava, jer sada radi na GPT-Live, glasovnom modelu koji je OpenAI napravio za ChatGPT Voice.
 
-Svaki LobbyStack poziv sada radi na GPT-Live, i na telefonu i u pregledaču. U ovom tekstu objašnjavamo šta je GPT-Live, kako smo ga povezali sa recepcionerom koji izvršava stvarne radnje i šta smo naučili tokom prelaska.
+Svaki Palakarimpu AI poziv sada radi na GPT-Live, i na telefonu i u pregledaču. U ovom tekstu objašnjavamo šta je GPT-Live, kako smo ga povezali sa recepcionerom koji izvršava stvarne radnje i šta smo naučili tokom prelaska.
 
 ## Šta je GPT-Live
 
@@ -34,7 +34,7 @@ ChatGPT Voice odgovara na pitanja. Recepcioner mora da obavi posao: da proveri k
 
 GPT-Live to rešava onim što OpenAI naziva delegiranjem. Kada pozivalac zatraži nešto za šta su potrebni podaci Vaše firme, GPT-Live predaje zadatak softveru koji Vi kontrolišete i [nastavlja da govori dok se taj posao izvršava](https://developers.openai.com/api/docs/guides/live-delegation). Pozivalac čuje recepcionera koji ostaje na liniji sa njim.
 
-U LobbyStack-u ti zadaci idu jednom agentu koji ima alate za:
+U Palakarimpu AI-u ti zadaci idu jednom agentu koji ima alate za:
 
 - Vaše radno vreme, usluge i odgovore iz znanja koje ste dodali
 - pronalaženje slobodnih termina i zakazivanje, ili primanje zahteva koji Vaš tim treba da potvrdi
@@ -52,7 +52,7 @@ Pre prelaska, zvuk iz telefona je išao dužim putem. Twilio je svaki poziv stri
 
 Sada zvuk hostuje OpenAI. Telefonski pozivi stižu do njega preko Twilio SIP trunka, a pozivi iz pregledača se povezuju preko WebRTC-a. Naša aplikacija pokreće svaki poziv, a pozadinski worker odgovara na zahteve agenta, čuva transkript i snimak.
 
-Time je jedan servis uklonjen iz putanje poziva i sa liste stvari koje održavamo. Pošto su svi brojevi prebačeni, gasimo gateway, što LobbyStack čini jednostavnijim i za timove koji ga [hostuju sami](/solutions/self-hosted-ai-receptionist/).
+Time je jedan servis uklonjen iz putanje poziva i sa liste stvari koje održavamo. Pošto su svi brojevi prebačeni, gasimo gateway, što Palakarimpu AI čini jednostavnijim i za timove koji ga [hostuju sami](/solutions/self-hosted-ai-receptionist/).
 
 ## Šta smo naučili tokom prelaska
 
@@ -72,29 +72,29 @@ Pokretali smo GPT-Live u test okruženju, zatim na pravim pozivima iz pregledač
 
 ## Šta to znači za Vašu firmu
 
-Pozivaoci ocenjuju AI glasovnog agenta po tome da li su dobili ono zbog čega su zvali. Uz GPT-Live, LobbyStack zvuči više kao dobra recepcija:
+Pozivaoci ocenjuju AI glasovnog agenta po tome da li su dobili ono zbog čega su zvali. Uz GPT-Live, Palakarimpu AI zvuči više kao dobra recepcija:
 
 - Pozivaoci dobijaju odgovore i termine bez muzike na čekanju i dugih tišina.
 - Vi birate da li agent zakazuje direktno, prima zahteve koje Vaš tim potvrđuje ili uopšte ne zakazuje.
 - Vaša telefonska linija i Vaš sajt daju iste odgovore.
 - Uz svaki poziv dobijate transkript, snimak i rezime na kontrolnoj tabli.
 
-LobbyStack je open-source projekat pod MIT licencom. Možete ga pokretati sami ili prepustiti nama da ga hostujemo. U oba slučaja dobijate istog AI telefonskog recepcionera.
+Palakarimpu AI je open-source projekat pod MIT licencom. Možete ga pokretati sami ili prepustiti nama da ga hostujemo. U oba slučaja dobijate istog AI telefonskog recepcionera.
 
-## Pitanja o GPT-Live i LobbyStack-u
+## Pitanja o GPT-Live i Palakarimpu AI-u
 
 ### Da li je ovo isti model kao ChatGPT Voice?
 
-GPT-Live-1 je model koji ChatGPT Voice podrazumevano koristi za plaćene korisnike. LobbyStack ga povezuje sa Vašom firmom kroz delegiranje, pa može da proveri Vaš kalendar i zakaže termine, što ChatGPT sam ne može da uradi za Vaše klijente.
+GPT-Live-1 je model koji ChatGPT Voice podrazumevano koristi za plaćene korisnike. Palakarimpu AI ga povezuje sa Vašom firmom kroz delegiranje, pa može da proveri Vaš kalendar i zakaže termine, što ChatGPT sam ne može da uradi za Vaše klijente.
 
 ### Šta je AI glasovni agent?
 
-AI glasovni agent je softver koji odgovara na pozive prirodnim govorom i tokom poziva obavlja zadatke, kao što su zakazivanje termina ili primanje poruke. LobbyStack AI glasovni agent radi kao recepcioner za male firme koje propuštaju pozive dok su zauzete klijentima.
+AI glasovni agent je softver koji odgovara na pozive prirodnim govorom i tokom poziva obavlja zadatke, kao što su zakazivanje termina ili primanje poruke. Palakarimpu AI AI glasovni agent radi kao recepcioner za male firme koje propuštaju pozive dok su zauzete klijentima.
 
 ### Da li treba da promenim broj telefona?
 
-Ne. Starter i Pro uključuju poseban LobbyStack broj. Preusmerite svoj postojeći broj na njega ili mu šaljite samo pozive van radnog vremena i pozive kada su svi zauzeti.
+Ne. Starter i Pro uključuju poseban Palakarimpu AI broj. Preusmerite svoj postojeći broj na njega ili mu šaljite samo pozive van radnog vremena i pozive kada su svi zauzeti.
 
 ## Poslušajte sami
 
-Najbrži način da procenite glasovni model je da razgovarate sa njim. Isprobajte dugme za poziv na [našoj početnoj stranici](/sr/) i pitajte ga o LobbyStack-u ili [napravite besplatan nalog](https://app.lobbystack.com/sr/signup) i za nekoliko minuta testirajte svog recepcionera iz pregledača. Pogledajte [cene](/sr/pricing/) kada budete spremni da ga stavite na svoju telefonsku liniju.
+Najbrži način da procenite glasovni model je da razgovarate sa njim. Isprobajte dugme za poziv na [našoj početnoj stranici](/sr/) i pitajte ga o Palakarimpu AI-u ili [napravite besplatan nalog](https://app.lobbystack.com/sr/signup) i za nekoliko minuta testirajte svog recepcionera iz pregledača. Pogledajte [cene](/sr/pricing/) kada budete spremni da ga stavite na svoju telefonsku liniju.

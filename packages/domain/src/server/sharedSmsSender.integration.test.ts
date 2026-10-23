@@ -39,7 +39,7 @@ async function rollbackTest(run: (tx: DatabaseTransaction) => Promise<void>) {
   }
 }
 
-// The toll-free number LobbyStack verified for every cloud business.
+// The toll-free number Palakarimpu AI verified for every cloud business.
 const SHARED = "+18446562290";
 /** A North American number no other fixture uses, so a STOP finds only this test's contacts. */
 const phone = () => `+1647${String(randomInt(0, 10_000_000)).padStart(7, "0")}`;

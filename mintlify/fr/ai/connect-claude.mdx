@@ -1,11 +1,11 @@
 ---
 title: "Connecter Claude"
-description: "Ajoutez LobbyStack à Claude comme connecteur, ou à Claude Code, Claude Desktop et l'API Claude avec une clé API."
+description: "Ajoutez Palakarimpu AI à Claude comme connecteur, ou à Claude Code, Claude Desktop et l'API Claude avec une clé API."
 sidebarTitle: "Claude"
 contentType: "How-to"
 ---
 
-L'URL du serveur est `https://app.lobbystack.com/api/mcp`. Si vous auto-hébergez LobbyStack, remplacez `app.lobbystack.com` par votre propre domaine. Claude s'y connecte depuis Internet : un LobbyStack auto-hébergé a donc besoin d'une adresse HTTPS publique.
+L'URL du serveur est `https://app.lobbystack.com/api/mcp`. Si vous auto-hébergez Palakarimpu AI, remplacez `app.lobbystack.com` par votre propre domaine. Claude s'y connecte depuis Internet : un Palakarimpu AI auto-hébergé a donc besoin d'une adresse HTTPS publique.
 
 Consultez [Serveur MCP](/fr/ai/mcp) pour savoir quels outils chaque autorisation débloque.
 
@@ -13,19 +13,19 @@ Consultez [Serveur MCP](/fr/ai/mcp) pour savoir quels outils chaque autorisation
 
 <Steps>
   <Step title="Ajouter le connecteur">
-    Dans Claude, allez dans **Customize** > **Connectors**, cliquez sur **+**, puis sur **Add custom connector**. Nommez-le `LobbyStack`, collez l'URL du serveur et cliquez sur **Add**. Laissez **Advanced settings** vide.
+    Dans Claude, allez dans **Customize** > **Connectors**, cliquez sur **+**, puis sur **Add custom connector**. Nommez-le `Palakarimpu AI`, collez l'URL du serveur et cliquez sur **Add**. Laissez **Advanced settings** vide.
 
     Avec les forfaits Team et Enterprise, un propriétaire l'ajoute dans **Organization settings** > **Connectors**, puis chaque membre le connecte depuis **Customize** > **Connectors**.
   </Step>
   <Step title="Connecter et se connecter">
-    Cliquez sur **Connect**. Claude ouvre LobbyStack. Connectez-vous si ce n'est pas déjà fait.
+    Cliquez sur **Connect**. Claude ouvre Palakarimpu AI. Connectez-vous si ce n'est pas déjà fait.
   </Step>
   <Step title="Choisir l'entreprise et les autorisations">
     Choisissez l'entreprise, décochez ce que Claude ne doit pas faire et cliquez sur **Autoriser l'accès**. Vous revenez dans Claude, connecté.
   </Step>
 </Steps>
 
-Pour déconnecter Claude, allez dans **Réglages** > **Applications connectées** dans LobbyStack et cliquez sur **Déconnecter** à côté de Claude.
+Pour déconnecter Claude, allez dans **Réglages** > **Applications connectées** dans Palakarimpu AI et cliquez sur **Déconnecter** à côté de Claude.
 
 ## Claude Code
 
@@ -35,7 +35,7 @@ Ajoutez le serveur, puis connectez-vous depuis Claude Code :
 claude mcp add --transport http lobbystack https://app.lobbystack.com/api/mcp
 ```
 
-Lancez Claude Code, exécutez `/mcp`, sélectionnez `lobbystack` et choisissez de vous authentifier. Votre navigateur ouvre la page de connexion et d'autorisation de LobbyStack.
+Lancez Claude Code, exécutez `/mcp`, sélectionnez `lobbystack` et choisissez de vous authentifier. Votre navigateur ouvre la page de connexion et d'autorisation de Palakarimpu AI.
 
 Pour utiliser plutôt une clé API, passez-la dans un en-tête :
 
@@ -46,13 +46,13 @@ claude mcp add --transport http lobbystack https://app.lobbystack.com/api/mcp \
 
 ## Claude Desktop avec une clé API
 
-Si vous préférez utiliser une clé API plutôt que le connecteur, exécutez [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) depuis le fichier de configuration de Claude Desktop. Il transmet les requêtes à LobbyStack avec votre clé. Node.js doit être installé sur votre ordinateur.
+Si vous préférez utiliser une clé API plutôt que le connecteur, exécutez [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) depuis le fichier de configuration de Claude Desktop. Il transmet les requêtes à Palakarimpu AI avec votre clé. Node.js doit être installé sur votre ordinateur.
 
 <Steps>
   <Step title="Ouvrir le fichier de configuration">
     Dans Claude Desktop, allez dans **Settings** > **Developer** et cliquez sur **Edit Config**.
   </Step>
-  <Step title="Ajouter LobbyStack">
+  <Step title="Ajouter Palakarimpu AI">
     Ajoutez cette entrée sous `mcpServers` et collez votre clé à la place de `lsk_...` :
 
     ```json claude_desktop_config.json
@@ -78,7 +78,7 @@ Si vous préférez utiliser une clé API plutôt que le connecteur, exécutez [`
     La valeur de l'en-tête se trouve dans `env`, car certains systèmes découpent les arguments au niveau des espaces.
   </Step>
   <Step title="Redémarrer Claude Desktop">
-    Quittez puis rouvrez l'application. Les outils de LobbyStack apparaissent dans le menu des outils d'une nouvelle conversation.
+    Quittez puis rouvrez l'application. Les outils de Palakarimpu AI apparaissent dans le menu des outils d'une nouvelle conversation.
   </Step>
 </Steps>
 

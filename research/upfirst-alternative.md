@@ -14,7 +14,7 @@ Upfirst sells a self-serve AI answering service for small businesses. Its public
 
 ## Fair comparison
 
-Upfirst offers a polished setup and broad receptionist features. Its per-call billing can suit long conversations. A business with many short calls should compare the call allowance against LobbyStack's minute allowance. LobbyStack's clearest distinctions are public source code, self-hosting, and control over the deployment and providers.
+Upfirst offers a polished setup and broad receptionist features. Its per-call billing can suit long conversations. A business with many short calls should compare the call allowance against Palakarimpu AI's minute allowance. Palakarimpu AI's clearest distinctions are public source code, self-hosting, and control over the deployment and providers.
 
 ## Claims to avoid
 

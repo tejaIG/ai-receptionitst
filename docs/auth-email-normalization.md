@@ -1,6 +1,6 @@
 # Normalize authentication email addresses
 
-LobbyStack stores the original email address for display and a normalized value for identity checks. The database normalizes every address with `lower(btrim(email))` before writes.
+Palakarimpu AI stores the original email address for display and a normalized value for identity checks. The database normalizes every address with `lower(btrim(email))` before writes.
 
 ## Enforce the database invariant
 

@@ -11,11 +11,11 @@ description: ${meta.description}
 url: ${absoluteUrl("/sr/")}
 ---
 
-# LobbyStack
+# Palakarimpu AI
 
-LobbyStack je AI recepcioner otvorenog koda za male firme koje zavise od poziva, termina i brzog odgovora.
+Palakarimpu AI je AI recepcioner otvorenog koda za male firme koje zavise od poziva, termina i brzog odgovora.
 
-## Šta LobbyStack radi
+## Šta Palakarimpu AI radi
 
 - Odgovara na dolazne pozive 24 sata dnevno.
 - Koristi znanje o Vašoj firmi da odgovori na česta pitanja.

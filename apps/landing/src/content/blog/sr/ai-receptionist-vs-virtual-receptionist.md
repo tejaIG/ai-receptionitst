@@ -4,7 +4,7 @@ seoTitle: "AI ili virtuelni recepcioner: cena i pokrivenost"
 description: "Uporedite AI i ljudske virtuelne recepcionere po ceni, broju poziva, empatiji, zakazivanju, preusmeravanju i nadzoru i izaberite pravu telefonsku podršku."
 pubDate: 2026-07-30T09:50:00-04:00
 updatedDate: 2026-07-30T09:50:00-04:00
-author: "LobbyStack tim"
+author: "Palakarimpu AI tim"
 category: "Poređenja"
 featured: false
 coverImage: "/illustrations/ai-receptionist-vs-virtual-receptionist-hero.webp"
@@ -123,9 +123,9 @@ Podela treba da prati rizik i vrednost. Automatizujte posao koji se ponavlja. Lj
 - Šta se dešava kada red čekanja naglo poraste?
 - Kako se naplaćuju preusmeravanja i spam pozivi?
 
-## Kako LobbyStack pristupa podeli
+## Kako Palakarimpu AI pristupa podeli
 
-[LobbyStack](/sr/features/) obrađuje rutinska pitanja, prijem zahteva, zakazivanje, izmene termina, rezimee i podešena preusmeravanja. Vaš tim zadržava pozive koji traže stručnost ili empatiju.
+[Palakarimpu AI](/sr/features/) obrađuje rutinska pitanja, prijem zahteva, zakazivanje, izmene termina, rezimee i podešena preusmeravanja. Vaš tim zadržava pozive koji traže stručnost ili empatiju.
 
 Kod je [javan na GitHubu](https://github.com/lobbystack/lobbystack), a timovi mogu da koriste upravljanu cloud verziju ili da [sami hostuju stek](https://docs.lobbystack.com/self-hosting/overview). Samostalno hostovanje daje više kontrole, ali traži tehničku odgovornost.
 
@@ -133,4 +133,4 @@ Kod je [javan na GitHubu](https://github.com/lobbystack/lobbystack), a timovi mo
 
 Izaberite AI kada je obim poziva predvidljiv, brzina je važna i posao prati jasna pravila. Izaberite ljudsku službu kada pozivi zavise od empatije, improvizacije ili spoljnog osoblja kojim neko drugi upravlja.
 
-Većina firmi treba da testira hibridni model. Počnite sa pozivima koji se prelivaju ili pozivima van radnog vremena, pregledajte rezultate, a zatim proširite pozive koje sistem dobro obrađuje. [Isprobajte LobbyStack besplatno](https://app.lobbystack.com/sr/signup) ako želite da testirate taj model na sopstvenim scenarijima poziva.
+Većina firmi treba da testira hibridni model. Počnite sa pozivima koji se prelivaju ili pozivima van radnog vremena, pregledajte rezultate, a zatim proširite pozive koje sistem dobro obrađuje. [Isprobajte Palakarimpu AI besplatno](https://app.lobbystack.com/sr/signup) ako želite da testirate taj model na sopstvenim scenarijima poziva.

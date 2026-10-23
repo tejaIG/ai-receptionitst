@@ -2,7 +2,7 @@
 title: "AI receptionist workflows without flowcharts"
 description: "AI receptionist workflows break when call behavior lives across prompts, webhooks, and branches. Use plain-language policy plus trusted tools instead."
 pubDate: 2026-06-18T09:00:00-04:00
-author: "LobbyStack Team"
+author: "Palakarimpu AI Team"
 category: "Guides"
 featured: false
 coverImage: "/illustrations/ai-receptionist-workflows-hero.webp"
@@ -124,7 +124,7 @@ callback window, name, and best phone number. If the request sounds urgent,
 say so at the top of the message.
 ```
 
-The receptionist can turn caller language into a staff-ready message. LobbyStack keeps the reason, callback window, and urgency with the transcript and alerts the owner.
+The receptionist can turn caller language into a staff-ready message. Palakarimpu AI keeps the reason, callback window, and urgency with the transcript and alerts the owner.
 
 ### Handoff
 
@@ -141,28 +141,28 @@ tell the caller when the team will respond.
 
 The business gets a safer handoff because the AI has a policy, the voice layer executes the transfer, and the backend records the outcome.
 
-## LobbyStack replaces the receptionist workflow chain
+## Palakarimpu AI replaces the receptionist workflow chain
 
 Workflow tools can handle business automations outside the call. They make a poor live receptionist.
 
 If your AI receptionist depends on a chain of branches to decide what to say, when to book, when to transfer, how to recover from a failed tool call, and how to record the call outcome, you are asking a workflow builder to behave like a phone product.
 
-LobbyStack replaces that layer. It owns the live call behavior, call state, tool results, transcript context, handoff reason, and final outcome.
+Palakarimpu AI replaces that layer. It owns the live call behavior, call state, tool results, transcript context, handoff reason, and final outcome.
 
-You may still use n8n, Zapier, or Make for automations outside the call. LobbyStack does not connect to them or send outgoing webhooks, so they stay off the live call. The AI receptionist should be able to decide the next responsible action during the call, then record a clean outcome staff can trust.
+You may still use n8n, Zapier, or Make for automations outside the call. Palakarimpu AI does not connect to them or send outgoing webhooks, so they stay off the live call. The AI receptionist should be able to decide the next responsible action during the call, then record a clean outcome staff can trust.
 
-## Where LobbyStack fits
+## Where Palakarimpu AI fits
 
-[LobbyStack](/blog/open-source-ai-receptionist-stack/) is an open-source AI receptionist platform. It gives you the receptionist product layer: calls, booking, transcripts, recordings, call summaries, messages, owner alerts, handoff, dashboard review, usage, and billing.
+[Palakarimpu AI](/blog/open-source-ai-receptionist-stack/) is an open-source AI receptionist platform. It gives you the receptionist product layer: calls, booking, transcripts, recordings, call summaries, messages, owner alerts, handoff, dashboard review, usage, and billing.
 
 You can use the hosted cloud when speed matters, or [self-host with Docker](/solutions/self-hosted-ai-receptionist/) when you want the stack on your own infrastructure or a client's servers.
 
-The behavior model stays readable. You describe what the receptionist should do in plain language. LobbyStack uses tools for actions that need authority, such as checking availability, booking, taking a message, changing an appointment, or transferring a call.
+The behavior model stays readable. You describe what the receptionist should do in plain language. Palakarimpu AI uses tools for actions that need authority, such as checking availability, booking, taking a message, changing an appointment, or transferring a call.
 
 Teams still need to test calls, review transcripts, and tune the business policy. Phone systems deserve that care.
 
 The difference is where the complexity lives. You should spend your time improving the front-desk policy, not chasing the same rule through prompts, webhook branches, calendar constraints, and alert templates.
 
-Start with [LobbyStack Cloud](https://lobbystack.com/) if you want to test the product. Use the [self-hosting docs](https://docs.lobbystack.com/self-hosting/overview) if you want to run it yourself. The code is public on [GitHub](https://github.com/lobbystack/lobbystack).
+Start with [Palakarimpu AI Cloud](https://lobbystack.com/) if you want to test the product. Use the [self-hosting docs](https://docs.lobbystack.com/self-hosting/overview) if you want to run it yourself. The code is public on [GitHub](https://github.com/lobbystack/lobbystack).
 
 If you are deciding between building, buying, and wiring workflow tools into calls, read [should you build or buy an AI receptionist](/blog/build-or-buy-ai-receptionist/) and [how to choose an AI receptionist](/blog/how-to-choose-an-ai-receptionist/).

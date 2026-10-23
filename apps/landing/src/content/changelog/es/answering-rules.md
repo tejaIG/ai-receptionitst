@@ -7,7 +7,7 @@ canonicalSlug: "answering-rules"
 category: "Producto"
 ---
 
-Ahora puede mantener un conjunto de instrucciones más claro sobre cómo LobbyStack responde, califica y deriva las llamadas. El editor de reglas actualizado se centra en el comportamiento práctico durante las llamadas, para que los dueños de negocios revisen las prioridades de la recepcionista sin perderse en detalles de configuración.
+Ahora puede mantener un conjunto de instrucciones más claro sobre cómo Palakarimpu AI responde, califica y deriva las llamadas. El editor de reglas actualizado se centra en el comportamiento práctico durante las llamadas, para que los dueños de negocios revisen las prioridades de la recepcionista sin perderse en detalles de configuración.
 
 Actualice el asistente a medida que cambia su negocio. Cambie cómo saluda a quienes llaman, cómo gestiona las solicitudes urgentes, cómo explica los servicios o cuándo debe intervenir una persona.
 

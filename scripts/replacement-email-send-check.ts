@@ -71,7 +71,7 @@ async function startSmtpSink(): Promise<{ port: number; messages: string[]; clos
 async function main(): Promise<void> {
   const sink = await startSmtpSink();
   try {
-    const email = new SmtpEmailProvider({ host: "127.0.0.1", port: sink.port, secure: false, username: "", password: "", from: "LobbyStack <no-reply@example.test>" });
+    const email = new SmtpEmailProvider({ host: "127.0.0.1", port: sink.port, secure: false, username: "", password: "", from: "Palakarimpu AI <no-reply@example.test>" });
     const domain = { db: undefined as never };
     const first = await handleJob({ jobId: "00000000-0000-0000-0000-000000000001", type: "email.send", queue: "default", businessId: null, payload: { template: "operator_alert", to: "operator@example.test", subject: "Operator alert", variables: { message: "A live SMTP proof message." } }, trace: {}, idempotencyKey: "smtp-proof:01", scheduled: false }, { domain, email });
     const second = await handleJob({ jobId: "00000000-0000-0000-0000-000000000002", type: "email.send", queue: "default", businessId: null, payload: { template: "operator_alert", to: "operator@example.test", subject: "Operator alert", variables: { message: "A live SMTP proof message." } }, trace: {}, idempotencyKey: "smtp-proof:01", scheduled: false }, { domain, email });

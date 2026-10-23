@@ -47,7 +47,7 @@
     "submitFailed": "Trenutno ne možemo da sačuvamo firmu. Pokušajte ponovo."
   },
   "website": {
-    "title": "Sada ćemo obučiti LobbyStack pomoću Vašeg sajta",
+    "title": "Sada ćemo obučiti Palakarimpu AI pomoću Vašeg sajta",
     "description": "",
     "label": "Sajt",
     "placeholder": "mojafirma.rs",
@@ -136,7 +136,7 @@
     "continue": "Nastavi"
   },
   "attribution": {
-    "title": "Kako ste čuli za LobbyStack?",
+    "title": "Kako ste čuli za Palakarimpu AI?",
     "description": "Tako znamo šta funkcioniše.",
     "options": {
       "ai_assistant": "ChatGPT, Claude i sl.",
@@ -187,7 +187,7 @@
         "name": "Free",
         "price": "0 $",
         "period": "",
-        "description": "Isprobajte LobbyStack uz dovoljno potrošnje da vidite kako radi.",
+        "description": "Isprobajte Palakarimpu AI uz dovoljno potrošnje da vidite kako radi.",
         "cta": "Počnite besplatno",
         "highlights": {
           "voiceMinutes": "30 minuta razgovora u pregledaču",

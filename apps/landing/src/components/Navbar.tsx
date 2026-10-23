@@ -60,7 +60,7 @@ const labels = {
     resources: "Resources",
     pricing: "Pricing",
     login: "Log in",
-    github: "LobbyStack on GitHub",
+    github: "Palakarimpu AI on GitHub",
     tryFree: "Try for free",
     blog: "Blog",
     changelog: "Changelog",
@@ -76,7 +76,7 @@ const labels = {
     resources: "Ressources",
     pricing: "Tarifs",
     login: "Connexion",
-    github: "LobbyStack sur GitHub",
+    github: "Palakarimpu AI sur GitHub",
     tryFree: "Essayer gratuitement",
     blog: "Blog",
     changelog: "Journal des changements",
@@ -92,7 +92,7 @@ const labels = {
     resources: "Recursos",
     pricing: "Precios",
     login: "Iniciar sesión",
-    github: "LobbyStack en GitHub",
+    github: "Palakarimpu AI en GitHub",
     tryFree: "Pruébelo gratis",
     blog: "Blog",
     changelog: "Registro de cambios",
@@ -108,7 +108,7 @@ const labels = {
     resources: "Resursi",
     pricing: "Cene",
     login: "Prijava",
-    github: "LobbyStack na GitHub-u",
+    github: "Palakarimpu AI na GitHub-u",
     tryFree: "Isprobajte besplatno",
     blog: "Blog",
     changelog: "Dnevnik izmena",
@@ -388,7 +388,7 @@ export function Navbar({ locale = "en" }: NavbarProps) {
         >
           <img
             src="/lobbystack-logo.svg"
-            alt="LobbyStack"
+            alt="Palakarimpu AI"
             width={155}
             height={43}
             decoding="async"

@@ -10,7 +10,7 @@ import { recordCallOutcomeInTransaction } from "./callOutcome";
 import { consumeAppointmentChangeVerificationInTransaction } from "./appointmentChanges";
 import { recordSmsConsentAnswerInTransaction, type SmsConsentAnswer, type SmsConsentOnFile } from "./contactSmsConsent";
 import { recordProductEventBestEffort } from "./productEvents";
-import { CANCELLATION_CONFIRMATION, rescheduleAppointmentReminderInTransaction } from "./notifications";
+import { CANCELLATION_CONFIRMATION, WHATSAPP_BOOKING_CONFIRMATION, rescheduleAppointmentReminderInTransaction } from "./notifications";
 import { emitWebhookEventInTransaction } from "./publicApi/webhooks";
 import { CANCELLATION_REQUEST } from "./voice";
 
@@ -277,6 +277,29 @@ export async function bookAppointment(
       dedupeKey: `notification:${confirmation.id}:dispatch`,
       payload: { notificationId: confirmation.id },
     });
+    // A business that turned on WhatsApp also confirms to the customer there. Delivery
+    // still checks the customer agreed to texts and that WhatsApp is set up.
+    const [whatsappSetting] = await tx.select({ enabled: businesses.whatsappConfirmationsEnabled }).from(businesses).where(eq(businesses.id, input.businessId)).limit(1);
+    if (whatsappSetting?.enabled) {
+      const [whatsappConfirmation] = await tx.insert(notifications).values({
+        businessId: input.businessId,
+        channel: "whatsapp",
+        kind: WHATSAPP_BOOKING_CONFIRMATION,
+        relatedId: appointment.id,
+        scheduledFor: new Date(),
+        status: "pending",
+      }).onConflictDoNothing().returning({ id: notifications.id });
+      if (whatsappConfirmation) {
+        await enqueueOutbox(tx, {
+          topic: "notification.dispatch",
+          businessId: input.businessId,
+          aggregateType: "appointment",
+          aggregateId: appointment.id,
+          dedupeKey: `notification:${whatsappConfirmation.id}:dispatch`,
+          payload: { notificationId: whatsappConfirmation.id },
+        });
+      }
+    }
     const reminderAt = new Date(startsAt.getTime() - 24 * 60 * 60 * 1000);
     if (reminderAt > new Date()) {
       const [reminder] = await tx.insert(notifications).values({

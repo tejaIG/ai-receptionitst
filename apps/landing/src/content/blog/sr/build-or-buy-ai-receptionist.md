@@ -1,8 +1,8 @@
 ---
 title: "Da li da napravite ili kupite AI recepcionera?"
-description: "Uporedite izradu AI recepcionera od nule, kupovinu hostovanog alata i samostalno hostovanje open-source rešenja LobbyStack pre nego što uložite ozbiljno vreme ili budžet."
+description: "Uporedite izradu AI recepcionera od nule, kupovinu hostovanog alata i samostalno hostovanje open-source rešenja Palakarimpu AI pre nego što uložite ozbiljno vreme ili budžet."
 pubDate: 2026-06-12T09:00:00-04:00
-author: "LobbyStack tim"
+author: "Palakarimpu AI tim"
 category: "Vodiči"
 featured: false
 coverImage: "/illustrations/build-or-buy-ai-receptionist-hero.webp"
@@ -14,7 +14,7 @@ Da li da sami napravite softver za AI recepcionera ili da koristite nešto što 
 
 Taj deo većina razgovora o izradi i kupovini preskače. Demo koji radi može da se napravi brzo. Recepcioner koji obrađuje stvarne pozivaoce, uredno zakazuje, bezbedno eskalira, preživi otkaze dobavljača i ne bruka firmu je nešto sasvim drugo.
 
-Ovaj vodič je za timove koji odmeravaju stvarni kompromis: izrada od temelja, kupovina hostovanog AI recepcionera ili polazak od open-source osnove kao što je LobbyStack, uz samostalno hostovanje.
+Ovaj vodič je za timove koji odmeravaju stvarni kompromis: izrada od temelja, kupovina hostovanog AI recepcionera ili polazak od open-source osnove kao što je Palakarimpu AI, uz samostalno hostovanje.
 
 ## Kratak odgovor: ne počinjite od koda
 
@@ -131,9 +131,9 @@ Budite oprezni i s preterano samouverenim tvrdnjama o veštačkoj inteligenciji.
 
 Postoji srednji put između „napravite svaki deo sami“ i „verujte crnoj kutiji“.
 
-Možete da krenete od [open-source AI recepcionera](/solutions/open-source-ai-receptionist/) i da ga sami hostujete kada Vam zatreba više kontrole. Tu se uklapa LobbyStack.
+Možete da krenete od [open-source AI recepcionera](/solutions/open-source-ai-receptionist/) i da ga sami hostujete kada Vam zatreba više kontrole. Tu se uklapa Palakarimpu AI.
 
-LobbyStack je open-source AI recepcioner za firme koje zavise od telefonskih poziva i zakazivanja. Daje Vam osnovu koja radi za javljanje na pozive, znanje o firmi, zakazivanje termina, predaju čoveku, transkripte, rezimee i pravila koja možete da podesite, bez potrebe da krenete od praznog repozitorijuma.
+Palakarimpu AI je open-source AI recepcioner za firme koje zavise od telefonskih poziva i zakazivanja. Daje Vam osnovu koja radi za javljanje na pozive, znanje o firmi, zakazivanje termina, predaju čoveku, transkripte, rezimee i pravila koja možete da podesite, bez potrebe da krenete od praznog repozitorijuma.
 
 Ključne reči su „osnova koja radi“. Open source ne uklanja održavanje. Prebacuje održavanje pod Vašu kontrolu.
 
@@ -213,7 +213,7 @@ Evo direktne verzije.
 | --- | --- | --- |
 | Izrada od nule | Imate inženjerske kapacitete, neobične radne tokove, stroge zahteve za integracije, a automatizacija telefona je strateški važna. | Spor prvi početak rada, skriveno održavanje, posao oko usklađenosti, otkazi dobavljača i stalno testiranje kvaliteta. |
 | Kupovina hostovanog rešenja | Potrebna Vam je brza pokrivenost, a Vaši pozivi se uklapaju u postojeći radni tok dobavljača. | Vezanost za dobavljača, netransparentno usmeravanje, ograničenja u ceni, ograničenja izvoza i manje prilagođavanja. |
-| Samostalno hostovanje LobbyStacka | Želite open-source polaznu tačku, kontrolu nad podacima, prilagođavanje i mogućnost da pregledate ili izmenite sistem. | I dalje Vam treba neko ko je zadužen za postavljanje, nadogradnje, nadzor i podešavanje dobavljača. |
+| Samostalno hostovanje Palakarimpu AI | Želite open-source polaznu tačku, kontrolu nad podacima, prilagođavanje i mogućnost da pregledate ili izmenite sistem. | I dalje Vam treba neko ko je zadužen za postavljanje, nadogradnje, nadzor i podešavanje dobavljača. |
 | Hibridno rešenje | Želite AI za rutinske pozive, a ljude za hitne, emotivne, složene ili vredne pozive. | Možda ćete plaćati i softver i ljudsku pokrivenost, pa pravila usmeravanja moraju da budu jasna. |
 
 Odluka se obično svodi na jednu rečenicu:
@@ -228,12 +228,12 @@ Ako je Vaš radni tok uobičajen i treba Vam da se na pozive javlja odmah, kupit
 
 Ako je Vaš radni tok neobičan, regulisan ili dovoljno važan da biste ga posedovali, dobro razmotrite open source pre nego što krenete od nule. Za pregled opcija sa samostalnim hostovanjem pogledajte poređenje [najboljih open-source AI usluga za javljanje na telefon](/sr/blog/best-open-source-ai-phone-answering-services/).
 
-Ako želite praktično mesto za početak, pregledajte [funkcije LobbyStacka](/sr/features/), uporedite [LobbyStack cene](/sr/pricing/) i pogledajte opcije [open-source AI recepcionera](/solutions/open-source-ai-receptionist/) i [AI recepcionera sa samostalnim hostovanjem](/solutions/self-hosted-ai-receptionist/). Ako ste tek na početku procene dobavljača, prateći vodič o tome [kako izabrati AI recepcionera](/sr/blog/how-to-choose-an-ai-receptionist/) može Vam pomoći da testirate proizvode na stvarnim scenarijima poziva. Ako Vas privlači da povežete n8n ili Zapier sa pozivima uživo, prvo pročitajte tekst o [radnim tokovima AI recepcionera bez dijagrama toka](/sr/blog/ai-receptionist-workflows/).
+Ako želite praktično mesto za početak, pregledajte [funkcije Palakarimpu AI](/sr/features/), uporedite [Palakarimpu AI cene](/sr/pricing/) i pogledajte opcije [open-source AI recepcionera](/solutions/open-source-ai-receptionist/) i [AI recepcionera sa samostalnim hostovanjem](/solutions/self-hosted-ai-receptionist/). Ako ste tek na početku procene dobavljača, prateći vodič o tome [kako izabrati AI recepcionera](/sr/blog/how-to-choose-an-ai-receptionist/) može Vam pomoći da testirate proizvode na stvarnim scenarijima poziva. Ako Vas privlači da povežete n8n ili Zapier sa pozivima uživo, prvo pročitajte tekst o [radnim tokovima AI recepcionera bez dijagrama toka](/sr/blog/ai-receptionist-workflows/).
 
 Ukratko:
 
 - Pravite kada je radni tok recepcionera strateški važan i možete da ga održavate.
 - Kupujte kada su brzina i podrška važnije od duboke kontrole.
-- Hostujte LobbyStack sami kada želite pravu polaznu tačku, a ne crnu kutiju.
+- Hostujte Palakarimpu AI sami kada želite pravu polaznu tačku, a ne crnu kutiju.
 
 Najbolji AI recepcioner nije onaj s najblistavijim demom. To je onaj kome Vaša firma može da veruje i koga može da ažurira, pregleda i priušti i kada prođe prvi mesec.

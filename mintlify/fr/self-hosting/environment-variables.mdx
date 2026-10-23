@@ -1,6 +1,6 @@
 ---
 title: "Configurer les variables d'environnement"
-description: "Les principales variables d'environnement de l'admin, du worker, des appels vocaux, du stockage et des fournisseurs de LobbyStack."
+description: "Les principales variables d'environnement de l'admin, du worker, des appels vocaux, du stockage et des fournisseurs de Palakarimpu AI."
 sidebarTitle: "Variables d'environnement"
 contentType: "Reference"
 ---
@@ -70,7 +70,7 @@ Les livraisons de webhooks refusent les adresses privées, de bouclage, de liais
 
 | Variable | Rôle |
 | --- | --- |
-| `OTEL_EXPORTER_OTLP_ENDPOINT` | URL de base OTLP. LobbyStack ajoute `/v1/traces`, `/v1/metrics` et `/v1/logs`. Laissez-la vide pour désactiver l'export. |
+| `OTEL_EXPORTER_OTLP_ENDPOINT` | URL de base OTLP. Palakarimpu AI ajoute `/v1/traces`, `/v1/metrics` et `/v1/logs`. Laissez-la vide pour désactiver l'export. |
 | `OTEL_EXPORTER_OTLP_HEADERS` | En-têtes `key=value` facultatifs, séparés par des virgules, envoyés avec chaque requête OTLP. Pour PostHog, utilisez `Authorization=Bearer your_posthog_project_token_here`. |
 
 Un point de terminaison OTLP vide ne désactive ni les journaux stdout des conteneurs, ni les points de terminaison de santé de l'application, ni l'analytique produit directe, ni le signalement direct des erreurs.
@@ -89,7 +89,7 @@ Un point de terminaison OTLP vide ne désactive ni les journaux stdout des conte
 | `AI_DELEGATION_REASONING_EFFORT` | OpenAI seulement : effort de raisonnement pour les réponses pendant les appels. Vaut `low` par défaut, qui répond en environ deux fois moins de temps que `high`. Le clavardage du site garde `AI_CHAT_REASONING_EFFORT`. |
 | `AI_DELEGATION_SERVICE_TIER` | OpenAI seulement : le niveau de traitement des réponses pendant les appels : `auto`, `default`, `flex` ou `priority`. Vaut `priority` par défaut, qui répond plus vite et coûte deux fois le prix standard par jeton. |
 | `AI_CHAT_INPUT_COST_PER_MILLION_TOKENS`, `AI_CHAT_CACHED_INPUT_COST_PER_MILLION_TOKENS`, `AI_CHAT_OUTPUT_COST_PER_MILLION_TOKENS` | Les prix du modèle `AI_CHAT_*` en dollars US par million de jetons, pour que le clavardage, les résumés d'appel et les réponses pendant les appels enregistrent leur coût. L'entrée en cache prend le prix d'entrée si vous la laissez vide. |
-| `AI_CHAT_PRICING_VERSION`, `AI_CHAT_PRICING_SOURCE`, `AI_CHAT_PRICING_EFFECTIVE_DATE` | Une étiquette, une URL source et la date de ces prix. LobbyStack n'enregistre un coût que si les trois sont définies. |
+| `AI_CHAT_PRICING_VERSION`, `AI_CHAT_PRICING_SOURCE`, `AI_CHAT_PRICING_EFFECTIVE_DATE` | Une étiquette, une URL source et la date de ces prix. Palakarimpu AI n'enregistre un coût que si les trois sont définies. |
 | `AI_EMBEDDING_API_KEY`, `AI_EMBEDDING_BASE_URL`, `AI_EMBEDDING_MODEL`, `AI_EMBEDDING_PROVIDER_NAME`, `AI_EMBEDDING_REVISION` | Embeddings compatibles OpenAI de 1536 dimensions. |
 | `WIDGET_SESSION_SECRET` | Signe les sessions cross-origin du widget du site Web. |
 | `FIRECRAWL_*` | Importation des connaissances à partir du site Web. |

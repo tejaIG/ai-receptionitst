@@ -11,11 +11,11 @@ description: ${meta.description}
 url: ${absoluteUrl("/es/")}
 ---
 
-# LobbyStack
+# Palakarimpu AI
 
-LobbyStack es una recepcionista con IA de código abierto para pequeñas empresas que dependen de las llamadas, las citas y una respuesta rápida.
+Palakarimpu AI es una recepcionista con IA de código abierto para pequeñas empresas que dependen de las llamadas, las citas y una respuesta rápida.
 
-## Qué hace LobbyStack
+## Qué hace Palakarimpu AI
 
 - Contesta las llamadas entrantes las 24 horas.
 - Usa el conocimiento de su negocio para responder preguntas frecuentes.

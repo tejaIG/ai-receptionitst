@@ -2,7 +2,7 @@
 title: "Koliko možete uštedeti uz AI recepcionera?"
 description: "Procenite uštede od AI recepcionera: niži troškovi odgovaranja na pozive i manje propuštenih poziva. Izračunajte brojke pomoću kalkulatora propuštenih poziva."
 pubDate: 2026-06-03T12:00:00-04:00
-author: "LobbyStack tim"
+author: "Palakarimpu AI tim"
 category: "Vodiči"
 featured: true
 coverImage: "/illustrations/ai-receptionist-savings-hero.webp"
@@ -61,7 +61,7 @@ Taj broj je obično dovoljno neprijatan i sam po sebi.
 
 ## Koristite kalkulator propuštenih poziva
 
-LobbyStack ima [kalkulator prihoda od propuštenih poziva](/sr/missed-call-revenue-calculator/) upravo iz tog razloga. Koristi formulu:
+Palakarimpu AI ima [kalkulator prihoda od propuštenih poziva](/sr/missed-call-revenue-calculator/) upravo iz tog razloga. Koristi formulu:
 
 ```text
 mesečni prihod u riziku =
@@ -105,7 +105,7 @@ Zato je prosečna vrednost klijenta toliko važna. Porudžbina od $45, hitna int
 
 Kada znate koliki je prihod u riziku, uporedite ga sa mesečnim troškom pokrivenosti.
 
-Uz [LobbyStack cene](/sr/pricing/), možete početi besplatno sa 30 minuta razgovora mesečno. Starter košta $30 mesečno, odnosno $24 mesečno uz godišnje plaćanje, i uključuje 150 minuta razgovora. Pro košta $100 mesečno, odnosno $80 mesečno uz godišnje plaćanje, i uključuje 500 minuta razgovora.
+Uz [Palakarimpu AI cene](/sr/pricing/), možete početi besplatno sa 30 minuta razgovora mesečno. Starter košta $30 mesečno, odnosno $24 mesečno uz godišnje plaćanje, i uključuje 150 minuta razgovora. Pro košta $100 mesečno, odnosno $80 mesečno uz godišnje plaćanje, i uključuje 500 minuta razgovora.
 
 U primeru iznad, firma koja iz propuštenih poziva povrati makar jednog klijenta od $300 verovatno je već pokrila mesec. Sa dva povraćena klijenta računica postaje očigledna.
 

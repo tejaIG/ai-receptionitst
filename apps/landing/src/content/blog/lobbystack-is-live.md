@@ -1,8 +1,8 @@
 ---
-title: "LobbyStack is live"
-description: "LobbyStack is now live: an open-source AI receptionist that answers calls, books appointments, and keeps teams in control."
+title: "Palakarimpu AI is live"
+description: "Palakarimpu AI is now live: an open-source AI receptionist that answers calls, books appointments, and keeps teams in control."
 pubDate: 2026-05-13T12:00:00-04:00
-author: "LobbyStack Team"
+author: "Palakarimpu AI Team"
 category: "Product updates"
 featured: false
 coverImage: "/illustrations/lobbystack-is-live-hero.webp"
@@ -12,19 +12,19 @@ canonicalSlug: "lobbystack-is-live"
 
 Most small businesses do not lose customers because they do bad work. They lose them because the phone rang while everyone was already doing the work.
 
-Today, [LobbyStack](https://lobbystack.com/) is live.
+Today, [Palakarimpu AI](https://lobbystack.com/) is live.
 
-LobbyStack is an **open-source AI receptionist** for businesses that depend on phone calls and bookings. It answers when your team is busy, closed, driving between jobs, or already helping another customer.
+Palakarimpu AI is an **open-source AI receptionist** for businesses that depend on phone calls and bookings. It answers when your team is busy, closed, driving between jobs, or already helping another customer.
 
 The goal is practical: **a good caller should not become a missed opportunity because they called at the wrong time.**
 
-Voicemail is not a workflow. LobbyStack is our answer to that.
+Voicemail is not a workflow. Palakarimpu AI is our answer to that.
 
 ## What it does
 
-[LobbyStack](https://lobbystack.com/features/) sits between your business phone and your team. You decide when it should answer: every call, after hours, during busy periods, or only when nobody picks up.
+[Palakarimpu AI](https://lobbystack.com/features/) sits between your business phone and your team. You decide when it should answer: every call, after hours, during busy periods, or only when nobody picks up.
 
-When a caller reaches LobbyStack, it can:
+When a caller reaches Palakarimpu AI, it can:
 
 - **answer questions** from your business knowledge
 - **capture caller details** like name, number, service need, location, and urgency
@@ -46,11 +46,11 @@ AI changed what is possible, but a lot of AI phone tools still feel like demos w
 
 Small businesses need something more practical than that. They need a receptionist that knows the business, follows instructions, books the appointment while the caller is still interested, and gets out of the way when a human should step in.
 
-That is the shape of LobbyStack.
+That is the shape of Palakarimpu AI.
 
 ## What makes it different
 
-LobbyStack is not a chatbot strapped to a phone number. It is a receptionist stack for calls that need an outcome.
+Palakarimpu AI is not a chatbot strapped to a phone number. It is a receptionist stack for calls that need an outcome.
 
 It is built around **control, not magic**.
 
@@ -58,27 +58,27 @@ You add the knowledge your receptionist should use: services, prices, hours, pol
 
 That matters because real calls are messy. People interrupt themselves. They ask two questions at once. They change their mind halfway through. They give the address before the service type. A rigid flowchart handles that badly.
 
-LobbyStack lets you describe the outcome in plain language:
+Palakarimpu AI lets you describe the outcome in plain language:
 
 > If someone asks for pricing, collect the service type, location, budget, and timeline. Share the approved price range when one exists. If they need exact pricing, take a message for the sales team.
 
 That is closer to how you would train a person, and closer to how your team already thinks about the work.
 
-There is another difference: LobbyStack does not make you pay for junk. Spam calls and calls under 10 seconds do not count against your plan, because nobody should be billed for wrong numbers, robocalls, or instant hang-ups.
+There is another difference: Palakarimpu AI does not make you pay for junk. Spam calls and calls under 10 seconds do not count against your plan, because nobody should be billed for wrong numbers, robocalls, or instant hang-ups.
 
 ## Open source by design
 
-LobbyStack is [open source](https://github.com/lobbystack/lobbystack) because phone calls contain real customer data, and businesses should not have to treat their front desk like a black box.
+Palakarimpu AI is [open source](https://github.com/lobbystack/lobbystack) because phone calls contain real customer data, and businesses should not have to treat their front desk like a black box.
 
 For many teams, the hosted version is the fastest way to get started. Create an account, connect the pieces, add your business knowledge, and go live.
 
-For teams with stricter privacy, compliance, or infrastructure needs, self-hosting is part of the product, not an afterthought. You can run LobbyStack on your own server, keep tighter control over customer data, and adapt the system around your own operational requirements.
+For teams with stricter privacy, compliance, or infrastructure needs, self-hosting is part of the product, not an afterthought. You can run Palakarimpu AI on your own server, keep tighter control over customer data, and adapt the system around your own operational requirements.
 
 That is a major difference from most receptionist software. We do not think trust should depend on a vendor asking you to take everything on faith.
 
 ## Built for the calls that actually decide revenue
 
-The first version of LobbyStack focuses on the everyday calls that decide whether work gets booked:
+The first version of Palakarimpu AI focuses on the everyday calls that decide whether work gets booked:
 
 - a new customer asking if you serve their area
 - someone trying to book, reschedule, or cancel
@@ -91,7 +91,7 @@ These are not edge cases. They are the ordinary calls that fill calendars, start
 
 ## Start small, then grow into it
 
-You can start with the [Free plan](https://lobbystack.com/pricing/), test calls in your browser, and see whether LobbyStack fits your business before putting it in front of more customers. The Pro plan is designed for production call coverage with transparent usage-based billing, and Enterprise is available for higher volume or self-hosted implementation support.
+You can start with the [Free plan](https://lobbystack.com/pricing/), test calls in your browser, and see whether Palakarimpu AI fits your business before putting it in front of more customers. The Pro plan is designed for production call coverage with transparent usage-based billing, and Enterprise is available for higher volume or self-hosted implementation support.
 
 Three things matter most in this first release:
 
@@ -103,6 +103,6 @@ We are live now, and this is still the beginning. The product will keep getting 
 
 **Answer the call. Understand the customer. Take the next useful step. Keep the business in control.**
 
-If missed calls are costing you good work, [try LobbyStack for free](https://app.lobbystack.com/en/signup) and let the next caller reach someone, even when your team is busy.
+If missed calls are costing you good work, [try Palakarimpu AI for free](https://app.lobbystack.com/en/signup) and let the next caller reach someone, even when your team is busy.
 
 For a deeper look at the product stack, read the [open-source AI receptionist stack overview](/blog/open-source-ai-receptionist-stack/). If you are evaluating vendors, start with [how to choose an AI receptionist](/blog/how-to-choose-an-ai-receptionist/) or [how much an AI receptionist can save](/blog/ai-receptionist-savings/).

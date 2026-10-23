@@ -1,6 +1,6 @@
 # ADR 0008: answer calls with GPT-Live and one agent core
 
-OpenAI hosts call audio, and LobbyStack's admin and worker run the call. This replaces the voice gateway from [ADR 0003](0003-separate-voice-gateway.md).
+OpenAI hosts call audio, and Palakarimpu AI's admin and worker run the call. This replaces the voice gateway from [ADR 0003](0003-separate-voice-gateway.md).
 
 ## Status
 
@@ -14,7 +14,7 @@ Answer every delegated request, and every website chat message, with one agent c
 
 ## Rationale
 
-The gateway existed to relay audio between Twilio Media Streams and OpenAI Realtime. With OpenAI terminating SIP and WebRTC, LobbyStack no longer carries audio, so a separate public runtime adds a service to deploy without adding a capability. The remaining work, recording the call, answering tool requests, and writing the outcome, uses the same domain code as the rest of the backend.
+The gateway existed to relay audio between Twilio Media Streams and OpenAI Realtime. With OpenAI terminating SIP and WebRTC, Palakarimpu AI no longer carries audio, so a separate public runtime adds a service to deploy without adding a capability. The remaining work, recording the call, answering tool requests, and writing the outcome, uses the same domain code as the rest of the backend.
 
 One agent core means website chat and calls book, reschedule, and take messages through the same tools and rules.
 

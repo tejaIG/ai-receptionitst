@@ -1,11 +1,11 @@
 ---
 title: "Connect Claude"
-description: "Add LobbyStack to Claude as a connector, or to Claude Code, Claude Desktop and the Claude API with an API key."
+description: "Add Palakarimpu AI to Claude as a connector, or to Claude Code, Claude Desktop and the Claude API with an API key."
 sidebarTitle: "Claude"
 contentType: "How-to"
 ---
 
-The server URL is `https://app.lobbystack.com/api/mcp`. Replace `app.lobbystack.com` with your own domain if you self-host. Claude connects to it from the internet, so a self-hosted LobbyStack needs a public HTTPS address.
+The server URL is `https://app.lobbystack.com/api/mcp`. Replace `app.lobbystack.com` with your own domain if you self-host. Claude connects to it from the internet, so a self-hosted Palakarimpu AI needs a public HTTPS address.
 
 See [MCP server](/ai/mcp) for the tools each permission unlocks.
 
@@ -13,19 +13,19 @@ See [MCP server](/ai/mcp) for the tools each permission unlocks.
 
 <Steps>
   <Step title="Add the connector">
-    In Claude, go to **Customize** > **Connectors**, click **+**, then **Add custom connector**. Name it `LobbyStack`, paste the server URL, and click **Add**. Leave **Advanced settings** empty.
+    In Claude, go to **Customize** > **Connectors**, click **+**, then **Add custom connector**. Name it `Palakarimpu AI`, paste the server URL, and click **Add**. Leave **Advanced settings** empty.
 
     On Team and Enterprise plans, an owner adds it under **Organization settings** > **Connectors**, and each member connects it from **Customize** > **Connectors**.
   </Step>
   <Step title="Connect and sign in">
-    Click **Connect**. Claude opens LobbyStack. Sign in if you aren't signed in already.
+    Click **Connect**. Claude opens Palakarimpu AI. Sign in if you aren't signed in already.
   </Step>
   <Step title="Choose the business and permissions">
     Pick the business, uncheck anything Claude shouldn't do, and click **Allow access**. You go back to Claude, connected.
   </Step>
 </Steps>
 
-To disconnect, go to **Settings** > **Connected apps** in LobbyStack and click **Disconnect** next to Claude.
+To disconnect, go to **Settings** > **Connected apps** in Palakarimpu AI and click **Disconnect** next to Claude.
 
 ## Claude Code
 
@@ -35,7 +35,7 @@ Add the server, then sign in from Claude Code:
 claude mcp add --transport http lobbystack https://app.lobbystack.com/api/mcp
 ```
 
-Start Claude Code, run `/mcp`, select `lobbystack` and choose to authenticate. Your browser opens the LobbyStack sign-in and consent page.
+Start Claude Code, run `/mcp`, select `lobbystack` and choose to authenticate. Your browser opens the Palakarimpu AI sign-in and consent page.
 
 To use an API key instead, pass it as a header:
 
@@ -46,13 +46,13 @@ claude mcp add --transport http lobbystack https://app.lobbystack.com/api/mcp \
 
 ## Claude Desktop with an API key
 
-If you'd rather use an API key than the connector, run [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) from Claude Desktop's config file. It forwards requests to LobbyStack with your key. You need Node.js on your computer.
+If you'd rather use an API key than the connector, run [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) from Claude Desktop's config file. It forwards requests to Palakarimpu AI with your key. You need Node.js on your computer.
 
 <Steps>
   <Step title="Open the config file">
     In Claude Desktop, go to **Settings** > **Developer** and click **Edit Config**.
   </Step>
-  <Step title="Add LobbyStack">
+  <Step title="Add Palakarimpu AI">
     Add this entry under `mcpServers` and paste your key in place of `lsk_...`:
 
     ```json claude_desktop_config.json
@@ -78,7 +78,7 @@ If you'd rather use an API key than the connector, run [`mcp-remote`](https://ww
     The header value sits in `env` because some systems split arguments on spaces.
   </Step>
   <Step title="Restart Claude Desktop">
-    Quit and reopen the app. LobbyStack's tools appear under the tools menu in a new chat.
+    Quit and reopen the app. Palakarimpu AI's tools appear under the tools menu in a new chat.
   </Step>
 </Steps>
 

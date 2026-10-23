@@ -12,22 +12,22 @@ const featuresCtaCopy = {
   en: {
     headingStart: "Stop letting missed calls decide your",
     headingEmphasis: "revenue",
-    body: "Let LobbyStack answer, qualify, quote, book, and notify your team day or night.",
+    body: "Let Palakarimpu AI answer, qualify, quote, book, and notify your team day or night.",
   },
   fr: {
     headingStart: "Ne laissez plus les appels manqués décider votre",
     headingEmphasis: "chiffre d’affaires",
-    body: "LobbyStack répond, qualifie, planifie et prévient votre équipe, même le soir et la fin de semaine.",
+    body: "Palakarimpu AI répond, qualifie, planifie et prévient votre équipe, même le soir et la fin de semaine.",
   },
   es: {
     headingStart: "Que las llamadas perdidas no decidan sus",
     headingEmphasis: "ingresos",
-    body: "Deje que LobbyStack conteste, califique, dé presupuestos, reserve y avise a su equipo de día o de noche.",
+    body: "Deje que Palakarimpu AI conteste, califique, dé presupuestos, reserve y avise a su equipo de día o de noche.",
   },
   sr: {
     headingStart: "Ne dozvolite da propušteni pozivi određuju Vaš",
     headingEmphasis: "prihod",
-    body: "Neka LobbyStack odgovara, kvalifikuje, daje cene, zakazuje i obaveštava Vaš tim danju i noću.",
+    body: "Neka Palakarimpu AI odgovara, kvalifikuje, daje cene, zakazuje i obaveštava Vaš tim danju i noću.",
   },
 } satisfies Record<Locale, Record<string, string>>
 

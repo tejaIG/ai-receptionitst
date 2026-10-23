@@ -15,7 +15,7 @@ Sona advertises 24/7 answering, knowledge-based responses, lead and message capt
 
 ## Fair comparison
 
-Sona makes sense for teams that already want Quo's shared phone and messaging workspace. LobbyStack is independent receptionist software with public code, booking workflows, and a self-hosted path.
+Sona makes sense for teams that already want Quo's shared phone and messaging workspace. Palakarimpu AI is independent receptionist software with public code, booking workflows, and a self-hosted path.
 
 ## Claims to avoid
 

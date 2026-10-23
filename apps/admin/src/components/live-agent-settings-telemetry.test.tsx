@@ -23,7 +23,7 @@ function setup(profile: Record<string, unknown> = {}) {
   clients.push(client);
   const fetchMock = vi.fn(async (_url: string, init?: RequestInit) => {
     if (init?.method === "PATCH") return Response.json({ ok: true });
-    return Response.json({ business: { defaultLocale: "en" }, profile: { greeting: "Hi there", summary: "Clinic uses LobbyStack to answer calls.", summarySource: "placeholder", transferNumber: null, transferMode: "none", appointmentChangePolicy: null, ...profile } });
+    return Response.json({ business: { defaultLocale: "en" }, profile: { greeting: "Hi there", summary: "Clinic uses Palakarimpu AI to answer calls.", summarySource: "placeholder", transferNumber: null, transferMode: "none", appointmentChangePolicy: null, ...profile } });
   });
   vi.stubGlobal("fetch", fetchMock);
   render(<QueryClientProvider client={client}><AgentBasicSettingsPage businessId="business" canManageTenant /></QueryClientProvider>);

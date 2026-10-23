@@ -18,10 +18,10 @@ beforeEach(() => {
 });
 
 it("hands a text to the shared sender to the shared-sender handler and replies with its answer", async () => {
-  mocks.shared.mockResolvedValue({ reply: "LobbyStack: Help & info <here>.", contactsChanged: 0 });
+  mocks.shared.mockResolvedValue({ reply: "Palakarimpu AI: Help & info <here>.", contactsChanged: 0 });
   const response = await POST(request({ To: SHARED, Body: "HELP", OptOutType: "HELP" }));
   expect(response.status).toBe(200);
-  expect(await response.text()).toBe("<?xml version=\"1.0\" encoding=\"UTF-8\"?><Response><Message>LobbyStack: Help &amp; info &lt;here&gt;.</Message></Response>");
+  expect(await response.text()).toBe("<?xml version=\"1.0\" encoding=\"UTF-8\"?><Response><Message>Palakarimpu AI: Help &amp; info &lt;here&gt;.</Message></Response>");
   expect(mocks.shared).toHaveBeenCalledWith({}, { from: "+14165550100", body: "HELP", optOutType: "HELP" });
   expect(mocks.inbound).not.toHaveBeenCalled();
 });

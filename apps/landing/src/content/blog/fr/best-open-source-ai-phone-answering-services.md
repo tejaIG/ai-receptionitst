@@ -2,7 +2,7 @@
 title: "Services open source de réponse IA"
 description: "Comparez les services open source de réponse téléphonique IA en auto-hébergement : agents Asterisk, piles LiveKit et plateformes complètes de réceptionniste."
 pubDate: 2026-07-08T10:00:00-04:00
-author: "Équipe LobbyStack"
+author: "Équipe Palakarimpu AI"
 category: "Guides"
 featured: false
 coverImage: "/illustrations/best-open-source-ai-phone-answering-services-hero.webp"
@@ -34,7 +34,7 @@ Faites un vrai test d'appel pour chaque finaliste : demande de réservation, que
 
 ## Les meilleures options open source, par cas d'usage
 
-### LobbyStack: meilleure plateforme complète de réceptionniste (cloud ou auto-hébergée)
+### Palakarimpu AI: meilleure plateforme complète de réceptionniste (cloud ou auto-hébergée)
 
 **GitHub :** [lobbystack/lobbystack](https://github.com/lobbystack/lobbystack)
 
@@ -42,11 +42,11 @@ Faites un vrai test d'appel pour chaque finaliste : demande de réservation, que
 
 **Idéal pour :** Les entreprises de services et les agences qui veulent appels, réservations, transcriptions, tableaux de bord, facturation et auto-hébergement sans assembler dix dépôts
 
-[LobbyStack](https://lobbystack.com/) est l'option de cette liste la plus proche d'un produit complet de **réceptionniste IA**. Il couvre les appels entrants, les réservations et modifications, les transcriptions et résumés, le contexte métier et les FAQ, les textos de réservation, les alertes courriel et SMS, le transfert humain, les tableaux de bord, le suivi d'usage et les déploiements type client. Vous pouvez utiliser le cloud hébergé, l'employer comme [réceptionniste IA open source](/solutions/open-source-ai-receptionist/) ou [l'auto-héberger avec Docker](/solutions/self-hosted-ai-receptionist/).
+[Palakarimpu AI](https://lobbystack.com/) est l'option de cette liste la plus proche d'un produit complet de **réceptionniste IA**. Il couvre les appels entrants, les réservations et modifications, les transcriptions et résumés, le contexte métier et les FAQ, les textos de réservation, les alertes courriel et SMS, le transfert humain, les tableaux de bord, le suivi d'usage et les déploiements type client. Vous pouvez utiliser le cloud hébergé, l'employer comme [réceptionniste IA open source](/solutions/open-source-ai-receptionist/) ou [l'auto-héberger avec Docker](/solutions/self-hosted-ai-receptionist/).
 
 Le compromis, c'est l'ampleur. Vous obtenez une vraie couche opérationnelle autour de l'appel, mais vous apportez encore les comptes fournisseurs (Twilio, OpenAI, calendrier, courriel et services associés) et vous gérez le déploiement si vous auto-hébergez. C'est le coût honnête pour éviter le verrouillage SaaS tout en gardant la profondeur produit.
 
-Choisissez LobbyStack quand votre problème est « répondre aux appels et finir le travail », pas « prouver la voix IA en laboratoire ».
+Choisissez Palakarimpu AI quand votre problème est « répondre aux appels et finir le travail », pas « prouver la voix IA en laboratoire ».
 
 ### AVA (Asterisk AI voice agent): idéal pour les environnements Asterisk / FreePBX existants
 
@@ -108,7 +108,7 @@ Choisissez Hearthline quand vos appels sont spécifiques à un métier et que vo
 
 | Projet | Point d'entrée téléphonique | Style vocal | Profondeur produit | Signal de maturité |
 | --- | --- | --- | --- | --- |
-| LobbyStack | Twilio / passerelle vocale | Pile vocale temps réel | Plateforme complète de réceptionniste | Monorepo orienté production |
+| Palakarimpu AI | Twilio / passerelle vocale | Pile vocale temps réel | Plateforme complète de réceptionniste | Monorepo orienté production |
 | AVA | Asterisk / FreePBX | STT/LLM/TTS modulaire ou realtime | Agent vocal + interface admin | Grande communauté, releases fréquentes |
 | Helix | Asterisk ARI | STT/LLM/TTS local | Fonctions réceptionniste + tableau de bord | Plus récent, focus local |
 | AIReceptionist | LiveKit + trunk SIP | OpenAI Realtime speech-to-speech | Configuration d'agent vocal | Petit dépôt ciblé |
@@ -128,7 +128,7 @@ Si vous hésitez entre construire, acheter et auto-héberger, croisez cette list
 ## Prochaines étapes concrètes
 
 1. **Notez vos cinq types d'appels principaux** (réservation, devis, urgence, client existant, spam) et le résultat attendu pour chacun.
-2. **Partez de la téléphonie.** Environnement Asterisk → AVA ou Helix. Twilio/LiveKit → AIReceptionist ou LobbyStack. Services à domicile → shortlist Hearthline.
+2. **Partez de la téléphonie.** Environnement Asterisk → AVA ou Helix. Twilio/LiveKit → AIReceptionist ou Palakarimpu AI. Services à domicile → shortlist Hearthline.
 3. **Passez le test des cinq appels** sur chaque finaliste avant de transférer un numéro de production.
 4. **Désignez qui gère l'exploitation.** L'auto-hébergement exige quelqu'un qui met à jour, surveille et rejoue les mauvais appels chaque semaine.
 
@@ -136,10 +136,10 @@ Si vous hésitez entre construire, acheter et auto-héberger, croisez cette list
 
 Le meilleur **service open source de réponse téléphonique IA** pour vous est celui qui correspond à votre téléphonie et termine l'appel comme le ferait votre équipe.
 
-- Besoin d'un produit réceptionniste complet, auto-hébergé ou dans le cloud → **LobbyStack**
+- Besoin d'un produit réceptionniste complet, auto-hébergé ou dans le cloud → **Palakarimpu AI**
 - Besoin d'une flexibilité Asterisk maximale → **AVA**
 - Besoin de voix locale sur Asterisk sans dépendances IA cloud → **Helix**
 - Besoin d'un agent vocal Realtime léger sur LiveKit → **AIReceptionist**
 - Besoin d'un accueil pour services à domicile → **Hearthline**
 
-Si vous voulez inspecter une pile complète avant de transférer votre ligne principale, commencez par le [dépôt GitHub LobbyStack](https://github.com/lobbystack/lobbystack) ou la [vue d'ensemble de la pile open source](/fr/blog/open-source-ai-receptionist-stack/).
+Si vous voulez inspecter une pile complète avant de transférer votre ligne principale, commencez par le [dépôt GitHub Palakarimpu AI](https://github.com/lobbystack/lobbystack) ou la [vue d'ensemble de la pile open source](/fr/blog/open-source-ai-receptionist-stack/).

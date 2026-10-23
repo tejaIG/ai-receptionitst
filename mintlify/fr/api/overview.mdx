@@ -1,11 +1,11 @@
 ---
-title: "API LobbyStack"
+title: "API Palakarimpu AI"
 description: "Lisez les appels, les contacts, les rendez-vous et les messages, réservez des rendez-vous et recevez des webhooks."
 sidebarTitle: "Vue d'ensemble"
 contentType: "Conceptual"
 ---
 
-L'API LobbyStack permet à vos propres outils de travailler avec les données de réceptionniste d'une entreprise. Zapier, un serveur MCP ou un script peuvent lire les appels et les messages, synchroniser les contacts, réserver des rendez-vous, ajouter des connaissances et s'abonner à des webhooks.
+L'API Palakarimpu AI permet à vos propres outils de travailler avec les données de réceptionniste d'une entreprise. Zapier, un serveur MCP ou un script peuvent lire les appels et les messages, synchroniser les contacts, réserver des rendez-vous, ajouter des connaissances et s'abonner à des webhooks.
 
 ## URL de base
 
@@ -57,15 +57,15 @@ La réponse place la ressource dans `data` :
 
 ## OpenAPI
 
-L'API publie un document OpenAPI 3.1 à `GET /api/v1/openapi.json`, sans clé requise. LobbyStack le génère à partir des mêmes schémas que ceux qu'utilise le serveur pour valider les requêtes. Il correspond donc toujours à la version en service. Importez-le dans Postman, générez un client ou parcourez la section **Référence de l'API** de cette documentation, que LobbyStack construit à partir du même fichier.
+L'API publie un document OpenAPI 3.1 à `GET /api/v1/openapi.json`, sans clé requise. Palakarimpu AI le génère à partir des mêmes schémas que ceux qu'utilise le serveur pour valider les requêtes. Il correspond donc toujours à la version en service. Importez-le dans Postman, générez un client ou parcourez la section **Référence de l'API** de cette documentation, que Palakarimpu AI construit à partir du même fichier.
 
 ## Gestion des versions
 
-La version fait partie du chemin : `/api/v1`. Dans la v1, LobbyStack n'apporte que des ajouts :
+La version fait partie du chemin : `/api/v1`. Dans la v1, Palakarimpu AI n'apporte que des ajouts :
 
 - De nouveaux points de terminaison, de nouveaux champs de requête facultatifs et de nouveaux champs de réponse.
 - De nouvelles valeurs dans des listes comme les types d'événements webhook et les codes d'erreur.
 
 Concevez des clients qui ignorent les champs et les types d'événements qu'ils ne reconnaissent pas.
 
-LobbyStack publie les changements incompatibles uniquement dans une nouvelle version, comme `/api/v2`. Supprimer ou renommer un champ, changer un type ou ajouter un champ de requête obligatoire constitue un changement incompatible. Quand une nouvelle version sort, la v1 continue de fonctionner en parallèle. Les charges utiles des webhooks contiennent `api_version` pour que vous sachiez quelle forme vous avez reçue.
+Palakarimpu AI publie les changements incompatibles uniquement dans une nouvelle version, comme `/api/v2`. Supprimer ou renommer un champ, changer un type ou ajouter un champ de requête obligatoire constitue un changement incompatible. Quand une nouvelle version sort, la v1 continue de fonctionner en parallèle. Les charges utiles des webhooks contiennent `api_version` pour que vous sachiez quelle forme vous avez reçue.

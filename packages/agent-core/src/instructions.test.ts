@@ -130,11 +130,11 @@ describe("buildLiveInstructions", () => {
   });
 
   it("leaves out the placeholder summary a new business starts with", () => {
-    for (const summary of ["Maple Clinic uses LobbyStack to answer calls.", "lobbystack uses LobbyStack to handle calls and SMS."]) {
+    for (const summary of ["Maple Clinic uses Palakarimpu AI to answer calls.", "lobbystack uses Palakarimpu AI to handle calls and SMS."]) {
       const live = buildLiveInstructions({ ...demoSnapshot, summary }, callStart);
-      expect(live).not.toContain("uses LobbyStack");
+      expect(live).not.toContain("uses Palakarimpu AI");
       expect(live).not.toContain("About the business:");
-      expect(buildAgentInstructions({ ...demoSnapshot, summary }, "voice")).not.toContain("uses LobbyStack");
+      expect(buildAgentInstructions({ ...demoSnapshot, summary }, "voice")).not.toContain("uses Palakarimpu AI");
     }
   });
 

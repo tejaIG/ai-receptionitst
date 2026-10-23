@@ -6,13 +6,13 @@ const homeSectionsCopy = {
   en: {
     extension: {
       heading: "Turn missed calls into booked work",
-      body: "LobbyStack captures what callers need, books appointments when they are ready, and routes urgent calls with context.",
+      body: "Palakarimpu AI captures what callers need, books appointments when they are ready, and routes urgent calls with context.",
     },
     extensionCards: [
       {
         title: "Turn unanswered calls into booked work",
         description:
-          "LobbyStack answers when your team cannot, captures what the caller needs, and helps them book or request a callback.",
+          "Palakarimpu AI answers when your team cannot, captures what the caller needs, and helps them book or request a callback.",
         cta: "See how it works",
         href: "#how-it-works",
         image: "/illustrations/missed-calls-booked-work.webp",
@@ -23,7 +23,7 @@ const homeSectionsCopy = {
       {
         title: "Send the right calls to your team",
         description:
-          "LobbyStack can answer routine calls, take a message, or route urgent conversations to your team with the caller's details and reason attached.",
+          "Palakarimpu AI can answer routine calls, take a message, or route urgent conversations to your team with the caller's details and reason attached.",
         cta: "Set routing rules",
         href: "#control",
         image: "/illustrations/call-routing-team.webp",
@@ -34,9 +34,9 @@ const homeSectionsCopy = {
     ],
     connected: {
       imageAlt:
-        "Business knowledge sources connected to LobbyStack answer routing",
+        "Business knowledge sources connected to Palakarimpu AI answer routing",
       heading: "Answers from everything your business knows",
-      body: "Import your website, PDFs, documents, spreadsheets, service lists, policies, and FAQs so LobbyStack can answer with the same context your team uses every day.",
+      body: "Import your website, PDFs, documents, spreadsheets, service lists, policies, and FAQs so Palakarimpu AI can answer with the same context your team uses every day.",
     },
     quality: {
       heading: "AI receptionist for teams who care about response quality",
@@ -47,9 +47,9 @@ const homeSectionsCopy = {
         {
           title: "A receptionist that picks up when you need it to",
           description:
-            "Let LobbyStack answer every call, or only step in when your team is busy, after hours, or unable to pick up.",
+            "Let Palakarimpu AI answer every call, or only step in when your team is busy, after hours, or unable to pick up.",
           image: "/illustrations/call-capture.webp",
-          alt: "Incoming call routing to team members or LobbyStack when the team is unavailable",
+          alt: "Incoming call routing to team members or Palakarimpu AI when the team is unavailable",
           imageContainerClass: "bg-[#F4F4F2] aspect-[4/3]",
           imageClassName: "h-full w-full object-cover object-center",
           imageWidth: 2048,
@@ -60,7 +60,7 @@ const homeSectionsCopy = {
           description:
             "Offer available times, confirm appointments, and send follow-up details without manual back-and-forth.",
           image: "/illustrations/booking-flow.webp",
-          alt: "LobbyStack offering available appointment times and confirming a booking with caller confirmation",
+          alt: "Palakarimpu AI offering available appointment times and confirming a booking with caller confirmation",
           imageContainerClass: "bg-[#F4F4F2] aspect-[4/3]",
           imageClassName: "h-full w-full object-cover object-center",
           imageWidth: 2048,
@@ -98,20 +98,20 @@ const homeSectionsCopy = {
         {
           title: "Set the rules",
           description:
-            "Decide when LobbyStack should answer, book appointments, take a message, or hand the call to a person.",
+            "Decide when Palakarimpu AI should answer, book appointments, take a message, or hand the call to a person.",
         },
         {
           title: "Go live",
           description:
-            "LobbyStack starts answering calls, helping customers, and sending confirmations and summaries automatically.",
+            "Palakarimpu AI starts answering calls, helping customers, and sending confirmations and summaries automatically.",
         },
       ],
     },
     control: {
       heading: "Keep control of every call",
-      body: "LobbyStack handles routine conversations, but your team decides what it knows, what it can do, and when the call should come back to a person.",
+      body: "Palakarimpu AI handles routine conversations, but your team decides what it knows, what it can do, and when the call should come back to a person.",
       imageAlt:
-        "LobbyStack dashboard with call metrics, action required, upcoming appointments, and recent calls",
+        "Palakarimpu AI dashboard with call metrics, action required, upcoming appointments, and recent calls",
       cards: [
         {
           title: "Control what your AI receptionist can say",
@@ -129,7 +129,7 @@ const homeSectionsCopy = {
     },
     pricing: {
       heading: "Start free. Upgrade when calls grow.",
-      body: "Try LobbyStack with included usage, then move to Starter or Pro when you are ready for production call coverage.",
+      body: "Try Palakarimpu AI with included usage, then move to Starter or Pro when you are ready for production call coverage.",
       badge: "Most Popular",
       viewDetails: "View pricing details",
       note: "No credit card required to start.",
@@ -162,7 +162,7 @@ const homeSectionsCopy = {
     },
     openSource: {
       heading: "Proudly open-source, self-hosted",
-      body: "Run LobbyStack on your own servers and keep call recordings and customer data in your own infrastructure.",
+      body: "Run Palakarimpu AI on your own servers and keep call recordings and customer data in your own infrastructure.",
       cta: "View on GitHub",
       selfHostedCta: "Self-Hosting Overview",
     },
@@ -170,13 +170,13 @@ const homeSectionsCopy = {
   fr: {
     extension: {
       heading: "Transformez les appels manqués en rendez‑vous",
-      body: "LobbyStack comprend le besoin de l'appelant, réserve quand la personne est prête et transfère les urgences avec le bon contexte.",
+      body: "Palakarimpu AI comprend le besoin de l'appelant, réserve quand la personne est prête et transfère les urgences avec le bon contexte.",
     },
     extensionCards: [
       {
         title: "Transformez les appels sans réponse en rendez‑vous",
         description:
-          "LobbyStack répond quand votre équipe ne peut pas décrocher, comprend le besoin de l’appelant et l’aide à réserver ou à demander un rappel.",
+          "Palakarimpu AI répond quand votre équipe ne peut pas décrocher, comprend le besoin de l’appelant et l’aide à réserver ou à demander un rappel.",
         cta: "Voir le fonctionnement",
         href: "#how-it-works",
         image: "/illustrations/missed-calls-booked-work.webp",
@@ -187,7 +187,7 @@ const homeSectionsCopy = {
       {
         title: "Envoyez les bons appels à la bonne personne",
         description:
-          "LobbyStack traite les appels courants, prend un message ou transfère les conversations urgentes avec les détails et le motif de l’appel.",
+          "Palakarimpu AI traite les appels courants, prend un message ou transfère les conversations urgentes avec les détails et le motif de l’appel.",
         cta: "Définir les règles",
         href: "#control",
         image: "/illustrations/call-routing-team.webp",
@@ -198,9 +198,9 @@ const homeSectionsCopy = {
     ],
     connected: {
       imageAlt:
-        "Sources de connaissances métier connectées à la réception téléphonique LobbyStack",
+        "Sources de connaissances métier connectées à la réception téléphonique Palakarimpu AI",
       heading: "Des réponses fondées sur ce que votre entreprise sait déjà",
-      body: "Importez votre site, vos PDF, documents, feuilles de calcul, services, politiques et FAQ pour que LobbyStack réponde avec le même contexte que votre équipe.",
+      body: "Importez votre site, vos PDF, documents, feuilles de calcul, services, politiques et FAQ pour que Palakarimpu AI réponde avec le même contexte que votre équipe.",
     },
     quality: {
       heading:
@@ -212,9 +212,9 @@ const homeSectionsCopy = {
         {
           title: "Une réceptionniste qui décroche quand vous en avez besoin",
           description:
-            "Laissez LobbyStack répondre à chaque appel, ou seulement prendre le relais quand votre équipe est occupée, fermée ou indisponible.",
+            "Laissez Palakarimpu AI répondre à chaque appel, ou seulement prendre le relais quand votre équipe est occupée, fermée ou indisponible.",
           image: "/illustrations/call-capture.webp",
-          alt: "Routage d’appel entrant vers l’équipe ou LobbyStack quand l’équipe est indisponible",
+          alt: "Routage d’appel entrant vers l’équipe ou Palakarimpu AI quand l’équipe est indisponible",
           imageContainerClass: "bg-[#F4F4F2] aspect-[4/3]",
           imageClassName: "h-full w-full object-cover object-center",
           imageWidth: 2048,
@@ -225,7 +225,7 @@ const homeSectionsCopy = {
           description:
             "Proposez des créneaux disponibles, confirmez les rendez‑vous et envoyez les informations de suivi sans échanges manuels.",
           image: "/illustrations/booking-flow.webp",
-          alt: "LobbyStack propose des créneaux disponibles et confirme un rendez‑vous avec envoi de confirmation à l’appelant",
+          alt: "Palakarimpu AI propose des créneaux disponibles et confirme un rendez‑vous avec envoi de confirmation à l’appelant",
           imageContainerClass: "bg-[#F4F4F2] aspect-[4/3]",
           imageClassName: "h-full w-full object-cover object-center",
           imageWidth: 2048,
@@ -263,20 +263,20 @@ const homeSectionsCopy = {
         {
           title: "Définissez les règles",
           description:
-            "Décidez quand LobbyStack doit répondre, réserver, prendre un message ou passer l’appel à une personne.",
+            "Décidez quand Palakarimpu AI doit répondre, réserver, prendre un message ou passer l’appel à une personne.",
         },
         {
           title: "Passez en production",
           description:
-            "LobbyStack commence à répondre, aider les clients et envoyer confirmations et résumés automatiquement.",
+            "Palakarimpu AI commence à répondre, aider les clients et envoyer confirmations et résumés automatiquement.",
         },
       ],
     },
     control: {
       heading: "Gardez le contrôle de chaque appel",
-      body: "LobbyStack gère les conversations courantes, mais votre équipe décide ce qu’il sait, ce qu’il peut faire et quand l’appel doit revenir à une personne.",
+      body: "Palakarimpu AI gère les conversations courantes, mais votre équipe décide ce qu’il sait, ce qu’il peut faire et quand l’appel doit revenir à une personne.",
       imageAlt:
-        "Tableau de bord LobbyStack avec indicateurs d’appels, actions requises, rendez‑vous à venir et appels récents",
+        "Tableau de bord Palakarimpu AI avec indicateurs d’appels, actions requises, rendez‑vous à venir et appels récents",
       cards: [
         {
           title: "Contrôlez ce que votre réceptionniste IA peut dire",
@@ -295,7 +295,7 @@ const homeSectionsCopy = {
     pricing: {
       heading:
         "Commencez gratuitement. Passez au forfait supérieur quand les appels augmentent.",
-      body: "Essayez LobbyStack avec l’usage inclus, puis passez à Starter ou Pro quand vous êtes prêt à couvrir vos appels en production.",
+      body: "Essayez Palakarimpu AI avec l’usage inclus, puis passez à Starter ou Pro quand vous êtes prêt à couvrir vos appels en production.",
       badge: "Le plus populaire",
       viewDetails: "Voir le détail des tarifs",
       note: "Aucune carte bancaire requise pour commencer.",
@@ -328,7 +328,7 @@ const homeSectionsCopy = {
     },
     openSource: {
       heading: "Open source, prêt pour l'auto-hébergement",
-      body: "Hébergez LobbyStack sur vos propres serveurs et gardez les enregistrements d’appels et les données client dans votre infrastructure.",
+      body: "Hébergez Palakarimpu AI sur vos propres serveurs et gardez les enregistrements d’appels et les données client dans votre infrastructure.",
       cta: "Voir sur GitHub",
       selfHostedCta: "Aperçu de l'auto-hébergement",
     },
@@ -336,13 +336,13 @@ const homeSectionsCopy = {
   es: {
     extension: {
       heading: "Convierta las llamadas perdidas en citas",
-      body: "LobbyStack recoge lo que necesita quien llama, reserva citas cuando la persona está lista y dirige las llamadas urgentes con contexto.",
+      body: "Palakarimpu AI recoge lo que necesita quien llama, reserva citas cuando la persona está lista y dirige las llamadas urgentes con contexto.",
     },
     extensionCards: [
       {
         title: "Convierta las llamadas sin respuesta en citas",
         description:
-          "LobbyStack responde cuando su equipo no puede, recoge lo que necesita la persona que llama y la ayuda a reservar o a pedir que le devuelvan la llamada.",
+          "Palakarimpu AI responde cuando su equipo no puede, recoge lo que necesita la persona que llama y la ayuda a reservar o a pedir que le devuelvan la llamada.",
         cta: "Ver cómo funciona",
         href: "#how-it-works",
         image: "/illustrations/missed-calls-booked-work.webp",
@@ -353,7 +353,7 @@ const homeSectionsCopy = {
       {
         title: "Envíe las llamadas adecuadas a su equipo",
         description:
-          "LobbyStack puede atender llamadas rutinarias, tomar un mensaje o dirigir las conversaciones urgentes a su equipo con los datos de quien llama y el motivo de la llamada.",
+          "Palakarimpu AI puede atender llamadas rutinarias, tomar un mensaje o dirigir las conversaciones urgentes a su equipo con los datos de quien llama y el motivo de la llamada.",
         cta: "Definir reglas",
         href: "#control",
         image: "/illustrations/call-routing-team.webp",
@@ -364,9 +364,9 @@ const homeSectionsCopy = {
     ],
     connected: {
       imageAlt:
-        "Fuentes de conocimiento del negocio conectadas a las respuestas de LobbyStack",
+        "Fuentes de conocimiento del negocio conectadas a las respuestas de Palakarimpu AI",
       heading: "Respuestas basadas en todo lo que sabe su negocio",
-      body: "Importe su sitio web, PDF, documentos, hojas de cálculo, listas de servicios, políticas y preguntas frecuentes para que LobbyStack responda con el mismo contexto que su equipo usa a diario.",
+      body: "Importe su sitio web, PDF, documentos, hojas de cálculo, listas de servicios, políticas y preguntas frecuentes para que Palakarimpu AI responda con el mismo contexto que su equipo usa a diario.",
     },
     quality: {
       heading:
@@ -378,9 +378,9 @@ const homeSectionsCopy = {
         {
           title: "Una recepcionista que contesta cuando usted lo necesita",
           description:
-            "Deje que LobbyStack conteste todas las llamadas, o solo cuando su equipo esté ocupado, fuera de horario o no pueda atender.",
+            "Deje que Palakarimpu AI conteste todas las llamadas, o solo cuando su equipo esté ocupado, fuera de horario o no pueda atender.",
           image: "/illustrations/call-capture.webp",
-          alt: "Llamada entrante dirigida a miembros del equipo o a LobbyStack cuando el equipo no está disponible",
+          alt: "Llamada entrante dirigida a miembros del equipo o a Palakarimpu AI cuando el equipo no está disponible",
           imageContainerClass: "bg-[#F4F4F2] aspect-[4/3]",
           imageClassName: "h-full w-full object-cover object-center",
           imageWidth: 2048,
@@ -391,7 +391,7 @@ const homeSectionsCopy = {
           description:
             "Ofrezca horarios disponibles, confirme citas y envíe los detalles de seguimiento sin coordinarlo todo a mano.",
           image: "/illustrations/booking-flow.webp",
-          alt: "LobbyStack ofrece horarios disponibles y confirma una reserva con la aprobación de la persona que llama",
+          alt: "Palakarimpu AI ofrece horarios disponibles y confirma una reserva con la aprobación de la persona que llama",
           imageContainerClass: "bg-[#F4F4F2] aspect-[4/3]",
           imageClassName: "h-full w-full object-cover object-center",
           imageWidth: 2048,
@@ -429,20 +429,20 @@ const homeSectionsCopy = {
         {
           title: "Defina las reglas",
           description:
-            "Decida cuándo LobbyStack debe responder, reservar citas, tomar un mensaje o pasar la llamada a una persona.",
+            "Decida cuándo Palakarimpu AI debe responder, reservar citas, tomar un mensaje o pasar la llamada a una persona.",
         },
         {
           title: "Active el servicio",
           description:
-            "LobbyStack empieza a contestar llamadas, ayudar a sus clientes y enviar confirmaciones y resúmenes automáticamente.",
+            "Palakarimpu AI empieza a contestar llamadas, ayudar a sus clientes y enviar confirmaciones y resúmenes automáticamente.",
         },
       ],
     },
     control: {
       heading: "Mantenga el control de cada llamada",
-      body: "LobbyStack gestiona las conversaciones rutinarias, pero su equipo decide qué sabe, qué puede hacer y cuándo la llamada debe volver a una persona.",
+      body: "Palakarimpu AI gestiona las conversaciones rutinarias, pero su equipo decide qué sabe, qué puede hacer y cuándo la llamada debe volver a una persona.",
       imageAlt:
-        "Panel de LobbyStack con métricas de llamadas, acciones pendientes, próximas citas y llamadas recientes",
+        "Panel de Palakarimpu AI con métricas de llamadas, acciones pendientes, próximas citas y llamadas recientes",
       cards: [
         {
           title: "Controle lo que puede decir su recepcionista con IA",
@@ -460,7 +460,7 @@ const homeSectionsCopy = {
     },
     pricing: {
       heading: "Empiece gratis. Mejore su plan cuando crezcan las llamadas.",
-      body: "Pruebe LobbyStack con el uso incluido y pase a Starter o Pro cuando esté listo para atender sus llamadas reales.",
+      body: "Pruebe Palakarimpu AI con el uso incluido y pase a Starter o Pro cuando esté listo para atender sus llamadas reales.",
       badge: "Más popular",
       viewDetails: "Ver detalles de precios",
       note: "No necesita tarjeta de crédito para empezar.",
@@ -493,7 +493,7 @@ const homeSectionsCopy = {
     },
     openSource: {
       heading: "Orgullosamente de código abierto y autoalojado",
-      body: "Ejecute LobbyStack en sus propios servidores y guarde las grabaciones de llamadas y los datos de sus clientes en su propia infraestructura.",
+      body: "Ejecute Palakarimpu AI en sus propios servidores y guarde las grabaciones de llamadas y los datos de sus clientes en su propia infraestructura.",
       cta: "Ver en GitHub",
       selfHostedCta: "Sobre el autoalojamiento",
     },
@@ -501,13 +501,13 @@ const homeSectionsCopy = {
   sr: {
     extension: {
       heading: "Pretvorite propuštene pozive u zakazane termine",
-      body: "LobbyStack beleži šta pozivaocima treba, zakazuje termine kada su spremni i preusmerava hitne pozive uz kontekst.",
+      body: "Palakarimpu AI beleži šta pozivaocima treba, zakazuje termine kada su spremni i preusmerava hitne pozive uz kontekst.",
     },
     extensionCards: [
       {
         title: "Pretvorite neodgovorene pozive u zakazane termine",
         description:
-          "LobbyStack odgovara kada Vaš tim ne može, beleži šta pozivaocu treba i pomaže mu da zakaže termin ili zatraži povratni poziv.",
+          "Palakarimpu AI odgovara kada Vaš tim ne može, beleži šta pozivaocu treba i pomaže mu da zakaže termin ili zatraži povratni poziv.",
         cta: "Pogledajte kako radi",
         href: "#how-it-works",
         image: "/illustrations/missed-calls-booked-work.webp",
@@ -518,7 +518,7 @@ const homeSectionsCopy = {
       {
         title: "Pošaljite prave pozive svom timu",
         description:
-          "LobbyStack može da odgovori na rutinske pozive, primi poruku ili preusmeri hitne razgovore Vašem timu, uz podatke pozivaoca i razlog poziva.",
+          "Palakarimpu AI može da odgovori na rutinske pozive, primi poruku ili preusmeri hitne razgovore Vašem timu, uz podatke pozivaoca i razlog poziva.",
         cta: "Podesite pravila",
         href: "#control",
         image: "/illustrations/call-routing-team.webp",
@@ -528,9 +528,9 @@ const homeSectionsCopy = {
       },
     ],
     connected: {
-      imageAlt: "Izvori poslovnog znanja povezani sa LobbyStack odgovorima",
+      imageAlt: "Izvori poslovnog znanja povezani sa Palakarimpu AI odgovorima",
       heading: "Odgovori iz svega što Vaša firma zna",
-      body: "Uvezite sajt, PDF fajlove, dokumente, tabele, spiskove usluga, pravila poslovanja i česta pitanja, da bi LobbyStack odgovarao sa istim kontekstom koji Vaš tim koristi svakog dana.",
+      body: "Uvezite sajt, PDF fajlove, dokumente, tabele, spiskove usluga, pravila poslovanja i česta pitanja, da bi Palakarimpu AI odgovarao sa istim kontekstom koji Vaš tim koristi svakog dana.",
     },
     quality: {
       heading: "AI recepcioner za timove kojima je stalo do kvaliteta odgovora",
@@ -541,9 +541,9 @@ const homeSectionsCopy = {
         {
           title: "Recepcioner koji se javlja kada Vam zatreba",
           description:
-            "Neka LobbyStack odgovara na svaki poziv, ili neka uskoči samo kada je Vaš tim zauzet, van radnog vremena ili ne može da se javi.",
+            "Neka Palakarimpu AI odgovara na svaki poziv, ili neka uskoči samo kada je Vaš tim zauzet, van radnog vremena ili ne može da se javi.",
           image: "/illustrations/call-capture.webp",
-          alt: "Dolazni poziv se usmerava članovima tima ili na LobbyStack kada tim nije dostupan",
+          alt: "Dolazni poziv se usmerava članovima tima ili na Palakarimpu AI kada tim nije dostupan",
           imageContainerClass: "bg-[#F4F4F2] aspect-[4/3]",
           imageClassName: "h-full w-full object-cover object-center",
           imageWidth: 2048,
@@ -554,7 +554,7 @@ const homeSectionsCopy = {
           description:
             "Ponudite slobodne termine, potvrdite zakazivanje i pošaljite dalja uputstva bez ručnog dogovaranja.",
           image: "/illustrations/booking-flow.webp",
-          alt: "LobbyStack nudi slobodne termine i potvrđuje zakazivanje uz saglasnost pozivaoca",
+          alt: "Palakarimpu AI nudi slobodne termine i potvrđuje zakazivanje uz saglasnost pozivaoca",
           imageContainerClass: "bg-[#F4F4F2] aspect-[4/3]",
           imageClassName: "h-full w-full object-cover object-center",
           imageWidth: 2048,
@@ -592,20 +592,20 @@ const homeSectionsCopy = {
         {
           title: "Podesite pravila",
           description:
-            "Odredite kada LobbyStack treba da odgovori, zakaže termin, primi poruku ili prebaci poziv na čoveka.",
+            "Odredite kada Palakarimpu AI treba da odgovori, zakaže termin, primi poruku ili prebaci poziv na čoveka.",
         },
         {
           title: "Pokrenite",
           description:
-            "LobbyStack počinje da odgovara na pozive, pomaže klijentima i automatski šalje potvrde i rezimee.",
+            "Palakarimpu AI počinje da odgovara na pozive, pomaže klijentima i automatski šalje potvrde i rezimee.",
         },
       ],
     },
     control: {
       heading: "Zadržite kontrolu nad svakim pozivom",
-      body: "LobbyStack obavlja rutinske razgovore, ali Vaš tim odlučuje šta on zna, šta sme da radi i kada poziv treba da se vrati čoveku.",
+      body: "Palakarimpu AI obavlja rutinske razgovore, ali Vaš tim odlučuje šta on zna, šta sme da radi i kada poziv treba da se vrati čoveku.",
       imageAlt:
-        "LobbyStack kontrolna tabla sa metrikama poziva, potrebnim radnjama, predstojećim terminima i nedavnim pozivima",
+        "Palakarimpu AI kontrolna tabla sa metrikama poziva, potrebnim radnjama, predstojećim terminima i nedavnim pozivima",
       cards: [
         {
           title: "Odredite šta AI recepcioner sme da kaže",
@@ -623,7 +623,7 @@ const homeSectionsCopy = {
     },
     pricing: {
       heading: "Počnite besplatno. Pređite na veći paket kada pozivi porastu.",
-      body: "Isprobajte LobbyStack uz uključenu potrošnju, pa pređite na Starter ili Pro kada budete spremni da mu prepustite prave pozive.",
+      body: "Isprobajte Palakarimpu AI uz uključenu potrošnju, pa pređite na Starter ili Pro kada budete spremni da mu prepustite prave pozive.",
       badge: "Najpopularniji",
       viewDetails: "Detalji o cenama",
       note: "Za početak nije potrebna kreditna kartica.",
@@ -656,7 +656,7 @@ const homeSectionsCopy = {
     },
     openSource: {
       heading: "Otvoreni kod, samostalno hostovanje",
-      body: "Pokrenite LobbyStack na sopstvenim serverima i čuvajte snimke poziva i podatke klijenata u svojoj infrastrukturi.",
+      body: "Pokrenite Palakarimpu AI na sopstvenim serverima i čuvajte snimke poziva i podatke klijenata u svojoj infrastrukturi.",
       cta: "Pogledajte na GitHubu",
       selfHostedCta: "O samostalnom hostovanju",
     },

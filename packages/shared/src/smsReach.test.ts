@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { canTextNumber, permanentSmsErrorCode } from "./smsReach";
+import { canTextNumber, permanentSmsErrorCode, permanentWhatsAppErrorCode } from "./smsReach";
 
 describe("canTextNumber", () => {
   it("lets toll-free numbers text only US and Canadian numbers", () => {
@@ -29,5 +29,18 @@ describe("permanentSmsErrorCode", () => {
     expect(permanentSmsErrorCode(Object.assign(new Error("Too many requests"), { code: 20429, status: 429 }))).toBeUndefined();
     expect(permanentSmsErrorCode(new Error("socket hang up"))).toBeUndefined();
     expect(permanentSmsErrorCode(undefined)).toBeUndefined();
+  });
+});
+
+describe("permanentWhatsAppErrorCode", () => {
+  it("names the Twilio WhatsApp errors a retry can't fix", () => {
+    for (const code of [21211, 63003, 63007, 63015, 63016, 63024]) expect(permanentWhatsAppErrorCode({ code })).toBe(code);
+  });
+
+  it("leaves rate limits and unknown failures to retry", () => {
+    expect(permanentWhatsAppErrorCode({ code: 63018 })).toBeUndefined();
+    expect(permanentWhatsAppErrorCode({ code: "63016" })).toBeUndefined();
+    expect(permanentWhatsAppErrorCode(new Error("network"))).toBeUndefined();
+    expect(permanentWhatsAppErrorCode(undefined)).toBeUndefined();
   });
 });

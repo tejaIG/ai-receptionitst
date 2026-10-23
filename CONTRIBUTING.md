@@ -1,6 +1,6 @@
-# Contribute to LobbyStack
+# Contribute to Palakarimpu AI
 
-LobbyStack accepts focused fixes and features that preserve tenant isolation, provider boundaries, and the live call path. This guide explains the repository expectations and required checks.
+Palakarimpu AI accepts focused fixes and features that preserve tenant isolation, provider boundaries, and the live call path. This guide explains the repository expectations and required checks.
 
 ## Follow the architecture boundaries
 

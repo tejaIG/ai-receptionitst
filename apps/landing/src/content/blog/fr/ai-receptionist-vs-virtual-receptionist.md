@@ -4,7 +4,7 @@ seoTitle: "Réceptionniste IA ou virtuel : coût et couverture"
 description: "Comparez réceptionnistes IA et humains : coût, volume, empathie, réservation, transferts et supervision pour choisir votre couverture téléphonique."
 pubDate: 2026-07-30T09:50:00-04:00
 updatedDate: 2026-07-30T09:50:00-04:00
-author: "Équipe LobbyStack"
+author: "Équipe Palakarimpu AI"
 category: "Comparaisons"
 featured: false
 coverImage: "/illustrations/ai-receptionist-vs-virtual-receptionist-hero.webp"
@@ -95,9 +95,9 @@ Un cabinet juridique peut réserver par IA et garder l'admission émotionnelle p
 
 Suivez le risque et la valeur. Automatisez le travail répétitif et confiez aux personnes les appels où leur jugement change le résultat.
 
-## L'approche LobbyStack
+## L'approche Palakarimpu AI
 
-[LobbyStack](/fr/features/) traite les questions courantes, l'admission, les rendez-vous, les résumés et les transferts configurés. Votre équipe garde les appels qui demandent son expertise.
+[Palakarimpu AI](/fr/features/) traite les questions courantes, l'admission, les rendez-vous, les résumés et les transferts configurés. Votre équipe garde les appels qui demandent son expertise.
 
 Le code est [public sur GitHub](https://github.com/lobbystack/lobbystack). Vous pouvez utiliser le cloud ou [auto-héberger la pile](https://docs.lobbystack.com/self-hosting/overview).
 
@@ -105,4 +105,4 @@ Le code est [public sur GitHub](https://github.com/lobbystack/lobbystack). Vous 
 
 Choisissez l'IA pour un volume prévisible et des règles claires. Choisissez un service humain pour l'empathie, l'improvisation et une main-d'œuvre externe gérée.
 
-Testez un modèle hybride sur les débordements ou les appels hors horaires. Examinez les résultats, puis élargissez ce que l'IA gère bien. [Essayez LobbyStack gratuitement](https://app.lobbystack.com/fr/signup) avec votre propre workflow.
+Testez un modèle hybride sur les débordements ou les appels hors horaires. Examinez les résultats, puis élargissez ce que l'IA gère bien. [Essayez Palakarimpu AI gratuitement](https://app.lobbystack.com/fr/signup) avec votre propre workflow.

@@ -46,7 +46,7 @@ Full context used fewer tokens and finished faster on this small corpus. This ru
 
 The workspace typecheck and production build passed. The domain tests and local PostgreSQL lifecycle checks passed, including source activity, deletion, stale imports, and tenant isolation. The admin suite passed 389 tests on rerun after a timer error during the concurrent workspace run. Local database checks confirmed forced row-level security on 63 tables.
 
-Raw comparison output stays in LobbyStack internal under `Reports/Voice/2026-09-08/`. The files `context-comparison-1.json` and `context-comparison-2.json` record model, token usage, timings, and answers. Do not commit recordings or personal transcripts.
+Raw comparison output stays in Palakarimpu AI internal under `Reports/Voice/2026-09-08/`. The files `context-comparison-1.json` and `context-comparison-2.json` record model, token usage, timings, and answers. Do not commit recordings or personal transcripts.
 
 ## Full-corpus and audio regressions
 
@@ -58,7 +58,7 @@ The `gpt-realtime-2.1` comparison also failed two of five HEC answers and exceed
 
 Section-aware reindexing of a local copy of the 137 stored HEC chunks produced 426 chunks. All four query variants returned the correct identifier, and five synthetic audio answers led with `MNGT 10407`. Evidence-backed audio started 2.02–2.47 seconds after the test committed input audio. This bypasses browser microphones and turn detection; it is not end-to-end latency acceptance.
 
-The stored-content reindex workflow preserves source URLs and refuses a changed, deleted, or inactive source. Tests cover edits during embedding and stale revision retries. The original HEC index remains in LobbyStack internal for recovery. No website recrawl is required.
+The stored-content reindex workflow preserves source URLs and refuses a changed, deleted, or inactive source. Tests cover edits during embedding and stale revision retries. The original HEC index remains in Palakarimpu AI internal for recovery. No website recrawl is required.
 
 The acronym-aware 44-probe retrieval run covered all expected sources, with no tenant-isolation failures and a 407 ms 95th-percentile lookup time. These figures measure the fixture corpus, not the live audio path.
 

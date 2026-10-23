@@ -1,6 +1,6 @@
 # Understand the platform architecture
 
-LobbyStack is a TypeScript monorepo with three application runtimes:
+Palakarimpu AI is a TypeScript monorepo with three application runtimes:
 
 - `apps/admin/` serves the Next.js dashboard, authentication, and HTTP API. It also starts GPT-Live calls.
 - `apps/worker/` processes queued work, dispatches the transactional outbox, and runs each GPT-Live call.
@@ -10,7 +10,7 @@ PostgreSQL is the durable source of truth. `packages/db` owns schema, migrations
 
 ## Follow the voice data flow
 
-OpenAI hosts call audio, so LobbyStack's runtimes only handle call setup and the agent's work:
+OpenAI hosts call audio, so Palakarimpu AI's runtimes only handle call setup and the agent's work:
 
 1. The admin and worker compile structured facts and indexed knowledge into a business context snapshot.
 2. The admin loads that snapshot once when a call starts, records the call, and gives GPT-Live the business's instructions.

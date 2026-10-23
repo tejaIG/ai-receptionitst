@@ -1,11 +1,11 @@
 ---
 title: "Understand self-hosting"
-description: "Learn which services a self-hosted LobbyStack deployment runs, how call data moves between them, and which parts you operate, from Railway to your own servers."
+description: "Learn which services a self-hosted Palakarimpu AI deployment runs, how call data moves between them, and which parts you operate, from Railway to your own servers."
 sidebarTitle: "Self-hosting overview"
 contentType: "Conceptual"
 ---
 
-LobbyStack can run on one Docker host or as separate managed services. Self-hosting gives you control over application data, credentials, provider usage, backups, and upgrades.
+Palakarimpu AI can run on one Docker host or as separate managed services. Self-hosting gives you control over application data, credentials, provider usage, backups, and upgrades.
 
 <Note>
   Live calls still require Twilio, OpenAI, and a public HTTPS endpoint for the dashboard. Phone calls also need a Twilio Elastic SIP trunk that sends calls to your OpenAI project.
@@ -13,7 +13,7 @@ LobbyStack can run on one Docker host or as separate managed services. Self-host
 
 ## Deploy on Railway
 
-The [LobbyStack Railway template](https://railway.com/deploy/lobbystack) deploys the admin, worker, and migration services with PostgreSQL, Redis, and a storage bucket. Railway generates every secret and database password. You enter an OpenAI API key and your Twilio credentials, then create your account on the admin domain and finish the steps in [After deploying](#after-deploying).
+The [Palakarimpu AI Railway template](https://railway.com/deploy/lobbystack) deploys the admin, worker, and migration services with PostgreSQL, Redis, and a storage bucket. Railway generates every secret and database password. You enter an OpenAI API key and your Twilio credentials, then create your account on the admin domain and finish the steps in [After deploying](#after-deploying).
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lobbystack)
 
@@ -27,7 +27,7 @@ Password resets, verification codes, team invites, and operator alerts fail unti
 
 - `SMTP_HOST`, `SMTP_USERNAME`, and `SMTP_PASSWORD` from your email provider
 - `SMTP_PORT`, which defaults to `587`, and `SMTP_SECURE`, which defaults to `false`. Use `465` and `true` if your provider needs TLS from the start.
-- `EMAIL_FROM`, an address your provider lets you send from, such as `LobbyStack <no-reply@example.com>`
+- `EMAIL_FROM`, an address your provider lets you send from, such as `Palakarimpu AI <no-reply@example.com>`
 - `EMAIL_REPLY_TO`, if replies should go to another address
 
 #### Finish phone calls
@@ -69,7 +69,7 @@ The repository's [`docker-compose.yml`](https://github.com/lobbystack/lobbystack
 - the background worker and transactional outbox dispatcher, which also runs each GPT-Live call
 - Caddy to route the dashboard hostname over plain HTTP, behind the proxy or load balancer that terminates HTTPS
 
-LobbyStack does not add monitoring containers to the Compose stack. Server runtimes can send traces, metrics, and OpenTelemetry logs to a configured OTLP-compatible backend.
+Palakarimpu AI does not add monitoring containers to the Compose stack. Server runtimes can send traces, metrics, and OpenTelemetry logs to a configured OTLP-compatible backend.
 
 ## Data flow
 

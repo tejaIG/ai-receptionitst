@@ -65,12 +65,12 @@ curl https://app.lobbystack.com/api/v1/appointments \
   -d '{"service_id":"df8a2c34-d306-4292-a055-1b739ef74991","starts_at":"2026-09-29T09:30:00-04:00","contact_phone":"+14165550134"}'
 ```
 
-LobbyStack mémorise chaque clé pendant 24 heures, par clé API et par opération. Le [serveur MCP](/fr/ai/mcp) partage ces clés : `book_appointment`, `create_contact` et `add_knowledge` comptent comme `POST /appointments`, `POST /contacts` et `POST /knowledge`.
+Palakarimpu AI mémorise chaque clé pendant 24 heures, par clé API et par opération. Le [serveur MCP](/fr/ai/mcp) partage ces clés : `book_appointment`, `create_contact` et `add_knowledge` comptent comme `POST /appointments`, `POST /contacts` et `POST /knowledge`.
 
-- Une nouvelle tentative avec le même corps reçoit de nouveau la première réponse, avec l'en-tête `Idempotent-Replayed: true`. L'API ne crée pas de deuxième rendez-vous. LobbyStack compare les valeurs JSON, donc l'ordre des clés et les espaces n'ont pas d'importance.
+- Une nouvelle tentative avec le même corps reçoit de nouveau la première réponse, avec l'en-tête `Idempotent-Replayed: true`. L'API ne crée pas de deuxième rendez-vous. Palakarimpu AI compare les valeurs JSON, donc l'ordre des clés et les espaces n'ont pas d'importance.
 - La même clé avec un corps différent renvoie `422` avec le code `idempotency_key_reused`.
 - Une nouvelle tentative qui arrive pendant que la première requête est encore en cours attend sa fin, puis reçoit sa réponse.
-- LobbyStack enregistre la clé et le changement ensemble. Si la première requête a échoué avec une erreur, rien n'a été enregistré, donc votre nouvelle tentative s'exécute de nouveau.
+- Palakarimpu AI enregistre la clé et le changement ensemble. Si la première requête a échoué avec une erreur, rien n'a été enregistré, donc votre nouvelle tentative s'exécute de nouveau.
 
 Utilisez une valeur unique par opération, comme un UUID ou votre propre numéro de commande.
 
@@ -104,19 +104,19 @@ Les erreurs ont toutes la même forme :
 | 409 | `idempotency_request_in_progress` | Une requête avec la même `Idempotency-Key` est encore en cours. Réessayez dans un instant. |
 | 422 | `idempotency_key_reused` | La `Idempotency-Key` a déjà servi avec un corps différent. |
 | 429 | `rate_limited` | La clé a fait trop de requêtes. Attendez le nombre de secondes indiqué par `Retry-After`. |
-| 503 | `rate_limit_unavailable` | LobbyStack ne peut pas vérifier la limite de débit pour le moment. Réessayez dans un instant. |
-| 500 | `internal_error` | Une erreur s'est produite du côté de LobbyStack. Le message contient une référence à transmettre au soutien. |
+| 503 | `rate_limit_unavailable` | Palakarimpu AI ne peut pas vérifier la limite de débit pour le moment. Réessayez dans un instant. |
+| 500 | `internal_error` | Une erreur s'est produite du côté de Palakarimpu AI. Le message contient une référence à transmettre au soutien. |
 
 ## Réserver par l'API
 
 L'API suit les mêmes règles que la réceptionniste IA :
 
 - `POST /appointments` et `POST /appointments/{appointment_id}/reschedule` fonctionnent seulement quand le `booking_mode` de l'entreprise vaut `instant`. Lisez-le avec `GET /business`.
-- L'heure demandée doit être dans les heures d'ouverture, éviter les fermetures et les autres rendez-vous, et être libre dans un Google Calendar connecté. Quand LobbyStack ne peut pas confirmer que le calendrier est à jour, il considère ce créneau comme occupé.
+- L'heure demandée doit être dans les heures d'ouverture, éviter les fermetures et les autres rendez-vous, et être libre dans un Google Calendar connecté. Quand Palakarimpu AI ne peut pas confirmer que le calendrier est à jour, il considère ce créneau comme occupé.
 - Un jour peut avoir plusieurs plages d'ouverture, comme de 09:00 à 12:00 et de 13:00 à 17:00. Envoyez chacune comme une entrée distincte dans `hours`. Une entreprise sans heures d'ouverture n'a aucun créneau réservable.
-- Les nouvelles réservations se synchronisent avec le calendrier connecté et mettent en file d'attente les textos habituels de confirmation et de rappel. LobbyStack ne les envoie qu'aux contacts qui ont accepté de recevoir des textos. Sur une instance auto-hébergée, passez `"sms_consent": true` quand le client a donné son accord pendant la réservation. Sur LobbyStack Cloud, les textos partent du numéro partagé de LobbyStack, et seule la réceptionniste peut recueillir ce consentement, pendant un appel : `sms_consent` n'a donc aucun effet.
-- Pour réserver avec une personne précise, passez `staff_id`. Sans ce champ, LobbyStack choisit un membre du personnel libre qui offre le service.
-- L'annulation fonctionne dans tous les modes de réservation. Annuler un rendez-vous déjà annulé le renvoie sans changement. Quand vous annulez un rendez-vous à venir et que le client a accepté de recevoir des textos, LobbyStack lui envoie un texto pour le prévenir.
+- Les nouvelles réservations se synchronisent avec le calendrier connecté et mettent en file d'attente les textos habituels de confirmation et de rappel. Palakarimpu AI ne les envoie qu'aux contacts qui ont accepté de recevoir des textos. Sur une instance auto-hébergée, passez `"sms_consent": true` quand le client a donné son accord pendant la réservation. Sur Palakarimpu AI Cloud, les textos partent du numéro partagé de Palakarimpu AI, et seule la réceptionniste peut recueillir ce consentement, pendant un appel : `sms_consent` n'a donc aucun effet.
+- Pour réserver avec une personne précise, passez `staff_id`. Sans ce champ, Palakarimpu AI choisit un membre du personnel libre qui offre le service.
+- L'annulation fonctionne dans tous les modes de réservation. Annuler un rendez-vous déjà annulé le renvoie sans changement. Quand vous annulez un rendez-vous à venir et que le client a accepté de recevoir des textos, Palakarimpu AI lui envoie un texto pour le prévenir.
 
 Les clés API agissent au nom de l'entreprise, donc l'API saute la vérification de l'appelant que la réceptionniste fait au téléphone.
 

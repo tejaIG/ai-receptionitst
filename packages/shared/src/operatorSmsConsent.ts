@@ -3,7 +3,7 @@
 // locale; bump the version whenever the wording changes.
 export const OPERATOR_SMS_DISCLOSURE_VERSION = "operator-alerts-2026-10-03";
 
-export const OPERATOR_SMS_DISCLOSURE_TEXT = "By sending the code, you agree to get LobbyStack alerts by text. Frequency varies. Msg & data rates may apply. Reply STOP to opt out, HELP for help.";
+export const OPERATOR_SMS_DISCLOSURE_TEXT = "By sending the code, you agree to get Palakarimpu AI alerts by text. Frequency varies. Msg & data rates may apply. Reply STOP to opt out, HELP for help.";
 
 // Consent recorded under an earlier disclosure stays valid; new consent always
 // records the current version.

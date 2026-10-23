@@ -1,20 +1,20 @@
 ---
 title: "Configure third-party providers"
-description: "See which provider accounts a self-hosted LobbyStack needs: Twilio and OpenAI for live calls, plus optional services like Google Calendar, S3 storage, and PostHog."
+description: "See which provider accounts a self-hosted Palakarimpu AI needs: Twilio and OpenAI for live calls, plus optional services like Google Calendar, S3 storage, and PostHog."
 sidebarTitle: "Third-party providers"
 contentType: "Reference"
 ---
 
-The Docker Compose baseline runs LobbyStack's application, PostgreSQL, Redis, and a shared local-storage volume. Connect your own provider accounts for external capabilities.
+The Docker Compose baseline runs Palakarimpu AI's application, PostgreSQL, Redis, and a shared local-storage volume. Connect your own provider accounts for external capabilities.
 
 ## Required for live calls
 
 <AccordionGroup>
   <Accordion title="Twilio" icon="phone">
-    Twilio supplies phone numbers, call transfers, and phone verification. An Elastic SIP trunk sends calls for your numbers to OpenAI. Every number must sit on the trunk to answer calls. Keep the Twilio auth token server-side.
+    Twilio supplies phone numbers, call transfers, and phone verification. An Elastic SIP trunk sends calls for your numbers to OpenAI. Every number must sit on the trunk to answer calls. Twilio can also send customers a WhatsApp confirmation after each booking. See [WhatsApp confirmations](/self-hosting/environment-variables#whatsapp-confirmations). Keep the Twilio auth token server-side.
   </Accordion>
   <Accordion title="OpenAI" icon="waveform">
-    OpenAI's GPT-Live model holds the conversation on phone and browser calls, and OpenAI hosts the audio. When the caller needs business data, such as openings or a booking, GPT-Live asks LobbyStack's worker, which answers with the receptionist agent. Your OpenAI project needs SIP enabled and an incoming-call webhook for phone calls.
+    OpenAI's GPT-Live model holds the conversation on phone and browser calls, and OpenAI hosts the audio. When the caller needs business data, such as openings or a booking, GPT-Live asks Palakarimpu AI's worker, which answers with the receptionist agent. Your OpenAI project needs SIP enabled and an incoming-call webhook for phone calls.
   </Accordion>
 </AccordionGroup>
 

@@ -41,7 +41,7 @@ The comparison requires at least one selected scenario to improve p95 by 15% in 
 
 ## Evidence and limitations
 
-Raw reports now live in LobbyStack internal under `Reports/Performance/2026-09-08/`. The code repository retains the scripts and this summary.
+Raw reports now live in Palakarimpu AI internal under `Reports/Performance/2026-09-08/`. The code repository retains the scripts and this summary.
 
 The local analytics report, `analytics-local.json`, contains all samples and app-role query plans. Median p95 across three repetitions:
 

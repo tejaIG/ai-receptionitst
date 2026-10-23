@@ -1,5 +1,5 @@
 ---
-name: LobbyStack
+name: Palakarimpu AI
 description: An open-source AI receptionist platform for small businesses
 colors:
   neutral-background: "oklch(1 0 0)"
@@ -43,7 +43,7 @@ components:
     padding: "32px"
 ---
 
-# Design system: LobbyStack
+# Design system: Palakarimpu AI
 
 ## 1. Overview
 

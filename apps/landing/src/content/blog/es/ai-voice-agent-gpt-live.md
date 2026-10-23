@@ -1,9 +1,9 @@
 ---
 title: "Nuestro agente de voz con IA ya funciona con GPT-Live, el modelo de ChatGPT Voice"
 seoTitle: "Agente de voz con IA en GPT-Live, el modelo de ChatGPT Voice"
-description: "El agente de voz con IA de LobbyStack ya funciona con GPT-Live de OpenAI, el modelo de ChatGPT Voice. Sigue hablando mientras reserva, consulta el horario y toma mensajes."
+description: "El agente de voz con IA de Palakarimpu AI ya funciona con GPT-Live de OpenAI, el modelo de ChatGPT Voice. Sigue hablando mientras reserva, consulta el horario y toma mensajes."
 pubDate: 2026-09-26T21:00:00-04:00
-author: "Equipo de LobbyStack"
+author: "Equipo de Palakarimpu AI"
 category: "Novedades del producto"
 featured: false
 coverImage: "/illustrations/ai-voice-agent-gpt-live-hero.webp"
@@ -12,9 +12,9 @@ locale: "es"
 canonicalSlug: "ai-voice-agent-gpt-live"
 ---
 
-Alguien llama y pregunta si tiene algún hueco el martes por la mañana. Con la mayoría de los agentes de voz con IA, la línea se queda en silencio mientras el software consulta el calendario. El agente de voz con IA de LobbyStack sigue la conversación mientras lo comprueba, porque ahora funciona con GPT-Live, el modelo de voz que OpenAI creó para ChatGPT Voice.
+Alguien llama y pregunta si tiene algún hueco el martes por la mañana. Con la mayoría de los agentes de voz con IA, la línea se queda en silencio mientras el software consulta el calendario. El agente de voz con IA de Palakarimpu AI sigue la conversación mientras lo comprueba, porque ahora funciona con GPT-Live, el modelo de voz que OpenAI creó para ChatGPT Voice.
 
-Todas las llamadas de LobbyStack funcionan ya con GPT-Live, por teléfono y en el navegador. Este artículo explica qué es GPT-Live, cómo lo conectamos a una recepcionista que realiza acciones reales y qué aprendimos con el cambio.
+Todas las llamadas de Palakarimpu AI funcionan ya con GPT-Live, por teléfono y en el navegador. Este artículo explica qué es GPT-Live, cómo lo conectamos a una recepcionista que realiza acciones reales y qué aprendimos con el cambio.
 
 ## Qué es GPT-Live
 
@@ -34,7 +34,7 @@ ChatGPT Voice responde preguntas. Una recepcionista tiene que resolver cosas: co
 
 GPT-Live lo consigue con lo que OpenAI llama delegación. Cuando alguien pide algo que necesita los datos de su negocio, GPT-Live pasa la tarea a un software que usted controla y [sigue hablando mientras ese trabajo se ejecuta](https://developers.openai.com/api/docs/guides/live-delegation). Quien llama oye a una recepcionista que sigue en la línea con él.
 
-En LobbyStack, esas tareas van a un único agente con herramientas para:
+En Palakarimpu AI, esas tareas van a un único agente con herramientas para:
 
 - su horario, sus servicios y las respuestas del conocimiento que ha añadido
 - buscar huecos libres y reservar, o tomar una solicitud para que su equipo la confirme
@@ -52,7 +52,7 @@ Antes del cambio, el audio de las llamadas hacía un recorrido más largo. Twili
 
 Ahora OpenAI aloja el audio. Las llamadas telefónicas le llegan a través de un troncal SIP de Twilio, y las llamadas desde el navegador se conectan por WebRTC. Nuestra aplicación inicia cada llamada, y un proceso en segundo plano responde a las solicitudes del agente, guarda la transcripción y almacena la grabación.
 
-Así quitamos un servicio del recorrido de la llamada y de la lista de cosas que operamos. Con todos los números ya migrados, vamos a retirar la pasarela, lo que también simplifica LobbyStack para los equipos que [lo autoalojan](/solutions/self-hosted-ai-receptionist/).
+Así quitamos un servicio del recorrido de la llamada y de la lista de cosas que operamos. Con todos los números ya migrados, vamos a retirar la pasarela, lo que también simplifica Palakarimpu AI para los equipos que [lo autoalojan](/solutions/self-hosted-ai-receptionist/).
 
 ## Qué aprendimos con el cambio
 
@@ -72,29 +72,29 @@ Probamos GPT-Live en preproducción, luego en llamadas reales desde el navegador
 
 ## Qué significa esto para su negocio
 
-Las personas que llaman juzgan a un agente de voz con IA según consigan o no lo que buscaban. Con GPT-Live, LobbyStack se parece más a una buena recepción:
+Las personas que llaman juzgan a un agente de voz con IA según consigan o no lo que buscaban. Con GPT-Live, Palakarimpu AI se parece más a una buena recepción:
 
 - Quien llama obtiene respuestas y reservas sin música de espera ni silencios largos.
 - Usted elige si el agente reserva directamente, toma solicitudes para que su equipo las confirme o no reserva nada.
 - Su línea telefónica y su sitio web dan las mismas respuestas.
 - Cada llamada llega a su panel con una transcripción, una grabación y un resumen.
 
-LobbyStack es de código abierto bajo la licencia MIT. Puede ejecutarlo usted mismo o dejar que nosotros lo alojemos. En ambos casos obtiene la misma recepcionista telefónica con IA.
+Palakarimpu AI es de código abierto bajo la licencia MIT. Puede ejecutarlo usted mismo o dejar que nosotros lo alojemos. En ambos casos obtiene la misma recepcionista telefónica con IA.
 
-## Preguntas sobre GPT-Live y LobbyStack
+## Preguntas sobre GPT-Live y Palakarimpu AI
 
 ### ¿Es el mismo modelo que ChatGPT Voice?
 
-GPT-Live-1 es el modelo que ChatGPT Voice usa por defecto para los usuarios de pago. LobbyStack lo conecta a su negocio mediante delegación, así puede consultar su calendario y reservar citas, algo que ChatGPT por sí solo no puede hacer por sus clientes.
+GPT-Live-1 es el modelo que ChatGPT Voice usa por defecto para los usuarios de pago. Palakarimpu AI lo conecta a su negocio mediante delegación, así puede consultar su calendario y reservar citas, algo que ChatGPT por sí solo no puede hacer por sus clientes.
 
 ### ¿Qué es un agente de voz con IA?
 
-Un agente de voz con IA es un software que contesta llamadas hablando con naturalidad y completa tareas durante la llamada, como reservar una cita o tomar un mensaje. El agente de voz con IA de LobbyStack trabaja como recepcionista para pequeños negocios que pierden llamadas mientras atienden a sus clientes.
+Un agente de voz con IA es un software que contesta llamadas hablando con naturalidad y completa tareas durante la llamada, como reservar una cita o tomar un mensaje. El agente de voz con IA de Palakarimpu AI trabaja como recepcionista para pequeños negocios que pierden llamadas mientras atienden a sus clientes.
 
 ### ¿Tengo que cambiar mi número de teléfono?
 
-No. Starter y Pro incluyen un número dedicado de LobbyStack. Desvíe su número actual a ese número, o envíele solo las llamadas fuera de horario y las que su equipo no alcanza a atender.
+No. Starter y Pro incluyen un número dedicado de Palakarimpu AI. Desvíe su número actual a ese número, o envíele solo las llamadas fuera de horario y las que su equipo no alcanza a atender.
 
 ## Escúchelo usted mismo
 
-La forma más rápida de juzgar un modelo de voz es hablar con él. Pruebe el botón de llamada en [nuestra página de inicio](/es/) y pregúntele por LobbyStack, o [cree una cuenta gratuita](https://app.lobbystack.com/es/signup) y pruebe su propia recepcionista desde el navegador en unos minutos. Consulte los [precios](/es/pricing/) cuando esté listo para ponerla en su línea telefónica.
+La forma más rápida de juzgar un modelo de voz es hablar con él. Pruebe el botón de llamada en [nuestra página de inicio](/es/) y pregúntele por Palakarimpu AI, o [cree una cuenta gratuita](https://app.lobbystack.com/es/signup) y pruebe su propia recepcionista desde el navegador en unos minutos. Consulte los [precios](/es/pricing/) cuando esté listo para ponerla en su línea telefónica.

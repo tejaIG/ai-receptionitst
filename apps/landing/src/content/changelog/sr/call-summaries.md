@@ -7,7 +7,7 @@ canonicalSlug: "call-summaries"
 category: "Poboljšanje"
 ---
 
-LobbyStack sada piše rezimee poziva s većim fokusom na to šta se desilo, šta je pozivalac želeo i šta treba da se desi sledeće. Možete da pregledate propuštene prilike, hitne zahteve, nove potencijalne klijente i termine bez preslušavanja svakog snimka.
+Palakarimpu AI sada piše rezimee poziva s većim fokusom na to šta se desilo, šta je pozivalac želeo i šta treba da se desi sledeće. Možete da pregledate propuštene prilike, hitne zahteve, nove potencijalne klijente i termine bez preslušavanja svakog snimka.
 
 Beleške za praćenje su takođe doslednije. Kada poziv zahteva pažnju čoveka, kontrolna tabla prvo ističe koristan kontekst: podatke o pozivaocu, nameru, hitnost i radnju koju Vaš tim treba da razmotri.
 

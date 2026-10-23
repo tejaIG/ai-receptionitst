@@ -2,7 +2,7 @@
 title: "How much can an AI receptionist save you?"
 description: "Estimate AI receptionist savings from lower answering costs and fewer missed calls. Use the missed call calculator to run the numbers."
 pubDate: 2026-06-03T12:00:00-04:00
-author: "LobbyStack Team"
+author: "Palakarimpu AI Team"
 category: "Guides"
 featured: true
 coverImage: "/illustrations/ai-receptionist-savings-hero.webp"
@@ -61,7 +61,7 @@ That number is usually uncomfortable enough on its own.
 
 ## Use the missed call calculator
 
-LobbyStack has a [missed call revenue calculator](/missed-call-revenue-calculator/) for this exact reason. It uses a formula:
+Palakarimpu AI has a [missed call revenue calculator](/missed-call-revenue-calculator/) for this exact reason. It uses a formula:
 
 ```text
 monthly revenue at risk =
@@ -105,7 +105,7 @@ This is why average customer value matters so much. A $45 order, a $900 emergenc
 
 Once you know the revenue at risk, compare it against the monthly cost of coverage.
 
-With [LobbyStack's pricing](/pricing/), you can start free with 30 voice minutes per month. Starter is $30/month, or $24/month when billed annually, and includes 150 voice minutes. Pro is $100/month, or $80/month when billed annually, and includes 500 voice minutes.
+With [Palakarimpu AI's pricing](/pricing/), you can start free with 30 voice minutes per month. Starter is $30/month, or $24/month when billed annually, and includes 150 voice minutes. Pro is $100/month, or $80/month when billed annually, and includes 500 voice minutes.
 
 For the example above, a business recovering even one $300 customer from missed calls has likely paid for the month. Recovering two starts to make the math feel obvious.
 

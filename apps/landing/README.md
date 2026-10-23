@@ -1,4 +1,4 @@
-# LobbyStack landing site
+# Palakarimpu AI landing site
 
 Astro marketing site for `lobbystack.com`, with React islands, shadcn/ui components, SEO routes, RSS, Pagefind search, localized French pages, and Cloudflare Pages middleware.
 

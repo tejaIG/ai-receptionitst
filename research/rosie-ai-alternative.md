@@ -15,7 +15,7 @@ The $149 Scale plan adds calendar booking, live and warm transfers, and in-call 
 
 ## Fair comparison
 
-Rosie offers generous public minute allowances. Buyers who only need answering and message capture may like its entry plan. Buyers who need booking or transfers should compare the Scale plan with LobbyStack's included workflows, public code, and deployment choices.
+Rosie offers generous public minute allowances. Buyers who only need answering and message capture may like its entry plan. Buyers who need booking or transfers should compare the Scale plan with Palakarimpu AI's included workflows, public code, and deployment choices.
 
 ## Claims to avoid
 

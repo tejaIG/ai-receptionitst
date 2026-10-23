@@ -16,7 +16,7 @@ The Starter plan publicly lists one logic flow, three directory contacts, and se
 
 ## Fair comparison
 
-Goodcall's unique-caller model can work well for long or repeated calls from the same customers. LobbyStack's minute model can fit businesses with many distinct short inquiries. LobbyStack also publishes its source and supports self-hosting.
+Goodcall's unique-caller model can work well for long or repeated calls from the same customers. Palakarimpu AI's minute model can fit businesses with many distinct short inquiries. Palakarimpu AI also publishes its source and supports self-hosting.
 
 ## Claims to avoid
 

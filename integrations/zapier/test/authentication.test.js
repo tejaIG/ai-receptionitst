@@ -48,7 +48,7 @@ describe('authentication', () => {
 });
 
 describe('base URL', () => {
-  it('defaults to LobbyStack Cloud', () => {
+  it('defaults to Palakarimpu AI Cloud', () => {
     expect(resolveBaseUrl({})).toBe('https://app.lobbystack.com');
     expect(resolveBaseUrl({ baseUrl: '  ' })).toBe('https://app.lobbystack.com');
   });

@@ -2,7 +2,7 @@
 title: "Cómo elegir una recepcionista con IA"
 description: "Aprenda a elegir una recepcionista con IA con una lista práctica para comparar funciones, precios, calidad de llamada, integraciones, cumplimiento y pruebas."
 pubDate: 2026-06-03T13:00:00-04:00
-author: "Equipo de LobbyStack"
+author: "Equipo de Palakarimpu AI"
 category: "Guías"
 featured: false
 coverImage: "/illustrations/how-to-choose-an-ai-receptionist-hero.webp"
@@ -383,4 +383,4 @@ En resumen:
 - Pruebe las llamadas complicadas, más allá de la demo con guion.
 - Compare el costo total con las llamadas gestionadas con éxito y las oportunidades recuperadas.
 
-Si las llamadas perdidas forman parte del problema, empiece con la [calculadora de ingresos por llamadas perdidas](/es/missed-call-revenue-calculator/) o lea [cuánto puede ahorrar una recepcionista con IA](/es/blog/ai-receptionist-savings/). Si el código abierto está en su lista, compare los [mejores servicios de atención telefónica con IA de código abierto](/es/blog/best-open-source-ai-phone-answering-services/) antes de ver demos de proveedores. Si está considerando cadenas de automatización hechas por su cuenta, consulte [flujos de trabajo de recepcionista con IA sin diagramas de flujo](/es/blog/ai-receptionist-workflows/). Si quiere ver cómo es una configuración práctica de recepcionista con IA, compare los [precios de LobbyStack](/es/pricing/) y empiece con un piloto acotado antes de ponerla en todas las llamadas.
+Si las llamadas perdidas forman parte del problema, empiece con la [calculadora de ingresos por llamadas perdidas](/es/missed-call-revenue-calculator/) o lea [cuánto puede ahorrar una recepcionista con IA](/es/blog/ai-receptionist-savings/). Si el código abierto está en su lista, compare los [mejores servicios de atención telefónica con IA de código abierto](/es/blog/best-open-source-ai-phone-answering-services/) antes de ver demos de proveedores. Si está considerando cadenas de automatización hechas por su cuenta, consulte [flujos de trabajo de recepcionista con IA sin diagramas de flujo](/es/blog/ai-receptionist-workflows/). Si quiere ver cómo es una configuración práctica de recepcionista con IA, compare los [precios de Palakarimpu AI](/es/pricing/) y empiece con un piloto acotado antes de ponerla en todas las llamadas.

@@ -4,7 +4,7 @@ seoTitle: "AI vs virtual receptionist: Cost and coverage"
 description: "Compare AI and human virtual receptionists on cost, call volume, empathy, booking, transfers, and oversight to choose the right phone coverage."
 pubDate: 2026-07-30T09:50:00-04:00
 updatedDate: 2026-07-30T09:50:00-04:00
-author: "LobbyStack Team"
+author: "Palakarimpu AI Team"
 category: "Comparisons"
 featured: false
 coverImage: "/illustrations/ai-receptionist-vs-virtual-receptionist-hero.webp"
@@ -123,9 +123,9 @@ The split should follow risk and value. Automate repeatable work. Give people th
 - What happens during a queue spike?
 - How are transfers and spam calls billed?
 
-## How LobbyStack approaches the split
+## How Palakarimpu AI approaches the split
 
-[LobbyStack](/features/) handles routine questions, intake, booking, appointment changes, summaries, and configured transfers. Your team keeps the calls that need expertise or empathy.
+[Palakarimpu AI](/features/) handles routine questions, intake, booking, appointment changes, summaries, and configured transfers. Your team keeps the calls that need expertise or empathy.
 
 The code is [public on GitHub](https://github.com/lobbystack/lobbystack), and teams can use the managed cloud or [self-host the stack](https://docs.lobbystack.com/self-hosting/overview). Self-hosting gives more control but requires technical ownership.
 
@@ -133,4 +133,4 @@ The code is [public on GitHub](https://github.com/lobbystack/lobbystack), and te
 
 Choose AI when call volume is predictable, speed matters, and the work follows clear rules. Choose a human service when calls rely on empathy, improvisation, or a managed external workforce.
 
-Most businesses should test a hybrid design. Start with overflow or after-hours calls, review the results, then expand the calls that the system handles well. [Try LobbyStack free](https://app.lobbystack.com/en/signup) if you want to test that model with your own call scenarios.
+Most businesses should test a hybrid design. Start with overflow or after-hours calls, review the results, then expand the calls that the system handles well. [Try Palakarimpu AI free](https://app.lobbystack.com/en/signup) if you want to test that model with your own call scenarios.

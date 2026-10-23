@@ -41,7 +41,7 @@ type Tier = {
 type BillingInterval = "monthly" | "annual"
 
 const enterpriseContactHref =
-  "mailto:support@lobbystack.com?subject=LobbyStack%20enterprise%20inquiry"
+  "mailto:support@lobbystack.com?subject=Palakarimpu AI%20enterprise%20inquiry"
 
 const tiers: Tier[] = [
   {

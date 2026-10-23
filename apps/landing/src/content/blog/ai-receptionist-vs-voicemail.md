@@ -4,7 +4,7 @@ seoTitle: "AI receptionist vs voicemail: A practical guide"
 description: "Compare an AI receptionist and voicemail on caller experience, lead capture, booking, cost, after-hours coverage, and the cases where voicemail still works."
 pubDate: 2026-07-30T09:40:00-04:00
 updatedDate: 2026-07-30T09:40:00-04:00
-author: "LobbyStack Team"
+author: "Palakarimpu AI Team"
 category: "Comparisons"
 featured: false
 coverImage: "/illustrations/ai-receptionist-vs-voicemail-hero.webp"
@@ -117,9 +117,9 @@ An AI system can detect or screen some spam, but no filter catches everything. B
 
 Voicemail has spam too. Staff still spend time deleting robocalls and empty messages. Compare the noise that reaches employees in each setup.
 
-## How LobbyStack handles missed calls
+## How Palakarimpu AI handles missed calls
 
-[LobbyStack](/features/) can answer every inbound call, after-hours calls, or only the calls your team misses. It can work from business knowledge, collect intake, book appointments, transfer urgent calls, and send summaries.
+[Palakarimpu AI](/features/) can answer every inbound call, after-hours calls, or only the calls your team misses. It can work from business knowledge, collect intake, book appointments, transfer urgent calls, and send summaries.
 
 Businesses can use the managed cloud or [self-host the open-source stack](https://github.com/lobbystack/lobbystack). The self-hosted route gives infrastructure control and adds operational responsibility.
 
@@ -127,4 +127,4 @@ Businesses can use the managed cloud or [self-host the open-source stack](https:
 
 Keep voicemail for calls where a delayed response creates little risk. Use an AI receptionist where callers need an answer, booking, qualification, or urgent route during the call.
 
-Start with missed and after-hours calls. Track messages, bookings, transfers, failures, and callbacks for a month. If the workflow recovers useful work, expand it. You can [test LobbyStack on the free plan](/pricing/) before changing every phone route.
+Start with missed and after-hours calls. Track messages, bookings, transfers, failures, and callbacks for a month. If the workflow recovers useful work, expand it. You can [test Palakarimpu AI on the free plan](/pricing/) before changing every phone route.

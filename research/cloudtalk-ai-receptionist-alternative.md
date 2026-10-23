@@ -16,7 +16,7 @@ The receptionist advertises FAQ handling, message capture, intent routing, multi
 
 ## Fair comparison
 
-CloudTalk fits teams that need a phone system or contact center along with an AI agent. LobbyStack fits buyers who want an open receptionist product with cloud and self-hosted options.
+CloudTalk fits teams that need a phone system or contact center along with an AI agent. Palakarimpu AI fits buyers who want an open receptionist product with cloud and self-hosted options.
 
 ## Claims to avoid
 

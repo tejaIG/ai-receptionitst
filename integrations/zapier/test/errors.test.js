@@ -49,7 +49,7 @@ describe('error mapping', () => {
 
   it('handles a non-JSON error body', async () => {
     api().get('/contacts').query(true).reply(502, '<html>Bad gateway</html>', { 'Content-Type': 'text/html' });
-    await expect(appTester(listContacts, bundleWith())).rejects.toThrow(/LobbyStack had a problem/);
+    await expect(appTester(listContacts, bundleWith())).rejects.toThrow(/Palakarimpu AI had a problem/);
   });
 });
 

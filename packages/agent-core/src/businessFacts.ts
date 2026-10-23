@@ -33,10 +33,10 @@ export function describeClosure(closure: UpcomingClosure, timezone: string): str
   return `${format(closure.from)} to ${format(closure.to)}${closure.reason ? ` (${closure.reason})` : ""}`;
 }
 
-// New businesses start with a summary like "Acme uses LobbyStack to answer
+// New businesses start with a summary like "Acme uses Palakarimpu AI to answer
 // calls." (older ones: "...to handle calls and SMS."). It says nothing about
 // the business, and GPT-Live would repeat it, so callers never hear it.
-const PLACEHOLDER_SUMMARY = /\buses LobbyStack to (?:answer calls|handle calls and SMS)\.?$/i;
+const PLACEHOLDER_SUMMARY = /\buses (?:Palakarimpu AI|LobbyStack) to (?:answer calls|handle calls and SMS)\.?$/i;
 
 /** The business's own summary, or undefined while it's still the placeholder. */
 export function businessSummary(snapshot: Pick<BusinessContextSnapshot, "summary">): string | undefined {

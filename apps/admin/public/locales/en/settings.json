@@ -402,7 +402,7 @@
     },
     "telemetry": {
       "label": "Share telemetry data",
-      "description": "Help us improve LobbyStack by sharing anonymized usage and error data.",
+      "description": "Help us improve Palakarimpu AI by sharing anonymized usage and error data.",
       "saveFailed": "We couldn’t save your telemetry preference. Please try again."
     }
   },
@@ -422,7 +422,7 @@
     "google": {
       "sheetTitle": "Google Calendar",
       "sheetDescription": "Connect a Google Calendar and choose which calendar receives bookings.",
-      "privacyNoticeText": "Connecting Google Calendar lets LobbyStack read your calendar availability and create, update, or delete appointment events on the calendar you select.",
+      "privacyNoticeText": "Connecting Google Calendar lets Palakarimpu AI read your calendar availability and create, update, or delete appointment events on the calendar you select.",
       "privacyPolicyLinkText": "Privacy Policy",
       "staffLabel": "Team member",
       "selectStaff": "Choose a team member",
@@ -472,6 +472,12 @@
       "webhooks": {
         "title": "Webhooks",
         "description": "Send calls, bookings and messages to your own tools."
+      },
+      "whatsapp": {
+        "title": "WhatsApp confirmations",
+        "description": "Message customers on WhatsApp when their appointment is booked.",
+        "notConfigured": "WhatsApp isn’t set up on this server yet. Add a Twilio WhatsApp sender to send messages.",
+        "noTemplate": "No approved message template is set. Messages only reach customers who wrote to you in the last 24 hours."
       }
     },
     "status": {
@@ -789,7 +795,7 @@
       },
       "webhookDisabled": {
         "title": "Webhook endpoint turned off",
-        "description": "When LobbyStack stops sending events to a webhook endpoint because every delivery failed for about a day."
+        "description": "When Palakarimpu AI stops sending events to a webhook endpoint because every delivery failed for about a day."
       }
     },
     "systemIssues": {
@@ -798,11 +804,11 @@
     "phoneVerification": {
       "phone": {
         "title": "Your mobile number",
-        "consent": "By sending the code, you agree to get LobbyStack alerts by text. Frequency varies. Msg & data rates may apply. Reply STOP to opt out, HELP for help."
+        "consent": "By sending the code, you agree to get Palakarimpu AI alerts by text. Frequency varies. Msg & data rates may apply. Reply STOP to opt out, HELP for help."
       },
       "confirm": {
         "title": "Turn on SMS alerts",
-        "consent": "By turning them on, you agree to get LobbyStack alerts by text at your verified number. Frequency varies. Msg & data rates may apply. Reply STOP to opt out, HELP for help.",
+        "consent": "By turning them on, you agree to get Palakarimpu AI alerts by text at your verified number. Frequency varies. Msg & data rates may apply. Reply STOP to opt out, HELP for help.",
         "turnOn": "Turn on"
       },
       "fields": {
@@ -843,7 +849,7 @@
   },
   "apiKeys": {
     "title": "API keys",
-    "description": "Connect tools like Zapier or your own scripts to LobbyStack. Each key works for this business only.",
+    "description": "Connect tools like Zapier or your own scripts to Palakarimpu AI. Each key works for this business only.",
     "empty": "No API keys yet.",
     "neverUsed": "Never",
     "createdBy": "{{date}} by {{name}}",
@@ -901,7 +907,7 @@
   },
   "webhooks": {
     "title": "Webhooks",
-    "description": "LobbyStack sends an HTTPS POST to your URL when something happens, such as a finished call or a new booking. Each request is signed so you can check it came from us.",
+    "description": "Palakarimpu AI sends an HTTPS POST to your URL when something happens, such as a finished call or a new booking. Each request is signed so you can check it came from us.",
     "empty": "No webhook endpoints yet.",
     "enabledLabel": "Send events to this endpoint",
     "restricted": {
@@ -935,19 +941,19 @@
     "create": {
       "action": "Add endpoint",
       "title": "Add a webhook endpoint",
-      "description": "Choose where LobbyStack sends events and which events to send.",
+      "description": "Choose where Palakarimpu AI sends events and which events to send.",
       "submit": "Add endpoint"
     },
     "edit": {
       "action": "Edit",
       "title": "Edit webhook endpoint",
-      "description": "Changes apply to the next event LobbyStack sends.",
+      "description": "Changes apply to the next event Palakarimpu AI sends.",
       "submit": "Save"
     },
     "delete": {
       "action": "Delete",
       "title": "Delete this endpoint?",
-      "description": "LobbyStack stops sending events to {{url}} and deletes its delivery log.",
+      "description": "Palakarimpu AI stops sending events to {{url}} and deletes its delivery log.",
       "confirm": "Delete endpoint",
       "done": "Endpoint deleted"
     },
@@ -994,8 +1000,8 @@
   },
   "connectedApps": {
     "title": "Connected apps",
-    "description": "AI assistants such as Claude or ChatGPT that someone signed in to LobbyStack. Each one works for this business only, with the access they approved.",
-    "empty": "No connected apps yet. To connect one, add LobbyStack in the assistant's settings and sign in.",
+    "description": "AI assistants such as Claude or ChatGPT that someone signed in to Palakarimpu AI. Each one works for this business only, with the access they approved.",
+    "empty": "No connected apps yet. To connect one, add Palakarimpu AI in the assistant's settings and sign in.",
     "neverUsed": "Never",
     "unnamed": "Unnamed app",
     "grantedBy": "{{date}} by {{name}}",

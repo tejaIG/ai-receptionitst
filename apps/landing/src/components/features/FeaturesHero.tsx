@@ -12,11 +12,11 @@ const featuresHeroCopy = {
   en: {
     h1Start: "AI receptionist features that actually",
     h1Emphasis: "get work done",
-    body: "LobbyStack handles AI phone answering, appointment booking, team notifications, call routing, quotes, and lead qualification without phone trees or workflow-builder mess.",
+    body: "Palakarimpu AI handles AI phone answering, appointment booking, team notifications, call routing, quotes, and lead qualification without phone trees or workflow-builder mess.",
     workflowLabel: "Write the workflow",
     workflowText:
       "When someone asks for a quote, ask what service they need, where they are located, their timeline, and their budget. Give our approved price range for standard jobs. If they need exact pricing, book an on-site estimate and attach the summary for the team.",
-    callLabel: "LobbyStack handles the call",
+    callLabel: "Palakarimpu AI handles the call",
     quoteTitle: "Quote request from Sarah M.",
     service: "Service: Renovation estimate",
     budget: "Budget: $8,000 to $12,000",
@@ -34,11 +34,11 @@ const featuresHeroCopy = {
   fr: {
     h1Start: "Tout ce qu’il faut pour",
     h1Emphasis: "répondre, qualifier et réserver",
-    body: "LobbyStack prend les appels, qualifie les demandes, planifie les rendez‑vous et transmet les bonnes informations à votre équipe, sans menu téléphonique ni scénarios impossibles à maintenir.",
+    body: "Palakarimpu AI prend les appels, qualifie les demandes, planifie les rendez‑vous et transmet les bonnes informations à votre équipe, sans menu téléphonique ni scénarios impossibles à maintenir.",
     workflowLabel: "Décrivez vos règles",
     workflowText:
       "Si quelqu’un demande un devis, demandez le service, l’adresse, le délai souhaité et le budget. Donnez la fourchette approuvée pour les demandes standards. Si le prix doit être confirmé, planifiez une visite d’estimation et joignez le résumé pour l’équipe.",
-    callLabel: "LobbyStack prend l’appel",
+    callLabel: "Palakarimpu AI prend l’appel",
     quoteTitle: "Demande de devis - Sarah M.",
     service: "Service : estimation de rénovation",
     budget: "Budget : 8 000 $ à 12 000 $",
@@ -56,11 +56,11 @@ const featuresHeroCopy = {
   es: {
     h1Start: "Funciones de recepcionista con IA que de verdad",
     h1Emphasis: "hacen el trabajo",
-    body: "LobbyStack contesta el teléfono con IA, reserva citas, avisa a su equipo, dirige llamadas, da presupuestos y califica clientes potenciales, sin menús telefónicos ni editores de flujos enredados.",
+    body: "Palakarimpu AI contesta el teléfono con IA, reserva citas, avisa a su equipo, dirige llamadas, da presupuestos y califica clientes potenciales, sin menús telefónicos ni editores de flujos enredados.",
     workflowLabel: "Escriba el flujo",
     workflowText:
       "Cuando alguien pida un presupuesto, pregunte qué servicio necesita, dónde se encuentra, su plazo y su presupuesto. Dé nuestro rango de precios aprobado para trabajos estándar. Si necesita un precio exacto, reserve una visita de estimación y adjunte el resumen para el equipo.",
-    callLabel: "LobbyStack atiende la llamada",
+    callLabel: "Palakarimpu AI atiende la llamada",
     quoteTitle: "Solicitud de presupuesto de Sarah M.",
     service: "Servicio: estimación de reforma",
     budget: "Presupuesto: $8,000 a $12,000",
@@ -78,11 +78,11 @@ const featuresHeroCopy = {
   sr: {
     h1Start: "Funkcije AI recepcionera koje zaista",
     h1Emphasis: "obavljaju posao",
-    body: "LobbyStack odgovara na pozive uz pomoć AI, zakazuje termine, obaveštava tim, usmerava pozive, daje cene i kvalifikuje potencijalne klijente, bez telefonskih menija i zamršenih alata za tokove rada.",
+    body: "Palakarimpu AI odgovara na pozive uz pomoć AI, zakazuje termine, obaveštava tim, usmerava pozive, daje cene i kvalifikuje potencijalne klijente, bez telefonskih menija i zamršenih alata za tokove rada.",
     workflowLabel: "Napišite tok rada",
     workflowText:
       "Kada neko traži ponudu, pitajte koja mu usluga treba, gde se nalazi, kakav mu je rok i budžet. Za standardne poslove navedite naš odobreni raspon cena. Ako mu treba tačna cena, zakažite procenu na licu mesta i priložite rezime za tim.",
-    callLabel: "LobbyStack obrađuje poziv",
+    callLabel: "Palakarimpu AI obrađuje poziv",
     quoteTitle: "Zahtev za ponudu: Sarah M.",
     service: "Usluga: procena renoviranja",
     budget: "Budžet: $8,000 do $12,000",

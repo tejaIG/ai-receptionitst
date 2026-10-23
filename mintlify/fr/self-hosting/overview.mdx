@@ -1,11 +1,11 @@
 ---
 title: "Comprendre l'auto-hébergement"
-description: "Découvrez les services qu'exécute un déploiement LobbyStack auto-hébergé, comment les données d'appel circulent entre eux et quelles parties vous exploitez, de Railway à vos propres serveurs."
+description: "Découvrez les services qu'exécute un déploiement Palakarimpu AI auto-hébergé, comment les données d'appel circulent entre eux et quelles parties vous exploitez, de Railway à vos propres serveurs."
 sidebarTitle: "Vue d'ensemble de l'auto-hébergement"
 contentType: "Conceptual"
 ---
 
-LobbyStack peut tourner sur un seul hôte Docker ou sous forme de services gérés distincts. L'auto-hébergement vous donne le contrôle des données de l'application, des identifiants, de l'utilisation des fournisseurs, des sauvegardes et des mises à niveau.
+Palakarimpu AI peut tourner sur un seul hôte Docker ou sous forme de services gérés distincts. L'auto-hébergement vous donne le contrôle des données de l'application, des identifiants, de l'utilisation des fournisseurs, des sauvegardes et des mises à niveau.
 
 <Note>
   Les appels en direct exigent quand même Twilio, OpenAI et un point de terminaison HTTPS public pour le tableau de bord. Les appels téléphoniques nécessitent aussi un trunk Twilio Elastic SIP qui envoie les appels à votre projet OpenAI.
@@ -13,7 +13,7 @@ LobbyStack peut tourner sur un seul hôte Docker ou sous forme de services gér�
 
 ## Déployer sur Railway
 
-Le [modèle Railway de LobbyStack](https://railway.com/deploy/lobbystack) déploie les services admin, worker et de migration avec PostgreSQL, Redis et un bucket de stockage. Railway génère tous les secrets et les mots de passe des bases de données. Vous saisissez une clé API OpenAI et vos identifiants Twilio, puis vous créez votre compte sur le domaine de l'admin et suivez les étapes ci-dessous.
+Le [modèle Railway de Palakarimpu AI](https://railway.com/deploy/lobbystack) déploie les services admin, worker et de migration avec PostgreSQL, Redis et un bucket de stockage. Railway génère tous les secrets et les mots de passe des bases de données. Vous saisissez une clé API OpenAI et vos identifiants Twilio, puis vous créez votre compte sur le domaine de l'admin et suivez les étapes ci-dessous.
 
 [![Déployer sur Railway](https://railway.com/button.svg)](https://railway.com/deploy/lobbystack)
 
@@ -27,7 +27,7 @@ La réinitialisation des mots de passe, les codes de vérification, les invitati
 
 - `SMTP_HOST`, `SMTP_USERNAME` et `SMTP_PASSWORD` fournis par votre fournisseur de courriel
 - `SMTP_PORT`, qui vaut `587` par défaut, et `SMTP_SECURE`, qui vaut `false` par défaut. Utilisez `465` et `true` si votre fournisseur exige TLS dès la connexion.
-- `EMAIL_FROM`, une adresse depuis laquelle votre fournisseur vous laisse envoyer, par exemple `LobbyStack <no-reply@example.com>`
+- `EMAIL_FROM`, une adresse depuis laquelle votre fournisseur vous laisse envoyer, par exemple `Palakarimpu AI <no-reply@example.com>`
 - `EMAIL_REPLY_TO`, si les réponses doivent aller à une autre adresse
 
 #### Terminez la configuration des appels téléphoniques
@@ -69,7 +69,7 @@ Le fichier [`docker-compose.yml`](https://github.com/lobbystack/lobbystack/blob/
 - le worker d'arrière-plan et le répartiteur de l'outbox transactionnelle, qui exécute aussi chaque appel GPT-Live
 - Caddy, qui achemine le nom d'hôte du tableau de bord en HTTP simple, derrière le proxy ou l'équilibreur de charge qui termine le HTTPS
 
-LobbyStack n'ajoute pas de conteneurs de surveillance à la pile Compose. Les environnements d'exécution serveur peuvent envoyer des traces, des métriques et des journaux OpenTelemetry vers un backend compatible OTLP configuré.
+Palakarimpu AI n'ajoute pas de conteneurs de surveillance à la pile Compose. Les environnements d'exécution serveur peuvent envoyer des traces, des métriques et des journaux OpenTelemetry vers un backend compatible OTLP configuré.
 
 ## Flux de données
 

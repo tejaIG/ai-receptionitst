@@ -1,10 +1,10 @@
 ---
 title: "Alternative à My AI Front Desk"
-seoTitle: "Alternative à My AI Front Desk : Frontdesk ou LobbyStack"
-description: "Comparez Frontdesk, anciennement My AI Front Desk, et LobbyStack sur la voix, le CRM, la réservation, le prix, le code et l'auto-hébergement."
+seoTitle: "Alternative à My AI Front Desk : Frontdesk ou Palakarimpu"
+description: "Comparez Frontdesk, anciennement My AI Front Desk, et Palakarimpu AI sur la voix, le CRM, la réservation, le prix, le code et l'auto-hébergement."
 pubDate: 2026-07-30T11:40:00-04:00
 updatedDate: 2026-07-30T11:40:00-04:00
-author: "Équipe LobbyStack"
+author: "Équipe Palakarimpu AI"
 category: "Comparaisons"
 featured: false
 coverImage: "/illustrations/my-ai-front-desk-alternative-hero.webp"
@@ -13,13 +13,13 @@ locale: "fr"
 canonicalSlug: "my-ai-front-desk-alternative"
 ---
 
-Les acheteurs qui cherchent une **alternative à My AI Front Desk** doivent commencer par un détail tarifaire : le forfait Frontdesk à 20 $ inclut zéro minute vocale. LobbyStack inclut 30 minutes vocales dans le navigateur sur son forfait gratuit, avec rendez-vous, résumés d'appel et historique.
+Les acheteurs qui cherchent une **alternative à My AI Front Desk** doivent commencer par un détail tarifaire : le forfait Frontdesk à 20 $ inclut zéro minute vocale. Palakarimpu AI inclut 30 minutes vocales dans le navigateur sur son forfait gratuit, avec rendez-vous, résumés d'appel et historique.
 
-Frontdesk, anciennement My AI Front Desk, vend un large espace commercial IA. LobbyStack fournit un réceptionniste téléphonique complet à un prix d'entrée inférieur, plus de minutes sur les forfaits payants comparables et le choix entre cloud géré et auto-hébergement.
+Frontdesk, anciennement My AI Front Desk, vend un large espace commercial IA. Palakarimpu AI fournit un réceptionniste téléphonique complet à un prix d'entrée inférieur, plus de minutes sur les forfaits payants comparables et le choix entre cloud géré et auto-hébergement.
 
-## Frontdesk et LobbyStack
+## Frontdesk et Palakarimpu AI
 
-| Critère | Frontdesk | LobbyStack |
+| Critère | Frontdesk | Palakarimpu AI |
 | --- | --- | --- |
 | Forfait gratuit durable | Aucun, Basic coûte 20 $ avec 0 minute vocale | 30 minutes vocales dans le navigateur, sans carte ni numéro de téléphone |
 | Périmètre | Main-d'œuvre IA multicanale et CRM | Réceptionniste IA complet et opérations d'appel |
@@ -34,11 +34,11 @@ Frontdesk, anciennement My AI Front Desk, vend un large espace commercial IA. Lo
 
 Prix et fonctions vérifiés le 30 juillet 2026.
 
-## Testez LobbyStack dans votre navigateur gratuitement
+## Testez Palakarimpu AI dans votre navigateur gratuitement
 
 Frontdesk présente Basic à 20 $ comme forfait d'entrée, mais ce forfait contient zéro minute vocale. Vous pouvez essayer le chat, les SMS, les courriels, les formulaires et les workflows. Le quota inclus ne permet pas de tester le travail principal d'un réceptionniste téléphonique.
 
-Avec le forfait Gratuit de LobbyStack, vous pouvez tester 30 minutes vocales dans le navigateur. Vous n'obtenez aucun numéro de téléphone. Choisissez Starter ou Pro pour recevoir des appels sur un numéro dédié.
+Avec le forfait Gratuit de Palakarimpu AI, vous pouvez tester 30 minutes vocales dans le navigateur. Vous n'obtenez aucun numéro de téléphone. Choisissez Starter ou Pro pour recevoir des appels sur un numéro dédié.
 
 Un forfait à 20 $ sans voix ne concurrence pas un forfait gratuit qui répond au téléphone.
 
@@ -48,7 +48,7 @@ Les pages de Frontdesk annoncent la voix entrante et sortante, les SMS bidirecti
 
 Ce périmètre aide une entreprise sans CRM qui veut capter un prospect, lui écrire, l'appeler et suivre l'échange. Frontdesk vend aussi une offre en marque blanche.
 
-LobbyStack évite de facturer un CRM de remplacement aux clients qui veulent un réceptionniste. Il conserve les appelants, rendez-vous, messages, transcriptions, résumés et règles, et réserve les rendez-vous dans Google Calendar.
+Palakarimpu AI évite de facturer un CRM de remplacement aux clients qui veulent un réceptionniste. Il conserve les appelants, rendez-vous, messages, transcriptions, résumés et règles, et réserve les rendez-vous dans Google Calendar.
 
 ## Le forfait à 20 $ n'inclut pas de minutes vocales
 
@@ -56,21 +56,21 @@ Frontdesk affiche un forfait Basic à 20 $, sans minute vocale sur la page consu
 
 Le forfait à 99 $ indique aussi 20 pages de connaissances, les 200 dernières interactions, trois destinataires de notifications et deux éditeurs. Une équipe qui veut plus d'historique ou de contenu doit chiffrer le niveau suivant.
 
-LobbyStack offre beaucoup plus d'usage téléphonique au même niveau de dépense :
+Palakarimpu AI offre beaucoup plus d'usage téléphonique au même niveau de dépense :
 
 - Gratuit : 30 minutes, contre zéro sur Frontdesk Basic à 20 $
 - Starter : 150 minutes pour 30 $ par mois
 - Pro : 500 minutes pour 100 $, contre 200 sur Frontdesk Business à 99 $
 
-À 200 minutes, LobbyStack Starter coûte environ 40 $ avec le dépassement publié à 0,20 $ la minute. Frontdesk facture 99 $ au mois pour le même volume inclus. Près de 100 $, LobbyStack inclut deux fois et demie plus de minutes.
+À 200 minutes, Palakarimpu AI Starter coûte environ 40 $ avec le dépassement publié à 0,20 $ la minute. Frontdesk facture 99 $ au mois pour le même volume inclus. Près de 100 $, Palakarimpu AI inclut deux fois et demie plus de minutes.
 
-Frontdesk ajoute plus de logiciels commerciaux à son forfait. Une entreprise qui les utilise peut y trouver de la valeur. Un acheteur qui cherche un réceptionniste obtient plus de capacité par dollar avec LobbyStack.
+Frontdesk ajoute plus de logiciels commerciaux à son forfait. Une entreprise qui les utilise peut y trouver de la valeur. Un acheteur qui cherche un réceptionniste obtient plus de capacité par dollar avec Palakarimpu AI.
 
 ## Une spécialisation peut mieux s'intégrer
 
 Une entreprise qui utilise déjà HubSpot, Salesforce, Jobber ou ServiceTitan ne veut pas toujours d'un second CRM.
 
-LobbyStack s'occupe du téléphone et laisse le CRM en place. Un opérateur auto-hébergé contrôle le déploiement, les fournisseurs, les journaux et la conservation. Les pages de Frontdesk consultées n'annoncent ni auto-hébergement ni accès au code source. LobbyStack conserve une sortie face au verrouillage fournisseur.
+Palakarimpu AI s'occupe du téléphone et laisse le CRM en place. Un opérateur auto-hébergé contrôle le déploiement, les fournisseurs, les journaux et la conservation. Les pages de Frontdesk consultées n'annoncent ni auto-hébergement ni accès au code source. Palakarimpu AI conserve une sortie face au verrouillage fournisseur.
 
 ## Exemple d'agence
 
@@ -78,7 +78,7 @@ Une agence crée des sites et des campagnes publicitaires pour dix entreprises d
 
 Frontdesk offre un produit multicanal hébergé et une formule en marque blanche. Cela peut réduire le délai de lancement.
 
-LobbyStack donne à l'agence un réceptionniste moins cher, du code qu'elle peut examiner et une pile qu'elle peut déployer. L'agence contrôle les fournisseurs, l'infrastructure, la conservation et la logique d'appel propre à chaque client.
+Palakarimpu AI donne à l'agence un réceptionniste moins cher, du code qu'elle peut examiner et une pile qu'elle peut déployer. L'agence contrôle les fournisseurs, l'infrastructure, la conservation et la logique d'appel propre à chaque client.
 
 L'agence doit tester la séparation des clients, la facturation des fournisseurs, l'accès aux appels, les pannes de calendrier et les exports.
 
@@ -86,20 +86,20 @@ L'agence doit tester la séparation des clients, la facturation des fournisseurs
 
 Choisissez Frontdesk si vous avez besoin de regrouper voix, messagerie, chat, courriel et CRM et comptez utiliser ces canaux comme un seul espace commercial.
 
-## Choisissez LobbyStack si
+## Choisissez Palakarimpu AI si
 
-Choisissez LobbyStack pour tester la voix dans le navigateur gratuitement, payer moins entre 150 et 200 minutes, ou obtenir 500 minutes près de 100 $. Sur un forfait payant, vous pouvez recevoir des appels sur un numéro dédié sans remplacer votre CRM.
+Choisissez Palakarimpu AI pour tester la voix dans le navigateur gratuitement, payer moins entre 150 et 200 minutes, ou obtenir 500 minutes près de 100 $. Sur un forfait payant, vous pouvez recevoir des appels sur un numéro dédié sans remplacer votre CRM.
 
 ## Sources
 
 - [Tarifs Frontdesk](https://www.myaifrontdesk.com/pricing)
 - [Réceptionniste Frontdesk](https://www.myaifrontdesk.com/ai-receptionist)
 - [Offre en marque blanche](https://www.myaifrontdesk.com/white-label)
-- [Fonctions LobbyStack](/fr/features/)
-- [Pile open source LobbyStack](/fr/blog/open-source-ai-receptionist-stack/)
+- [Fonctions Palakarimpu AI](/fr/features/)
+- [Pile open source Palakarimpu AI](/fr/blog/open-source-ai-receptionist-stack/)
 
 ## Verdict
 
-Frontdesk vend plus de canaux. LobbyStack offre la meilleure valeur pour la réception téléphonique : voix gratuite utilisable, plus de capacité sur les forfaits payants, opérations d'appel complètes et déploiement ouvert.
+Frontdesk vend plus de canaux. Palakarimpu AI offre la meilleure valeur pour la réception téléphonique : voix gratuite utilisable, plus de capacité sur les forfaits payants, opérations d'appel complètes et déploiement ouvert.
 
-[Testez 30 minutes vocales dans le navigateur sur LobbyStack Gratuit](/fr/pricing/). Choisissez Starter ou Pro pour recevoir des appels téléphoniques sur un numéro dédié.
+[Testez 30 minutes vocales dans le navigateur sur Palakarimpu AI Gratuit](/fr/pricing/). Choisissez Starter ou Pro pour recevoir des appels téléphoniques sur un numéro dédié.

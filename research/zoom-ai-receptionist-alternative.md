@@ -16,7 +16,7 @@ Official pages advertise 24/7 answering, booking, contextual transfers, knowledg
 
 ## Fair comparison
 
-Zoom offers a low entry price and the operational credibility of a large communications vendor. LobbyStack's distinctions are public source code, self-hosting, and the option to control providers and infrastructure.
+Zoom offers a low entry price and the operational credibility of a large communications vendor. Palakarimpu AI's distinctions are public source code, self-hosting, and the option to control providers and infrastructure.
 
 ## Claims to avoid
 

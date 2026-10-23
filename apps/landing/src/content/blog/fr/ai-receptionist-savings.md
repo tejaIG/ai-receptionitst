@@ -2,7 +2,7 @@
 title: "Économies avec un réceptionniste IA"
 description: "Estimez les économies possibles avec un réceptionniste IA : coûts d'accueil réduits et moins d'appels manqués."
 pubDate: 2026-06-03T12:00:00-04:00
-author: "Équipe LobbyStack"
+author: "Équipe Palakarimpu AI"
 category: "Guides"
 featured: true
 coverImage: "/illustrations/ai-receptionist-savings-hero.webp"
@@ -61,7 +61,7 @@ Ce chiffre est souvent assez parlant à lui seul.
 
 ## Utilisez le calculateur d'appels manqués
 
-LobbyStack propose un [calculateur de revenus perdus](/fr/missed-call-revenue-calculator/) précisément pour cela. Il utilise une formule simple :
+Palakarimpu AI propose un [calculateur de revenus perdus](/fr/missed-call-revenue-calculator/) précisément pour cela. Il utilise une formule simple :
 
 ```text
 revenu mensuel à risque =
@@ -105,7 +105,7 @@ C'est pour cette raison que la valeur moyenne d'un client compte autant. Une com
 
 Une fois le revenu à risque estimé, comparez-le au coût mensuel de la couverture.
 
-Avec [les tarifs de LobbyStack](/fr/pricing/), vous pouvez commencer gratuitement avec 30 minutes vocales par mois. Starter coûte 30 $ par mois, ou 24 $ par mois avec la facturation annuelle, et inclut 150 minutes vocales. Pro coûte 100 $ par mois, ou 80 $ par mois avec la facturation annuelle, et inclut 500 minutes vocales.
+Avec [les tarifs de Palakarimpu AI](/fr/pricing/), vous pouvez commencer gratuitement avec 30 minutes vocales par mois. Starter coûte 30 $ par mois, ou 24 $ par mois avec la facturation annuelle, et inclut 150 minutes vocales. Pro coûte 100 $ par mois, ou 80 $ par mois avec la facturation annuelle, et inclut 500 minutes vocales.
 
 Dans l'exemple ci-dessus, si l'entreprise récupère ne serait-ce qu'un client de 300 $ grâce aux appels manqués, le mois est probablement payé. Deux clients récupérés rendent le calcul encore plus évident.
 

@@ -13,7 +13,7 @@ Smith.ai combines an AI receptionist with access to a North American live-agent 
 
 ## Fair comparison
 
-Smith.ai has the strongest human-backup story in this competitor set. Buyers who want managed live-agent coverage may value that more than infrastructure ownership. LobbyStack offers lower-cost minute allowances, public code, and self-hosting. Custom AI prompting and unlimited custom workflows appear in Smith.ai's Enterprise offering.
+Smith.ai has the strongest human-backup story in this competitor set. Buyers who want managed live-agent coverage may value that more than infrastructure ownership. Palakarimpu AI offers lower-cost minute allowances, public code, and self-hosting. Custom AI prompting and unlimited custom workflows appear in Smith.ai's Enterprise offering.
 
 ## Claims to avoid
 

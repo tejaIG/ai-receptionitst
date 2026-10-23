@@ -1,6 +1,6 @@
 ---
 title: "Reciba webhooks"
-description: "Suscriba una URL a los eventos de LobbyStack, verifique las firmas y gestione los reintentos."
+description: "Suscriba una URL a los eventos de Palakarimpu AI, verifique las firmas y gestione los reintentos."
 sidebarTitle: "Webhooks"
 contentType: "How-to"
 ---
@@ -11,7 +11,7 @@ Los webhooks envían un `POST` HTTPS a su URL cuando ocurre algo en un negocio, 
 
 | Evento | Se envía cuando | `data` |
 | --- | --- | --- |
-| `call.completed` | Una llamada terminó y LobbyStack guardó su resumen y su resultado. | Llamada |
+| `call.completed` | Una llamada terminó y Palakarimpu AI guardó su resumen y su resultado. | Llamada |
 | `appointment.booked` | Alguien reserva una cita: la recepcionista, el panel o la API. | Cita |
 | `appointment.rescheduled` | Una cita se cambia a otra hora. | Cita |
 | `appointment.cancelled` | Se cancela una cita. | Cita |
@@ -34,7 +34,7 @@ Puede agregar endpoints en el panel o con la API.
         Haga clic en **Agregar endpoint**, introduzca la URL y elija los eventos.
       </Step>
       <Step title="Copie el secreto de firma">
-        LobbyStack muestra el secreto `whsec_` una sola vez. Guárdelo donde su endpoint pueda leerlo.
+        Palakarimpu AI muestra el secreto `whsec_` una sola vez. Guárdelo donde su endpoint pueda leerlo.
       </Step>
       <Step title="Envíe un evento de prueba">
         Haga clic en **Enviar evento de prueba** y luego abra **Registro de entregas** para ver la respuesta que devolvió su endpoint.
@@ -89,12 +89,12 @@ Puede agregar endpoints en el panel o con la API.
 
 ## Verifique las firmas
 
-LobbyStack firma cada solicitud con el esquema [Standard Webhooks](https://www.standardwebhooks.com) y envía tres encabezados:
+Palakarimpu AI firma cada solicitud con el esquema [Standard Webhooks](https://www.standardwebhooks.com) y envía tres encabezados:
 
 | Encabezado | Valor |
 | --- | --- |
 | `webhook-id` | El `id` del evento. No cambia en ningún reintento ni reenvío. |
-| `webhook-timestamp` | Hora Unix, en segundos, en que LobbyStack firmó este intento. |
+| `webhook-timestamp` | Hora Unix, en segundos, en que Palakarimpu AI firmó este intento. |
 | `webhook-signature` | `v1,` seguido de una firma HMAC-SHA256 en base64. |
 
 La firma abarca `{webhook-id}.{webhook-timestamp}.{raw body}`, con la parte del secreto posterior a `whsec_`, decodificada en base64, como clave. Use una biblioteca de Standard Webhooks para comprobarla con el cuerpo sin procesar de la solicitud, antes de analizar el JSON:
@@ -117,15 +117,15 @@ Rechace las solicitudes cuya marca de tiempo tenga más de unos minutos de antig
 
 ## Responda y reintente
 
-Devuelva cualquier estado `2xx` en un plazo de 10 segundos. LobbyStack considera cualquier otra cosa como un fallo, incluidos los tiempos de espera agotados, las redirecciones y los errores de conexión. No sigue las redirecciones.
+Devuelva cualquier estado `2xx` en un plazo de 10 segundos. Palakarimpu AI considera cualquier otra cosa como un fallo, incluidos los tiempos de espera agotados, las redirecciones y los errores de conexión. No sigue las redirecciones.
 
-Después de un fallo, LobbyStack reintenta al cabo de 30 segundos, 2 minutos, 10 minutos, 30 minutos, 1 hora, 3 horas, 6 horas y 12 horas, con un total de 9 intentos en unas 23 horas. Cada intento usa el mismo `webhook-id`, así que elimine los duplicados a partir de él. Los eventos pueden llegar desordenados; compare `created_at` o vuelva a consultar el recurso si el orden importa.
+Después de un fallo, Palakarimpu AI reintenta al cabo de 30 segundos, 2 minutos, 10 minutos, 30 minutos, 1 hora, 3 horas, 6 horas y 12 horas, con un total de 9 intentos en unas 23 horas. Cada intento usa el mismo `webhook-id`, así que elimine los duplicados a partir de él. Los eventos pueden llegar desordenados; compare `created_at` o vuelva a consultar el recurso si el orden importa.
 
-Si un evento falla en todos los intentos y nada llegó al endpoint durante ese tiempo, LobbyStack desactiva el endpoint y avisa a su equipo, según las preferencias de cada persona en **Configuración** > **Notificaciones**. Corrija el endpoint, vuelva a activarlo en el panel o con `PATCH /webhooks/{webhook_id}` y `{"status": "enabled"}`, y luego use **Reenviar** en el registro de entregas para enviar los eventos perdidos.
+Si un evento falla en todos los intentos y nada llegó al endpoint durante ese tiempo, Palakarimpu AI desactiva el endpoint y avisa a su equipo, según las preferencias de cada persona en **Configuración** > **Notificaciones**. Corrija el endpoint, vuelva a activarlo en el panel o con `PATCH /webhooks/{webhook_id}` y `{"status": "enabled"}`, y luego use **Reenviar** en el registro de entregas para enviar los eventos perdidos.
 
 ## Registro de entregas
 
-El registro de entregas muestra cada evento enviado a un endpoint, su estado, el último código de respuesta, el número de intentos y cuándo se hará el próximo reintento. **Reenviar** vuelve a enviar un evento. LobbyStack conserva 30 días de historial de webhooks.
+El registro de entregas muestra cada evento enviado a un endpoint, su estado, el último código de respuesta, el número de intentos y cuándo se hará el próximo reintento. **Reenviar** vuelve a enviar un evento. Palakarimpu AI conserva 30 días de historial de webhooks.
 
 ## Cambie el secreto
 
@@ -133,4 +133,4 @@ Haga clic en **Cambiar secreto** en el endpoint. El secreto anterior deja de fun
 
 ## Reglas de red
 
-Los endpoints deben usar `https://` y resolverse en una dirección pública. LobbyStack rechaza las URL que apuntan a direcciones privadas, de loopback, de enlace local o de metadatos de la nube, tanto al guardar el endpoint como en cada entrega. Las implementaciones autoalojadas siguen la misma regla.
+Los endpoints deben usar `https://` y resolverse en una dirección pública. Palakarimpu AI rechaza las URL que apuntan a direcciones privadas, de loopback, de enlace local o de metadatos de la nube, tanto al guardar el endpoint como en cada entrega. Las implementaciones autoalojadas siguen la misma regla.

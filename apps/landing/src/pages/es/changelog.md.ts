@@ -11,9 +11,9 @@ import { absoluteUrl } from "@/lib/seo"
 export const GET: APIRoute = async () => {
   const entries = await getChangelogEntries("es")
 
-  const markdown = `# ¿Qué hay de nuevo en LobbyStack?
+  const markdown = `# ¿Qué hay de nuevo en Palakarimpu AI?
 
-Novedades del producto, integraciones y mejoras del equipo de LobbyStack.
+Novedades del producto, integraciones y mejoras del equipo de Palakarimpu AI.
 
 ## Novedades
 

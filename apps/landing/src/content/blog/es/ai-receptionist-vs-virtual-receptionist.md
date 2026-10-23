@@ -4,7 +4,7 @@ seoTitle: "Recepcionista con IA o virtual: costo y cobertura"
 description: "Compare recepcionistas con IA y recepcionistas virtuales humanas en costo, volumen, empatía, reservas, transferencias y supervisión para elegir su cobertura."
 pubDate: 2026-07-30T09:50:00-04:00
 updatedDate: 2026-07-30T09:50:00-04:00
-author: "Equipo de LobbyStack"
+author: "Equipo de Palakarimpu AI"
 category: "Comparativas"
 featured: false
 coverImage: "/illustrations/ai-receptionist-vs-virtual-receptionist-hero.webp"
@@ -123,9 +123,9 @@ El reparto debería seguir el riesgo y el valor. Automatice el trabajo repetible
 - ¿Qué pasa durante un pico en la cola de llamadas?
 - ¿Cómo se facturan las transferencias y las llamadas de spam?
 
-## Cómo plantea LobbyStack el reparto
+## Cómo plantea Palakarimpu AI el reparto
 
-[LobbyStack](/es/features/) se encarga de las preguntas rutinarias, la recepción de solicitudes, las reservas, los cambios de cita, los resúmenes y las transferencias configuradas. Su equipo se queda con las llamadas que requieren experiencia o empatía.
+[Palakarimpu AI](/es/features/) se encarga de las preguntas rutinarias, la recepción de solicitudes, las reservas, los cambios de cita, los resúmenes y las transferencias configuradas. Su equipo se queda con las llamadas que requieren experiencia o empatía.
 
 El código es [público en GitHub](https://github.com/lobbystack/lobbystack), y los equipos pueden usar la nube gestionada o [autoalojar la plataforma](https://docs.lobbystack.com/self-hosting/overview). El autoalojamiento da más control, pero exige responsabilidad técnica.
 
@@ -133,4 +133,4 @@ El código es [público en GitHub](https://github.com/lobbystack/lobbystack), y 
 
 Elija la IA cuando el volumen de llamadas sea previsible, la rapidez importe y el trabajo siga reglas claras. Elija un servicio humano cuando las llamadas dependan de la empatía, la improvisación o de un equipo externo gestionado.
 
-La mayoría de los negocios debería probar un diseño híbrido. Empiece con las llamadas de desbordamiento o fuera de horario, revise los resultados y luego amplíe las llamadas que el sistema gestiona bien. [Pruebe LobbyStack gratis](https://app.lobbystack.com/es/signup) si quiere probar ese modelo con sus propios escenarios de llamadas.
+La mayoría de los negocios debería probar un diseño híbrido. Empiece con las llamadas de desbordamiento o fuera de horario, revise los resultados y luego amplíe las llamadas que el sistema gestiona bien. [Pruebe Palakarimpu AI gratis](https://app.lobbystack.com/es/signup) si quiere probar ese modelo con sus propios escenarios de llamadas.

@@ -1,13 +1,13 @@
 ---
 name: lobbystack
-title: "LobbyStack skill for AI agents"
+title: "Palakarimpu AI skill for AI agents"
 sidebarTitle: "Skill for agents"
-description: "Use the LobbyStack MCP tools to read a business's calls, messages, contacts and appointments, book and change appointments, update opening hours and add FAQs. Use when a LobbyStack MCP server is connected."
+description: "Use the Palakarimpu AI MCP tools to read a business's calls, messages, contacts and appointments, book and change appointments, update opening hours and add FAQs. Use when a Palakarimpu AI MCP server is connected."
 ---
 
-# LobbyStack
+# Palakarimpu AI
 
-LobbyStack runs an AI receptionist that answers a business's phone calls and website chat. The LobbyStack MCP server lets you work on that business's data for the owner. Each connection sees one business. The permissions the owner approved (or the API key's scopes) decide which tools you have, so a tool listed here may be missing from your session.
+Palakarimpu AI runs an AI receptionist that answers a business's phone calls and website chat. The Palakarimpu AI MCP server lets you work on that business's data for the owner. Each connection sees one business. The permissions the owner approved (or the API key's scopes) decide which tools you have, so a tool listed here may be missing from your session.
 
 ## Before you act
 
@@ -55,7 +55,7 @@ List tools return `{ data, next_cursor, has_more }`. When `has_more` is true, ca
 2. Call `list_services` and pick the service the owner named.
 3. Call `check_availability` with `service_id` and `start_date` as `YYYY-MM-DD` in the business time zone. Add `end_date` for a range of up to 7 days. If the customer wants a particular person, get their id from `list_staff` and pass it as `staff_id` here and to `book_appointment`.
 4. Offer a few times in local time. When the owner picks one, call `book_appointment` with that slot's `starts_at` unchanged, plus `contact_id` or `contact_phone`.
-5. Set `sms_consent` to true only if the owner says the customer agreed to texts. It only takes effect on self-hosted instances; on LobbyStack Cloud, only the receptionist collects text consent, on a call.
+5. Set `sms_consent` to true only if the owner says the customer agreed to texts. It only takes effect on self-hosted instances; on Palakarimpu AI Cloud, only the receptionist collects text consent, on a call.
 6. Send an `idempotency_key` (any unique string). If the call times out, retry with the same key; you get the first booking back instead of a duplicate.
 
 To reschedule, run `check_availability` for the appointment's `service_id`, then call `reschedule_appointment`. The staff member stays the same unless you pass `staff_id`; check availability with that `staff_id` first. To see one customer's bookings, call `list_appointments` with their `contact_id`.

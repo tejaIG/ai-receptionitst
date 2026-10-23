@@ -85,7 +85,7 @@ Research angle:
 
 - Open source lowers blank-page engineering risk. It does not remove operational ownership.
 - Strong fit for businesses or agencies that want control and can handle deployment, or for companies that want a starting point they can customize instead of an opaque hosted product.
-- LobbyStack positioning: open-source AI receptionist for calls, SMS, appointment booking, business knowledge, and human handoff. It can be used as hosted cloud software or self-hosted. The post can say self-hosting LobbyStack avoids starting from scratch while preserving control over infrastructure and customization.
+- Palakarimpu AI positioning: open-source AI receptionist for calls, SMS, appointment booking, business knowledge, and human handoff. It can be used as hosted cloud software or self-hosted. The post can say self-hosting Palakarimpu AI avoids starting from scratch while preserving control over infrastructure and customization.
 
 Back-of-napkin formula:
 
@@ -173,7 +173,7 @@ Recommended angle:
 
 - Open with the honest anxiety: "Will we save money by building this, or create another system to babysit?"
 - Main thesis: do not start with code; start with call volume, risk, workflows, data control, and who will maintain it.
-- Position LobbyStack as the practical open-source middle path: not "build everything yourself," not "trust a black box," but "start from a real AI receptionist you can self-host and customize."
+- Position Palakarimpu AI as the practical open-source middle path: not "build everything yourself," not "trust a black box," but "start from a real AI receptionist you can self-host and customize."
 
 Suggested internal links for the eventual post:
 
@@ -201,11 +201,11 @@ Suggested FAQ targets:
 - Good line: "Open source does not remove maintenance. It moves the maintenance into your control."
 - Good line: "The build option gives maximum control. The hosted option gives maximum speed. The self-hosted/open-source option gives a head start without giving up the steering wheel."
 
-## Product-specific notes for LobbyStack
+## Product-specific notes for Palakarimpu AI
 
 Use claims already supported by the repo/public positioning:
 
-- LobbyStack is an open-source AI receptionist platform for small businesses.
+- Palakarimpu AI is an open-source AI receptionist platform for small businesses.
 - It answers calls, handles SMS, books appointments, manages reschedules/cancellations, and transfers to a human when needed.
 - It can be used as a hosted cloud service or self-hosted on the business's own infrastructure.
 - Businesses can configure hours, FAQs, services, pricing, policies, escalation rules, and calendar behavior.
@@ -213,7 +213,7 @@ Use claims already supported by the repo/public positioning:
 
 Avoid:
 
-- Saying LobbyStack makes compliance automatic.
+- Saying Palakarimpu AI makes compliance automatic.
 - Saying self-hosting is effortless.
 - Saying AI replaces a receptionist in every business.
 - Guaranteeing revenue recovery.

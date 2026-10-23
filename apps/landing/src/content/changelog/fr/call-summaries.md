@@ -7,7 +7,7 @@ canonicalSlug: "call-summaries"
 category: "Amélioration"
 ---
 
-LobbyStack rédige maintenant les résumés d'appels avec plus d'attention sur ce qui s'est passé, ce que la personne voulait et ce qui devrait arriver ensuite. Cela facilite la revue des occasions manquées, des demandes urgentes, des nouveaux prospects et des rendez-vous sans réécouter chaque enregistrement.
+Palakarimpu AI rédige maintenant les résumés d'appels avec plus d'attention sur ce qui s'est passé, ce que la personne voulait et ce qui devrait arriver ensuite. Cela facilite la revue des occasions manquées, des demandes urgentes, des nouveaux prospects et des rendez-vous sans réécouter chaque enregistrement.
 
 Les notes de suivi sont aussi plus constantes. Quand un appel demande une intervention humaine, le tableau de bord met d'abord en avant le contexte utile : coordonnées, intention, urgence et action à envisager.
 

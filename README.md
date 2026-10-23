@@ -1,18 +1,18 @@
 <p align="center">
-  <img src=".github/readme/lobbystack-hero.png" width="100%" alt="LobbyStack dashboard hero image">
+  <img src=".github/readme/lobbystack-hero.png" width="100%" alt="Palakarimpu AI dashboard hero image">
 </p>
 
 <div align="center">
 
-# LobbyStack
+# Palakarimpu AI
 
 ### The open-source AI receptionist for phone calls and appointments
 
-LobbyStack is an open-source AI receptionist platform for small businesses. It answers phone calls, books appointments, handles appointment changes, and transfers calls to a person when needed.
+Palakarimpu AI is an open-source AI receptionist platform for small businesses. It answers phone calls, books appointments, handles appointment changes, and transfers calls to a person when needed.
 
 It is built for clinics, salons, repair shops, local service companies, restaurants, and any business that loses revenue when nobody is available to answer the phone.
 
-LobbyStack gives teams a modern AI front desk that can be hosted in the cloud or self-hosted on their own infrastructure.
+Palakarimpu AI gives teams a modern AI front desk that can be hosted in the cloud or self-hosted on their own infrastructure.
 
 [Website](https://lobbystack.com) &middot; [Try the app](https://app.lobbystack.com/signup) &middot; [Docs](https://docs.lobbystack.com) &middot; [Self-hosting](https://docs.lobbystack.com/self-hosting/overview) &middot; [GitHub](https://github.com/lobbystack/lobbystack)
 
@@ -22,9 +22,9 @@ LobbyStack gives teams a modern AI front desk that can be hosted in the cloud or
 
 </div>
 
-## Why teams use LobbyStack
+## Why teams use Palakarimpu AI
 
-Most AI receptionist tools are closed, expensive, and difficult to adapt to real business workflows. LobbyStack is different.
+Most AI receptionist tools are closed, expensive, and difficult to adapt to real business workflows. Palakarimpu AI is different.
 
 - **Open source by default.** Inspect the code, self-host it, extend it, and keep control of your data.
 - **Built for real phone calls.** Handle natural voice conversations, interruptions, live transfers, and messages for your team.
@@ -37,15 +37,15 @@ Most AI receptionist tools are closed, expensive, and difficult to adapt to real
 
 ### ☎️ AI phone receptionist
 
-LobbyStack answers inbound calls with a natural voice agent trained on your business information. It can answer common questions, collect caller details, take messages, qualify requests, offer appointment slots, and transfer to a human when required.
+Palakarimpu AI answers inbound calls with a natural voice agent trained on your business information. It can answer common questions, collect caller details, take messages, qualify requests, offer appointment slots, and transfer to a human when required.
 
 ### 💬 Text messages
 
-LobbyStack saves texts sent to your business number and alerts your team. You read the thread and reply by hand from the dashboard. The AI doesn't answer texts; STOP and HELP get fixed replies.
+Palakarimpu AI saves texts sent to your business number and alerts your team. You read the thread and reply by hand from the dashboard. The AI doesn't answer texts; STOP and HELP get fixed replies.
 
 ### 📅 Appointment scheduling
 
-LobbyStack connects to Google Calendar, checks availability, offers time slots, books appointments, and sends a confirmation text and one reminder text 24 hours before, if the caller agrees. Callers can also reschedule or cancel during a later call.
+Palakarimpu AI connects to Google Calendar, checks availability, offers time slots, books appointments, and sends a confirmation text and one reminder text 24 hours before, if the caller agrees. Callers can also reschedule or cancel during a later call.
 
 ### 📚 Knowledge base
 
@@ -53,7 +53,7 @@ Upload business information, FAQs, services, pricing, policies, and internal not
 
 ### 🧑‍💼 Human handoff
 
-LobbyStack can transfer a live call, take a message, or notify the team by email or opt-in SMS when a person needs to respond.
+Palakarimpu AI can transfer a live call, take a message, or notify the team by email or opt-in SMS when a person needs to respond.
 
 ### 📥 Shared inbox
 
@@ -61,11 +61,11 @@ Review calls, SMS threads, transcripts, recordings, appointments, and customer d
 
 ### 🔌 Integrations
 
-LobbyStack connects to Google Calendar to check availability and book appointments. It doesn't connect to other calendars or CRMs yet.
+Palakarimpu AI connects to Google Calendar to check availability and book appointments. It doesn't connect to other calendars or CRMs yet.
 
 ## Use cases
 
-LobbyStack can be adapted for many local business workflows:
+Palakarimpu AI can be adapted for many local business workflows:
 
 - Clinics and healthcare offices
 - Salons, spas, and barbershops
@@ -103,13 +103,13 @@ LobbyStack can be adapted for many local business workflows:
 
 ## Hosted and open source
 
-LobbyStack is open source with a hosted cloud service.
+Palakarimpu AI is open source with a hosted cloud service.
 
-Use **LobbyStack Cloud** when you want the product managed for you. You still control the receptionist behavior, knowledge, services, rules, numbers, integrations, and team workflow from the app.
+Use **Palakarimpu AI Cloud** when you want the product managed for you. You still control the receptionist behavior, knowledge, services, rules, numbers, integrations, and team workflow from the app.
 
 Self-host when your team wants to run the stack on your own infrastructure, bring your own API keys, and use your own PostgreSQL, Twilio, OpenAI-compatible AI, calendar, analytics, billing, and email provider accounts.
 
-To self-host on Railway, deploy the [LobbyStack template](https://railway.com/deploy/lobbystack). Railway generates every secret and database password, and you enter an OpenAI API key and your Twilio credentials.
+To self-host on Railway, deploy the [Palakarimpu AI template](https://railway.com/deploy/lobbystack). Railway generates every secret and database password, and you enter an OpenAI API key and your Twilio credentials.
 
 After deploying, set a few variables in Railway:
 
@@ -124,7 +124,7 @@ Full product control in the hosted app. Infrastructure ownership when you self-h
 
 ## Architecture for contributors
 
-LobbyStack is a TypeScript monorepo with PostgreSQL as the durable source of truth. OpenAI hosts call audio; the admin app starts each call and the worker runs it.
+Palakarimpu AI is a TypeScript monorepo with PostgreSQL as the durable source of truth. OpenAI hosts call audio; the admin app starts each call and the worker runs it.
 
 ```text
 apps/
@@ -142,7 +142,7 @@ Read the [self-hosting overview](https://docs.lobbystack.com/self-hosting/overvi
 
 ### Use the hosted app
 
-1. [Create a LobbyStack account](https://app.lobbystack.com/signup).
+1. [Create a Palakarimpu AI account](https://app.lobbystack.com/signup).
 2. Verify your mobile number.
 3. Import website knowledge, or skip and add knowledge manually later.
 4. Choose a plan.
@@ -194,4 +194,4 @@ pnpm test
 
 ## License
 
-LobbyStack is licensed under the [MIT License](./LICENSE).
+Palakarimpu AI is licensed under the [MIT License](./LICENSE).

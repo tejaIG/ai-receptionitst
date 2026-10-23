@@ -1,6 +1,6 @@
 'use strict';
 
-// Runs the integration against a local LobbyStack dev stack through Zapier's
+// Runs the integration against a local Palakarimpu AI dev stack through Zapier's
 // app tester, the same harness `zapier-platform test` uses. It never talks to
 // Zapier and refuses any base URL that is not on this machine.
 //
@@ -30,7 +30,7 @@ const baseUrl = process.env.LOBBYSTACK_BASE_URL;
 const apiKey = process.env.LOBBYSTACK_API_KEY;
 if (!baseUrl || !apiKey) throw new Error('Set LOBBYSTACK_BASE_URL and LOBBYSTACK_API_KEY.');
 const host = new URL(resolveBaseUrl({ baseUrl })).hostname;
-if (!['localhost', '127.0.0.1', '[::1]'].includes(host)) throw new Error('e2e-local only runs against a local LobbyStack.');
+if (!['localhost', '127.0.0.1', '[::1]'].includes(host)) throw new Error('e2e-local only runs against a local Palakarimpu AI.');
 
 const appTester = zapier.createAppTester(App);
 const authData = { apiKey, baseUrl };

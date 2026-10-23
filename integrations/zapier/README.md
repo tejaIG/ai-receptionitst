@@ -1,6 +1,6 @@
-# LobbyStack for Zapier
+# Palakarimpu AI for Zapier
 
-This folder holds the LobbyStack integration for Zapier, built with the Zapier Platform CLI. It uses the public REST API v1 (`/api/v1`) and an API key.
+This folder holds the Palakarimpu AI integration for Zapier, built with the Zapier Platform CLI. It uses the public REST API v1 (`/api/v1`) and an API key.
 
 The package stays outside the pnpm workspace. Zapier builds it with npm and runs it on Node.js 22, so it has its own `package.json` and `package-lock.json`.
 
@@ -24,9 +24,9 @@ The package stays outside the pnpm workspace. Zapier builds it with npm and runs
 | Search | Find Appointment | `GET /appointments?contact_id=` |
 | Search | Check Availability | `GET /availability` |
 
-Triggers are REST hooks. Turning on a Zap calls `POST /webhooks` for one event, and turning it off calls `DELETE /webhooks/{id}`. Hidden triggers fill the service, staff, contact and appointment dropdowns. Each trigger checks the Standard Webhooks signature on every delivery with the secret LobbyStack returned when the Zap subscribed. If Zapier ever stops passing the raw request, run `zapier-platform env:set 1.0.0 LOBBYSTACK_SKIP_WEBHOOK_SIGNATURE=1` to turn the check off while you ship a fix.
+Triggers are REST hooks. Turning on a Zap calls `POST /webhooks` for one event, and turning it off calls `DELETE /webhooks/{id}`. Hidden triggers fill the service, staff, contact and appointment dropdowns. Each trigger checks the Standard Webhooks signature on every delivery with the secret Palakarimpu AI returned when the Zap subscribed. If Zapier ever stops passing the raw request, run `zapier-platform env:set 1.0.0 LOBBYSTACK_SKIP_WEBHOOK_SIGNATURE=1` to turn the check off while you ship a fix.
 
-Users connect with an API key and an optional LobbyStack URL for self-hosted installs. The connection test calls `GET /me`, so a key with any scopes connects. The URL must use HTTPS. Plain HTTP works only for `localhost`, for local testing.
+Users connect with an API key and an optional Palakarimpu AI URL for self-hosted installs. The connection test calls `GET /me`, so a key with any scopes connects. The URL must use HTTPS. Plain HTTP works only for `localhost`, for local testing.
 
 ## Develop
 
@@ -69,19 +69,19 @@ The script tests the connection, subscribes and unsubscribes all six triggers, l
 The account owner has to accept the Zapier Developer Platform Agreement first. Nobody has run any of these commands yet.
 
 1. Sign in: `zapier-platform login`.
-2. From this folder, register the integration: `zapier-platform register "LobbyStack"`. This creates the app in Zapier and writes `.zapierapprc`. Commit that file.
+2. From this folder, register the integration: `zapier-platform register "Palakarimpu AI"`. This creates the app in Zapier and writes `.zapierapprc`. Commit that file.
 3. Upload version 1.0.0: `zapier-platform push`.
-4. In the Zapier developer dashboard, fill in the details the CLI can't set: logo (256×256 PNG), category, homepage and the app description. Start the description with "LobbyStack is a...".
+4. In the Zapier developer dashboard, fill in the details the CLI can't set: logo (256×256 PNG), category, homepage and the app description. Start the description with "Palakarimpu AI is a...".
 5. Build and turn on a test Zap for each trigger, action and search, and let each one run once. Keep those Zaps and their history for review.
 6. Submit the integration for review from the dashboard. After approval, promote each new version with `zapier-platform promote 1.0.0`, and move existing users with `zapier-platform migrate`.
 
 ### Publishing checklist
 
 - [ ] Accept the Zapier Developer Platform Agreement.
-- [ ] Create a LobbyStack test account for `integration-testing@zapier.com` that never expires. It needs instant booking turned on, at least one service with staff and hours, and an API key with every scope. Zapier support must be able to reset its password.
+- [ ] Create a Palakarimpu AI test account for `integration-testing@zapier.com` that never expires. It needs instant booking turned on, at least one service with staff and hours, and an API key with every scope. Zapier support must be able to reset its password.
 - [ ] Add a team member to the Zapier integration who has an `@lobbystack.com` email address.
 - [ ] Upload a logo and set the category and homepage.
-- [ ] Write the app description, starting with "LobbyStack is a...". Leave out links and sales language.
+- [ ] Write the app description, starting with "Palakarimpu AI is a...". Leave out links and sales language.
 - [ ] Check that `https://docs.lobbystack.com/api/authentication` is live, since the API key help text links to it.
 - [ ] Publish the API v1 docs (PR #211) before submission. Zapier requires public API documentation.
 - [ ] Run a test Zap for each trigger, action and search, and keep them turned on.

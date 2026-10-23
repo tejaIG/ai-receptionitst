@@ -11,7 +11,7 @@ const blogCollection = defineCollection({
     description: z.string().min(70).max(200),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    author: z.string().default("LobbyStack Team"),
+    author: z.string().default("Palakarimpu AI Team"),
     authorImage: z.string().optional(),
     coverImage: z.string().optional(),
     coverImageAlt: z.string().min(20).max(180).optional(),

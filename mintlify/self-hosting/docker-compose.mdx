@@ -1,6 +1,6 @@
 ---
 title: "Deploy with Docker Compose"
-description: "Run LobbyStack on one server with Docker Compose. You'll configure PostgreSQL, Redis, file storage, and HTTPS, then verify the deployment before going live."
+description: "Run Palakarimpu AI on one server with Docker Compose. You'll configure PostgreSQL, Redis, file storage, and HTTPS, then verify the deployment before going live."
 sidebarTitle: "Docker Compose"
 contentType: "Tutorial"
 ---
@@ -31,7 +31,7 @@ Compose sets `STORAGE_PROVIDER=local` by default. The admin and worker mount the
   Do not expose a stack that still uses the example passwords or `change-me` secrets.
 </Warning>
 
-## Start LobbyStack
+## Start Palakarimpu AI
 
 ```bash
 docker compose --env-file .env up -d --build
@@ -42,7 +42,7 @@ The migrator applies PostgreSQL migrations before the admin and worker services 
 
 The admin readiness response includes database and storage checks. The worker readiness response includes PostgreSQL, Redis, and storage status.
 
-LobbyStack does not run monitoring containers. Application logs remain available through `docker compose logs`, and the health endpoints continue to work.
+Palakarimpu AI does not run monitoring containers. Application logs remain available through `docker compose logs`, and the health endpoints continue to work.
 
 ## Choose a storage backend
 
@@ -92,7 +92,7 @@ OTEL_EXPORTER_OTLP_ENDPOINT=https://us.i.posthog.com/i
 OTEL_EXPORTER_OTLP_HEADERS=Authorization=Bearer your_posthog_project_token_here
 ```
 
-Use your regional PostHog host and project token. LobbyStack appends `/v1/traces`, `/v1/metrics`, and `/v1/logs` to the base URL. You can use the same variables with another OTLP-compatible backend.
+Use your regional PostHog host and project token. Palakarimpu AI appends `/v1/traces`, `/v1/metrics`, and `/v1/logs` to the base URL. You can use the same variables with another OTLP-compatible backend.
 
 Restart the application containers after changing the values:
 

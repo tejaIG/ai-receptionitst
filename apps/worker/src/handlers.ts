@@ -4,7 +4,7 @@ import { and, eq, inArray, isNull, lte, ne, or } from "drizzle-orm";
 
 import { hasSummarizableTranscript, type BusinessHoursExtractor, type BusinessSummarizer, type CallSummarizer } from "@lobbystack/agent-core";
 import { realtimeEventSchema, type JobEnvelope } from "@lobbystack/contracts";
-import { getPolarMeteredUsagePayload, normalizeInterfaceLocale, permanentSmsErrorCode, type BillingUsageKind } from "@lobbystack/shared";
+import { getPolarMeteredUsagePayload, normalizeInterfaceLocale, permanentSmsErrorCode, permanentWhatsAppErrorCode, type BillingUsageKind } from "@lobbystack/shared";
 import { appointments, calls, contacts, enqueueOutbox, knowledgeChunks, knowledgeDocuments, messages, notifications, phoneNumbers, storageObjects, websiteIngestionJobs, withBusinessTransaction, type Database } from "@lobbystack/db";
 import { enqueueKnowledgeDerivedRefresh, loadBusinessHoursInput, loadBusinessSummaryInput, markBusinessHoursChecked, resetGeneratedBusinessSummary, saveGeneratedBusinessHours, saveGeneratedBusinessSummary } from "@lobbystack/domain";
 import { claimAppointmentChangeOtp, claimBillingCheckoutRequest, claimNotificationDelivery, claimSmsDelivery, countPublishableOutboxMessages, deleteCallRecording, deleteCallRecordingForRetention, deleteExpiredObjectsForBusiness, deleteSentProductEventsBefore, deleteTranscriptForRetention, enqueueBillingUsageSync, expireProspectDemos, finalizeConversationSession, loadCallSummaryInput, generateAffiliatePayoutRun, indexCrawledWebsitePage, indexDocumentText, loadAppointmentChangeOtpTarget, loadBillingCheckoutRequest, loadBillingUsageEvent, loadPendingProductEvents, loadSmsDeliveryTarget, markAppointmentChangeOtpSent, markBillingCheckoutCreated, markBillingCheckoutFailed, markBillingUsageSynced, markCalendarConnectionSync, markKnowledgeDocumentFailed, markNotificationSent, cancelRetiredPhoneVerificationSend, markProductEventsSent, reconcileBillingProviderEvent, reconcileResendProviderEvent, recordAiGenerationEvent, recordCallProviderPricing, loadLiveCallForPricing, recordProductEvent, recordSmsProviderPricing, refreshBusinessSnapshot, releaseAppointmentChangeOtp, releaseSmsDelivery, resolveNotificationDelivery, runPrivacyRetentionSweep, setTransferState, transitionProcessingNotification, updateAppointmentSyncState, updateNotificationDeliveryStatus, updateOperatorNotificationDeliveryStatus, upsertBusyBlocks, markSmsSent, chunkText, upsertWebsiteDocument, queueOnboardingFollowupEmail, type DurableAiUsage, type GeneratedCallSummary, type OnboardingFollowupSender } from "@lobbystack/domain";
@@ -56,6 +56,8 @@ export type WorkerDependencies = {
   email?: Pick<SmtpEmailProvider, "sendTemplate">;
   twilio?: Pick<TwilioProvider, "sendSms"> & Partial<Pick<TwilioProvider, "getMessagePricing" | "getCallPricing" | "findTrunkCall" | "releasePhoneNumber" | "verifyPhone" | "findOwnedPhoneNumber" | "purchasePhoneNumber" | "addNumberToSipTrunk">>;
   twilioAlerts?: Pick<TwilioProvider, "sendSms"> & { from: string };
+  /** Sends customers WhatsApp confirmations from one platform sender. contentSid is the approved confirmation template. */
+  twilioWhatsApp?: Pick<TwilioProvider, "sendWhatsApp"> & { from: string; contentSid?: string };
   polar?: { recordUsage(input: { eventName: string; externalCustomerId: string; quantity: number; timestamp: string; idempotencyKey: string; businessId: string; usageKind: string }): Promise<void>; createCheckout?(input: { productId: string; customerEmail: string; externalCustomerId: string; successUrl: string; returnUrl: string; idempotencyKey?: string }): Promise<{ checkoutUrl: string; checkoutId: string }> };
   embeddings?: { fingerprint?: string; embed(values: string[], onUsage?: (usage: DurableAiUsage) => Promise<void> | void): Promise<number[][]> };
   crawler?: { crawl(input: { url: string; limit?: number }): Promise<Array<{ url: string; title?: string; markdown?: string }>> };
@@ -482,7 +484,7 @@ async function dispatchJob(job: JobEnvelope, dependencies: WorkerDependencies, e
           const sent = await dependencies.email.sendTemplate({
             template,
             to: String(job.payload.to ?? job.payload.email ?? ""),
-            subject: String(job.payload.subject ?? "LobbyStack notification"),
+            subject: String(job.payload.subject ?? "Palakarimpu AI notification"),
             variables,
             idempotencyKey: job.idempotencyKey,
             ...(typeof job.payload.from === "string" && job.payload.from ? { from: job.payload.from } : {}),
@@ -760,7 +762,7 @@ async function dispatchJob(job: JobEnvelope, dependencies: WorkerDependencies, e
           throw error;
         }
       }
-      if (!dependencies.twilio && !dependencies.twilioAlerts && !dependencies.email) return { status: "skipped", entityId: String(job.payload.notificationId ?? "") };
+      if (!dependencies.twilio && !dependencies.twilioAlerts && !dependencies.twilioWhatsApp && !dependencies.email) return { status: "skipped", entityId: String(job.payload.notificationId ?? "") };
       const notificationId = String(job.payload.notificationId ?? "");
       if (!notificationId) return { status: "skipped" };
       const businessId = businessIdOrThrow(job);
@@ -796,6 +798,21 @@ async function dispatchJob(job: JobEnvelope, dependencies: WorkerDependencies, e
           }
           const sent = await sender.sendSms({ to: delivery.to, from: delivery.from, body: delivery.body, ...twilioStatusCallbackOption({ notificationId: delivery.notificationId }) });
           providerMessageId = sent.providerMessageId;
+        } else if (delivery.channel === "whatsapp") {
+          const whatsapp = dependencies.twilioWhatsApp;
+          if (!whatsapp) {
+            // WhatsApp isn't set up on this deployment (no sender or credentials), so there is nothing to retry.
+            await transitionProcessingNotification(dependencies.domain, { businessId, notificationId: delivery.notificationId }, "skipped");
+            return { status: "skipped", entityId: delivery.notificationId };
+          }
+          const sent = await whatsapp.sendWhatsApp({
+            to: delivery.to,
+            from: whatsapp.from,
+            body: delivery.body,
+            ...(whatsapp.contentSid ? { contentSid: whatsapp.contentSid, ...(delivery.contentVariables ? { contentVariables: delivery.contentVariables } : {}) } : {}),
+            ...twilioStatusCallbackOption({ notificationId: delivery.notificationId }),
+          });
+          providerMessageId = sent.providerMessageId;
         } else {
           if (!dependencies.email) {
             await transitionProcessingNotification(dependencies.domain, { businessId, notificationId: delivery.notificationId }, "skipped");
@@ -810,7 +827,7 @@ async function dispatchJob(job: JobEnvelope, dependencies: WorkerDependencies, e
       } catch (error) {
         await recordNotificationDeliveryFailed(dependencies, { businessId, kind: delivery.kind, ...(delivery.relatedId ? { appointmentId: delivery.relatedId } : {}) });
         if (delivery.channel === "sms" && dependencies.domain.db) await correctAlertSmsUsage(dependencies.domain, { businessId, sourceKey: `alert_sms:notification:${delivery.notificationId}`, segments: 0 }).catch(() => undefined);
-        if (delivery.channel === "sms" && permanentSmsErrorCode(error)) {
+        if ((delivery.channel === "sms" && permanentSmsErrorCode(error)) || (delivery.channel === "whatsapp" && permanentWhatsAppErrorCode(error))) {
           // Twilio rejects this destination on every attempt, so don't retry.
           await transitionProcessingNotification(dependencies.domain, { businessId, notificationId: delivery.notificationId }, "failed");
           return { status: "skipped", entityId: delivery.notificationId };
@@ -911,7 +928,7 @@ async function dispatchJob(job: JobEnvelope, dependencies: WorkerDependencies, e
       try {
         const owned = await dependencies.twilio.findOwnedPhoneNumber({ e164: claim.e164 });
         if (owned) providerPhoneId = owned.providerPhoneId;
-        else { const result = await dependencies.twilio.purchasePhoneNumber({ e164: claim.e164, friendlyName: `LobbyStack ${businessId}`, smsUrl, statusCallbackUrl }); providerPhoneId = result.providerPhoneId; purchased = true; }
+        else { const result = await dependencies.twilio.purchasePhoneNumber({ e164: claim.e164, friendlyName: `Palakarimpu AI ${businessId}`, smsUrl, statusCallbackUrl }); providerPhoneId = result.providerPhoneId; purchased = true; }
         await addNumberToSipTrunk({ trunkSid: sipTrunkSid, providerPhoneId });
         const phoneNumberId = await completeNumberProvisioning(dependencies.domain, { businessId, claimId, e164: claim.e164, providerPhoneId, voiceUrl: `sip-trunk:${sipTrunkSid}`, smsUrl });
         return { status: "completed", entityId: phoneNumberId };

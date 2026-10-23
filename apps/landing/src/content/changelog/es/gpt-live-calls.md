@@ -7,7 +7,7 @@ canonicalSlug: "gpt-live-calls"
 category: "Producto"
 ---
 
-Las llamadas a su número de LobbyStack, las llamadas de prueba desde su panel y el botón de voz del widget de su sitio web ahora funcionan con GPT-Live, el modelo de voz que OpenAI creó para ChatGPT Voice. Su recepcionista escucha mientras habla, se detiene cuando la persona que llama interrumpe y sigue hablando mientras consulta su calendario o toma un mensaje. [Lea cómo hicimos el cambio](/es/blog/ai-voice-agent-gpt-live/).
+Las llamadas a su número de Palakarimpu AI, las llamadas de prueba desde su panel y el botón de voz del widget de su sitio web ahora funcionan con GPT-Live, el modelo de voz que OpenAI creó para ChatGPT Voice. Su recepcionista escucha mientras habla, se detiene cuando la persona que llama interrumpe y sigue hablando mientras consulta su calendario o toma un mensaje. [Lea cómo hicimos el cambio](/es/blog/ai-voice-agent-gpt-live/).
 
 El chat de su sitio web ahora usa el mismo agente que sus llamadas. Un visitante puede pedir un horario disponible, reservarlo o dejar un mensaje para su equipo, y recibe las mismas respuestas que recibiría alguien que llama.
 

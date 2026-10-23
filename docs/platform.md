@@ -1,4 +1,4 @@
-# Run the LobbyStack platform
+# Run the Palakarimpu AI platform
 
 The canonical stack provides a Next.js admin/backend, a worker that also runs GPT-Live calls, PostgreSQL with RLS, Redis/BullMQ, and shared local storage. You can enable the MinIO profile when you need S3-compatible storage.
 

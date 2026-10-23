@@ -1,6 +1,6 @@
 # Understand knowledge ingestion and retrieval
 
-LobbyStack separates authoritative business facts from retrieved long-form knowledge.
+Palakarimpu AI separates authoritative business facts from retrieved long-form knowledge.
 
 - Structured facts live in PostgreSQL tables for businesses, services, staff, hours, policies, and routing rules.
 - Documents, FAQs, and imported website pages live in PostgreSQL with pgvector embeddings and object-storage references.

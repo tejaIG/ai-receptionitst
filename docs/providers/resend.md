@@ -1,6 +1,6 @@
 # Configure transactional email
 
-LobbyStack sends authentication and operational email through the worker's SMTP provider. The current flows include verification, password reset, email changes, notifications, and feedback delivery.
+Palakarimpu AI sends authentication and operational email through the worker's SMTP provider. The current flows include verification, password reset, email changes, notifications, and feedback delivery.
 
 ## Configure the environment
 
@@ -35,11 +35,11 @@ For local development, start Mailpit with `docker compose --env-file .env --prof
 
 ## Send the onboarding check-in email
 
-The worker emails each new owner 24 hours after they finish onboarding and asks what they thought of LobbyStack. It skips owners who came back: a sign-in or any call more than an hour after onboarding counts as a return. It also skips owners whose email domain matches the sender's, so your team's test accounts don't get it.
+The worker emails each new owner 24 hours after they finish onboarding and asks what they thought of Palakarimpu AI. It skips owners who came back: a sign-in or any call more than an hour after onboarding counts as a return. It also skips owners whose email domain matches the sender's, so your team's test accounts don't get it.
 
 Set both variables on the worker to turn it on:
 
-- **`ONBOARDING_FOLLOWUP_FROM`**: the sender, such as `Raphael from LobbyStack <raphael@lobbystack.com>`. Replies go to this address, so use an inbox you read. The domain must be verified in Resend.
+- **`ONBOARDING_FOLLOWUP_FROM`**: the sender, such as `Raphael from Palakarimpu AI <raphael@lobbystack.com>`. Replies go to this address, so use an inbox you read. The domain must be verified in Resend.
 - **`ONBOARDING_FOLLOWUP_SENDER_NAME`**: the first name used in the email body and signature, such as `Raphael`.
 
 Leave either one empty to turn the email off. Each workspace gets the email at most once, and workspaces that finished onboarding before this feature shipped never get it.

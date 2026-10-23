@@ -2,7 +2,7 @@
 title: "Najbolji open-source AI servisi za pozive"
 description: "Uporedite open-source AI servise za odgovaranje na telefonske pozive koje možete samostalno hostovati: Asterisk agenti, LiveKit glasovni sistemi i kompletne platforme za recepciju."
 pubDate: 2026-07-08T10:00:00-04:00
-author: "LobbyStack tim"
+author: "Palakarimpu AI tim"
 category: "Vodiči"
 featured: false
 coverImage: "/illustrations/best-open-source-ai-phone-answering-services-hero.webp"
@@ -34,7 +34,7 @@ Za svakog finalistu napravite pravi test poziva: zahtev za zakazivanje, pitanje 
 
 ## Najbolje open-source opcije, po nameni
 
-### LobbyStack: najbolja kompletna platforma za recepciju (u oblaku ili samostalno hostovana)
+### Palakarimpu AI: najbolja kompletna platforma za recepciju (u oblaku ili samostalno hostovana)
 
 **GitHub:** [lobbystack/lobbystack](https://github.com/lobbystack/lobbystack)
 
@@ -42,11 +42,11 @@ Za svakog finalistu napravite pravi test poziva: zahtev za zakazivanje, pitanje 
 
 **Najbolje za:** Uslužne firme i agencije koje žele pozive, zakazivanje, transkripte, kontrolne table, naplatu i samostalno hostovanje bez sklapanja deset repozitorijuma
 
-[LobbyStack](https://lobbystack.com/) je opcija na ovoj listi koja je najbliža kompletnom proizvodu za **AI recepcionera**. Pokriva dolazne pozive, zakazivanje i izmene termina, transkripte i rezimee, poslovni kontekst i česta pitanja, SMS poruke o zakazivanju, upozorenja e-poštom i SMS-om, prebacivanje na čoveka, kontrolne table za osoblje, praćenje potrošnje i postavke za klijente. Možete koristiti hostovanu verziju u oblaku, koristiti ga kao [open-source AI recepcionera](/solutions/open-source-ai-receptionist/) ili ga [samostalno hostovati uz Docker](/solutions/self-hosted-ai-receptionist/).
+[Palakarimpu AI](https://lobbystack.com/) je opcija na ovoj listi koja je najbliža kompletnom proizvodu za **AI recepcionera**. Pokriva dolazne pozive, zakazivanje i izmene termina, transkripte i rezimee, poslovni kontekst i česta pitanja, SMS poruke o zakazivanju, upozorenja e-poštom i SMS-om, prebacivanje na čoveka, kontrolne table za osoblje, praćenje potrošnje i postavke za klijente. Možete koristiti hostovanu verziju u oblaku, koristiti ga kao [open-source AI recepcionera](/solutions/open-source-ai-receptionist/) ili ga [samostalno hostovati uz Docker](/solutions/self-hosted-ai-receptionist/).
 
 Kompromis je obim. Dobijate pravi operativni sloj oko poziva, ali i dalje sami obezbeđujete naloge kod dobavljača (Twilio, OpenAI, kalendar, e-pošta i povezane usluge) i odgovorni ste za postavljanje ako hostujete sami. To je iskrena cena izbegavanja SaaS zaključavanja uz zadržavanje dubine proizvoda.
 
-Izaberite LobbyStack kada je Vaš problem „odgovoriti na pozive i završiti posao“, a ne „dokazati glasovni AI u laboratoriji“.
+Izaberite Palakarimpu AI kada je Vaš problem „odgovoriti na pozive i završiti posao“, a ne „dokazati glasovni AI u laboratoriji“.
 
 ### AVA (Asterisk AI voice agent): najbolje za postojeća Asterisk / FreePBX okruženja
 
@@ -108,7 +108,7 @@ Izaberite Hearthline kada su Vaši pozivi specifični za zanat i želite otvoren
 
 | Projekat | Ulazna tačka za telefon | Stil glasa | Dubina proizvoda | Znak zrelosti |
 | --- | --- | --- | --- | --- |
-| LobbyStack | Twilio / glasovni gateway | Realtime glasovni sistem | Kompletna platforma za recepciju | Monorepo usmeren na produkciju |
+| Palakarimpu AI | Twilio / glasovni gateway | Realtime glasovni sistem | Kompletna platforma za recepciju | Monorepo usmeren na produkciju |
 | AVA | Asterisk / FreePBX | Modularni STT/LLM/TTS ili realtime | Glasovni agent + administratorski interfejs | Velika zajednica, česta izdanja |
 | Helix | Asterisk ARI | Lokalni STT/LLM/TTS | Funkcije recepcionera + kontrolna tabla | Noviji, fokus na lokalni rad |
 | AIReceptionist | LiveKit + SIP trunk | OpenAI Realtime speech-to-speech | Konfiguracija glasovnog agenta | Mali, fokusiran kod |
@@ -128,7 +128,7 @@ Ako birate između pravljenja, kupovine i samostalnog hostovanja, uz ovu listu p
 ## Praktični sledeći koraci
 
 1. **Zapišite pet najčešćih vrsta poziva** (zakazivanje, ponuda, hitan slučaj, postojeći klijent, spam) i ishod koji je potreban za svaku.
-2. **Prvo uskladite telefoniju.** Asterisk okruženje → AVA ili Helix. Twilio/LiveKit okruženje → AIReceptionist ili LobbyStack. Kućne usluge → stavite Hearthline u uži izbor.
+2. **Prvo uskladite telefoniju.** Asterisk okruženje → AVA ili Helix. Twilio/LiveKit okruženje → AIReceptionist ili Palakarimpu AI. Kućne usluge → stavite Hearthline u uži izbor.
 3. **Uradite test od pet poziva** sa svakim finalistom pre nego što preusmerite broj koji se koristi u produkciji.
 4. **Odlučite ko je zadužen za održavanje.** Samostalno hostovanje traži nekoga ko će svake nedelje instalirati zakrpe, pratiti sistem i preslušavati loše pozive.
 
@@ -136,10 +136,10 @@ Ako birate između pravljenja, kupovine i samostalnog hostovanja, uz ovu listu p
 
 Najbolji **open-source AI servis za odgovaranje na telefonske pozive** za Vas je onaj koji se uklapa u Vaš telefonski sistem i završava poziv onako kako bi to uradilo Vaše osoblje.
 
-- Treba Vam kompletan proizvod za recepciju koji možete samostalno hostovati ili koristiti u oblaku → **LobbyStack**
+- Treba Vam kompletan proizvod za recepciju koji možete samostalno hostovati ili koristiti u oblaku → **Palakarimpu AI**
 - Treba Vam maksimalna fleksibilnost u Asterisku → **AVA**
 - Treba Vam lokalni glas na Asterisku bez zavisnosti od AI u oblaku → **Helix**
 - Treba Vam vitak Realtime glasovni agent na LiveKitu → **AIReceptionist**
 - Treba Vam recepcija za kućne usluge → **Hearthline**
 
-Ako želite da pregledate kompletan sistem pre nego što preusmerite svoju glavnu liniju, počnite od [LobbyStack GitHub repozitorijuma](https://github.com/lobbystack/lobbystack) ili [pregleda open-source sistema za AI recepcionera](/sr/blog/open-source-ai-receptionist-stack/).
+Ako želite da pregledate kompletan sistem pre nego što preusmerite svoju glavnu liniju, počnite od [Palakarimpu AI GitHub repozitorijuma](https://github.com/lobbystack/lobbystack) ili [pregleda open-source sistema za AI recepcionera](/sr/blog/open-source-ai-receptionist-stack/).

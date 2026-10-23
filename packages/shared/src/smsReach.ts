@@ -17,3 +17,16 @@ export function permanentSmsErrorCode(error: unknown): number | undefined {
   const code = typeof error === "object" && error !== null ? (error as { code?: unknown }).code : undefined;
   return typeof code === "number" && PERMANENT_SMS_ERROR_CODES.has(code) ? code : undefined;
 }
+
+// WhatsApp errors that fail the same way on every retry: an invalid number
+// (21211, 63024), a recipient with no WhatsApp account (63003), a sender that
+// isn't a WhatsApp channel (63007), a sandbox recipient who hasn't joined
+// (63015), and a message outside the 24-hour window that has no approved
+// template (63016).
+const PERMANENT_WHATSAPP_ERROR_CODES = new Set([21211, 63003, 63007, 63015, 63016, 63024]);
+
+/** The Twilio error code when a WhatsApp send failed in a way a retry can't fix. */
+export function permanentWhatsAppErrorCode(error: unknown): number | undefined {
+  const code = typeof error === "object" && error !== null ? (error as { code?: unknown }).code : undefined;
+  return typeof code === "number" && PERMANENT_WHATSAPP_ERROR_CODES.has(code) ? code : undefined;
+}
