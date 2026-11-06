@@ -20,13 +20,13 @@
     "@lobbystack/shared": "workspace:*",
     "@lobbystack/telemetry": "workspace:*",
     "bullmq": "^6.3.11",
-    "drizzle-orm": "^0.45.3",
+    "drizzle-orm": "^0.45.4",
     "ioredis": "^6.0.0",
     "mammoth": "^1.13.0",
     "openai": "^7.28.0",
     "pdf-parse": "2.4.5",
     "tesseract.js": "^7.0.0",
-    "ws": "^8.22.0"
+    "ws": "^8.22.1"
   },
   "devDependencies": {
     "@types/node": "^26.0.0",
